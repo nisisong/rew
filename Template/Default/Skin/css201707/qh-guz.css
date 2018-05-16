@@ -1,0 +1,689 @@
+.banner {
+  width: 100%;
+  height: 550px;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom: 51px;
+  background: url("../img201707/guz-gz.png") 50% 50% no-repeat; }
+  .banner .banner-content {
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto; }
+    .banner .banner-content .banner-info {
+      width: 472px;
+      height: 459px;
+      margin-top: 44px;
+      overflow: hidden;
+      background: url("../img201707/gz-cs.png") no-repeat; }
+      .banner .banner-content .banner-info ul {
+        margin-left: 41px;
+        margin-top: 37px; }
+        .banner .banner-content .banner-info ul li {
+          height: 36px;
+          margin-bottom: 7px;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 36px;
+          text-align: left;
+          color: #000; }
+          .banner .banner-content .banner-info ul li span {
+            display: inline-block;
+            width: 157px;
+            height: 36px;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 36px;
+            text-align: center;
+            color: #333333;
+            margin-right: 35px;
+            background-color: #fff; }
+    .banner .banner-content .banner-present {
+      width: 703px;
+      height: 459px;
+      margin-top: 44px;
+      overflow: hidden;
+      background: url("../img201707/guz-jx.png") no-repeat; }
+      .banner .banner-content .banner-present .banner-presents {
+        width: 503px;
+        height: 275px;
+        margin: 95px auto 0;
+        overflow: hidden; }
+        .banner .banner-content .banner-present .banner-presents h3 {
+          float: left;
+          width: 36px;
+          font-size: 36px;
+          line-height: 36px;
+          color: #333333;
+          margin-right: 80px;
+          margin-top: 48px;
+          font-weight: 500; }
+        .banner .banner-content .banner-present .banner-presents p {
+          float: right;
+          width: 384px;
+          font-size: 16px;
+          line-height: 28px;
+          text-align: justify;
+          color: #000; }
+
+.peculiarity {
+  width: 1198px;
+  height: 433px;
+  margin: 0 auto 54px;
+  border: 1px solid #507279; }
+  .peculiarity h3 {
+    display: block;
+    width: 182px;
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+    color: #333;
+    background-color: #fff;
+    margin-left: 509px;
+    margin-top: -18px;
+    text-align: center; }
+  .peculiarity .peculiarity-content {
+    width: 1090px;
+    height: 323px;
+    margin: 45px 55px; }
+    .peculiarity .peculiarity-content img {
+      width: 378px;
+      height: 323px;
+      margin-right: 55px;
+      float: left; }
+    .peculiarity .peculiarity-content p {
+      display: inline-block;
+      width: 656px;
+      float: right;
+      font-size: 16px;
+      text-align: justify;
+      line-height: 27px;
+      color: #333; }
+      .peculiarity .peculiarity-content p span {
+        font-size: 18px;
+        font-weight: bold; }
+
+.indexs {
+  width: 100%;
+  height: 322px;
+  min-width: 1200px;
+  overflow: hidden;
+  background-color: #6393b4; }
+
+.main {
+  width: 1200px;
+  height: 615px;
+  margin: -247px auto 60px;
+  overflow: hidden;}
+  .main h3 {
+    float: left;
+    width: 36px;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: left;
+    font-weight: 500;
+    color: #333333;
+    margin: 141px 28px 0; }
+    .main h3 b {
+      color: #fffefe;
+      font-weight: 500;
+     }
+  .main .main-content {
+    float: right;
+    width: 1108px;
+    height: 615px;
+    overflow: hidden; }
+  .main .main-content span{
+    width:224px ;
+    height: 615px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    /*overflow: hidden;*/
+  }
+  .main .main-content .mo{
+    width:660px ;
+    height: 615px;
+    display: block;
+  }
+  .main .main-content span img{
+    float: left;
+    width: 224px;
+    height: 615px;
+  }
+  .main .main-content .contenter{
+    float: left;
+    width: 436px;
+    height: 615px;
+    background-color: #fff;
+  }
+  .main .main-content span .contenter p{
+    width: 305px;
+    margin: 145px auto 0;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #333333;
+  }
+
+
+
+  .main .main-content span .contenter2{
+    float: left;
+    width: 436px;
+    height: 615px;
+    background-color: #fff;
+    /*display: none;*/
+  }
+  .main .main-content span .contenter2 p{
+    width: 305px;
+    margin: 145px auto 0;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #333333;
+    /*display: none;*/
+  }
+
+
+
+
+  .main .main-content span .contenter3{
+    float: left;
+    width: 436px;
+    height: 615px;
+    background-color: #fff;
+  }
+  .main .main-content span .contenter3 p{
+    width: 305px;
+    margin: 145px auto 0;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #333333;
+  }
+.ask {
+  width: 1198px;
+  height: 319px;
+  margin: 0 auto 75px;
+  border: 1px solid #749997; }
+  .ask .ask-content {
+    width: 1136px;
+    height: 232px;
+    margin: 35px auto; }
+    .ask .ask-content h3 {
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+      margin-bottom: 25px;
+      color: #333333;
+      font-weight: 500; }
+    .ask .ask-content p {
+      font-size: 16px;
+      line-height: 23px;
+      text-align: justify;
+      color: #333333;
+      text-indent: 2em; }
+
+.hot-img {
+  width: 100%;
+  height: 263px;
+  min-width: 1200px;
+  overflow: hidden;
+  background: url("../img201707/guz-qh.png") no-repeat; }
+
+.hot {
+  width: 1200px;
+  height: 275px;
+  margin: -155px auto 55px; }
+  .hot .hot-news {
+    width: 380px;
+    height: 275px;
+    margin-right: 26px;
+    position: relative; }
+    .hot .hot-news .hot-newtitle {
+      width: 380px;
+      height: 70px;
+      background: #bfbfbf; }
+      .hot .hot-news .hot-newtitle h3 {
+        float: left;
+        line-height: 35px;
+        margin-left: 35px;
+        font-size: 16px;
+        color: #000; }
+      .hot .hot-news .hot-newtitle b {
+        float: right;
+        margin-right: 37px;
+        margin-top: 10px; }
+        .hot .hot-news .hot-newtitle b img {
+          width: 15px;
+          height: 15px; }
+    .hot .hot-news .hot-newlist {
+      width: 340px;
+      height: 240px;
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 35px;
+      left: 20px; }
+      .hot .hot-news .hot-newlist ul {
+        width: 300px;
+        height: 240px;
+        margin-left: 14px; }
+        .hot .hot-news .hot-newlist ul li {
+          height: 40px;
+          font-size: 14px;
+          line-height: 40px; }
+          .hot .hot-news .hot-newlist ul li a {
+            color: #585858; }
+            .hot .hot-news .hot-newlist ul li a b {
+              display: inline-block;
+              width: 4px;
+              height: 4px;
+              margin-right: 15px;
+              background: url("../img201707/hdian.png") no-repeat; }
+          .hot .hot-news .hot-newlist ul li a:hover {
+            color: #ed1a1a; }
+  .hot .hot-experience {
+    width: 380px;
+    height: 275px;
+    position: relative; }
+    .hot .hot-experience .hot-experiencetitle {
+      width: 380px;
+      height: 70px;
+      background: #bfbfbf; }
+      .hot .hot-experience .hot-experiencetitle h3 {
+        float: left;
+        line-height: 35px;
+        margin-left: 35px;
+        font-size: 16px;
+        color: #000; }
+      .hot .hot-experience .hot-experiencetitle b {
+        float: right;
+        margin-right: 37px;
+        margin-top: 10px; }
+        .hot .hot-experience .hot-experiencetitle b img {
+          width: 15px;
+          height: 15px; }
+    .hot .hot-experience .hot-experiencelist {
+      width: 340px;
+      height: 240px;
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 35px;
+      left: 20px; }
+      .hot .hot-experience .hot-experiencelist ul {
+        width: 300px;
+        height: 240px;
+        margin-left: 14px; }
+        .hot .hot-experience .hot-experiencelist ul li {
+          height: 40px;
+          font-size: 14px;
+          line-height: 40px; }
+          .hot .hot-experience .hot-experiencelist ul li a {
+            color: #585858; }
+            .hot .hot-experience .hot-experiencelist ul li a b {
+              display: inline-block;
+              width: 4px;
+              height: 4px;
+              margin-right: 15px;
+              background: url("../img201707/hdian.png") no-repeat; }
+          .hot .hot-experience .hot-experiencelist ul li a:hover {
+            color: #ed1a1a; }
+  .hot .hot-lore {
+    width: 380px;
+    height: 275px;
+    position: relative; }
+    .hot .hot-lore .hot-loretitle {
+      width: 380px;
+      height: 70px;
+      background: #bfbfbf; }
+      .hot .hot-lore .hot-loretitle h3 {
+        float: left;
+        line-height: 35px;
+        margin-left: 35px;
+        font-size: 16px;
+        color: #000; }
+      .hot .hot-lore .hot-loretitle b {
+        float: right;
+        margin-right: 37px;
+        margin-top: 10px; }
+        .hot .hot-lore .hot-loretitle b img {
+          width: 15px;
+          height: 15px; }
+    .hot .hot-lore .hot-lorelist {
+      width: 340px;
+      height: 240px;
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 35px;
+      left: 20px; }
+      .hot .hot-lore .hot-lorelist ul {
+        width: 300px;
+        height: 240px;
+        margin-left: 14px; }
+        .hot .hot-lore .hot-lorelist ul li {
+          height: 40px;
+          font-size: 14px;
+          line-height: 40px; }
+          .hot .hot-lore .hot-lorelist ul li a {
+            color: #585858; }
+            .hot .hot-lore .hot-lorelist ul li a b {
+              display: inline-block;
+              width: 4px;
+              height: 4px;
+              margin-right: 15px;
+              background: url("../img201707/hdian.png") no-repeat; }
+          .hot .hot-lore .hot-lorelist ul li a:hover {
+            color: #ed1a1a; }
+
+.include {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto 55px; }
+  .include .include-hd {
+    width: 580px;
+    height: 200px;
+    float: left; }
+    .include .include-hd .include-title {
+      width: 130px;
+      height: 200px;
+      background: #6393b4;
+      float: left;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center; }
+      .include .include-hd .include-title a {
+        color: #fff; }
+        .include .include-hd .include-title a p {
+          display: block;
+          line-height: 50px;
+          margin-top: 55px; }
+        .include .include-hd .include-title a img {
+          width: 25px;
+          height: 25px; }
+    .include .include-hd ul {
+      display: inline-block;
+      float: left;
+      background: #f9f9f9;
+      width: 450px;
+      height: 200px; }
+      .include .include-hd ul span {
+        display: block;
+        width: 97%;
+        overflow: hidden;
+        margin-top: 15px;
+        margin-bottom: 10px; }
+        .include .include-hd ul span b {
+          float: right;
+          font-size: 14px; }
+          .include .include-hd ul span b a img {
+            margin-right: 5px; }
+          .include .include-hd ul span b a:hover {
+            color: #ed1a1a; }
+      .include .include-hd ul li {
+        margin-left: 40px;
+        overflow: hidden;
+        width: 280px; }
+        .include .include-hd ul li a {
+          float: left;
+          font-size: 16px;
+          text-align: left;
+          color: #333; }
+          .include .include-hd ul li a .small {
+            vertical-align: middle;
+            width: 17px;
+            height: 17px;
+            float: left;
+            margin-right: 5px; }
+          .include .include-hd ul li a p {
+            display: inline-block;
+            line-height: 15px; }
+          .include .include-hd ul li a .include-info {
+            margin-left: 12px;
+            margin-top: 5px;
+            font-size: 12px;
+            width: 267px;
+            padding-bottom: 20px; }
+            .include .include-hd ul li a .include-info b {
+              font-weight: normal;
+              color: #000000;
+              margin-right: 5px;
+              float: left; }
+            .include .include-hd ul li a .include-info .twr {
+              margin-left: 10px; }
+            .include .include-hd ul li a .include-info .state {
+              float: right;
+              color: #666; }
+        .include .include-hd ul li a:hover {
+          color: #ed1a1a; }
+      .include .include-hd ul .include-list1 {
+        margin-bottom: 25px;
+        border-bottom: 1px dashed #e5e5e5; }
+  .include .include-jc {
+    width: 580px;
+    height: 200px;
+    float: right; }
+    .include .include-jc .include-title {
+      width: 130px;
+      height: 200px;
+      background: #6393b4;
+      float: left;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center; }
+      .include .include-jc .include-title a {
+        display: block;
+        color: #fff; }
+        .include .include-jc .include-title a p {
+          display: block;
+          line-height: 50px;
+          margin-top: 55px; }
+        .include .include-jc .include-title a img {
+          width: 25px;
+          height: 25px; }
+    .include .include-jc .include-book {
+      display: inline-block;
+      float: left;
+      background: #f9f9f9;
+      width: 450px;
+      height: 200px; }
+      .include .include-jc .include-book .include-change {
+        display: block;
+        width: 97%;
+        overflow: hidden;
+        margin-top: 15px;
+        margin-bottom: 10px; }
+        .include .include-jc .include-book .include-change b {
+          float: right;
+          font-size: 14px; }
+          .include .include-jc .include-book .include-change b a img {
+            margin-right: 5px; }
+          .include .include-jc .include-book .include-change b a:hover {
+            color: #ed1a1a; }
+      .include .include-jc .include-book .include-bookInfo {
+        display: inline-block;
+        width: 230px;
+        float: left;
+        height: auto;
+        overflow: hidden;
+        margin: 0; }
+        .include .include-jc .include-book .include-bookInfo img {
+          float: left;
+          width: 133px;
+          height: 140px; }
+        .include .include-jc .include-book .include-bookInfo p {
+          width: 96px;
+          display: inline-block;
+          text-align: justify; }
+        .include .include-jc .include-book .include-bookInfo .include-tm {
+          font-size: 16px;
+          line-height: 16px;
+          text-align: left;
+          color: #333333;
+          margin-bottom: 12px; }
+        .include .include-jc .include-book .include-bookInfo .include-info {
+          font-size: 12px;
+          line-height: 20px;
+          color: #999999;
+          margin-bottom: 5px; }
+        .include .include-jc .include-book .include-bookInfo .include-button {
+          width: 76px;
+          height: 21px;
+          border-radius: 6px;
+          border: solid 1px #3f71a1;
+          font-size: 12px;
+          line-height: 21px;
+          text-align: center;
+          color: #3f71a1; }
+          .include .include-jc .include-book .include-bookInfo .include-button a {
+            width: 76px;
+            height: 21px;
+            display: inline-block;
+            color: #3f71a1; }
+      .include .include-jc .include-book ul {
+        display: inline-block;
+        float: left;
+        margin-right: 32px; }
+        .include .include-jc .include-book ul li {
+          margin-top: 12px;
+          font-size: 16px;
+          text-align: left;
+          color: #333333; }
+          .include .include-jc .include-book ul li a .icon {
+            display: inline-block;
+            width: 4px;
+            height: 7px;
+            margin: 0px 10px 0px 17px;
+            background: url("../img201707/nand.png") no-repeat; }
+          .include .include-jc .include-book ul li a:hover {
+            color: #ed1a1a; }
+
+.correlation {
+  width: 1200px;
+  height: 202px;
+  margin: 0 auto 120px;
+  overflow: hidden;
+  background: url("../img201707/guz-xg.png") no-repeat; }
+  .correlation h3 {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    text-align: center; }
+  .correlation ul {
+    width: 650px;
+    height: 80px;
+    margin: 0 auto; }
+    .correlation ul li {
+      float: left;
+      height: 40px;
+      font-size: 18px;
+      margin-right: 110px;
+      line-height: 40px; }
+      .correlation ul li a {
+        color: #fff; }
+      .correlation ul li a:hover {
+        color: #ed1a1a; }
+    .correlation ul .correlation-right {
+      margin-right: 0; }
+
+
+
+
+
+      .sidebar{
+        width:46px;
+        height:auto;
+        position:fixed;
+        right:0;
+        z-index: 9999;
+        top:25%;
+      }
+
+      .sidebar .kf img{
+        width:46px;
+        height:46px;
+        margin-bottom: 3.6px;
+      }
+
+      .sidebar .top{
+        display: inline-block;
+        width:26px;
+        height:20px;
+      }
+
+      .sidebar .top img{
+        width: 46px;
+        height:46px;
+      }
+
+      .sidebar .img1{
+        width:46px;
+      }
+
+
+
+      .xlBox{
+        width: 100%;
+        min-width: 1200px;
+        background:url("../img201707/xiala.png") no-repeat center center;
+        height:600px;
+        overflow: hidden;
+        position: relative;
+      }
+      .xlBox a{
+        display: inline-block;
+        width: 100%;
+        min-width: 1200px;
+        height: 600px;
+      }
+      .xlBox .close img{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top:10px;
+        right:100px;
+        cursor: pointer;
+      }
+      .ad_time {
+        width:80px;
+        height:20px;
+        line-height: 20px;
+        background:url("../img201707/guangtiao.png") no-repeat;
+        position:absolute;
+        top:15px;
+        right:20.5px;
+        color:#fff;
+        font-size: 16px;
+        text-align: center;
+        border-radius:30px;
+      }
+      .ad_time span {
+        font-weight:bold;
+        color:#cc0;
+        padding:0 5px;
+      }
+
+
+.bt1{
+  width: 60px;
+    height: auto;
+    cursor: pointer;
+    position: fixed;
+    top: 10%;
+    right:-66px;
+    color: #fff;
+}
+.bt1 img{
+  width: 60px;
+  height: 60px;
+}
+
+
+
+
+
+/*# sourceMappingURL=qh-guz.css.map */

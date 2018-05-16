@@ -1,0 +1,159 @@
+/*
+*
+*@ author:sns
+*@ date:2018-04-03
+*/
+
+.xin {
+    overflow: hidden;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #dbebf8;
+}
+.gsxx{
+  width: 973px;
+  border: 1px solid #dbebf8;
+  margin-bottom: 20px;
+  border-top: none;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.gsxx .company-info {
+    width: 935px;
+    border: 1px solid #dfdfdf;
+    border-bottom: none;
+    margin: 15px auto 0;
+}
+.gsxx .company-info tr{
+  height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+.gsxx .company-info .category-list {
+    width: 100%;
+}
+.gsxx .company-info .category-name {
+    height: 50px;
+    width: 103px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dfdfdf;
+    text-align: center;
+    color: #333;
+}
+
+.gsxx .company-info .category-value {
+    height: 50px;
+    padding-left: 30px;
+    color: #333;
+    border-bottom: 1px solid #dfdfdf;
+}
+.gsxx .company-info .jie{
+  line-height: 28px;
+}
+.fixed-width {
+    width:360px;
+}
+.gsxx .company-info a {
+    text-decoration: underline;
+    color: #4a90e2;
+}
+
+
+.ttjj-table{
+  width: 100%;
+}
+.ttjj-table tr{
+  width: 100%;
+  border-bottom: 1px solid #dfdfdf;
+}
+.ttjj-table td {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.ttjj-table .honour-data {
+    width: 350px;
+}
+.ttjj-table .align-left{
+  text-align: left;
+}
+
+
+ .grey-bg{
+  background-color: #f5f5f5;
+}
+
+
+
+
+
+
+.zfmz {
+    width: 973px;
+    height: auto;
+    border: 1px solid #dbebf8;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.zfmz .tab {
+    width: 973px;
+    height: 57px;
+    border-bottom: #dbebf8 1px solid;
+}
+.zfmz .tab span {
+    font-size: 18px;
+    padding: 0 5px 5px;
+    line-height: 57px;
+    border-bottom: 2px solid #fff;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.zfmz .tab .on {
+    font-size: 18px;
+    padding: 0 5px 5px;
+    line-height: 57px;
+    border-bottom: 2px solid #2f5895;
+    font-weight: bold;
+}
+.zfmz .nr {
+    display: none;
+}
+
+.ttjj-table th {
+    background: #f5f5f5;
+    font-size: 16px;
+    color: #000;
+    padding: 15px 0;
+}
+.ttjj-table  .arrow-icon{
+  cursor: pointer;
+    display:inline-block;
+    width: 45px;
+    height: 10px;
+    line-height: 45px;
+    margin: 0 auto;
+    vertical-align: middle;
+    background: url(../../Skin/img201707/gp-xsbdown.png) no-repeat 50% 0%;
+}
+.ttjj-table .restive {
+    background: url(../../Skin/img201707/gp-xsbup.png) no-repeat 50% 0%;
+}
+.ttjj-table .detail{
+    font-size: 16px;
+    color: #3f3f3f;
+    text-align: left;
+    width: 932px;
+    line-height: 30px;
+    padding: 10px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    _zoom: 1;
+    display: none;
+}
+.ttjj-table .detail td{
+  background-color: #f5f5f5;
+  text-align: justify;
+  padding: 0 15px;
+}

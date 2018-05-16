@@ -1,0 +1,1104 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>优质项目详情页</title>
+<link rel="stylesheet" href="../../Skin/css201707/reset.css" />
+<link rel="stylesheet" href="../../Skin/css201707/touzxm-public.css" />
+<link rel="stylesheet" href="../../Skin/css201707/touz-yzxmcon.css"/>
+  </head>
+<body>
+  <!-- 弹窗 -->
+  <div class="downloadBox">
+    <div class="tc">
+      <div class="title">
+        <div class="close">
+          <img src="../../Skin/img201707/关闭icon.png" alt="">
+        </div>
+      </div>
+      <div class="content">
+        <img src="../../Skin/img201707/提交成功icon-web端.png" alt="">
+        <p>提交成功</p>
+      </div>
+    </div>
+    <div class="download">
+      <div class="title">
+        <div class="bt">
+          投递项目
+        </div>
+        <div class="close">
+          <img src="../../Skin/img201707/关闭icon.png" alt="">
+        </div>
+      </div>
+      <div class="name">
+        <span><b>*</b>姓名</span>
+        <input type="text" placeholder="请输入您的名字">
+      </div>
+      <div class="phone">
+        <span><b>*</b>手机号</span>
+        <input type="text" placeholder="请输入手机号码">
+        <div class="cwts">
+          <p class="ts1">手机号错误</p>
+          <p class="ts2">请填写手机号</p>
+        </div>
+      </div>
+      <div class="yzm">
+        <span><b>*</b>手机验证码</span>
+        <input type="text" placeholder="请输入手机验证码">
+        <div class="button">
+          <div class="fs">
+            <img src="../../Skin/img201707/获取验证码.png" alt="">
+          </div>
+          <div class="yfs">
+            <div class="djs">
+              <span>重新发送(</span>
+              <span id="countdown-timer" class="f-green ml-5">60</span>
+              <span class="ml-5">s</span>
+              <span>)</span>
+            </div>
+          </div>
+          <div class="cfs">
+            <span>重新发送</span>
+          </div>
+        </div>
+        <div class="cwts2">
+          验证码错误
+        </div>
+      </div>
+      <div class="xmms">
+        <span><b>*</b>项目描述</span>
+        <textarea name="invite_content" placeholder="请简单介绍项目情况、项目优势及融资用途。字数20-500之间" maxlength="500" class="xm-text" bind-event="1"></textarea>
+      </div>
+      <div class="Button">
+        <img src="../../Skin/img201707/提交icon.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- 头部 -->
+  <!-- 头部 -->
+  <div class="header clearfix">
+  <div class="header-top">
+    <div class="top-nav">
+      <div class="nav">
+        <ul>
+          <li><a target="_blank" href="/">首页</a></li>
+          <li class="nav-bright"><a target="_blank" href="/gupiao/"><b>股</b>票</a></li>
+          <li><a target="_blank" href="/qihuo/">期货</a></li>
+          <li><a target="_blank" href="/jijin/">基金</a></li>
+          <li><a target="_blank" href="/touzi/">投资</a></li>
+          <li><a target="_blank" href="/licai/">理财</a></li>
+          <li><a target="_blank" href="/Video/">视频</a></li>
+          <li><a target="_blank" href="/company/">企业词条</a></li>
+          <li><a target="_blank" href="/ask/">问答中心</a></li>
+          <li class="last"><a target="_blank" href="/">预约开户</a></li>
+        </ul>
+      </div>
+      <div class="header-sous"><img src="../../Skin/img201707/sous.png" alt=""></div>
+      <div class="header-wide"><img src="../../Skin/img201707/sous-icon.png" alt=""><input type="text" value="" id="txtSearch"><img class="cha" src="../../Skin/img201707/cha-icon.png" alt=""></div>
+      <div class="header-login">
+        <ul>
+          <li><img src="../../Skin/img201707/fang.png" alt=""><a rel="nofollow" href="/user/Login.aspx">登录</a></li>
+          <li>/</li>
+          <li><a rel="nofollow" href="/user/Register.aspx">注册</a></li>
+          <li class="ryw-weibo"><img src="../../Skin/img201707/ryw-weibo.png" alt=""></li>
+          <li class="ryw-call"><img src="../../Skin/img201707/ryw-call.png" alt=""><span>0571-56926771</span></li>
+        </ul>
+        <div class="weib">
+          <div class="close"><span><img src="../../Skin/img201707/weib-off.png" alt=""></span></div>
+          <div class="title"><img src="../../Skin/img201707/weib-jtiao.png" alt=""><p>金融专家微博</p><img src="../../Skin/img201707/weib-jtiao.png" alt=""></div>
+          <div class="weib-Carousel">
+            <div id="Carousel">
+              <div class="Carousel">
+                <div class="Transform Transform1"><img src="../../Skin/img201707/weib-daren.png" alt=""><h3>达人秀金融</h3>
+                  <p>
+                                股票期货变幻莫测<br>
+                                有人喜来，有人忧
+                            </p><span><a rel="nofollow" target="_blank" href="https://weibo.com/u/6256742923?is_hot=1">立即前往</a></span></div>
+                <div class="Transform2 Transform"><img src="../../Skin/img201707/weib-cdsz.png" alt=""><h3>股票超短实战</h3>
+                  <p>
+                                常胜的关键<br>
+                                是落袋为安
+                            </p><span><a rel="nofollow" target="_blank" href="https://weibo.com/6180046767/profile?is_all=1#feedtop">立即前往</a></span></div>
+                <div class="Transform3 Transform"><img src="../../Skin/img201707/weib-tlgj.png" alt=""><h3>谈股论金15</h3>
+                  <p>
+                                以市场为师，践学不悔，<br>
+                                敏学不倦，谦学不怠。
+                            </p><span><a rel="nofollow" target="_blank" href="https://weibo.com/6256727474/profile?is_all=1#feedtop">立即前往</a></span></div>
+                <div class="Transform4 Transform"><img src="../../Skin/img201707/weib-lyu.png" alt=""><h3>财经百事通-老俞</h3>
+                  <p>不以物喜，<br>
+                                不以己悲。</p><span><a rel="nofollow" target="_blank" href="https://weibo.com/laoyucj/profile?rightmod=1%26wvr=6%26mod=personinfo%26is_all=1">立即前往</a></span></div>
+              </div>
+              <div class="spot_box">
+                <div class="spot_center">
+                  <div class="spot_page"><span></span><span></span><span></span><span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="header" class="ui-bg-white nav-pos">
+  <div class="style-border">
+   <div class="container">
+     <div class="logo fl">
+       <a href="/">
+         <img src="../../Skin/img201707/logo.png" alt="">
+       </a>
+       <span>
+         专业的融资服务平台
+       </span>
+     </div>
+    <div class="nav-ification">
+     <ul class="clearfix nav-list">
+      <li class="sY" >
+        <a href="">首页</a>
+      </li>
+      <li class="fM nav-item" id="J_findMoney">
+        <a href="" class="findMoney">
+          找资金
+          <b>
+            <img class="heid" src="../../Skin/img201707/touz-heit.png" alt="">
+          </b>
+        </a>
+        <div class="sanj">
+          <img src="../../Skin/img201707/touz-top.png" alt="">
+        </div>
+        <div class="sub-list findMoney2 index">
+          <ul class="clearfix">
+           <li>
+             <a target="_blank" href="">
+               <div>
+                <i class="i1"></i>
+               </div>
+               <h2>精选资金</h2>
+               <p>海量资金方任你选</p>
+             </a>
+           </li>
+           <li>
+             <a target="_blank" href="">
+               <div class="last">
+                <i class="i2"></i>
+               </div>
+               <h3>融资直通车</h3>
+               <p>一键直约 直通资本</p>
+             </a>
+           </li>
+          </ul>
+         </div>
+      </li>
+      <li class="fP nav-item" id="J_findPro">
+        <a href="" class="findPro">
+          选项目
+          <b>
+            <img class="heit" src="../../Skin/img201707/touz-heit.png" alt="">
+          </b>
+        </a>
+        <div class="sanj">
+          <img src="../../Skin/img201707/touz-top.png" alt="">
+        </div>
+        <div class="sub-list findPro2 fn-hide findmoney" id="J_findPro_List">
+          <ul class="clearfix">
+           <li>
+             <a target="_blank" href="">
+               <div>
+                <i class="i6"></i>
+               </div>
+               <h2>优质项目</h2>
+               <p>全国专业的项目信息库</p>
+             </a>
+           </li>
+           <li>
+             <a target="_blank" href="">
+               <div>
+                <i class="i7"></i>
+               </div>
+               <h2>新三板项目</h2>
+               <p>全国优质新三板项目推荐</p>
+             </a>
+           </li>
+           <li>
+             <a target="_blank" href="">
+               <div class="last">
+                <i class="i8"></i>
+               </div>
+               <h3>PRE-IPO优质项目</h3>
+               <p>全国优质PRE-IPO项目推荐</p>
+             </a>
+           </li>
+          </ul>
+         </div>
+      </li>
+      <li class="jH">
+          <a href="" >投资百科</a>
+      </li>
+      <li class="search jH">
+       <form class="look-form fn-clear" id="frm">
+        <input type="text" id="keyword" class="input-look-search J_placeholder" placeholder="输入关键词" />
+        <button class="btn-look-search submit" type="submit">搜索</button>
+       </form>
+       <div class="select_pos">
+        <div class="htools-select">
+         <div class="select-input">
+          找资金
+         </div>
+         <div class="select-selectbtn"></div>
+         <ul  class="select-select-ul">
+          <li class="select-li-selected">找资金</li>
+          <li>找项目</li>
+          <li>找文章</li>
+         </ul>
+        </div>
+        <select id="find-select" class="fn-hide" style="display: none;">
+          <option page="zijin">找资金</option>
+          <option page="xiangmu">找项目</option>
+          <option page="news">找文章</option>
+        </select>
+       </div>
+       <div class="hot-label fn-pt-5">热门搜索：
+        <a href="" target="_blank">投资创业</a>
+        <a href="" target="_blank">企业融资</a>
+        <a href="" target="_blank">个人投资</a>
+        <a href="" target="_blank">互联网投资</a>
+       </div>
+     </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  </div>
+  </div>
+  <!-- 头部结束 -->
+    <div class="container fn-mb-20 fn-mt-30">
+
+		<p class="btm20"><i class="small-icon small-icon-12 right10"></i>
+			<span class="colblue verMid">
+				<a href="http://www.trjcn.com" >首页</a>&gt;<a href="http://xiangmu.trjcn.com">选项目</a>&gt;<a href="http://xiangmu.trjcn.com">项目信息</a>&gt;河南某兰考枸树生态循环农业项目股权融资200万-2000万元			</span>
+		</p>
+		<div class="fn-clear">
+
+
+
+
+
+      <div class="content-right fr">
+        <div class="wz-search">
+         <div class="searchs">
+           <input type="text" class="bsearch-text" placeholder="请输入股票代码或名称">
+           <button class="bsearch-btn">搜索</button>
+         </div>
+       </div>
+
+      <!-- 企业 -->
+      <div class="companyLunbo">
+          <h3>相关行业企业推荐</h3>
+          <div id="cylb-roll">
+            <div class="cylb-contenter">
+              <div class="cylb-content">
+                <div class="img1 cylb-imgroll">
+                  <div class="cylbBox">
+                    <div class="info">
+                       <span><img src="../../Skin/img201707/公司icon.png" alt=""></span>
+                       <i class="industry">
+                         <i>所属行业：</i>互联网
+                       </i>
+                       <i class="time">
+                         <i>注册时间：</i>1998-11-11
+                       </i>
+                       <i class="state">
+                         <i>企业状态：</i>已上市
+                       </i>
+                    </div>
+                    <h2>深圳市腾讯计算机系统有限公司</h2>
+                  </div>
+                </div>
+                <div class="img2 cylb-imgroll">
+                   <div class="cylbBox">
+                    <div class="info">
+                       <span><img src="../../Skin/img201707/公司icon.png" alt=""></span>
+                       <i class="industry">
+                         <i>所属行业：</i>互联网
+                       </i>
+                       <i class="time">
+                         <i>注册时间：</i>1998-11-11
+                       </i>
+                       <i class="state">
+                         <i>企业状态：</i>已上市
+                       </i>
+                    </div>
+                    <h2>深圳市腾讯计算机系统有限公司</h2>
+                  </div>
+                </div>
+                <div class="img3 cylb-imgroll">
+                   <div class="cylbBox">
+                    <div class="info">
+                       <span><img src="../../Skin/img201707/公司icon.png" alt=""></span>
+                       <i class="industry">
+                         <i>所属行业：</i>互联网
+                       </i>
+                       <i class="time">
+                         <i>注册时间：</i>1998-11-11
+                       </i>
+                       <i class="state">
+                         <i>企业状态：</i>已上市
+                       </i>
+                    </div>
+                    <h2>深圳市腾讯计算机系统有限公司</h2>
+                  </div>
+                </div>
+                <div class="img1 cylb-imgroll">
+                   <div class="cylbBox">
+                    <div class="info">
+                       <span><img src="../../Skin/img201707/公司icon.png" alt=""></span>
+                       <i class="industry">
+                         <i>所属行业：</i>互联网
+                       </i>
+                       <i class="time">
+                         <i>注册时间：</i>1998-11-11
+                       </i>
+                       <i class="state">
+                         <i>企业状态：</i>已上市
+                       </i>
+                    </div>
+                    <h2>深圳市腾讯计算机系统有限公司</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 中间 -->
+            <div class="cylb-left"></div>
+            <!-- 左键 -->
+            <div class="cylb-right"></div>
+            <!-- 右键 -->
+          </div>
+      </div>
+
+      <!-- 热股推荐 -->
+      <div class="hot">
+        <ul>
+          <li class="first">
+            <h3>热搜股推荐</h3>
+          </li>
+          <li>
+            <span class="title">
+              <b></b>
+              <a href="">平安银行（000001）</a>
+            </span>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <p>
+                      简介简介简介简介简介简介简介简介简介简
+                      介简介简介简介简介简介简介简介简介 ...
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li>
+            <span class="title">
+              <b></b>
+              <a href="">平安银行（000001）</a>
+            </span>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <p>
+                      简介简介简介简介简介简介简介简介简介简
+                      介简介简介简介简介简介简介简介简介 ...
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li>
+            <span class="title">
+              <b></b>
+              <a href="">平安银行（000001）</a>
+            </span>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <p>
+                      简介简介简介简介简介简介简介简介简介简
+                      介简介简介简介简介简介简介简介简介 ...
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+        </ul>
+      </div>
+      <!-- 热门搜索 -->
+
+      <div class="new-information">
+        <h3>推荐资讯</h3>
+        <ul>
+          <li>
+            <a href="">
+              <b>
+                <img src="../../Skin/img201707/xing.png" alt="">
+              </b>
+              这能看见大海和云海...
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <b>
+                <img src="../../Skin/img201707/xing.png" alt="">
+              </b>
+              这能看见大海和云海...
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <b>
+                <img src="../../Skin/img201707/xing.png" alt="">
+              </b>
+              这能看见大海和云海...
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <b>
+                <img src="../../Skin/img201707/xing.png" alt="">
+              </b>
+              这能看见大海和云海...
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <b>
+                <img src="../../Skin/img201707/xing.png" alt="">
+              </b>
+              这能看见大海和云海...
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- 推荐资讯 -->
+
+      <div class="left-tell">
+        <div class="tell-ency">
+          <div id="tell-roll">
+            <div class="tell-contenter">
+              <div class="tell-content">
+                <div class="img1 tell-imgroll">
+                  <a href="">
+                    <img src="../../Skin/img201707/广告一.png" alt="">
+                  </a>
+                </div>
+                <div class="img2 tell-imgroll">
+                  <a href="">
+                    <img src="../../Skin/img201707/广告一.png" alt="">
+                  </a>
+                </div>
+                <div class="img3 tell-imgroll">
+                  <a href="">
+                    <img src="../../Skin/img201707/广告一.png" alt="">
+                  </a>
+                </div>
+                <div class="img1 tell-imgroll">
+                  <a href="">
+                    <img src="../../Skin/img201707/广告一.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- 中间 -->
+            <div class="tell-left"></div>
+            <!-- 左键 -->
+            <div class="tell-right"></div>
+            <!-- 右键 -->
+          </div>
+        </div>
+      </div>
+      <!-- 广告位1 -->
+      <div class="other">
+        <h3>其它热门分类</h3>
+          <div id="rmfl-roll">
+            <div class="rmfl-contenter">
+              <div class="rmfl-content">
+                <div class="img1 rmfl-imgroll">
+                  <ul>
+                    <li>
+                      <a href="">基金</a>
+                    </li>
+                    <li>
+                      <a href="">期货</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="img2 rmfl-imgroll">
+                  <ul>
+                    <li>
+                      <a href="">投资</a>
+                    </li>
+                    <li>
+                      <a href="">理财</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="img3 rmfl-imgroll">
+                  <ul>
+                    <li>
+                      <a href="">股票</a>
+                    </li>
+                    <li>
+                      <a href="">基金</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="img1 rmfl-imgroll">
+                  <ul>
+                    <li>
+                      <a href="">基金</a>
+                    </li>
+                    <li>
+                      <a href="">期货</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- 中间 -->
+            <div class="rmfl-left"></div>
+            <!-- 左键 -->
+            <div class="rmfl-right"></div>
+            <!-- 右键 -->
+          </div>
+      </div>
+      <!--其他推荐  -->
+      <!--最新资讯  -->
+  <div class="wz_rmwd">
+    <h3>热门问答</h3>
+      <ul>
+        <li>
+          <a href="">
+            <img src="../../Skin/img201707/rmhd.png" alt="" class="small">
+            <p class="wt">请问怎样赚更多的钱？</p>
+            <p class="info">
+              <b class="twr">提问人：大白云</b>
+              <b class="time">2015.06.20</b>
+              <b class="state">已解决</b>
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="../../Skin/img201707/rmhd.png" alt="" class="small">
+            <p class="wt">请问怎样赚更多的钱？</p>
+            <p class="info">
+              <b class="twr">提问人：大白云</b>
+              <b class="time">2015.06.20</b>
+              <b class="state">已解决</b>
+            </p>
+          </a>
+        </li>
+        <li class="last">
+          <a href="">
+            <img src="../../Skin/img201707/rmhd.png" alt="" class="small">
+            <p class="wt">请问怎样赚更多的钱？</p>
+            <p class="info">
+              <b class="twr">提问人：大白云</b>
+              <b class="time">2015.06.20</b>
+              <b class="state">已解决</b>
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 热门回答 -->
+    <div class="rightSide">
+      <div class="wz_tool">
+        <h3>实用&nbsp;&nbsp;●&nbsp;&nbsp;工具</h3>
+          <ul class="smallButton">
+            <li>
+              <a href="http://www.rongew.com/gupiao/" target="_blank" class="begin">股票</a>
+            </li>
+            <li>
+              <a href="http://www.rongew.com/gupiao/jiaocheng/rumen/jczs/" target="_blank" class="begin">股票教程</a>
+            </li>
+            <li>
+              <a href="http://www.rongew.com/qihuo/" target="_blank" class="begin">期货</a>
+            </li>
+            <li>
+              <a href="http://www.rongew.com/licai/info/xiwnen/630.html" target="_blank" class="begin">理财需知</a>
+            </li>
+            <li>
+              <a href="http://www.rongew.com/jijin/" target="_blank" class="begin">基金</a>
+            </li>
+            <li>
+              <a href="http://www.rongew.com/touzi/info/zhishi/772.html" target="_blank" class="begin">为何投资</a>
+            </li>
+            <li>
+              <a href="http://www.rongew.com/touzi/" target="_blank" class="begin">投资</a>
+            </li>
+            <li>
+              <a href="http://www.rongew.com/qihuo/info/zhishi/763.html" target="_blank" class="begin">期货是什么</a>
+            </li>
+            <li>
+              <a href="http://www.rongew.com/licai/" target="_blank" class="begin">理财</a>
+            </li>
+          </ul>
+          <ul class="articleList">
+            <li>
+              <a href="">
+                <i class="icon"></i>
+                这片能看见大海和云海的有机茶园...
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="icon"></i>
+                这片能看见大海和云海的有机茶园...
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="icon"></i>
+                这片能看见大海和云海的有机茶园...
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="icon"></i>
+                这片能看见大海和云海的有机茶园...
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+  <!-- 实用、工具 -->
+  </div>
+
+			<div class="m-mainLeft">
+				<div class="bgFFF clearfix">
+					<div class="pad30 bgFFF">
+<p><a href="javascript:void(0);" class="font16b verMid ui-text-blue-2">河南某兰考枸树生态循环农业项目股权融资200万-2000万元</a></p>
+<div class="fn-clear">
+    <div class="fn-left fn-mt-10 ui-text-gray">
+      <time class="fn-mr-30">2017-08-21</time>浏览数：211<span id="J_G_view_num"></span>人</div>
+</div>
+
+</div>
+<p class="bor_btm_so"></p>
+<div class="pad30 detail-info">
+	<div class="detail-left">
+					<dl class="detail-info-dl">
+				<dt>所在地区：</dt>
+				<dd title="河南省 ">河南省 </dd>
+			</dl>
+					<dl class="detail-info-dl">
+				<dt>融资主体：</dt>
+				<dd title="企业 ">企业 </dd>
+			</dl>
+					<dl class="detail-info-dl">
+				<dt>所属行业：</dt>
+				<dd title="农林牧渔 ">农林牧渔 </dd>
+			</dl>
+					<dl class="detail-info-dl">
+				<dt>行业性质：</dt>
+				<dd title="非互联网 ">非互联网 </dd>
+			</dl>
+					<dl class="detail-info-dl">
+				<dt>融资用途：</dt>
+				<dd title="用于基础扩建，设备增购，营销企划，流动资金。 ">用于基础扩建，设备增购，营销企划，流动资金。 </dd>
+			</dl>
+					<dl class="detail-info-dl">
+				<dt>融资金额：</dt>
+				<dd title="200万元-2000万元 ">200万元-2000万元 </dd>
+			</dl>
+					<dl class="detail-info-dl">
+				<dt>总投金额：</dt>
+				<dd title="2000万元 ">2000万元 </dd>
+			</dl>
+					<dl class="detail-info-dl">
+				<dt>意向资金：</dt>
+				<dd title="不限 ">不限 </dd>
+			</dl>
+					<dl class="detail-info-dl">
+				<dt>融资方式：</dt>
+				<dd title="股权融资 "><a href="/list_1.html?d146=619" target="_blank">股权融资</a> </dd>
+			</dl>
+					<dl class="detail-info-dl">
+				<dt>可提供资料：</dt>
+				<dd title="商业/项目计划书,公司证件,其它资料 ">商业/项目计划书,公司证件,其它资料 </dd>
+			</dl>
+				<div class="fn-clear"></div>
+	</div>
+</div>
+									<p class="bor_btm_da"></p>
+		<div class="pad30 detailInf">
+						<p >
+				<span class="m-smMenu">股权融资</span></p>
+			<div class="detail-ul-list-container fn-mt-20">
+				<div class="detail-left">
+												<dl class="detail-info-dl">
+								<dt>项目所处阶段：</dt>
+								<dd title="初创期 ">初创期 </dd>
+							</dl>
+																									<dl class="detail-info-dl">
+								<dt>资金方占股比例：</dt>
+								<dd title="5 - 30 %">5 - 30 %</dd>
+							</dl>
+																									<dl class="detail-info-dl">
+								<dt>投资退出方式：</dt>
+								<dd title="股权转让,股份回购 ">股权转让,股份回购 </dd>
+							</dl>
+																									<dl class="detail-info-dl">
+								<dt>最短退出年限：</dt>
+								<dd title="3 年">3 年</dd>
+							</dl>
+																							<div class="fn-clear"></div>
+				</div>
+			</div>
+					</div>
+
+<div class="project-pt-fd">
+	<table width="100%">
+      <tr>
+	     <td width="140">
+          <img src="../../Skin/img201707/new-deliver.png" alt="投递项目">
+        </td>
+	      <td>
+	        <article>
+	           <h5>昨日项目方投递项目共计3282次</h5>
+	           <p class="fn-mt-5">立即投递项目，将信息直接发送到投资人手，融资更主动！</p>
+	        </article>
+	      </td>
+	      <td width="116" class="fn-pr">
+          <a href="javascript:void(0);" class="J_btn_dl_invite ui-btn-big ui-btn-orange w100 toudi"  title="投递项目">投递项目</a>
+	       </td>
+	     </tr>
+		</table>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>				</div>
+
+					<div id="meta_company" class="bgFFF top20 j-ret">
+							<div class="m-title1">
+								<span class="title-span">公司介绍 </span>
+							</div>
+							<div class="pad30 line22 font14">
+								<div class="txt2em">
+									<p>公司成立于2016年06月，公司位于全国优秀县委书记榜样---焦裕禄同志生平鞠躬尽瘁工作的地方、也是习近平总书记定点挂职扶贫脱贫大发展的兰考县。主要经营：枸树的育苗、种植、饲料加工、生态养殖、产品深加工、有机生态食品销售、特色小镇观光农业等。<br />
+　　公司愿景：打造有机生态农业标杆！</p>
+								</div>
+							</div>
+						</div>
+																							<div id="i_overview" class="bgFFF top20 j-ret">
+							<div class="m-title1">
+								<span class="title-span">项目概述 </span>
+							</div>
+							<div class="pad30 line22 font14">
+								<div class="txt2em">
+									<p>项目名称：<br />
+                　　枸树生态循环农业项目。<br />
+                　　区位介绍：<br />
+                　　本项目拟建在河南省兰考县，地势平坦，土地肥沃，离村庄、公路、铁路主干线500米以上，符合防疫基本条件，周围水资源丰富，环境卫生、无污染。该区域地面平坦，交通便利，是项目发展的理想地段。<br />
+                　　建设内容：<br />
+                　　拟总共规划3000亩土地，以高标准建设循环示范项目，300亩用于建年出栏3万头现代化生猪养殖场，50亩建设有机肥加工和液化气提炼，2000亩用于种植杂交构树大叶枸，650亩用于特色小镇观光农业项目使用。配套建设农业灌溉管网，利用养殖排泄物生产液化气，产气后的废液、废渣经狐尾藻生物处理后生产有机肥，再用于大叶枸种植的施肥和灌溉，狐尾藻和大叶枸收获后又可以加工生产猪饲料，最终实现循环利用。<br />
+                　　项目规划：<br />
+                　　以生猪养殖场建设为核心，根据生猪生长繁殖规律，结合大叶枸种植、有机肥生产、天然气提取，观光农业把项目分成四期实施。<br />
+                　　一期（2017年07月-2018年06月）：<br />
+                　　1、200亩种植基地建设，种植种苗12万株。<br />
+                　　2、生猪养殖场建成，占地面积1.39万平方米，养殖20头原种母猪、5头公猪和1800头商品猪。<br />
+                　　二期（2018年07月-2019年06月）：<br />
+                　　1、新增400亩种植基地建设。新种植24万株种苗。<br />
+                　　2、生猪养殖猪舍新增1万平方米，新增、繁殖180头二元母猪、1万头商品猪。<br />
+                　　三期（2019年07月-2020年12月）：<br />
+                　　生猪养殖猪舍新增2万平方米。新增繁殖500头二元母猪、3万头商品猪。<br />
+                　　四期（2021年01月-06月）：<br />
+                　　1、观光农业配套设施建设：田园风格餐饮住宿、中型商务接洽中心、垂钓体验中心等。<br />
+                　　2、构树产业链延伸项目建设：构树系列产品工艺展示、构树综合性畜牧养殖展示、构树生态博物馆建设。<br />
+                　　收益情况：<br />
+                　　项目2017年07月开始实施到2021年06月全面完工时，净利润可达15000万元。2021年底前净收入余额19128万元，总投资回收期仅需3.9年。
+                  </p>
+								</div>
+							</div>
+						</div>
+						<div id="i_introduce" class="bgFFF top20 j-ret">
+							<div class="m-title1">
+								<span class="title-span">项目优势 </span>
+							</div>
+							<div class="pad30 line22 font14">
+								<div class="txt2em">
+  								<p>1、大叶枸（杂交枸树）是浙江**大叶枸发展有限公司在中科院研发的杂交枸树的基础上，积累了多年推广杂交枸树的经验，自主培育成的桑科杂交植物，属强阳性植物，适应温、热带气候，能在平原、丘陵、山地上生长，具有生长快、产量高、营养全面、蛋白含量高的特点，兼具改善生态环境、保持水土的重要作用，适合人工大面积种植，其风干绿色叶片粗蛋白含量高达26%-32%，含有比较全面的氨基酸、维生素、碳水化合物及微量元素，合理加工后适合用于生猪养殖。同时，大叶枸与桑叶、构树叶等桑科植物一样富含黄酮类生理活性物质，具有一定保健功效，且能增强机体免疫功能，  有  效减少养殖场生猪发病率和病死率，种植过程中又有极强的吸纳利用养殖污染的能力，是用于建设生态循环生猪养殖场的最佳选择。<br />
+                　　2、公司拥有多项国家发明专利和独特的产品配方、工艺，是项目核心竞争力的保障，可充分加以利用和加强维持。目前尚未出现强有力的竞争对手。<br />
+                　　3、河南省兰考县为贯彻落实《国务院扶贫办关于开展构树扶贫工程试点工作的通知》文件精神，专门下发“关于印发《兰考构树扶贫产业发展实生态循环农业施方案》的通知”，对种植杂交枸树的土地每亩补助2000元。
+                </p>
+								</div>
+							</div>
+						</div>
+						<div id="meta_team" class="bgFFF top30 j-ret">
+							<div class="m-title1">
+								<span class="title-span">团队介绍 </span>
+							</div>
+							<div class="pad30 line22 font14">
+								<div class="txt2em">
+									<p>合作公司：<br />
+　　浙江**大叶枸发展有限公司，创办于2009年11月，主营业务为农业综合开发（大叶枸种植及畜牧生态养殖、加工、经销），现有大叶枸种植基地5000亩，并建有生态猪养殖示范基地和大叶枸产品加工基地。公司自成立以来，专门致力于大叶枸生态价值的开发和产业化推进工作，在取得8项发明专利的基础上，不断创新经营理念，深化大叶枸系列产业的培育和提升，探索出了一条生态种植、养殖、加工及废弃物回收处理、资源化再利用的循环经济新路子，并取得显著的成效。注重产品开发和核心竞争力的培育，通过与中国林科院等国内大专院校和科研院所的合作，在科技创新和新产品开发的迈出了坚实的步伐。至2014年末，公司已拥有自主知识产权的发明专利8项。</p>
+								</div>
+							</div>
+						</div>
+						<div id="meta_project_process" class="bgFFF top20 j-ret">
+							<div class="m-title1">
+								<span class="title-span">项目进展 </span>
+							</div>
+							<div class="pad30 line22 font14">
+								<div class="txt2em">
+									<p>项目属于初创期。</p>
+								</div>
+							</div>
+						</div>
+					<div  class="bgFFF top20 clearfix ">
+  					<div class="m-xxfj clearfix">
+  						<div class="col999 pad30">项目亮点：有投入 有团队</div>
+  					</div>
+				</div>
+				<div  class="bgFFF top20 clearfix ">
+					<div class="m-xxfj clearfix">
+						<div class="col999 pad30">标签：<a href="http://xiangmu.trjcn.com?ik=%E6%B2%B3%E5%8D%97" target="_blank">河南</a>，<a href="http://xiangmu.trjcn.com?ik=%E5%85%B0%E8%80%83%E6%9E%B8%E6%A0%91" target="_blank">兰考枸树</a>，<a href="http://xiangmu.trjcn.com?ik=%E7%94%9F%E6%80%81%E5%BE%AA%E7%8E%AF%E5%86%9C%E4%B8%9A" target="_blank">生态循环农业</a>，<a href="http://xiangmu.trjcn.com?ik=%E8%82%A1%E6%9D%83%E8%9E%8D%E8%B5%84" target="_blank">股权融资</a></div>
+					</div>
+				</div>
+
+      <div class="bgFFF top20 j-ret">
+       <div class=" m-title1">
+        <span class="title-span">相关项目推荐</span>
+       </div>
+       <div class="project-recommend">
+        <div class="project-recommend-list">
+         <ul>
+          <li> <h5 class="fn-text-overflow"><a href="" target="_blank">四川某生物洗化用品推广加盟项目股权融资300万元</a></h5> <p class="top10">融资金额：300万</p> <p class="fn-text-overflow">股权融资 | 初创期 | IT互联网,护肤品,化学化工 | 四川省</p> </li>
+          <li> <h5 class="fn-text-overflow"><a href="" target="_blank">海外某跨境电商平台项目股权融资200万元</a></h5> <p class="top10">融资金额：200万</p> <p class="fn-text-overflow">股权融资 | 初创期 | IT互联网,仓储物流 | 海外</p> </li>
+          <li> <h5 class="fn-text-overflow"><a href="" target="_blank">四川某建筑资源服务平台项目股权融资500万元</a></h5> <p class="top10">融资金额：500万</p> <p class="fn-text-overflow">股权融资 | IT互联网,建筑建材 | 四川省</p> </li>
+          <li> <h5 class="fn-text-overflow"><a href="" target="_blank">四川某AI练习数学在线学习APP项目股权融资300万元</a></h5> <p class="top10">融资金额：300万</p> <p class="fn-text-overflow">股权融资 | 种子期 | IT互联网,在线教育,教育培训 | 四川省</p> </li>
+          <li> <h5 class="fn-text-overflow"><a href="" target="_blank">四川某超级新零售服务平台项目股权融资300万元-500万元</a></h5> <p class="top10">融资金额：300万-500万</p> <p class="fn-text-overflow">股权融资 | IT互联网,仓储物流,批发零售 | 四川省</p> </li>
+          <li> <h5 class="fn-text-overflow"><a href="" target="_blank">成都物联网新商业模式电商平台项目股权融资200万-500万元</a></h5> <p class="top10">融资金额：200万-500万</p> <p class="fn-text-overflow">股权融资 | 初创期 | IT互联网,物联网 | 四川省</p> </li>
+         </ul>
+        </div>
+        <div class="project-recommend-other">
+         <span>您还可以找：</span>
+         <a href="" target="_blank">四川股权众筹</a>|
+         <a href="" target="_blank">广告业再融资</a>|
+         <a href="" target="_blank">股权众筹app</a>|
+         <a href="" target="_blank">投融资</a>|
+         <a href="" target="_blank">项目融资</a>|
+         <a href="" target="_blank">融资</a>|
+         <a href="" target="_blank">融资项目</a>|
+         <a href="" target="_blank">融资平台</a>|
+         <a href="" target="_blank">投资融资</a>|
+         <a href="" target="_blank">房地产融资</a>
+        </div>
+       </div>
+      </div>
+     <!-- 相关推荐 -->
+
+     <div id="i-zjxm-comment" class="bgFFF top30 clearfix j-ret">
+       <a name="cm" id="cm"></a>
+       <div class="pad30">
+        <div class="fn-clear ui-le-ht24">
+         <p class="fn-left"><span class="font20">用户留言</span> </p>
+         <p class="fn-right" id="leave_msg_input_tip">您还可以输入<span class="colye">300</span>个字</p>
+        </div>
+        <div class="m-textArea top40">
+         <div class="fn-pr">
+          <textarea class="input" maxlength="300" name="leave_msg" id="leave_msg_content" placeholder="提示：严禁发布含有联系方式和广告性质的内容，违者一律删除！"></textarea>
+          <span class="prompt_pass">提示：严禁发布含有联系方式和广告性质的内容，违者一律删除 !</span>
+         </div>
+         <div class="inputArea">
+          <a href="javascript:void(0);" class="ui-btn ui-btn-red btn-publish-leave-msg">一键发布</a>
+          <div class="m-hykj fn-right right10 j-hover-all">
+           <span>公开</span>
+           <ul>
+            <li><a href="javascript:void(0)" data-scope="0">公开</a></li>
+            <li><a href="javascript:void(0)" data-scope="1">仅对方可见</a></li>
+            <li><a href="javascript:void(0)" data-scope="2">会员可见</a></li>
+           </ul>
+          </div>
+          <input type="hidden" id="public" name="public" value="0" />
+         </div>
+        </div>
+        <p class="pad30" id="J_mobile_msg_info"></p>
+        <div class="v6-message-all" id="leave_messages">
+         <ul>
+          <li>
+           <aside class="fn-left">
+            <img src="../../Skin/img201707/nan1.png" alt="">
+           </aside>
+           <article>
+            <section>
+             <div class="fn-right col999">
+              2018-02-03 23:49:23
+             </div>
+             <h6 class="fn-left">
+               某先生
+               <span class="left20">&nbsp;</span>
+             </h6>
+            </section>
+            <p class="fn-text-overflow col999"></p>
+            <p class="top10 line20 col666"> 想开个大型酒厂需要资金。找投资人。地址，辽宁省阜新蒙古族自治县本人姓名，宋国成。中学毕业。年龄48岁。用玉米高粱大枣烧酒。纯属于较久。远销国外多个国家。一年的利润达到15个亿到21之间。酒都还可以搞养殖。养牛羊达到几千万头。还可以出口目前资金在两千万左右。有意者可与我联系。 </p>
+           </article>
+         </li>
+         <li>
+          <aside class="fn-left">
+           <a href="" target="_blank">
+             <img src="../../Skin/img201707/nan1.png" />
+           </a>
+          </aside>
+          <article>
+           <section>
+            <div class="fn-right col999">
+             2018-02-28 11:55:12
+            </div>
+            <h6 class="fn-left">
+                顾先生
+              <span class="left20">&nbsp;</span>
+            </h6>
+           </section>
+           <p class="fn-text-overflow col999">所在地区：上海市浦东新区</p>
+           <p class="top10 line20 col666"> <span class="red ml10">内容仅楼主可见</span> </p>
+          </article>
+        </li>
+        <li>
+          <aside class="fn-left">
+             <img src="../../Skin/img201707/nan1.png" />
+          </aside>
+          <article>
+           <section>
+            <div class="fn-right col999">
+             2018-02-04 11:16:31
+            </div>
+            <h6 class="fn-left">
+              祖女士
+              <span class="left20">&nbsp;</span> </h6>
+           </section>
+           <p class="fn-text-overflow col999"></p>
+           <p class="top10 line20 col666"> 你好我是做一家小型婚纱摄影店的老板，刚开3个月目前应业务需求需要扩展。 </p>
+           <div class="message-reply">
+            <i class="part-icon-arrow-a"></i>
+            <dl>
+             <dt>
+              回复：
+             </dt>
+             <dd>
+               谢谢，貌似不错，发我邮箱可以吗？
+             </dd>
+            </dl>
+           </div>
+          </article>
+        </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <!-- 用户留言 -->
+      <div class=" bgFFF m-fbxx top30">
+      <div class=" m-title1">
+       <span class="title-span">你可能想找的投资人</span>
+      </div>
+      <div class="communication clearfix">
+       <a href="" class="fn-text-overflow" title="兰澜" target="_blank">兰澜</a>
+       <a href="" class="fn-text-overflow" title="饶煜宇" target="_blank">饶煜宇</a>
+       <a href="" class="fn-text-overflow" title="BennettJ.Goodman" target="_blank">BennettJ.Goodman</a>
+       <a href="" class="fn-text-overflow" title="林智" target="_blank">林智</a>
+       <a href="" class="fn-text-overflow" title="RobTheis" target="_blank">RobTheis</a>
+       <a href="" class="fn-text-overflow" title="李满园" target="_blank">李满园</a>
+       <a href="" class="fn-text-overflow" title="BobDavis" target="_blank">BobDavis</a>
+       <a href="" class="fn-text-overflow" title="傅哲宽" target="_blank">傅哲宽</a>
+       <a href="" class="fn-text-overflow" title="历大成" target="_blank">历大成</a>
+       <a href="" class="fn-text-overflow" title="廖斌" target="_blank">廖斌</a>
+       <a href="" class="fn-text-overflow" title="裴力" target="_blank">裴力</a>
+       <a href="" class="fn-text-overflow" title="潘水苗" target="_blank">潘水苗</a>
+      </div>
+     </div>
+     <!--想找的投资人  -->
+     <div class=" bgFFF m-fbxx top30">
+     <div class=" m-title1">
+      <span class="title-span">你可能想找的机构</span>
+     </div>
+     <div class="communication clearfix">
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际复兴国际</a>
+      <a href="" class="fn-text-overflow" title="复兴国际" target="_blank">复兴国际</a>
+     </div>
+    </div>
+    <!--想找的机构  -->
+			</div>
+		</div>
+	</div>
+
+
+
+
+    <div class="footer">
+      <div class="footer_content">
+        <ul>
+
+          <li>
+            <a href="#">首页</a>
+          </li>
+          <li>
+            <a href="#">股票</a>
+          </li>
+          <li>
+            <a href="#">期货</a>
+          </li>
+          <li>
+            <a href="#">基金</a>
+          </li>
+          <li>
+            <a href="#">投资</a>
+          </li>
+          <li>
+            <a href="#">理财</a>
+          </li>
+          <li>
+            <a href="#">视频</a>
+          </li>
+          <li>
+            <a href="#">企业词条</a>
+          </li>
+          <li>
+            <a href="#">问答中心</a>
+          </li>
+          <li>
+            <a href="#">关于我们</a>
+          </li>
+        </ul>
+        <p>未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任</p>
+        <p>Copyright 2010 - 2016 一融易网 All Rights Reserved</p>
+        <p>浙ICP备17019464号-1 浙江博创科技有限公司</p>
+      </div>
+    </div>
+
+    <div class="sidebar" style="display: none;">
+    <span class="kf"><a href=""><img src="../../Skin/img201707/客服.png" alt=""></a></span>
+    <span class="top"><a href="#top"><img src="../../Skin/img201707/返回顶层.png" alt=""></a></span>
+    </div>
+    <!--尾部结束 -->
+</body>
+<script type="text/javascript" src="../../Skin/Alljs201707/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/tou.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/touz-toudi.js"></script>
+</html>

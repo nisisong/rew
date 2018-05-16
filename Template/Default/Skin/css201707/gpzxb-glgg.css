@@ -1,0 +1,523 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+    border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.public_title h3 span{
+	font-size: 14px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+/*同行业个股排名*/
+.thge{
+    width:973px;
+    height: 352px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #dbebf8;
+    margin-bottom:20px;
+}
+.thge .table1{
+    position: absolute;
+    width: 956px;
+    table-layout: fixed;
+    z-index:100;
+    background: #fff;
+}
+.thge .table1 table{
+    width: 956px;
+}
+.thge .table1 tr{
+    background: #fff;
+}
+.thge .table1 tr th{
+   width:75px;
+   padding:10px 0;
+   text-align: center;
+   padding:10px 0;
+   font-size: 16px;
+}
+.thge #thygg_table_1{ 
+    table-layout: fixed; 
+    width:956px;
+}
+.thge table thead{
+    width:956px;
+    background: #fff;
+}
+.thge table .fix{
+    position: fixed;
+    top:0;
+}
+.thge table thead tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.thge table thead tr .first{
+    width: 100px;
+}
+.thge tbody{
+    width:956px;
+}
+.thge tbody tr{
+    background-color: #f7f7f7;
+}
+.thge tbody .odd{
+    background-color: #fff;
+}
+.thge tbody tr td{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.thge tbody tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.thge tbody tr td .red{
+   color: #f00;
+}
+.thge tbody tr td .green{
+   color: #090;
+}
+.thge2{
+    width:973px;
+    height: 352px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #dbebf8;
+    margin-bottom:20px;
+}
+.thge2 .table1{
+    position: absolute;
+    width: 956px;
+    table-layout: fixed;
+    z-index:100;
+    background: #fff;
+}
+.thge2 .table1 table{
+    width: 956px;
+}
+.thge2 .table1 tr{
+    background: #fff;
+}
+.thge2 .table1 tr th{
+   width:75px;
+   padding:10px 0;
+   text-align: center;
+   padding:10px 0;
+   font-size: 16px;
+}
+.thge2 #thygg_table_2{ 
+    table-layout: fixed; 
+    width:956px;
+    padding-left: 15px;
+}
+.thge2 table thead{
+    width:956px;
+    background: #fff;
+}
+.thge2 table .fix{
+    position: fixed;
+    top:0;
+}
+.thge2 table thead tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.thge2 table thead tr .first{
+    width: 100px;
+}
+.thge2 tbody{
+    width:956px;
+}
+.thge2 tbody tr{
+    background-color: #f7f7f7;
+}
+.thge2 tbody .odd{
+    background-color: #fff;
+}
+.thge2 tbody tr td{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.thge2 tbody tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.thge2 tbody tr td .red{
+   color: #f00;
+}
+.thge2 tbody tr td .green{
+   color: #090;
+}
+/*同概念个股*/
+.zfmz{
+    width:973px;
+    height: auto;
+    border: 1px solid #dbebf8;
+    margin-bottom:20px;
+}
+.zfmz .tab{
+    width:973px;
+    height: 57px;
+    border-bottom:#dbebf8 1px solid;
+}
+.zfmz .tab span{
+    font-size: 18px;
+    padding:0 5px 5px;
+    line-height: 57px;
+    border-bottom: 2px solid #fff;
+    margin:0 15px;
+    cursor: pointer;
+}
+.zfmz .tab .on{
+    font-size: 18px;
+    padding:0 5px 5px;
+    line-height: 57px;
+    border-bottom: 2px solid #2f5895;
+    font-weight: bold;
+}
+.zfmz .nr{
+    display: none;
+}
+.ggpm{
+    width:973px;
+    height: 352px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom:20px;
+    border-bottom: 1px solid #dbebf8;
+}
+.ggpm .table1{
+    position: absolute;
+    width: 956px;
+    table-layout: fixed;
+    z-index:100;
+    background: #fff;
+}
+.ggpm .table1 table{
+    width: 956px;
+}
+.ggpm .table1 tr{
+    background: #fff;
+}
+.ggpm .table1 tr th{
+   width:75px;
+   padding:10px 0;
+   text-align: center;
+   padding:10px 0;
+   font-size: 16px;
+}
+.ggpm #tgngg_table_1{ 
+    table-layout: fixed; 
+    width:956px;
+}
+.ggpm table thead{
+    width:956px;
+    background: #fff;
+}
+.ggpm table .fix{
+    position: fixed;
+    top:0;
+}
+.ggpm table thead tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.ggpm table thead tr .first{
+    width: 100px;
+}
+.ggpm tbody{
+    width:956px;
+}
+.ggpm tbody tr{
+    background-color: #f7f7f7;
+}
+.ggpm tbody .odd{
+    background-color: #fff;
+}
+.ggpm tbody tr td{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.ggpm tbody tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.ggpm tbody tr td .red{
+   color: #f00;
+}
+.ggpm tbody tr td .green{
+   color: #090;
+}
+.ggpm2{
+    width:973px;
+    height: 352px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 1px solid #dbebf8;
+}
+.ggpm2 .table1{
+    position: absolute;
+    width: 956px;
+    table-layout: fixed;
+    z-index:100;
+    background: #fff;
+}
+.ggpm2 .table1 table{
+    width: 956px;
+}
+.ggpm2 .table1 tr{
+    background: #fff;
+}
+.ggpm2 .table1 tr th{
+   width:75px;
+   padding:10px 0;
+   text-align: center;
+   padding:10px 0;
+   font-size: 16px;
+}
+.ggpm2 #tgngg_table_2{ 
+    table-layout: fixed; 
+    width:956px;
+    padding-left: 15px;
+}
+.ggpm2 table thead{
+    width:956px;
+    background: #fff;
+}
+.ggpm2 table .fix{
+    position: fixed;
+    top:0;
+}
+.ggpm2 table thead tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.ggpm2 table thead tr .first{
+    width: 100px;
+}
+.ggpm2 tbody{
+    width:956px;
+}
+.ggpm2 tbody tr{
+    background-color: #f7f7f7;
+}
+.ggpm2 tbody .odd{
+    background-color: #fff;
+}
+.ggpm2 tbody tr td{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.ggpm2 tbody tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.ggpm2 tbody tr td .red{
+   color: #f00;
+}
+.ggpm2 tbody tr td .green{
+   color: #090;
+}
+/*同地域个股*/
+.tdyg{
+    width:973px;
+    height: 352px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #dbebf8;
+    margin-bottom:20px;
+}
+.tdyg .table1{
+    position: absolute;
+    width: 956px;
+    table-layout: fixed;
+    z-index:100;
+    background: #fff;
+}
+.tdyg .table1 table{
+    width: 956px;
+}
+.tdyg .table1 tr{
+    background: #fff;
+}
+.tdyg .table1 tr th{
+   width:75px;
+   padding:10px 0;
+   text-align: center;
+   padding:10px 0;
+   font-size: 16px;
+}
+.tdyg #thygg_table_1{ 
+    table-layout: fixed; 
+    width:956px;
+}
+.tdyg table thead{
+    width:956px;
+    background: #fff;
+}
+.tdyg table .fix{
+    position: fixed;
+    top:0;
+}
+.tdyg table thead tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.tdyg table thead tr .first{
+    width: 100px;
+}
+.tdyg tbody{
+    width:956px;
+}
+.tdyg tbody tr{
+    background-color: #f7f7f7;
+}
+.tdyg tbody .odd{
+    background-color: #fff;
+}
+.tdyg tbody tr td{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.tdyg tbody tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.tdyg tbody tr td .red{
+   color: #f00;
+}
+.tdyg tbody tr td .green{
+   color: #090;
+}
+.tdyg2{
+    width:973px;
+    height: 352px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #dbebf8;
+    margin-bottom:20px;
+}
+.tdyg2 .table1{
+    position: absolute;
+    width: 956px;
+    table-layout: fixed;
+    z-index:100;
+    background: #fff;
+}
+.tdyg2 .table1 table{
+    width: 956px;
+}
+.tdyg2 .table1 tr{
+    background: #fff;
+}
+.tdyg2 .table1 tr th{
+   width:75px;
+   padding:10px 0;
+   text-align: center;
+   padding:10px 0;
+   font-size: 16px;
+}
+.tdyg2 #thygg_table_2{ 
+    table-layout: fixed; 
+    width:956px;
+    padding-left: 15px;
+}
+.tdyg2 table thead{
+    width:956px;
+    background: #fff;
+}
+.tdyg2 table .fix{
+    position: fixed;
+    top:0;
+}
+.tdyg2 table thead tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.tdyg2 table thead tr .first{
+    width: 100px;
+}
+.tdyg2 tbody{
+    width:956px;
+}
+.tdyg2 tbody tr{
+    background-color: #f7f7f7;
+}
+.tdyg2 tbody .odd{
+    background-color: #fff;
+}
+.tdyg2 tbody tr td{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.tdyg2 tbody tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.tdyg2 tbody tr td .red{
+   color: #f00;
+}
+.tdyg2 tbody tr td .green{
+   color: #090;
+}
+.noTableData{
+    height: 200px;
+    line-height: 350px;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+}

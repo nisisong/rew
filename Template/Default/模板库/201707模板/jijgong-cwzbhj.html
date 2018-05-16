@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>旗下基金财务指标合计</title>
+  <link rel="stylesheet" href="../../Skin/css201707/reset.css">
+  <link rel="stylesheet" href="../../Skin/css201707/public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/jijgong-public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/jijgong-cwzbhj.css">
+</head>
+<body>
+  <div class="header clearfix">
+    <div class="header-top">
+      <div class="top-nav">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="">首页</a>
+            </li>
+            <li class="nav-bright">
+              <a href=""><b>股</b>票</a>
+            </li>
+            <li>
+              <a href="">期货</a>
+            </li>
+            <li>
+              <a href="">基金</a>
+            </li>
+            <li>
+              <a href="">投资</a>
+            </li>
+            <li>
+              <a href="">理财</a>
+            </li>
+            <li>
+              <a href="">视频</a>
+            </li>
+            <li>
+              <a href="">企业词条</a>
+            </li>
+            <li>
+              <a href="">问答中心</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-sous">
+          <img src="../../Skin/img201707/sous.png" alt="">
+        </div>
+        <div class="header-wide">
+          <img src="../../Skin/img201707/sous-icon.png" alt="">
+          <input type="text" name="" value="">
+          <img class="cha" src="../../Skin/img201707/cha-icon.png" alt="">
+        </div>
+        <div class="header-login">
+          <ul>
+            <li>
+              <img src="../../Skin/img201707/fang.png" alt="">
+              <a href="">登录</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href="">注册</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="nav-son">
+      <div class="logo fl">
+        <img src="../../Skin/img201707/logo.png" alt="">
+      </div>
+      <div class="nav-ification fl">
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">股票</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er  colors">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">期货</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">基金</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">投资</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-last">
+          <li>
+            <h3>
+              <a href="">理财</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 头部结束 -->
+  <div class="crumbs">
+    <span>
+      <a href="">融易首页</a>
+      >
+      <a href="">融易基金</a>
+      >
+      <a href="">基金分类</a>
+    </span>
+    <span class="wz-search">
+        <span class="search">
+          <input type="text" class="bsearch-text" placeholder="请输入基金代码或名称">
+          <button class="bsearch-btn">搜索</button>
+        </span>
+      </span>
+  </div>
+  <!-- 面包屑 -->
+  <div class="project">
+    <h1>天弘基金管理有限公司<span>Tianhong Asset Management Co.,ltd</span></h1>
+  </div>
+<div class="content">
+  <!-- 左侧 -->
+  <div class="plate fl">
+    <div class="plate-index">
+      基金公司档案
+    </div>
+    <div class="plate-title tab">
+      <span>基本资料</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li>
+        <a href="">基本概况</a>
+      </li>
+      <li>
+        <a href="">基金经理</a>
+      </li>
+      <li class="last">
+        <a href="">基金评级</a>
+      </li>
+    </ul>
+    <!--基本资料  -->
+    <div class="plate-title tab">
+      <span>分红回报</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li>
+        <a href="">旗下基金净值</a>
+      </li>
+      <li>
+        <a href="">分红送配</a>
+      </li>
+      <li>
+        <a href="">阶段涨幅</a>
+      </li>
+      <li class="last">
+        <a href="">季/年度涨幅</a>
+      </li>
+    </ul>
+    <!-- 分红回报  -->
+    <div class="plate-title tab">
+      <span>投资组合</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li>
+        <a href="">公司持仓</a>
+      </li>
+      <li>
+        <a href="">债券持仓</a>
+      </li>
+      <li>
+        <a href="">行业配置</a>
+      </li>
+      <li>
+        <a href="">资产配置</a>
+      </li>
+      <li>
+        <a href="">持仓变动</a>
+      </li>
+      <li class="last">
+        <a href="">资产组合</a>
+      </li>
+    </ul>
+    <!--投资组合 -->
+    <div class="plate-title tab">
+      <span>规模份额</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li>
+        <a href="">规模变动</a>
+      </li>
+      <li class="last">
+        <a href="">持有人结构</a>
+      </li>
+    </ul>
+    <!-- 规模份额 -->
+    <div class="plate-title tab">
+      <span>财务数据</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li class=" active">
+        <a href="">旗下基金财务指标合计</a>
+      </li>
+      <li>
+        <a href="">旗下基金资产负债表合计</a>
+      </li>
+      <li>
+        <a href="">旗下基金利润表合计</a>
+      </li>
+      <li>
+        <a href="">旗下基金收入分析</a>
+      </li>
+      <li class="last">
+        <a href="">旗下基金费用分析</a>
+      </li>
+    </ul>
+    <!-- 财务数据 -->
+    <div class="plate-title tab">
+      <span>销售信息</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li class="last">
+        <a href="">基金费率</a>
+      </li>
+    </ul>
+    <!-- 销售信息 -->
+  </div>
+  <!-- 左侧 -->
+  <div class="content-right">
+    <div class="public_title">
+      <h3>旗下基金主要财务指标合计</h3>
+      <div class="main-title-select">
+        <span>其他公司旗下基金主要财务指标合计查询：</span>
+        <div class="ttjj-select active ">
+          <div href="" class="ttjj-select-heading">
+            <span>天弘基金</span>
+            <span class="ttjj-iconfont">
+              <img src="../../Skin/img201707/gp-xsbdown.png" alt="">
+            </span>
+          </div>
+          <ul>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 名称 -->
+    <div class="zfmz">
+      <div class="tab">
+            <span class="on">按报告期</span>
+            <span class="">按年度浏览</span>
+        </div>
+        <div class="nr" style="display:block">
+          <div class="xin">
+          <table class="ttjj-table ttjj-table-hover">
+            <thead>
+             <tr>
+              <th class="td-align-left">期间数据和指标</th>
+              <th>详情</th>
+              <th>2017-12-31</th>
+              <th>2017-08-08</th>
+              <th>2017-06-30</th>
+              <th>2016-12-31</th>
+             </tr>
+            </thead>
+            <tbody id="tbody">
+             <tr>
+              <td class="td-align-left"><a href="/Company/f10/cwzbxq_COMPROFIT_80041198_2017_0.html">本期已实现收益</a></td>
+              <td> <a href="/Company/f10/cwzbxq_COMPROFIT_80041198_2017_0.html">详情</a> </td>
+              <td> 5,624,512.74 </td>
+              <td> -9.53 </td>
+              <td> 2,254,059.11 </td>
+              <td> 1,935,377.53 </td>
+             </tr>
+             <tr>
+              <td class="td-align-left"><a href="/Company/f10/cwzbxq_NETPROFIT_80041198_2017_0.html">本期利润</a> </td>
+              <td> <a href="/Company/f10/cwzbxq_NETPROFIT_80041198_2017_0.html">详情</a> </td>
+              <td> 5,661,448.76 </td>
+              <td> 6.11 </td>
+              <td> 2,288,553.96 </td>
+              <td> 1,876,346.34 </td>
+             </tr>
+            </tbody>
+           </table>
+         </div>
+
+         <div class="xin">
+         <table class="ttjj-table ttjj-table-hover">
+           <thead>
+            <tr>
+             <th class="td-align-left">期间数据和指标</th>
+             <th>详情</th>
+             <th>2017-12-31</th>
+             <th>2017-08-08</th>
+             <th>2017-06-30</th>
+             <th>2016-12-31</th>
+            </tr>
+           </thead>
+           <tbody id="tbody">
+            <tr>
+             <td class="td-align-left"><a href="/Company/f10/cwzbxq_COMPROFIT_80041198_2017_0.html">本期已实现收益</a></td>
+             <td> <a href="/Company/f10/cwzbxq_COMPROFIT_80041198_2017_0.html">详情</a> </td>
+             <td> 5,624,512.74 </td>
+             <td> -9.53 </td>
+             <td> 2,254,059.11 </td>
+             <td> 1,935,377.53 </td>
+            </tr>
+            <tr>
+             <td class="td-align-left"><a href="/Company/f10/cwzbxq_NETPROFIT_80041198_2017_0.html">本期利润</a> </td>
+             <td> <a href="/Company/f10/cwzbxq_NETPROFIT_80041198_2017_0.html">详情</a> </td>
+             <td> 5,661,448.76 </td>
+             <td> 6.11 </td>
+             <td> 2,288,553.96 </td>
+             <td> 1,876,346.34 </td>
+            </tr>
+           </tbody>
+          </table>
+        </div>
+    </div>
+    <div class="nr">
+      <div class="xin">
+      <table class="ttjj-table ttjj-table-hover">
+        <thead>
+         <tr>
+          <th class="td-align-left">期间数据和指标</th>
+          <th>详情</th>
+          <th>2017-12-31</th>
+          <th>2017-08-08</th>
+          <th>2017-06-30</th>
+          <th>2016-12-31</th>
+         </tr>
+        </thead>
+        <tbody id="tbody">
+         <tr>
+          <td class="td-align-left"><a href="/Company/f10/cwzbxq_COMPROFIT_80041198_2017_0.html">本期已实现收益</a></td>
+          <td> <a href="/Company/f10/cwzbxq_COMPROFIT_80041198_2017_0.html">详情</a> </td>
+          <td> 5,624,512.74 </td>
+          <td> -9.53 </td>
+          <td> 2,254,059.11 </td>
+          <td> 1,935,377.53 </td>
+         </tr>
+         <tr>
+          <td class="td-align-left"><a href="/Company/f10/cwzbxq_NETPROFIT_80041198_2017_0.html">本期利润</a> </td>
+          <td> <a href="/Company/f10/cwzbxq_NETPROFIT_80041198_2017_0.html">详情</a> </td>
+          <td> 5,661,448.76 </td>
+          <td> 6.11 </td>
+          <td> 2,288,553.96 </td>
+          <td> 1,876,346.34 </td>
+         </tr>
+        </tbody>
+       </table>
+     </div>
+    </div>
+   </div>
+    <div class="new">
+      <div class="new-title">
+        <h3>
+          基金资讯
+          <b>
+            <a href="">查看更多+</a>
+          </b>
+        </h3>
+      </div>
+      <ul class="fl">
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+      </ul>
+      <ul class="fr news">
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+      </ul>
+    </div>
+    <!-- 热门教程 -->
+
+    <div class="content-course">
+      <div class="course-title">
+        <h3>
+          热门教程
+          <b>
+            <a href="">查看更多+</a>
+          </b>
+        </h3>
+      </div>
+      <ul>
+        <li>
+          <img src="../../Skin/img201707/jc-jic.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+        <li>
+          <img src="../../Skin/img201707/jc-kanp.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+        <li>
+          <img src="../../Skin/img201707/jc-kanp.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+        <li class="last">
+          <img src="../../Skin/img201707/jc-rm.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 热门视频、交易平台 -->
+
+    <div class="hot">
+      <div class="hot-tutorial fl">
+        <div class="tutorial-title">
+          <h3>
+            热门视频
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul>
+          <li>
+            <img src="../../Skin/img201707/sp-img.png" alt="">
+            <b>
+              <a href="">
+                <img src="../../Skin/img201707/bof.png" alt="">
+              </a>
+            </b>
+            <p>
+              <a href="">如何学会快速炒股？</a>
+            </p>
+          </li>
+          <li class="last">
+            <img src="../../Skin/img201707/sp-img.png" alt="">
+            <b>
+              <a href="">
+                <img src="../../Skin/img201707/bof.png" alt="">
+              </a>
+            </b>
+            <p>
+              <a href="">如何学会快速炒股？</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- 视频 -->
+      <div class="interfix fr">
+        <div class="interfix-title">
+          <h3>
+            热门平台
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+      </div>
+      <!-- 交易平台  -->
+    </div>
+    <!--视频、平台  -->
+  </div>
+  <!-- 内容右侧 -->
+</div>
+<!-- 内容 -->
+<div class="footer">
+  <div class="footer_content">
+    <ul>
+      <li>
+        <a href="#">首页</a>
+      </li>
+      <li>
+        <a href="#">股票</a>
+      </li>
+      <li>
+        <a href="#">期货</a>
+      </li>
+      <li>
+        <a href="#">基金</a>
+      </li>
+      <li>
+        <a href="#">投资</a>
+      </li>
+      <li>
+        <a href="#">理财</a>
+      </li>
+      <li>
+        <a href="#">视频</a>
+      </li>
+      <li>
+        <a href="#">企业词条</a>
+      </li>
+      <li>
+        <a href="#">问答中心</a>
+      </li>
+      <li>
+        <a href="#">关于我们</a>
+      </li>
+    </ul>
+    <p>未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任</p>
+    <p>Copyright 2010 - 2016 一融易网 All Rights Reserved</p>
+    <p>浙ICP备17019464号-1 杭州熙晟科技有限公司</p>
+  </div>
+</div>
+<!--尾部结束 -->
+</body>
+<script type="text/javascript" src="../../Skin/Alljs201707/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/search.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/jijgong-public.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/jijgong-tab.js"></script>
+</html>

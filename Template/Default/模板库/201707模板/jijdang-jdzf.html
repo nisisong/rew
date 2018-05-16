@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>阶段涨幅</title>
+  <link rel="stylesheet" href="../../Skin/css201707/reset.css">
+  <link rel="stylesheet" href="../../Skin/css201707/public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/jijdang-public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/jijdang-jdzf.css">
+</head>
+<body>
+  <div class="header clearfix">
+    <div class="header-top">
+      <div class="top-nav">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="">首页</a>
+            </li>
+            <li class="nav-bright">
+              <a href=""><b>股</b>票</a>
+            </li>
+            <li>
+              <a href="">期货</a>
+            </li>
+            <li>
+              <a href="">基金</a>
+            </li>
+            <li>
+              <a href="">投资</a>
+            </li>
+            <li>
+              <a href="">理财</a>
+            </li>
+            <li>
+              <a href="">视频</a>
+            </li>
+            <li>
+              <a href="">企业词条</a>
+            </li>
+            <li>
+              <a href="">问答中心</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-sous">
+          <img src="../../Skin/img201707/sous.png" alt="">
+        </div>
+        <div class="header-wide">
+          <img src="../../Skin/img201707/sous-icon.png" alt="">
+          <input type="text" name="" value="">
+          <img class="cha" src="../../Skin/img201707/cha-icon.png" alt="">
+        </div>
+        <div class="header-login">
+          <ul>
+            <li>
+              <img src="../../Skin/img201707/fang.png" alt="">
+              <a href="">登录</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href="">注册</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="nav-son">
+      <div class="logo fl">
+        <img src="../../Skin/img201707/logo.png" alt="">
+      </div>
+      <div class="nav-ification fl">
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">股票</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er  colors">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">期货</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">基金</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">投资</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-last">
+          <li>
+            <h3>
+              <a href="">理财</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 头部结束 -->
+  <div class="crumbs">
+    <span>
+      <a href="">融易首页</a>
+      >
+      <a href="">融易基金</a>
+      >
+      <a href="">基金分类</a>
+    </span>
+    <span class="wz-search">
+        <span class="search">
+          <input type="text" class="bsearch-text" placeholder="请输入基金代码或名称">
+          <button class="bsearch-btn">搜索</button>
+        </span>
+      </span>
+  </div>
+  <!-- 面包屑 -->
+  <div class="project">
+    <h1>国泰国证食品饮料行业指数分级 <span>(160222)</span></h1>
+  </div>
+  <div class="content">
+    <!-- 左侧 -->
+    <div class="plate fl">
+      <div class="plate-index">
+        基金档案
+      </div>
+      <div class="plate-title tab">
+        <span>基本资料</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">基本概况</a>
+        </li>
+        <li>
+          <a href="">基金经理</a>
+        </li>
+        <li>
+          <a href="">基金公司</a>
+        </li>
+        <li>
+          <a href="">基金评级</a>
+        </li>
+        <li class="last">
+          <a href="">特色数据</a>
+        </li>
+      </ul>
+      <!--基本资料  -->
+      <div class="plate-title tab">
+        <span>净值回报</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">历史净值</a>
+        </li>
+        <li>
+          <a href="">分红送配</a>
+        </li>
+        <li class="active">
+          <a href="">阶段涨幅</a>
+        </li>
+        <li class="last">
+          <a href="">季/年度涨幅</a>
+        </li>
+      </ul>
+      <!-- 净值回报  -->
+      <div class="plate-title tab">
+        <span>投资组合</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">基金持仓</a>
+        </li>
+        <li>
+          <a href="">债券持仓</a>
+        </li>
+        <li>
+          <a href="">持仓变动走势</a>
+        </li>
+        <li>
+          <a href="">行业配置</a>
+        </li>
+        <li>
+          <a href="">行业配置比较</a>
+        </li>
+        <li>
+          <a href="">资产配置</a>
+        </li>
+        <li class="last">
+          <a href="">重大变动</a>
+        </li>
+      </ul>
+      <!--投资组合 -->
+      <div class="plate-title tab">
+        <span>规模份额</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">规模变动</a>
+        </li>
+        <li class="last">
+          <a href="">持有人结构</a>
+        </li>
+      </ul>
+      <!-- 规模份额 -->
+      <div class="plate-title tab">
+        <span>财务报表</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">财务指标</a>
+        </li>
+        <li>
+          <a href="">资产负债表</a>
+        </li>
+        <li>
+          <a href="">利润表</a>
+        </li>
+        <li>
+          <a href="">收入分析</a>
+        </li>
+        <li class="last">
+          <a href="">费用分析</a>
+        </li>
+      </ul>
+      <!-- 财务数据 -->
+      <div class="plate-title tab">
+        <span>销售信息</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">购买信息（费率表）</a>
+        </li>
+        <li class="last">
+          <a href="">同公司基金转换</a>
+        </li>
+      </ul>
+      <!-- 销售信息 -->
+    </div>
+    <!-- 左侧 -->
+    <div class="content-right">
+      <div class="public_title">
+        <h3>阶段涨幅</h3>
+        <div class="main-title-select">
+          <span>其他基金阶段涨幅查询:</span>
+          <div class="ttjj-select active ">
+            <div href="" class="ttjj-select-heading">
+              <span>160222-国泰国证食品饮料行</span>
+              <span class="ttjj-iconfont">
+                <img src="../../Skin/img201707/gp-xsbdown.png" alt="">
+              </span>
+            </div>
+            <ul>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+              <li>
+                <a href="">000001-华夏成长</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 名称 -->
+      <div class="public_title">
+        <h3>阶段涨幅明细</h3>
+      </div>
+      <div class="xin">
+        <div class="jdzfnew">
+         <ul class="fcol">
+          <li class="title"></li>
+          <li>涨幅</li>
+          <li>同类平均</li>
+          <li>沪深300</li>
+          <li>同类排名</li>
+          <li>排名变动</li>
+          <li class="sfsi">四分位排名<img onmousemove="document.getElementById(&quot;jdzfTip&quot;).style.display=&quot;&quot;;" style="margin: 23px 0;vertical-align: middle;" src="http://j5.dfcfw.com/j1/images/faq.gif" />
+           <div id="jdzfTip" class="gzpmTips" style="display: none;">
+            <span>四分位排名是将同类基金按涨幅大小顺序排列，然后分为四等分，每个部分大约包含四分之一即25%的基金，基金按相对排名的位置高低分为：优秀、良好、一般、不佳。<a href="javascript:void(0)" class="promptbox" target="_self" title="关闭" onclick="document.getElementById(&quot;jdzfTip&quot;).style.display=&quot;none&quot;;">[&times;关闭]</a></span>
+           </div></li>
+         </ul>
+         <ul>
+          <li class="title">今年来</li>
+          <li class="tor grn bold">-4.80%</li>
+          <li class="tor grn bold">-3.01%</li>
+          <li class="tor grn bold">-2.57%</li>
+          <li class="tlpm">563<font class="gray">|</font>868</li>
+          <li class="pmbd">108<font class="grn">↓</font></li>
+          <li class="sf ">
+           <table class="tbsi">
+            <tbody>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdblack"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+            </tbody>
+           </table><p class="sifen">一般</p></li>
+         </ul>
+         <ul>
+          <li class="title">近1周</li>
+          <li class="tor red bold">3.16%</li>
+          <li class="tor grn bold">-1.11%</li>
+          <li class="tor red bold">1.67%</li>
+          <li class="tlpm">5<font class="gray">|</font>898</li>
+          <li class="pmbd">---<font class="blk"></font></li>
+          <li class="sf ">
+           <table class="tbsi">
+            <tbody>
+             <tr>
+              <td class="tdblack"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+            </tbody>
+           </table><p class="sifen">优秀</p></li>
+         </ul>
+         <ul>
+          <li class="title">近1月</li>
+          <li class="tor grn bold">-4.36%</li>
+          <li class="tor grn bold">-3.98%</li>
+          <li class="tor grn bold">-4.42%</li>
+          <li class="tlpm">403<font class="gray">|</font>900</li>
+          <li class="pmbd">46<font class="red">↑</font></li>
+          <li class="sf ">
+           <table class="tbsi">
+            <tbody>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdblack"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+            </tbody>
+           </table><p class="sifen">良好</p></li>
+         </ul>
+         <ul>
+          <li class="title">近3月</li>
+          <li class="tor grn bold">-10.68%</li>
+          <li class="tor grn bold">-6.01%</li>
+          <li class="tor grn bold">-6.67%</li>
+          <li class="tlpm">780<font class="gray">|</font>870</li>
+          <li class="pmbd">170<font class="grn">↓</font></li>
+          <li class="sf ">
+           <table class="tbsi">
+            <tbody>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdblack"></td>
+             </tr>
+            </tbody>
+           </table><p class="sifen">不佳</p></li>
+         </ul>
+         <ul>
+          <li class="title">近6月</li>
+          <li class="tor red bold">8.55%</li>
+          <li class="tor grn bold">-3.49%</li>
+          <li class="tor red bold">0.96%</li>
+          <li class="tlpm">45<font class="gray">|</font>829</li>
+          <li class="pmbd">1<font class="grn">↓</font></li>
+          <li class="sf ">
+           <table class="tbsi">
+            <tbody>
+             <tr>
+              <td class="tdblack"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+            </tbody>
+           </table><p class="sifen">优秀</p></li>
+         </ul>
+         <ul>
+          <li class="title">近1年</li>
+          <li class="tor red bold">36.13%</li>
+          <li class="tor red bold">3.48%</li>
+          <li class="tor red bold">12.04%</li>
+          <li class="tlpm">4<font class="gray">|</font>719</li>
+          <li class="pmbd">---<font class="blk"></font></li>
+          <li class="sf ">
+           <table class="tbsi">
+            <tbody>
+             <tr>
+              <td class="tdblack"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+            </tbody>
+           </table><p class="sifen">优秀</p></li>
+         </ul>
+         <ul>
+          <li class="title">近2年</li>
+          <li class="tor red bold">75.13%</li>
+          <li class="tor red bold">13.90%</li>
+          <li class="tor red bold">23.27%</li>
+          <li class="tlpm">3<font class="gray">|</font>597</li>
+          <li class="pmbd">---<font class="blk"></font></li>
+          <li class="sf ">
+           <table class="tbsi">
+            <tbody>
+             <tr>
+              <td class="tdblack"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+            </tbody>
+           </table><p class="sifen">优秀</p></li>
+         </ul>
+         <ul>
+          <li class="title">近3年</li>
+          <li class="tor red bold">60.20%</li>
+          <li class="tor grn bold">-6.64%</li>
+          <li class="tor grn bold">-9.60%</li>
+          <li class="tlpm">3<font class="gray">|</font>365</li>
+          <li class="pmbd">---<font class="blk"></font></li>
+          <li class="sf ">
+           <table class="tbsi">
+            <tbody>
+             <tr>
+              <td class="tdblack"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+             <tr>
+              <td class="tdno"></td>
+             </tr>
+            </tbody>
+           </table><p class="sifen">优秀</p></li>
+         </ul>
+         <ul>
+          <li class="title">近5年</li>
+          <li class="tlpm">---</li>
+          <li class="tor red bold">75.40%</li>
+          <li class="tor red bold">58.02%</li>
+          <li class="tlpm">---<font class="gray">|</font>214</li>
+          <li class="pmbd">---<font class="tlpm"></font></li>
+          <li class="sf ">---</li>
+         </ul>
+         <ul class="last">
+          <li class="title">成立来</li>
+          <li class="tor red bold">112.97%</li>
+          <li class="tlpm">---</li>
+          <li class="tlpm">---</li>
+          <li class="tlpm">---</li>
+          <li class="pmbd">---<font class="tlpm"></font></li>
+          <li class="sf sflast">---</li>
+         </ul>
+        </div>
+      </div>
+
+      <div class="new">
+        <div class="new-title">
+          <h3>
+            基金资讯
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul class="fl">
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+        </ul>
+        <ul class="fr news">
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+        </ul>
+      </div>
+      <!-- 热门教程 -->
+      <div class="content-course">
+        <div class="course-title">
+          <h3>
+            热门教程
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul>
+          <li>
+            <img src="../../Skin/img201707/jc-jic.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+          <li>
+            <img src="../../Skin/img201707/jc-kanp.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+          <li>
+            <img src="../../Skin/img201707/jc-kanp.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+          <li class="last">
+            <img src="../../Skin/img201707/jc-rm.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- 热门视频、交易平台 -->
+      <div class="hot">
+        <div class="hot-tutorial fl">
+          <div class="tutorial-title">
+            <h3>
+              热门视频
+              <b>
+                <a href="">查看更多+</a>
+              </b>
+            </h3>
+          </div>
+          <ul>
+            <li>
+              <img src="../../Skin/img201707/sp-img.png" alt="">
+              <b>
+                <a href="">
+                  <img src="../../Skin/img201707/bof.png" alt="">
+                </a>
+              </b>
+              <p>
+                <a href="">如何学会快速炒股？</a>
+              </p>
+            </li>
+            <li class="last">
+              <img src="../../Skin/img201707/sp-img.png" alt="">
+              <b>
+                <a href="">
+                  <img src="../../Skin/img201707/bof.png" alt="">
+                </a>
+              </b>
+              <p>
+                <a href="">如何学会快速炒股？</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <!-- 视频 -->
+        <div class="interfix fr">
+          <div class="interfix-title">
+            <h3>
+              热门平台
+              <b>
+                <a href="">查看更多+</a>
+              </b>
+            </h3>
+          </div>
+          <span>
+            <p class="interfix-name">
+              <a href="">
+                上海证券交易所
+              </a>
+            </p>
+            <p class="interfix-text">
+              上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+            </p>
+          </span>
+          <span>
+            <p class="interfix-name">
+              <a href="">
+                上海证券交易所
+              </a>
+            </p>
+            <p class="interfix-text">
+              上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+            </p>
+          </span>
+          <span>
+            <p class="interfix-name">
+              <a href="">
+                上海证券交易所
+              </a>
+            </p>
+            <p class="interfix-text">
+              上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+            </p>
+          </span>
+          <span>
+            <p class="interfix-name">
+              <a href="">
+                上海证券交易所
+              </a>
+            </p>
+            <p class="interfix-text">
+              上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+            </p>
+          </span>
+        </div>
+        <!-- 交易平台  -->
+      </div>
+      <!--视频、平台  -->
+    </div>
+  <!-- 内容右侧 -->
+</div>
+<!-- 内容 -->
+<div class="footer">
+  <div class="footer_content">
+    <ul>
+      <li>
+        <a href="#">首页</a>
+      </li>
+      <li>
+        <a href="#">股票</a>
+      </li>
+      <li>
+        <a href="#">期货</a>
+      </li>
+      <li>
+        <a href="#">基金</a>
+      </li>
+      <li>
+        <a href="#">投资</a>
+      </li>
+      <li>
+        <a href="#">理财</a>
+      </li>
+      <li>
+        <a href="#">视频</a>
+      </li>
+      <li>
+        <a href="#">企业词条</a>
+      </li>
+      <li>
+        <a href="#">问答中心</a>
+      </li>
+      <li>
+        <a href="#">关于我们</a>
+      </li>
+    </ul>
+    <p>未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任</p>
+    <p>Copyright 2010 - 2016 一融易网 All Rights Reserved</p>
+    <p>浙ICP备17019464号-1 杭州熙晟科技有限公司</p>
+  </div>
+</div>
+<!--尾部结束 -->
+</body>
+<script type="text/javascript" src="../../Skin/Alljs201707/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/search.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/jijdang-public.js"></script>
+</html>

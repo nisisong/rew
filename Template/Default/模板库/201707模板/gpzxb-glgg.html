@@ -1,0 +1,2399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>关联个股</title>
+  <link rel="stylesheet" href="../../Skin/css201707/reset.css">
+  <link rel="stylesheet" href="../../Skin/css201707/public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/gpzxb-public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/gpzxb-glgg.css">
+</head>
+<body>
+  <!-- 头部 -->
+  <div class="header clearfix">
+    <div class="header-top">
+      <div class="top-nav">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="">首页</a>
+            </li>
+            <li class="nav-bright">
+              <a href=""><b>股</b>票</a>
+            </li>
+            <li>
+              <a href="">期货</a>
+            </li>
+            <li>
+              <a href="">基金</a>
+            </li>
+            <li>
+              <a href="">投资</a>
+            </li>
+            <li>
+              <a href="">理财</a>
+            </li>
+            <li>
+              <a href="">视频</a>
+            </li>
+            <li>
+              <a href="">企业词条</a>
+            </li>
+            <li>
+              <a href="">问答中心</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-sous">
+          <img src="../../Skin/img201707/sous.png" alt="">
+        </div>
+        <div class="header-wide">
+          <img src="../../Skin/img201707/sous-icon.png" alt="">
+          <input type="text" name="" value="">
+          <img class="cha" src="../../Skin/img201707/cha-icon.png" alt="">
+        </div>
+        <div class="header-login">
+          <ul>
+            <li>
+              <img src="../../Skin/img201707/fang.png" alt="">
+              <a href="">登录</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href="">注册</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="nav-son">
+      <div class="logo fl">
+        <img src="../../Skin/img201707/logo.png" alt="">
+      </div>
+      <div class="nav-ification fl">
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">股票</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er  colors">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">期货</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">基金</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">投资</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-last">
+          <li>
+            <h3>
+              <a href="">理财</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 面包屑 -->
+  <div class="crumbs">
+    <span>
+      <a href="">融易首页</a>
+      >
+      <a href="">融易股票</a>
+      >
+      <a href="">股票分类</a>
+    </span>
+    <span class="wz-search">
+        <span class="search">
+          <input type="text" class="bsearch-text" placeholder="请输入股票代码或名称">
+          <button class="bsearch-btn">搜索</button>
+        </span>
+      </span>
+  </div>
+  <!-- 内容 -->
+  <div class="content">
+    <!--左侧速览 -->
+    <div class="plate fl">
+      <div class="plate-index">
+        <a href="">操盘必读</a>
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">股东研究</a>
+        </li>
+        <li>
+          <a href="">经营分析</a>
+        </li>
+        <li>
+          <a href="">核心题材</a>
+        </li>
+        <li>
+          <a href="">公司大事</a>
+        </li>
+        <li>
+          <a href="">公司概况</a>
+        </li>
+        <li>
+          <a href="">同行比较</a>
+        </li>
+        <li>
+          <a href="">盈利预测</a>
+        </li>
+        <li>
+          <a href="">财务分析</a>
+        </li>
+        <li>
+          <a href="">分红融资</a>
+        </li>
+        <li>
+          <a href="">股本结构</a>
+        </li>
+        <li>
+          <a href="">公司高管</a>
+        </li>
+        <li>
+          <a href="">资本运作</a>
+        </li>
+        <li class="active">
+          <a href="">关联个股</a>
+        </li>
+        <li class="last">
+          <a href="">资金流向</a>
+        </li>
+      </ul>
+    </div>
+    <!-- 右侧 -->
+    <div class="content-right">
+      <!-- 同行业个股排名 -->
+      <div class="public_title">
+        <h3>
+          同行业个股排名
+        </h3>
+      </div>
+      <div class="thge">
+        <div class="table1">
+          <table>
+            <tbody>
+              <tr>
+                <th class="tips-colnameC">序号</th>
+                <th class="tips-colnameC">股票代码</th>
+                <th class="tips-colnameC">股票名称</th>
+                <th class="tips-colnameC handCursor huangPaiXu">总市值(元)</th>
+                <th class="tips-colnameC handCursor ">流通市值(元)</th>
+                <th class="tips-colnameC handCursor ">营业收入(元)</th>
+                <th class="tips-colnameC handCursor ">归属净利润(元)</th>
+                <th class="tips-colnameC handCursor ">营业收入同比增长</th>
+                <th class="tips-colnameC handCursor ">归属净利润同比增长</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table id="thygg_table_1">
+          <tbody>
+            <tr class="trTitle odd">
+              <th class="tips-colnameC">序号</th>
+              <th class="tips-colnameC">股票代码</th>
+              <th class="tips-colnameC">股票名称</th>
+              <th class="tips-colnameC">总市值(元)</th>
+              <th class="tips-colnameC">流通市值(元)</th>
+              <th class="tips-colnameC">营业收入(元)</th>
+              <th class="tips-colnameC">归属净利润(元)</th>
+              <th class="tips-colnameC">营业收入同比增长</th>
+              <th class="tips-colnameC">归属净利润同比增长</th>
+            </tr>
+            <tr>
+              <td class="tips-dataC">1</td>
+              <td class="tips-dataC">300124</td>
+              <td class="tips-dataC">汇川技术</td>
+              <td class="tips-dataC">476亿</td>
+              <td class="tips-dataC">365亿</td>
+              <td class="tips-dataC">31.3亿 ③</td>
+              <td class="tips-dataC">7.23亿 ③</td>
+              <td class="tips-dataC">27.57% ③</td>
+              <td class="tips-dataC">5.03% ③</td>
+            </tr>
+            <tr class="odd">
+              <td class="tips-dataC">2</td>
+              <td class="tips-dataC">000710</td>
+              <td class="tips-dataC">贝瑞基因</td>
+              <td class="tips-dataC">190亿</td>
+              <td class="tips-dataC">80.9亿</td>
+              <td class="tips-dataC">8.12亿 ③</td>
+              <td class="tips-dataC">1.60亿 ③</td>
+              <td class="tips-dataC">25.92% ③</td>
+              <td class="tips-dataC">73.91% ③</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">3</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">177亿</td>
+              <td class="tips-dataC">175亿</td>
+              <td class="tips-dataC">25.2亿 ③</td>
+              <td class="tips-dataC">5.49亿 ③</td>
+              <td class="tips-dataC">21.06% ③</td>
+              <td class="tips-dataC">83.97% ③</td>
+            </tr>
+            <tr class="odd">
+              <td class="tips-dataC">4</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">163亿</td>
+              <td class="tips-dataC">163亿</td>
+              <td class="tips-dataC">16.6亿 ③</td>
+              <td class="tips-dataC">3.22亿 ③</td>
+              <td class="tips-dataC">26.42% ③</td>
+              <td class="tips-dataC">27.82% ③</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">5</td>
+              <td class="tips-dataC">601567</td>
+              <td class="tips-dataC">三星医疗</td>
+              <td class="tips-dataC">138亿</td>
+              <td class="tips-dataC">121亿</td>
+              <td class="tips-dataC">34.7亿 ③</td>
+              <td class="tips-dataC">4.19亿 ③</td>
+              <td class="tips-dataC">9.92% ③</td>
+              <td class="tips-dataC">16.23% ③</td>
+            </tr>
+            <tr class="odd">
+              <td class="tips-dataC">6</td>
+              <td class="tips-dataC">002121</td>
+              <td class="tips-dataC">科陆电子</td>
+              <td class="tips-dataC">125亿</td>
+              <td class="tips-dataC">62.7亿</td>
+              <td class="tips-dataC">28.1亿 ③</td>
+              <td class="tips-dataC">2.71亿 ③</td>
+              <td class="tips-dataC">37.66% ③</td>
+              <td class="tips-dataC">287.52% ③</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">7</td>
+              <td class="tips-dataC">300309</td>
+              <td class="tips-dataC">吉艾科技</td>
+              <td class="tips-dataC">103亿</td>
+              <td class="tips-dataC">92.2亿</td>
+              <td class="tips-dataC">5.87亿 ③</td>
+              <td class="tips-dataC">1.04亿 ③</td>
+              <td class="tips-dataC">409.29% ③</td>
+              <td class="tips-dataC">--</td>
+            </tr>
+            <tr class="stockself odd">
+              <td class="tips-dataC">8</td>
+              <td class="tips-dataC">300349</td>
+              <td class="tips-dataC">金卡智能</td>
+              <td class="tips-dataC">92.8亿</td>
+              <td class="tips-dataC">72.5亿</td>
+              <td class="tips-dataC">9.70亿 ③</td>
+              <td class="tips-dataC">1.76亿 ③</td>
+              <td class="tips-dataC">93.89% ③</td>
+              <td class="tips-dataC">216.26% ③</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="noTableData">没有相关数据...</div>
+      </div>
+      <div class="thge2">
+        <div class="table1">
+          <table>
+            <tbody>
+              <tr>
+                <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+              </tr>
+              <tr>
+                <th class="tips-dataC" >代码</th>
+                <th class="tips-dataC" >名称</th>
+                <th class="tips-dataC" >涨跌幅</th>
+                <th class="tips-dataC" >代码</th>
+                <th class="tips-dataC" >名称</th>
+                <th class="tips-dataC" >涨跌幅</th>
+                <th class="tips-dataC" >代码</th>
+                <th class="tips-dataC" >名称</th>
+                <th class="tips-dataC">涨跌幅</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table id="thygg_table_2">
+          <tbody>
+            <tr class="odd">
+              <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+              <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+              <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+            </tr>
+            <tr>
+              <th class="tips-dataC" >代码</th>
+              <th class="tips-dataC" >名称</th>
+              <th class="tips-dataC" >涨跌幅</th>
+              <th class="tips-dataC" >代码</th>
+              <th class="tips-dataC" >名称</th>
+              <th class="tips-dataC" >涨跌幅</th>
+              <th class="tips-dataC" >代码</th>
+              <th class="tips-dataC" >名称</th>
+              <th class="tips-dataC">涨跌幅</th>
+            </tr>
+            <tr>
+              <td class="tips-dataC selfBgColor">300349</td>
+              <td class="tips-dataC selfBgColor">金卡智能</td>
+              <td class="tips-dataC selfBgColor">13.60%</td>
+              <td class="tips-dataC selfBgColor">300349</td>
+              <td class="tips-dataC selfBgColor">金卡智能</td>
+              <td class="tips-dataC selfBgColor">12.68%</td>
+              <td class="tips-dataC selfBgColor">300349</td>
+              <td class="tips-dataC selfBgColor">金卡智能</td>
+              <td class="tips-dataC selfBgColor">18.14%</td>
+            </tr>
+            <tr class="odd">
+              <td class="tips-dataC">002870</td>
+              <td class="tips-dataC">香山股份</td>
+              <td class="tips-dataC">3.12%</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">11.71%</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">8.86%</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">002877</td>
+              <td class="tips-dataC">智能自控</td>
+              <td class="tips-dataC">1.86%</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">3.96%</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">5.47%</td></tr>
+            <tr class="odd">
+              <td class="tips-dataC">002767</td>
+              <td class="tips-dataC">先锋电子</td>
+              <td class="tips-dataC">1.70%</td>
+              <td class="tips-dataC">300124</td>
+              <td class="tips-dataC">汇川技术</td>
+              <td class="tips-dataC">3.25%</td>
+              <td class="tips-dataC">300572</td>
+              <td class="tips-dataC">安车检测</td>
+              <td class="tips-dataC">5.45%</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">002877</td>
+              <td class="tips-dataC">智能自控</td>
+              <td class="tips-dataC">1.86%</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">3.96%</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">5.47%</td></tr>
+            <tr class="odd">
+              <td class="tips-dataC">002767</td>
+              <td class="tips-dataC">先锋电子</td>
+              <td class="tips-dataC">1.70%</td>
+              <td class="tips-dataC">300124</td>
+              <td class="tips-dataC">汇川技术</td>
+              <td class="tips-dataC">3.25%</td>
+              <td class="tips-dataC">300572</td>
+              <td class="tips-dataC">安车检测</td>
+              <td class="tips-dataC">5.45%</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">002877</td>
+              <td class="tips-dataC">智能自控</td>
+              <td class="tips-dataC">1.86%</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">3.96%</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">5.47%</td></tr>
+            <tr class="odd">
+              <td class="tips-dataC">002767</td>
+              <td class="tips-dataC">先锋电子</td>
+              <td class="tips-dataC">1.70%</td>
+              <td class="tips-dataC">300124</td>
+              <td class="tips-dataC">汇川技术</td>
+              <td class="tips-dataC">3.25%</td>
+              <td class="tips-dataC">300572</td>
+              <td class="tips-dataC">安车检测</td>
+              <td class="tips-dataC">5.45%</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="noTableData">没有相关数据...</div>
+      </div>
+      <!-- 同概念个股排名 -->
+      <div class="public_title">
+        <h3>同概念个股排名</h3>
+      </div>
+      <div class="zfmz">
+        <div class="tab">
+          <span class="on">阿里概念</span>
+          <span>云计算</span>
+          <span>物联网</span>
+          <span>创业板综</span>
+          <span>预盈预增</span>
+        </div>
+        <div class="nr" style="display: block;">
+          <div class="ggpm">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr class="trTitle">
+                    <th class="tips-colnameC">序号</th>
+                    <th class="tips-colnameC">股票代码</th>
+                    <th class="tips-colnameC">股票名称</th>
+                    <th class="tips-colnameC handCursor huangPaiXu">总市值(元)</th>
+                    <th class="tips-colnameC handCursor ">流通市值(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入(元)</th>
+                    <th class="tips-colnameC handCursor ">归属净利润(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入同比增长</th>
+                    <th class="tips-colnameC handCursor ">归属净利润同比增长</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_1">
+              <tbody>
+                <tr class="trTitle">
+                  <th class="tips-colnameC">序号</th>
+                  <th class="tips-colnameC">股票代码</th>
+                  <th class="tips-colnameC">股票名称</th>
+                  <th class="tips-colnameC">总市值(元)</th>
+                  <th class="tips-colnameC">流通市值(元)</th>
+                  <th class="tips-colnameC">营业收入(元)</th>
+                  <th class="tips-colnameC">归属净利润(元)</th>
+                  <th class="tips-colnameC">营业收入同比增长</th>
+                  <th class="tips-colnameC">归属净利润同比增长</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">1</td>
+                  <td class="tips-dataC">600050</td>
+                  <td class="tips-dataC">中国联通</td>
+                  <td class="tips-dataC">1968亿</td>
+                  <td class="tips-dataC">1380亿</td>
+                  <td class="tips-dataC">2058亿 ③</td>
+                  <td class="tips-dataC">13.1亿 ③</td>
+                  <td class="tips-dataC">-0.66% ③</td>
+                  <td class="tips-dataC">168.42% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">2</td>
+                  <td class="tips-dataC">002024</td>
+                  <td class="tips-dataC">苏宁云商</td>
+                  <td class="tips-dataC">1134亿</td>
+                  <td class="tips-dataC">607亿</td>
+                  <td class="tips-dataC">1319亿 ③</td>
+                  <td class="tips-dataC">6.72亿 ③</td>
+                  <td class="tips-dataC">26.98% ③</td>
+                  <td class="tips-dataC">--</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">3</td>
+                  <td class="tips-dataC">600690</td>
+                  <td class="tips-dataC">青岛海尔</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1192亿 ③</td>
+                  <td class="tips-dataC">56.8亿 ③</td>
+                  <td class="tips-dataC">41.27% ③</td>
+                  <td class="tips-dataC">48.48% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">4</td>
+                  <td class="tips-dataC">002230</td>
+                  <td class="tips-dataC">科大讯飞</td>
+                  <td class="tips-dataC">828亿</td>
+                  <td class="tips-dataC">705亿</td>
+                  <td class="tips-dataC">33.9亿 ③</td>
+                  <td class="tips-dataC">1.69亿 ③</td>
+                  <td class="tips-dataC">58.16% ③</td>
+                  <td class="tips-dataC">-39.45% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">5</td>
+                  <td class="tips-dataC">000625</td>
+                  <td class="tips-dataC">长安汽车</td>
+                  <td class="tips-dataC">611亿</td>
+                  <td class="tips-dataC">479亿</td>
+                  <td class="tips-dataC">514亿 ③</td>
+                  <td class="tips-dataC">58.1亿 ③</td>
+                  <td class="tips-dataC">-4.06% ③</td>
+                  <td class="tips-dataC">-24.92% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">6</td>
+                  <td class="tips-dataC">600332</td>
+                  <td class="tips-dataC">白云山</td>
+                  <td class="tips-dataC">523亿</td>
+                  <td class="tips-dataC">344亿</td>
+                  <td class="tips-dataC">160亿 ③</td>
+                  <td class="tips-dataC">14.9亿 ③</td>
+                  <td class="tips-dataC">2.72% ③</td>
+                  <td class="tips-dataC">40.63% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">7</td>
+                  <td class="tips-dataC">600398</td>
+                  <td class="tips-dataC">海澜之家</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">125亿 ③</td>
+                  <td class="tips-dataC">25.1亿 ③</td>
+                  <td class="tips-dataC">3.40% ③</td>
+                  <td class="tips-dataC">4.07% ③</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">8</td>
+                  <td class="tips-dataC">601216</td>
+                  <td class="tips-dataC">君正集团</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">55.2亿 ③</td>
+                  <td class="tips-dataC">16.1亿 ③</td>
+                  <td class="tips-dataC">41.41% ③</td>
+                  <td class="tips-dataC">62.40% ③</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+          <div class="ggpm2">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr>
+                    <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                  </tr>
+                  <tr>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC">涨跌幅</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_2">
+              <tbody>
+                <tr class="odd">
+                  <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                </tr>
+                <tr>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC">涨跌幅</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">13.60%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">12.68%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">18.14%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002870</td>
+                  <td class="tips-dataC">香山股份</td>
+                  <td class="tips-dataC">3.12%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">11.71%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">8.86%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+        </div>
+        <div class="nr">
+          <div class="ggpm">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr class="trTitle">
+                    <th class="tips-colnameC">序号</th>
+                    <th class="tips-colnameC">股票代码</th>
+                    <th class="tips-colnameC">股票名称</th>
+                    <th class="tips-colnameC handCursor huangPaiXu">总市值(元)</th>
+                    <th class="tips-colnameC handCursor ">流通市值(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入(元)</th>
+                    <th class="tips-colnameC handCursor ">归属净利润(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入同比增长</th>
+                    <th class="tips-colnameC handCursor ">归属净利润同比增长</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_1">
+              <tbody>
+                <tr class="trTitle">
+                  <th class="tips-colnameC">序号</th>
+                  <th class="tips-colnameC">股票代码</th>
+                  <th class="tips-colnameC">股票名称</th>
+                  <th class="tips-colnameC">总市值(元)</th>
+                  <th class="tips-colnameC">流通市值(元)</th>
+                  <th class="tips-colnameC">营业收入(元)</th>
+                  <th class="tips-colnameC">归属净利润(元)</th>
+                  <th class="tips-colnameC">营业收入同比增长</th>
+                  <th class="tips-colnameC">归属净利润同比增长</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">1</td>
+                  <td class="tips-dataC">600050</td>
+                  <td class="tips-dataC">中国联通</td>
+                  <td class="tips-dataC">1968亿</td>
+                  <td class="tips-dataC">1380亿</td>
+                  <td class="tips-dataC">2058亿 ③</td>
+                  <td class="tips-dataC">13.1亿 ③</td>
+                  <td class="tips-dataC">-0.66% ③</td>
+                  <td class="tips-dataC">168.42% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">2</td>
+                  <td class="tips-dataC">002024</td>
+                  <td class="tips-dataC">苏宁云商</td>
+                  <td class="tips-dataC">1134亿</td>
+                  <td class="tips-dataC">607亿</td>
+                  <td class="tips-dataC">1319亿 ③</td>
+                  <td class="tips-dataC">6.72亿 ③</td>
+                  <td class="tips-dataC">26.98% ③</td>
+                  <td class="tips-dataC">--</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">3</td>
+                  <td class="tips-dataC">600690</td>
+                  <td class="tips-dataC">青岛海尔</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1192亿 ③</td>
+                  <td class="tips-dataC">56.8亿 ③</td>
+                  <td class="tips-dataC">41.27% ③</td>
+                  <td class="tips-dataC">48.48% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">4</td>
+                  <td class="tips-dataC">002230</td>
+                  <td class="tips-dataC">科大讯飞</td>
+                  <td class="tips-dataC">828亿</td>
+                  <td class="tips-dataC">705亿</td>
+                  <td class="tips-dataC">33.9亿 ③</td>
+                  <td class="tips-dataC">1.69亿 ③</td>
+                  <td class="tips-dataC">58.16% ③</td>
+                  <td class="tips-dataC">-39.45% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">5</td>
+                  <td class="tips-dataC">000625</td>
+                  <td class="tips-dataC">长安汽车</td>
+                  <td class="tips-dataC">611亿</td>
+                  <td class="tips-dataC">479亿</td>
+                  <td class="tips-dataC">514亿 ③</td>
+                  <td class="tips-dataC">58.1亿 ③</td>
+                  <td class="tips-dataC">-4.06% ③</td>
+                  <td class="tips-dataC">-24.92% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">6</td>
+                  <td class="tips-dataC">600332</td>
+                  <td class="tips-dataC">白云山</td>
+                  <td class="tips-dataC">523亿</td>
+                  <td class="tips-dataC">344亿</td>
+                  <td class="tips-dataC">160亿 ③</td>
+                  <td class="tips-dataC">14.9亿 ③</td>
+                  <td class="tips-dataC">2.72% ③</td>
+                  <td class="tips-dataC">40.63% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">7</td>
+                  <td class="tips-dataC">600398</td>
+                  <td class="tips-dataC">海澜之家</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">125亿 ③</td>
+                  <td class="tips-dataC">25.1亿 ③</td>
+                  <td class="tips-dataC">3.40% ③</td>
+                  <td class="tips-dataC">4.07% ③</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">8</td>
+                  <td class="tips-dataC">601216</td>
+                  <td class="tips-dataC">君正集团</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">55.2亿 ③</td>
+                  <td class="tips-dataC">16.1亿 ③</td>
+                  <td class="tips-dataC">41.41% ③</td>
+                  <td class="tips-dataC">62.40% ③</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+          <div class="ggpm2">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr>
+                    <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                  </tr>
+                  <tr>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC">涨跌幅</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_2">
+              <tbody>
+                <tr class="odd">
+                  <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                </tr>
+                <tr>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC">涨跌幅</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">13.60%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">12.68%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">18.14%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002870</td>
+                  <td class="tips-dataC">香山股份</td>
+                  <td class="tips-dataC">3.12%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">11.71%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">8.86%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+        </div>
+        <div class="nr">
+          <div class="ggpm">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr class="trTitle">
+                    <th class="tips-colnameC">序号</th>
+                    <th class="tips-colnameC">股票代码</th>
+                    <th class="tips-colnameC">股票名称</th>
+                    <th class="tips-colnameC handCursor huangPaiXu">总市值(元)</th>
+                    <th class="tips-colnameC handCursor ">流通市值(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入(元)</th>
+                    <th class="tips-colnameC handCursor ">归属净利润(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入同比增长</th>
+                    <th class="tips-colnameC handCursor ">归属净利润同比增长</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_1">
+              <tbody>
+                <tr class="trTitle">
+                  <th class="tips-colnameC">序号</th>
+                  <th class="tips-colnameC">股票代码</th>
+                  <th class="tips-colnameC">股票名称</th>
+                  <th class="tips-colnameC">总市值(元)</th>
+                  <th class="tips-colnameC">流通市值(元)</th>
+                  <th class="tips-colnameC">营业收入(元)</th>
+                  <th class="tips-colnameC">归属净利润(元)</th>
+                  <th class="tips-colnameC">营业收入同比增长</th>
+                  <th class="tips-colnameC">归属净利润同比增长</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">1</td>
+                  <td class="tips-dataC">600050</td>
+                  <td class="tips-dataC">中国联通</td>
+                  <td class="tips-dataC">1968亿</td>
+                  <td class="tips-dataC">1380亿</td>
+                  <td class="tips-dataC">2058亿 ③</td>
+                  <td class="tips-dataC">13.1亿 ③</td>
+                  <td class="tips-dataC">-0.66% ③</td>
+                  <td class="tips-dataC">168.42% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">2</td>
+                  <td class="tips-dataC">002024</td>
+                  <td class="tips-dataC">苏宁云商</td>
+                  <td class="tips-dataC">1134亿</td>
+                  <td class="tips-dataC">607亿</td>
+                  <td class="tips-dataC">1319亿 ③</td>
+                  <td class="tips-dataC">6.72亿 ③</td>
+                  <td class="tips-dataC">26.98% ③</td>
+                  <td class="tips-dataC">--</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">3</td>
+                  <td class="tips-dataC">600690</td>
+                  <td class="tips-dataC">青岛海尔</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1192亿 ③</td>
+                  <td class="tips-dataC">56.8亿 ③</td>
+                  <td class="tips-dataC">41.27% ③</td>
+                  <td class="tips-dataC">48.48% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">4</td>
+                  <td class="tips-dataC">002230</td>
+                  <td class="tips-dataC">科大讯飞</td>
+                  <td class="tips-dataC">828亿</td>
+                  <td class="tips-dataC">705亿</td>
+                  <td class="tips-dataC">33.9亿 ③</td>
+                  <td class="tips-dataC">1.69亿 ③</td>
+                  <td class="tips-dataC">58.16% ③</td>
+                  <td class="tips-dataC">-39.45% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">5</td>
+                  <td class="tips-dataC">000625</td>
+                  <td class="tips-dataC">长安汽车</td>
+                  <td class="tips-dataC">611亿</td>
+                  <td class="tips-dataC">479亿</td>
+                  <td class="tips-dataC">514亿 ③</td>
+                  <td class="tips-dataC">58.1亿 ③</td>
+                  <td class="tips-dataC">-4.06% ③</td>
+                  <td class="tips-dataC">-24.92% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">6</td>
+                  <td class="tips-dataC">600332</td>
+                  <td class="tips-dataC">白云山</td>
+                  <td class="tips-dataC">523亿</td>
+                  <td class="tips-dataC">344亿</td>
+                  <td class="tips-dataC">160亿 ③</td>
+                  <td class="tips-dataC">14.9亿 ③</td>
+                  <td class="tips-dataC">2.72% ③</td>
+                  <td class="tips-dataC">40.63% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">7</td>
+                  <td class="tips-dataC">600398</td>
+                  <td class="tips-dataC">海澜之家</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">125亿 ③</td>
+                  <td class="tips-dataC">25.1亿 ③</td>
+                  <td class="tips-dataC">3.40% ③</td>
+                  <td class="tips-dataC">4.07% ③</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">8</td>
+                  <td class="tips-dataC">601216</td>
+                  <td class="tips-dataC">君正集团</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">55.2亿 ③</td>
+                  <td class="tips-dataC">16.1亿 ③</td>
+                  <td class="tips-dataC">41.41% ③</td>
+                  <td class="tips-dataC">62.40% ③</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+          <div class="ggpm2">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr>
+                    <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                  </tr>
+                  <tr>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC">涨跌幅</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_2">
+              <tbody>
+                <tr class="odd">
+                  <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                </tr>
+                <tr>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC">涨跌幅</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">13.60%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">12.68%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">18.14%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002870</td>
+                  <td class="tips-dataC">香山股份</td>
+                  <td class="tips-dataC">3.12%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">11.71%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">8.86%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+        </div>
+        <div class="nr">
+          <div class="ggpm">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr class="trTitle">
+                    <th class="tips-colnameC">序号</th>
+                    <th class="tips-colnameC">股票代码</th>
+                    <th class="tips-colnameC">股票名称</th>
+                    <th class="tips-colnameC handCursor huangPaiXu">总市值(元)</th>
+                    <th class="tips-colnameC handCursor ">流通市值(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入(元)</th>
+                    <th class="tips-colnameC handCursor ">归属净利润(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入同比增长</th>
+                    <th class="tips-colnameC handCursor ">归属净利润同比增长</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_1">
+              <tbody>
+                <tr class="trTitle">
+                  <th class="tips-colnameC">序号</th>
+                  <th class="tips-colnameC">股票代码</th>
+                  <th class="tips-colnameC">股票名称</th>
+                  <th class="tips-colnameC">总市值(元)</th>
+                  <th class="tips-colnameC">流通市值(元)</th>
+                  <th class="tips-colnameC">营业收入(元)</th>
+                  <th class="tips-colnameC">归属净利润(元)</th>
+                  <th class="tips-colnameC">营业收入同比增长</th>
+                  <th class="tips-colnameC">归属净利润同比增长</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">1</td>
+                  <td class="tips-dataC">600050</td>
+                  <td class="tips-dataC">中国联通</td>
+                  <td class="tips-dataC">1968亿</td>
+                  <td class="tips-dataC">1380亿</td>
+                  <td class="tips-dataC">2058亿 ③</td>
+                  <td class="tips-dataC">13.1亿 ③</td>
+                  <td class="tips-dataC">-0.66% ③</td>
+                  <td class="tips-dataC">168.42% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">2</td>
+                  <td class="tips-dataC">002024</td>
+                  <td class="tips-dataC">苏宁云商</td>
+                  <td class="tips-dataC">1134亿</td>
+                  <td class="tips-dataC">607亿</td>
+                  <td class="tips-dataC">1319亿 ③</td>
+                  <td class="tips-dataC">6.72亿 ③</td>
+                  <td class="tips-dataC">26.98% ③</td>
+                  <td class="tips-dataC">--</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">3</td>
+                  <td class="tips-dataC">600690</td>
+                  <td class="tips-dataC">青岛海尔</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1192亿 ③</td>
+                  <td class="tips-dataC">56.8亿 ③</td>
+                  <td class="tips-dataC">41.27% ③</td>
+                  <td class="tips-dataC">48.48% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">4</td>
+                  <td class="tips-dataC">002230</td>
+                  <td class="tips-dataC">科大讯飞</td>
+                  <td class="tips-dataC">828亿</td>
+                  <td class="tips-dataC">705亿</td>
+                  <td class="tips-dataC">33.9亿 ③</td>
+                  <td class="tips-dataC">1.69亿 ③</td>
+                  <td class="tips-dataC">58.16% ③</td>
+                  <td class="tips-dataC">-39.45% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">5</td>
+                  <td class="tips-dataC">000625</td>
+                  <td class="tips-dataC">长安汽车</td>
+                  <td class="tips-dataC">611亿</td>
+                  <td class="tips-dataC">479亿</td>
+                  <td class="tips-dataC">514亿 ③</td>
+                  <td class="tips-dataC">58.1亿 ③</td>
+                  <td class="tips-dataC">-4.06% ③</td>
+                  <td class="tips-dataC">-24.92% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">6</td>
+                  <td class="tips-dataC">600332</td>
+                  <td class="tips-dataC">白云山</td>
+                  <td class="tips-dataC">523亿</td>
+                  <td class="tips-dataC">344亿</td>
+                  <td class="tips-dataC">160亿 ③</td>
+                  <td class="tips-dataC">14.9亿 ③</td>
+                  <td class="tips-dataC">2.72% ③</td>
+                  <td class="tips-dataC">40.63% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">7</td>
+                  <td class="tips-dataC">600398</td>
+                  <td class="tips-dataC">海澜之家</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">125亿 ③</td>
+                  <td class="tips-dataC">25.1亿 ③</td>
+                  <td class="tips-dataC">3.40% ③</td>
+                  <td class="tips-dataC">4.07% ③</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">8</td>
+                  <td class="tips-dataC">601216</td>
+                  <td class="tips-dataC">君正集团</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">55.2亿 ③</td>
+                  <td class="tips-dataC">16.1亿 ③</td>
+                  <td class="tips-dataC">41.41% ③</td>
+                  <td class="tips-dataC">62.40% ③</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+          <div class="ggpm2">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr>
+                    <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                  </tr>
+                  <tr>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC">涨跌幅</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_2">
+              <tbody>
+                <tr class="odd">
+                  <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                </tr>
+                <tr>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC">涨跌幅</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">13.60%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">12.68%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">18.14%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002870</td>
+                  <td class="tips-dataC">香山股份</td>
+                  <td class="tips-dataC">3.12%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">11.71%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">8.86%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+        </div>
+        <div class="nr">
+          <div class="ggpm">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr class="trTitle">
+                    <th class="tips-colnameC">序号</th>
+                    <th class="tips-colnameC">股票代码</th>
+                    <th class="tips-colnameC">股票名称</th>
+                    <th class="tips-colnameC handCursor huangPaiXu">总市值(元)</th>
+                    <th class="tips-colnameC handCursor ">流通市值(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入(元)</th>
+                    <th class="tips-colnameC handCursor ">归属净利润(元)</th>
+                    <th class="tips-colnameC handCursor ">营业收入同比增长</th>
+                    <th class="tips-colnameC handCursor ">归属净利润同比增长</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_1">
+              <tbody>
+                <tr class="trTitle">
+                  <th class="tips-colnameC">序号</th>
+                  <th class="tips-colnameC">股票代码</th>
+                  <th class="tips-colnameC">股票名称</th>
+                  <th class="tips-colnameC">总市值(元)</th>
+                  <th class="tips-colnameC">流通市值(元)</th>
+                  <th class="tips-colnameC">营业收入(元)</th>
+                  <th class="tips-colnameC">归属净利润(元)</th>
+                  <th class="tips-colnameC">营业收入同比增长</th>
+                  <th class="tips-colnameC">归属净利润同比增长</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">1</td>
+                  <td class="tips-dataC">600050</td>
+                  <td class="tips-dataC">中国联通</td>
+                  <td class="tips-dataC">1968亿</td>
+                  <td class="tips-dataC">1380亿</td>
+                  <td class="tips-dataC">2058亿 ③</td>
+                  <td class="tips-dataC">13.1亿 ③</td>
+                  <td class="tips-dataC">-0.66% ③</td>
+                  <td class="tips-dataC">168.42% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">2</td>
+                  <td class="tips-dataC">002024</td>
+                  <td class="tips-dataC">苏宁云商</td>
+                  <td class="tips-dataC">1134亿</td>
+                  <td class="tips-dataC">607亿</td>
+                  <td class="tips-dataC">1319亿 ③</td>
+                  <td class="tips-dataC">6.72亿 ③</td>
+                  <td class="tips-dataC">26.98% ③</td>
+                  <td class="tips-dataC">--</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">3</td>
+                  <td class="tips-dataC">600690</td>
+                  <td class="tips-dataC">青岛海尔</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1127亿</td>
+                  <td class="tips-dataC">1192亿 ③</td>
+                  <td class="tips-dataC">56.8亿 ③</td>
+                  <td class="tips-dataC">41.27% ③</td>
+                  <td class="tips-dataC">48.48% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">4</td>
+                  <td class="tips-dataC">002230</td>
+                  <td class="tips-dataC">科大讯飞</td>
+                  <td class="tips-dataC">828亿</td>
+                  <td class="tips-dataC">705亿</td>
+                  <td class="tips-dataC">33.9亿 ③</td>
+                  <td class="tips-dataC">1.69亿 ③</td>
+                  <td class="tips-dataC">58.16% ③</td>
+                  <td class="tips-dataC">-39.45% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">5</td>
+                  <td class="tips-dataC">000625</td>
+                  <td class="tips-dataC">长安汽车</td>
+                  <td class="tips-dataC">611亿</td>
+                  <td class="tips-dataC">479亿</td>
+                  <td class="tips-dataC">514亿 ③</td>
+                  <td class="tips-dataC">58.1亿 ③</td>
+                  <td class="tips-dataC">-4.06% ③</td>
+                  <td class="tips-dataC">-24.92% ③</td>
+                </tr>
+                <tr  class="odd">
+                  <td class="tips-dataC">6</td>
+                  <td class="tips-dataC">600332</td>
+                  <td class="tips-dataC">白云山</td>
+                  <td class="tips-dataC">523亿</td>
+                  <td class="tips-dataC">344亿</td>
+                  <td class="tips-dataC">160亿 ③</td>
+                  <td class="tips-dataC">14.9亿 ③</td>
+                  <td class="tips-dataC">2.72% ③</td>
+                  <td class="tips-dataC">40.63% ③</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">7</td>
+                  <td class="tips-dataC">600398</td>
+                  <td class="tips-dataC">海澜之家</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">427亿</td>
+                  <td class="tips-dataC">125亿 ③</td>
+                  <td class="tips-dataC">25.1亿 ③</td>
+                  <td class="tips-dataC">3.40% ③</td>
+                  <td class="tips-dataC">4.07% ③</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">8</td>
+                  <td class="tips-dataC">601216</td>
+                  <td class="tips-dataC">君正集团</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">397亿</td>
+                  <td class="tips-dataC">55.2亿 ③</td>
+                  <td class="tips-dataC">16.1亿 ③</td>
+                  <td class="tips-dataC">41.41% ③</td>
+                  <td class="tips-dataC">62.40% ③</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+          <div class="ggpm2">
+            <div class="table1">
+              <table>
+                <tbody>
+                  <tr>
+                    <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                    <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                  </tr>
+                  <tr>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC" >涨跌幅</th>
+                    <th class="tips-dataC" >代码</th>
+                    <th class="tips-dataC" >名称</th>
+                    <th class="tips-dataC">涨跌幅</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <table id="tgngg_table_2">
+              <tbody>
+                <tr class="odd">
+                  <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                  <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+                </tr>
+                <tr>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC" >涨跌幅</th>
+                  <th class="tips-dataC" >代码</th>
+                  <th class="tips-dataC" >名称</th>
+                  <th class="tips-dataC">涨跌幅</th>
+                </tr>
+                <tr>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">13.60%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">12.68%</td>
+                  <td class="tips-dataC selfBgColor">300349</td>
+                  <td class="tips-dataC selfBgColor">金卡智能</td>
+                  <td class="tips-dataC selfBgColor">18.14%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002870</td>
+                  <td class="tips-dataC">香山股份</td>
+                  <td class="tips-dataC">3.12%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">11.71%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">8.86%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+                <tr>
+                  <td class="tips-dataC">002877</td>
+                  <td class="tips-dataC">智能自控</td>
+                  <td class="tips-dataC">1.86%</td>
+                  <td class="tips-dataC">300203</td>
+                  <td class="tips-dataC">聚光科技</td>
+                  <td class="tips-dataC">3.96%</td>
+                  <td class="tips-dataC">601222</td>
+                  <td class="tips-dataC">林洋能源</td>
+                  <td class="tips-dataC">5.47%</td>
+                </tr>
+                <tr class="odd">
+                  <td class="tips-dataC">002767</td>
+                  <td class="tips-dataC">先锋电子</td>
+                  <td class="tips-dataC">1.70%</td>
+                  <td class="tips-dataC">300124</td>
+                  <td class="tips-dataC">汇川技术</td>
+                  <td class="tips-dataC">3.25%</td>
+                  <td class="tips-dataC">300572</td>
+                  <td class="tips-dataC">安车检测</td>
+                  <td class="tips-dataC">5.45%</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="noTableData">没有相关数据...</div>
+          </div>
+        </div>
+      </div>
+      <!-- 同地域个股排名 -->
+      <div class="public_title">
+        <h3>同地域个股排名</h3>
+      </div>
+      <div class="tdyg">
+        <div class="table1">
+          <table>
+            <tbody>
+              <tr>
+                <th class="tips-colnameC">序号</th>
+                <th class="tips-colnameC">股票代码</th>
+                <th class="tips-colnameC">股票名称</th>
+                <th class="tips-colnameC handCursor huangPaiXu">总市值(元)</th>
+                <th class="tips-colnameC handCursor ">流通市值(元)</th>
+                <th class="tips-colnameC handCursor ">营业收入(元)</th>
+                <th class="tips-colnameC handCursor ">归属净利润(元)</th>
+                <th class="tips-colnameC handCursor ">营业收入同比增长</th>
+                <th class="tips-colnameC handCursor ">归属净利润同比增长</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table id="thygg_table_1">
+          <tbody>
+            <tr class="trTitle odd">
+              <th class="tips-colnameC">序号</th>
+              <th class="tips-colnameC">股票代码</th>
+              <th class="tips-colnameC">股票名称</th>
+              <th class="tips-colnameC">总市值(元)</th>
+              <th class="tips-colnameC">流通市值(元)</th>
+              <th class="tips-colnameC">营业收入(元)</th>
+              <th class="tips-colnameC">归属净利润(元)</th>
+              <th class="tips-colnameC">营业收入同比增长</th>
+              <th class="tips-colnameC">归属净利润同比增长</th>
+            </tr>
+            <tr>
+              <td class="tips-dataC">1</td>
+              <td class="tips-dataC">300124</td>
+              <td class="tips-dataC">汇川技术</td>
+              <td class="tips-dataC">476亿</td>
+              <td class="tips-dataC">365亿</td>
+              <td class="tips-dataC">31.3亿 ③</td>
+              <td class="tips-dataC">7.23亿 ③</td>
+              <td class="tips-dataC">27.57% ③</td>
+              <td class="tips-dataC">5.03% ③</td>
+            </tr>
+            <tr class="odd">
+              <td class="tips-dataC">2</td>
+              <td class="tips-dataC">000710</td>
+              <td class="tips-dataC">贝瑞基因</td>
+              <td class="tips-dataC">190亿</td>
+              <td class="tips-dataC">80.9亿</td>
+              <td class="tips-dataC">8.12亿 ③</td>
+              <td class="tips-dataC">1.60亿 ③</td>
+              <td class="tips-dataC">25.92% ③</td>
+              <td class="tips-dataC">73.91% ③</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">3</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">177亿</td>
+              <td class="tips-dataC">175亿</td>
+              <td class="tips-dataC">25.2亿 ③</td>
+              <td class="tips-dataC">5.49亿 ③</td>
+              <td class="tips-dataC">21.06% ③</td>
+              <td class="tips-dataC">83.97% ③</td>
+            </tr>
+            <tr class="odd">
+              <td class="tips-dataC">4</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">163亿</td>
+              <td class="tips-dataC">163亿</td>
+              <td class="tips-dataC">16.6亿 ③</td>
+              <td class="tips-dataC">3.22亿 ③</td>
+              <td class="tips-dataC">26.42% ③</td>
+              <td class="tips-dataC">27.82% ③</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">5</td>
+              <td class="tips-dataC">601567</td>
+              <td class="tips-dataC">三星医疗</td>
+              <td class="tips-dataC">138亿</td>
+              <td class="tips-dataC">121亿</td>
+              <td class="tips-dataC">34.7亿 ③</td>
+              <td class="tips-dataC">4.19亿 ③</td>
+              <td class="tips-dataC">9.92% ③</td>
+              <td class="tips-dataC">16.23% ③</td>
+            </tr>
+            <tr class="odd">
+              <td class="tips-dataC">6</td>
+              <td class="tips-dataC">002121</td>
+              <td class="tips-dataC">科陆电子</td>
+              <td class="tips-dataC">125亿</td>
+              <td class="tips-dataC">62.7亿</td>
+              <td class="tips-dataC">28.1亿 ③</td>
+              <td class="tips-dataC">2.71亿 ③</td>
+              <td class="tips-dataC">37.66% ③</td>
+              <td class="tips-dataC">287.52% ③</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">7</td>
+              <td class="tips-dataC">300309</td>
+              <td class="tips-dataC">吉艾科技</td>
+              <td class="tips-dataC">103亿</td>
+              <td class="tips-dataC">92.2亿</td>
+              <td class="tips-dataC">5.87亿 ③</td>
+              <td class="tips-dataC">1.04亿 ③</td>
+              <td class="tips-dataC">409.29% ③</td>
+              <td class="tips-dataC">--</td>
+            </tr>
+            <tr class="stockself odd">
+              <td class="tips-dataC">8</td>
+              <td class="tips-dataC">300349</td>
+              <td class="tips-dataC">金卡智能</td>
+              <td class="tips-dataC">92.8亿</td>
+              <td class="tips-dataC">72.5亿</td>
+              <td class="tips-dataC">9.70亿 ③</td>
+              <td class="tips-dataC">1.76亿 ③</td>
+              <td class="tips-dataC">93.89% ③</td>
+              <td class="tips-dataC">216.26% ③</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="noTableData">没有相关数据...</div>
+      </div>
+      <div class="tdyg2">
+        <div class="table1">
+          <table>
+            <tbody>
+              <tr>
+                <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+                <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+                <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+              </tr>
+              <tr>
+                <th class="tips-dataC" >代码</th>
+                <th class="tips-dataC" >名称</th>
+                <th class="tips-dataC" >涨跌幅</th>
+                <th class="tips-dataC" >代码</th>
+                <th class="tips-dataC" >名称</th>
+                <th class="tips-dataC" >涨跌幅</th>
+                <th class="tips-dataC" >代码</th>
+                <th class="tips-dataC" >名称</th>
+                <th class="tips-dataC">涨跌幅</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <table id="thygg_table_2">
+          <tbody>
+            <tr class="odd">
+              <th class="tips-colnameC" colspan="3" >3日涨幅参考</th>
+              <th class="tips-colnameC" colspan="3" >6日涨幅参考</th>
+              <th class="tips-colnameC" colspan="3">12日涨幅参考</th>
+            </tr>
+            <tr>
+              <th class="tips-dataC" >代码</th>
+              <th class="tips-dataC" >名称</th>
+              <th class="tips-dataC" >涨跌幅</th>
+              <th class="tips-dataC" >代码</th>
+              <th class="tips-dataC" >名称</th>
+              <th class="tips-dataC" >涨跌幅</th>
+              <th class="tips-dataC" >代码</th>
+              <th class="tips-dataC" >名称</th>
+              <th class="tips-dataC">涨跌幅</th>
+            </tr>
+            <tr>
+              <td class="tips-dataC selfBgColor">300349</td>
+              <td class="tips-dataC selfBgColor">金卡智能</td>
+              <td class="tips-dataC selfBgColor">13.60%</td>
+              <td class="tips-dataC selfBgColor">300349</td>
+              <td class="tips-dataC selfBgColor">金卡智能</td>
+              <td class="tips-dataC selfBgColor">12.68%</td>
+              <td class="tips-dataC selfBgColor">300349</td>
+              <td class="tips-dataC selfBgColor">金卡智能</td>
+              <td class="tips-dataC selfBgColor">18.14%</td>
+            </tr>
+            <tr class="odd">
+              <td class="tips-dataC">002870</td>
+              <td class="tips-dataC">香山股份</td>
+              <td class="tips-dataC">3.12%</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">11.71%</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">8.86%</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">002877</td>
+              <td class="tips-dataC">智能自控</td>
+              <td class="tips-dataC">1.86%</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">3.96%</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">5.47%</td></tr>
+            <tr class="odd">
+              <td class="tips-dataC">002767</td>
+              <td class="tips-dataC">先锋电子</td>
+              <td class="tips-dataC">1.70%</td>
+              <td class="tips-dataC">300124</td>
+              <td class="tips-dataC">汇川技术</td>
+              <td class="tips-dataC">3.25%</td>
+              <td class="tips-dataC">300572</td>
+              <td class="tips-dataC">安车检测</td>
+              <td class="tips-dataC">5.45%</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">002877</td>
+              <td class="tips-dataC">智能自控</td>
+              <td class="tips-dataC">1.86%</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">3.96%</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">5.47%</td></tr>
+            <tr class="odd">
+              <td class="tips-dataC">002767</td>
+              <td class="tips-dataC">先锋电子</td>
+              <td class="tips-dataC">1.70%</td>
+              <td class="tips-dataC">300124</td>
+              <td class="tips-dataC">汇川技术</td>
+              <td class="tips-dataC">3.25%</td>
+              <td class="tips-dataC">300572</td>
+              <td class="tips-dataC">安车检测</td>
+              <td class="tips-dataC">5.45%</td>
+            </tr>
+            <tr>
+              <td class="tips-dataC">002877</td>
+              <td class="tips-dataC">智能自控</td>
+              <td class="tips-dataC">1.86%</td>
+              <td class="tips-dataC">300203</td>
+              <td class="tips-dataC">聚光科技</td>
+              <td class="tips-dataC">3.96%</td>
+              <td class="tips-dataC">601222</td>
+              <td class="tips-dataC">林洋能源</td>
+              <td class="tips-dataC">5.47%</td></tr>
+            <tr class="odd">
+              <td class="tips-dataC">002767</td>
+              <td class="tips-dataC">先锋电子</td>
+              <td class="tips-dataC">1.70%</td>
+              <td class="tips-dataC">300124</td>
+              <td class="tips-dataC">汇川技术</td>
+              <td class="tips-dataC">3.25%</td>
+              <td class="tips-dataC">300572</td>
+              <td class="tips-dataC">安车检测</td>
+              <td class="tips-dataC">5.45%</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="noTableData">没有相关数据...</div>
+      </div>
+      <!-- 股票资讯 -->
+      <div class="new">
+        <div class="new-title">
+          <h3>
+            股票资讯
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul class="fl">
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+        </ul>
+        <ul class="fr news">
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+        </ul>
+      </div>
+      <!-- 热门教程 -->
+      <div class="content-course">
+        <div class="course-title">
+          <h3>
+            热门教程
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul>
+          <li>
+            <img src="../../Skin/img201707/jc-jic.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+          <li>
+            <img src="../../Skin/img201707/jc-kanp.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+          <li>
+            <img src="../../Skin/img201707/jc-kanp.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+          <li class="last">
+            <img src="../../Skin/img201707/jc-rm.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- 视频 -->
+      <div class="hot">
+        <div class="hot-tutorial fl">
+          <div class="tutorial-title">
+            <h3>
+              热门视频
+              <b>
+                <a href="">查看更多+</a>
+              </b>
+            </h3>
+          </div>
+          <ul>
+            <li>
+              <img src="../../Skin/img201707/sp-img.png" alt="">
+              <b>
+                <a href="">
+                  <img src="../../Skin/img201707/bof.png" alt="">
+                </a>
+              </b>
+              <p>
+                <a href="">如何学会快速炒股？</a>
+              </p>
+            </li>
+            <li class="last">
+              <img src="../../Skin/img201707/sp-img.png" alt="">
+              <b>
+                <a href="">
+                  <img src="../../Skin/img201707/bof.png" alt="">
+                </a>
+              </b>
+              <p>
+                <a href="">如何学会快速炒股？</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <!-- 交易平台  -->
+        <div class="interfix fr">
+          <div class="interfix-title">
+            <h3>
+              热门平台
+              <b>
+                <a href="">查看更多+</a>
+              </b>
+            </h3>
+          </div>
+          <span>
+            <p class="interfix-name">
+              <a href="">
+                上海证券交易所
+              </a>
+            </p>
+            <p class="interfix-text">
+              上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+            </p>
+          </span>
+          <span>
+            <p class="interfix-name">
+              <a href="">
+                上海证券交易所
+              </a>
+            </p>
+            <p class="interfix-text">
+              上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+            </p>
+          </span>
+          <span>
+            <p class="interfix-name">
+              <a href="">
+                上海证券交易所
+              </a>
+            </p>
+            <p class="interfix-text">
+              上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+            </p>
+          </span>
+          <span>
+            <p class="interfix-name">
+              <a href="">
+                上海证券交易所
+              </a>
+            </p>
+            <p class="interfix-text">
+              上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--底部 -->
+  <div class="footer">
+    <div class="footer_content">
+      <ul>
+        <li>
+          <a href="#">首页</a>
+        </li>
+        <li>
+          <a href="#">股票</a>
+        </li>
+        <li>
+          <a href="#">期货</a>
+        </li>
+        <li>
+          <a href="#">基金</a>
+        </li>
+        <li>
+          <a href="#">投资</a>
+        </li>
+        <li>
+          <a href="#">理财</a>
+        </li>
+        <li>
+          <a href="#">视频</a>
+        </li>
+        <li>
+          <a href="#">企业词条</a>
+        </li>
+        <li>
+          <a href="#">问答中心</a>
+        </li>
+        <li>
+          <a href="#">关于我们</a>
+        </li>
+      </ul>
+      <p>未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任</p>
+      <p>Copyright 2010 - 2016 一融易网 All Rights Reserved</p>
+      <p>浙ICP备17019464号-1 杭州熙晟科技有限公司</p>
+    </div>
+  </div>
+  <!-- 返回顶部 -->
+  <div class="sidebar" style="display: none;">
+    <span class="kf">
+      <a href="">
+        <img src="../../Skin/img201707/客服.png" alt="">
+      </a>
+    </span>
+    <span class="top">
+      <a href="#top">
+        <img src="../../Skin/img201707/返回顶层.png" alt="">
+      </a>
+    </span>
+  </div>
+</body>
+<script type="text/javascript" src="../../Skin/Alljs201707/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/search.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/gpzxb-tab.js"></script>
+</html>

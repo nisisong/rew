@@ -1,0 +1,101 @@
+.public_title{
+  background-color: #f3f8ff;
+  width: 973px;
+  height: 37px;
+  border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+  font-size: 18px;
+  line-height: 37px;
+  color: #2f5895;
+  padding-left: 18px;
+}
+.f10cnt{
+  width:971px;
+  height: auto;
+  border: 1px solid #dbebf8;
+  margin-bottom: 20px;
+}
+table tr{
+  width:973px;
+  height: auto;
+  border-collapse:collapse;
+}
+table tr th{
+  /*width:194px;*/
+  padding:10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2f5895; 
+  text-align: center;
+}
+table tr td{
+  /*width:194px;*/
+  padding:10px 25px;
+  font-size: 16px;
+  color: #333;
+  text-align: center; 
+}
+table .text td{
+  padding:10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  text-align: justify;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+table tr{
+  background: #fff;
+}
+table .odd{
+  background: #f7f7f7;
+}
+.gjzbBox .tab{
+  width:973px;
+  height: 57px;
+}
+.gjzbBox .tab span{
+  font-size: 18px;
+  padding:0 5px 5px;
+  line-height: 57px;
+  border-bottom: 2px solid #fff;
+  margin:0 15px;
+  cursor: pointer;
+}
+.gjzbBox .tab .on{
+  font-size: 18px;
+  padding:0 5px 5px;
+  line-height: 57px;
+  border-bottom: 2px solid #2f5895;
+  font-weight: bold;
+}
+.collapse1{
+  margin-top: 4px;
+  margin-left: 20px;
+  display: inline-block;
+  line-height: 14px;
+  padding: 0 ;
+  background: url(../img201707/attachment_sprite.gif) no-repeat -154px -141px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+.expansion1{
+  margin-top: 4px;
+  margin-left: 20px;
+  display: inline-block;
+  line-height: 14px;
+  padding: 0;
+  background: url(../img201707/attachment_sprite.gif) no-repeat -169px -141px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+.noTableData{
+	height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 16px;
+  display: none;
+}

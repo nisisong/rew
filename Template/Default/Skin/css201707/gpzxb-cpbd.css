@@ -1,0 +1,228 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+  border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.public_title h3 span{
+	font-size: 14px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+
+ .name-title{
+  height: 60px;
+  background-color: #f3f8ff;
+  border-bottom: 3px solid #2f5895;
+}
+.name-title h1{
+  margin-left: 19px;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 60px;
+  text-align: left;
+  color: #2f5895;
+}
+.name-title h1 span{
+  font-size: 18px;
+}
+
+
+.xin {
+    overflow: hidden;
+		margin-bottom: 20px;
+		font-size: 14px;
+}
+.xin table {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    line-height: 21px;
+}
+.xin table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #f7f7f7;
+    color: #333;
+    height: 25px;
+}
+.xin table tr td {
+    border: 1px solid #D7D7D7;
+		text-align: center;
+		line-height: 25px;
+}
+.tips-colname-Left span {
+    margin-left: 7px;
+}
+.xin .tfoot {
+    height: 22px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    border-width: 0 1px 1px;
+    border-color: #D7D7D7;
+    border-style: solid;
+    color: #666;
+    font-size: 12px;
+    text-align: left;
+    line-height: 22px;
+}
+
+.xin table tr .tips-fieldnameL{
+	padding-left: 7px;
+	color: #333;
+	font-weight: normal;
+	text-align: left;
+}
+.xin table tr .tips-dataL{
+	padding-left: 7px;
+	color: #333;
+	font-weight: normal;
+	text-align: left;
+}
+.das table tr td{
+	text-align: left;
+}
+.listTable .TD01{
+	border: 1px solid #d7d7d7;
+    border-right: 0;
+    padding: 1px 0;
+    width: 112px;
+}
+.listTable .TD01 font{
+	margin-left: 6px;
+}
+.listTable .TD03 font{
+	margin-left: 6px;
+}
+.listTable td b {
+    color: #333;
+    position: relative;
+    float: left;
+    margin-left: 6px;
+}
+.p_div {
+    line-height: 22px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.listTable td span {
+    position: relative;
+    float: left;
+    margin-left: 6px;
+}
+.listTable td a {
+    color: #003497;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.tips-colnameC {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+.tips-weightnormal {
+    font-weight: normal;
+}
+.tips-fieldnameL {
+    padding-left: 7px;
+    color: #333;
+    font-weight: normal;
+}
+
+
+
+
+
+.zfmz{
+	width:973px;
+	height: auto;
+	border: 1px solid #dbebf8;
+	margin-bottom:20px;
+	overflow: hidden;
+}
+.zfmz .tab{
+	width:973px;
+	height: 57px;
+	border-bottom:#dbebf8 1px solid;
+}
+.zfmz .tab span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+}
+.zfmz .tab .on{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+
+}
+.zfmz .nr{
+	display: none;
+}
+.zfmz .nr .tips-colnameL{
+	text-align: left;
+	padding-left: 7px;
+}
+
+
+
+
+.xin p {
+    color: #333;
+		text-align: left;
+		font-size: 14px;
+		line-height: 22px;
+}
+.xin p em{
+	font-style: normal;
+	margin-left: 6px;
+}
+.table-border{
+	margin: 10px 0;
+}
+.xin table tr td h5{
+	float: right;
+  width: auto;
+  font-size: 14px;
+	line-height:30px;
+}
+.xin table tr td .zi{
+	color: #838383;
+}
+
+
+.jiaoy{
+	width: 973px;
+	border: 1px solid #dbebf8;
+	margin-bottom: 20px;
+	padding: 20px 0;
+}
+.jiaoy h2{
+	text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+}

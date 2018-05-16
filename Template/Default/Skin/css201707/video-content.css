@@ -1,0 +1,474 @@
+/*侧边栏*/
+  .sidebar {
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 999;
+  top:25%;
+}
+.sidebar .kf img {
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+.sidebar .top {
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+.sidebar .top img {
+  width: 46px;
+  height:46px;
+}
+.sidebar .img1 {
+  width:46px;
+}
+
+/*播放器*/
+
+.videoBox{
+  width:100%;
+  height:700px;
+  min-width: 1200px;
+  overflow: hidden;
+  background: #313131;
+}
+
+.videoBox .video{
+  width:1200px;
+  height:650px;
+  margin:50px auto 0;
+}
+
+.videoBox .video .bf{
+  height:650px;
+  width:895px;
+  float: left;
+  background: #000;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.videoBox .video .videoList{
+  height:650px;
+  width:300px;
+  float: left;
+  background:#000;
+  display: inline-block;
+}
+
+.videoBox .video .videoList .videoTitle{
+  height:100px;
+  width:190px;
+  display: inline-block;
+  margin:0 55px;
+  color:#fff;
+  text-align: center;
+  overflow:hidden;
+}
+
+.videoBox .video .videoList .videoTitle b{
+  height:1px;
+  display: inline-block;
+  width:45px;
+  background: #fff;
+  float: left;
+  margin-top:51px;
+}
+
+.videoBox .video .videoList .videoTitle h3{
+  font-size: 16px;
+  line-height:16px;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin:45px 18px 0 17px;
+}
+
+.videoBox .video .videoList ul{
+  height:auto;
+  width:258px;
+  margin:0 21px;
+}
+
+.videoBox .video .videoList ul li{
+  height:100px;
+  width:100%;
+  margin-bottom: 37px;
+}
+
+.videoBox .video .videoList ul li .img{
+  float: left;
+  width:120px;
+  height:100px;
+  margin-right: 10px;
+}
+
+.videoBox .video .videoList ul li .img img{
+  
+  width:120px;
+  height:100px;
+  
+}
+
+.videoBox .video .videoList ul li .info{
+  float: left;
+  width:128px;
+  height: 100px;
+}
+
+.videoBox .video .videoList ul li .info .top{
+  font-size: 15px;
+  line-height:20px;
+  text-align: left;
+  display: inline-block;
+  margin:10px 0 23px;
+  font-weight: normal;
+}
+
+.videoBox .video .videoList ul li .info .top a{
+  color: #ffffff;
+}
+
+.videoBox .video .videoList ul li .info .top a:hover{
+  color: #ed1a1a;
+}
+
+.videoBox .video .videoList ul li .info .bottom{
+  font-size: 12px;
+  line-height:12px;
+  text-align: left;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: normal;
+}
+
+.videoBox .video .videoList ul li .info .bottom b{
+  line-height: 12px;
+  margin-right: 10px;
+}
+
+.videoBox .video .videoList ul li .info .bottom b img{
+  width: 8px;
+  height: 11px;
+}
+
+/*其他视频*/
+
+.otherVideo{
+  width: 100%;
+  min-width: 1200px;
+  height:auto;
+  margin-top: 50px;
+}
+
+.otherVideo .otherBox{
+  width:1200px;
+  margin:0 auto;
+}
+
+.otherVideo .otherBox .jianjie{
+  margin-bottom: 52px;
+}
+
+.otherVideo .otherBox .jianjie span{
+  width:100%;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #000;
+}
+
+.otherVideo .otherBox .jianjie span h2{
+  font-size:30px;
+  margin-right: 22px;
+  float: left;
+}
+
+.otherVideo .otherBox .jianjie span .bfcount{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  float: left;
+  margin-right: 56px;
+  margin-top: 23px;
+  color: #898989;
+}
+
+.otherVideo .otherBox .jianjie span .fxcount{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  float: left;
+  margin-top: 23px;
+  color: #898989;
+}
+
+.otherVideo .otherBox .jianjie span b img{
+  width: 8px;
+  height: 11px;
+  margin-right: 10px;
+  line-height:12px;
+}
+
+.maincontent{
+  width:1200px;
+  height: auto;
+  overflow: hidden;
+}
+
+/*左侧*/
+
+.leftContent{
+  width:860px;
+  float: left;
+}
+
+.leftContent .like h3{
+  height:24px;
+  padding:0 0 13px 33px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height:24px;
+  text-align: left;
+  color: #000000;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.leftContent .like ul{
+  overflow: hidden;
+  margin-bottom:70px; 
+}
+
+.leftContent .like ul li{
+  width:180px;
+  height:230px;
+  float: left;
+  margin:20px 17px;
+}
+
+.leftContent .like ul li .img{
+  position: relative;
+  width: 180px;
+  height:150px;
+  margin-bottom: 17px;
+}
+
+.leftContent .like ul li .img img{
+  width: 180px;
+  height:150px;
+  
+}
+
+.leftContent .like ul li .img .bofang img{
+  width: 60px;
+  height:60px;
+  position: absolute;
+  top:33%;
+  left:33%;
+}
+
+.leftContent .like ul li .info .top{
+  font-size: 16px;
+  line-height:20px;
+  text-align: left;
+  display: inline-block;
+  color: #000000;
+}
+
+.leftContent .like ul li .info .top a:hover{
+  color: #ed1a1a;
+}
+
+.leftContent .like ul li .info .bottom{
+  font-size: 12px;
+  line-height: 12px;
+  text-align: left;
+  color: #000000;
+  display: inline-block;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.leftContent .like ul li .info .bottom img{
+  width: 8px;
+  height: 11px;
+  margin-right: 10px;
+}
+
+/*右侧内容*/
+
+.content-relevant {
+  width: 300px;
+  height: auto;
+  padding-top: 37px;
+}
+
+.content-relevant .new-information {
+  width: 300px;
+  height: 222px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ed1a1a;
+}
+.content-relevant .new-information h3 {
+  font-size: 18px;
+  color: #ed1a1a;
+  margin-left: 33px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.content-relevant .new-information ul {
+  width: 200px;
+  height: 160px;
+  margin-left: 35px;
+}
+.content-relevant .new-information ul li {
+  margin-top: 15px;
+  *margin-top: 10px;
+  height: 17px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 15px;
+}
+.content-relevant .new-information ul li a {
+  color: #333;
+}
+.content-relevant .new-information ul li a b {
+  display: inline-block;
+  width: 17px;
+  height: 16px;
+  margin-right: 16px;
+}
+.content-relevant .new-information ul li a b img {
+  width: 17px;
+  height: 16px;
+}
+.content-relevant .new-information ul li a:hover {
+  color: #ed1a1a;
+}
+.content-relevant .left-tell {
+  width: 300px;
+  height: 115px;
+  margin-bottom: 10px;
+  background: #f66;
+}
+.content-relevant .left-tell .tell-ency {
+  width: 300px;
+  height: 115px;
+}
+.content-relevant .left-tell .tell-ency #tell-roll {
+  width: 300px;
+  height: 115px;
+  position: relative;
+}
+.content-relevant .left-tell .tell-ency #tell-roll .tell-contenter {
+  width: 300px;
+  height: 115px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+.content-relevant .left-tell .tell-ency #tell-roll .tell-contenter .tell-content {
+  width: 1200px;
+  height: 115px;
+  position: absolute;
+}
+.content-relevant .left-tell .tell-ency #tell-roll .tell-contenter .tell-content .tell-imgroll {
+  width: 300px;
+  height: 115px;
+  float: left;
+  cursor: pointer;
+  overflow: hidden;
+}
+.content-relevant .left-tell .tell-ency #tell-roll .tell-contenter .tell-content .tell-imgroll a img {
+  border: none;
+  vertical-align: top;
+}
+.content-relevant .left-tell .tell-ency #tell-roll .tell-left {
+  height: 20px;
+  width: 14px;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  cursor: pointer;
+  background: url("../img201707/left.png");
+}
+.content-relevant .left-tell .tell-ency #tell-roll .tell-right {
+  height: 20px;
+  width: 14px;
+  position: absolute;
+  top: 48px;
+  right: 0;
+  cursor: pointer;
+  background: url("../img201707/right.png");
+}
+
+.content-relevant .fix {
+  position: fixed;
+  top: 0;
+}
+.content-relevant .rightSide .wz_tool {
+  width: 300px;
+  height: 302px;
+  background: #f9f9f9;
+  border-top: 1px solid #ed1a1a;
+}
+.content-relevant .rightSide .wz_tool h3 {
+  font-size: 16px;
+  color: #ed1a1a;
+  margin-left: 32px;
+  margin-top: 20px;
+}
+.content-relevant .rightSide .wz_tool ul {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}
+.content-relevant .rightSide .wz_tool .smallButton {
+  margin-left: 11px;
+  width: 282px;
+  margin-top: 10px;
+}
+.content-relevant .rightSide .wz_tool .smallButton li {
+  float: left;
+}
+.content-relevant .rightSide .wz_tool .smallButton li a {
+  float: left;
+  color: #fff;
+  background: #ed1a1a;
+  width: 84px;
+  height: 20px;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 9px 8px 8px 0;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+}
+
+.content-relevant .rightSide .wz_tool .smallButton li a:hover {
+  color: #666;
+  background: #fff;
+}
+.content-relevant .rightSide .wz_tool .articleList li {
+  padding-left: 16px;
+  height: 15px;
+  font-size: 15px;
+  margin: 12px 0;
+}
+.content-relevant .rightSide .wz_tool .articleList li a {
+  font-size: 15px;
+  color: #333;
+}
+.content-relevant .rightSide .wz_tool .articleList li .icon {
+  display: inline-block;
+  width: 4px;
+  height: 7px;
+  margin-right: 10px;
+  background: url("../img201707/huid-icon.png") no-repeat;
+}
+.content-relevant .rightSide .wz_tool .articleList li a:hover {
+  color: #ed1a1a;
+}

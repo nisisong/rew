@@ -1,0 +1,95 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+    border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.public_title h3 span{
+	font-size: 14px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+/*募集资金流向*/
+.mjzj{
+    width:973px;
+    height: auto;
+    border: 1px solid #dbebf8;
+    margin-bottom:20px;
+}
+.mjzj table{
+    width:973px;
+}
+.mjzj tbody{
+    width: 973px;
+}
+.mjzj tbody tr{
+    background-color: #f7f7f7;
+}
+.mjzj tbody .odd{
+    background-color: #fff;
+}
+.mjzj tbody tr td{
+    width:139px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.mjzj tbody tr th{
+    width:739px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+/*项目进度*/
+.xmjd{
+    width:973px;
+    height: auto;
+    border: 1px solid #dbebf8;
+    margin-bottom:20px;
+}
+.xmjd table{
+    width:973px;
+}
+.xmjd tbody{
+    width: 973px;
+}
+.xmjd tbody tr{
+    background-color: #f7f7f7;
+}
+.xmjd tbody .odd{
+    background-color: #fff;
+}
+.xmjd tbody tr td{
+    width:162px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.xmjd tbody tr th{
+    width:162px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.noTableData{
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+}

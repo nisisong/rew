@@ -1,0 +1,39 @@
+.public_title{
+  background-color: #f3f8ff;
+  width: 973px;
+  height: 37px;
+  border: 1px solid #dbebf8;
+  border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+  font-size: 18px;
+  line-height: 37px;
+  color: #2f5895;
+  padding-left: 18px;
+}
+.gbjg{
+  width:973px;
+  height: auto;
+  border: 1px solid #dbebf8;
+  margin-bottom:20px;
+}
+.gbjg tbody tr{
+  background-color: #f7f7f7;
+}
+.gbjg tbody .even{
+  background-color: #fff;
+}
+.gbjg tbody tr td,th{
+  width:213px;
+  padding:10px 0 10px 30px;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+.noTableData{
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 16px;
+  display: none;
+}

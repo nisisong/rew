@@ -1,0 +1,159 @@
+/*
+*@ author：sns
+*@ date：2018-04-08
+*/
+
+
+.public_title h3{
+  float: left;
+}
+.public_title .main-title-select{
+  float: right;
+  margin-right: 15px;
+}
+.public_title .main-title-select span{
+  font-size: 14px;
+  line-height: 37px;
+}
+.public_title .ttjj-select{
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 137px;
+  height: 25px;
+  border: 1px solid #4a90e2;
+  font-size: 14px;
+  text-align: left;
+  vertical-align: middle;
+}
+.public_title .ttjj-select span{
+  line-height: 25px;
+}
+.ttjj-select .ttjj-select-heading {
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 10px;
+    background: #fff;
+    color: #333 !important;
+    line-height: 25px;
+}
+.ttjj-select .ttjj-select-heading .ttjj-iconfont {
+    float: right;
+    padding-right: 13px;
+    width: 9px;
+    height: 4px;
+    margin-top: 10px;
+}
+.public_title .ttjj-select ul{
+  display: none;
+  width: 137px;
+  max-height: 230px;
+  overflow: auto;
+  overflow-x: hidden;
+  position: absolute;
+  top: 26px;
+  left: -1px;
+  background: #fff;
+  border: 1px solid #dbdbdb
+}
+.ttjj-select .active {
+    border-color: #4a90e2;
+}
+.ttjj-select ul li {
+    border-bottom: 1px solid #dbdbdb;
+    width: 137px;
+}
+.ttjj-select ul li a {
+    display: block;
+    padding-left: 10px;
+    line-height: 25px;
+    color: #333;
+}
+.ttjj-select ul li:hover{
+  background: #4a90e2;
+}
+.ttjj-select ul li:hover a{
+  color: #fff;
+}
+.common-information{
+  border: 1px solid #dbebf8;
+  padding: 10px 0 10px 18px;
+}
+.common-information p{
+  font-size: 16px;
+  line-height: 1.23;
+  color: #333;
+}
+
+.xin {
+    width: 973px;
+    height: 625px;
+    border: 1px solid #dbebf8;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.common-sub-title {
+    padding:15px;
+    line-height: 28px;
+    overflow: hidden;
+    background-color: #f3f8ff;
+}
+.common-sub-title h3 {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.common-sub-title p{
+    float: right;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.ttjj-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.ttjj-table th {
+    background: #f5f5f5;
+    font-size: 14px;
+    color: #000;
+}
+.ttjj-table th, .ttjj-table td {
+    text-align: center;
+    font-weight: 400;
+    padding: 14px 0 14px 10px;
+}
+.ttjj-table td {
+    font-size: 14px;
+    color: #333;
+}
+.grey-bg{
+ background-color: #f5f5f5;
+}
+
+
+ .ttjj-table {
+    border-top: 1px solid #dbebf8;
+    border-bottom: 1px solid #dbebf8;
+}
+.ttjj-table a {
+    text-decoration: underline;
+    color: #4a90e2;
+}
+ .more {
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: right;
+    text-decoration: underline;
+    color: #4a90e2;
+    cursor: pointer;
+    font-size: 14px;
+}
+.hide {
+    display: none;
+}

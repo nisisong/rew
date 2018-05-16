@@ -1,0 +1,445 @@
+#player {
+  width: 100%;
+  height: 223px;
+  min-width: 1200px;
+  position: relative; }
+  #player .player .slide {
+    width: 100%;
+    height: 223px;
+    position: absolute; }
+  #player .player .slide1 {
+    background: url("../img201707/tou-banner1.png") 50% 50% no-repeat; }
+  #player .player .slide2 {
+    background: url("../img201707/tou-banner2.png") 50% 50% no-repeat; }
+  #player .player .slide3 {
+    background: url("../img201707/tou-banner3.png") 50% 50% no-repeat; }
+  #player .player .slide4 {
+    background: url("../img201707/tou-banner4.png") 50% 50% no-repeat; }
+  #player .player .slide5 {
+    background: url("../img201707/tou-banner5.png") 50% 50% no-repeat; }
+  #player .player_center {
+    margin: 0 auto;
+    width: 1200px;
+    height: 223px;
+    position: relative; }
+    #player .player_center .tab_page {
+      position: absolute;
+      right: 0;
+      top: 16px;
+      width: 213px;
+      height: 198px;
+      background: url("../img201707/banner-bg.png") no-repeat; }
+      #player .player_center .tab_page span {
+        width: 213px;
+        height: 30px;
+        display: inline-block;
+        left: 100px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 8px;
+        font-size: 16px; }
+        #player .player_center .tab_page span a {
+          color: #000; }
+
+.crumbs {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px; }
+  .crumbs span {
+    font-size: 12px;
+    color: #666; }
+    .crumbs span a {
+      color: #666; }
+
+.Line {
+  width: 1200px;
+  height: 770px;
+  margin: 0 auto 55px; }
+  .Line .Line-exchange {
+    width: 350px;
+    height: 770px;
+    background-color: #ed1a1a;
+    margin-right: 32px; }
+    .Line .Line-exchange h3 {
+      font-size: 30px;
+      color: #fff;
+      margin-left: 40px;
+      margin-top: 40px;
+      font-weight: 500; }
+      .Line .Line-exchange h3 b {
+        display: inline-block;
+        width: 30px;
+        height: 56px;
+        font-weight: normal;
+        border-bottom: 2px solid #fff; }
+    .Line .Line-exchange p {
+      display: block;
+      margin: 28px 0 20px 40px;
+      width: 208px;
+      font-size: 16px;
+      color: #fff;
+      line-height: 32px; }
+    .Line .Line-exchange span {
+      display: block;
+      width: 81px;
+      height: 26px;
+      text-align: center;
+      line-height: 26px;
+      font-size: 14px;
+      border-radius: 4px;
+      margin-left: 40px;
+      border: 1px solid #fff; }
+      .Line .Line-exchange span a {
+        display: block;
+        width: 100%;
+        color: #fff; }
+  .Line .Line-details {
+    width: 818px;
+    height: 690px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .Line .Line-details .details {
+      width: 818px;
+      height: 452px; }
+      .Line .Line-details .details li {
+        float: left;
+        width: 401px;
+        height: 211px;
+        margin-bottom: 15px; }
+        .Line .Line-details .details li h3 {
+          width: 401px;
+          height: 59px;
+          text-align: center;
+          line-height: 59px;
+          font-size: 22px;
+          color: #333;
+          background-color: #e6e6e6; }
+          .Line .Line-details .details li h3 a{
+            color: #333;
+          }
+          .Line .Line-details .details li h3 a:hover{
+            color: #ed1a1a;
+          }
+        .Line .Line-details .details li ul {
+          width: 399px;
+          height: 150px;
+          border: 1px solid #e6e6e6; }
+          .Line .Line-details .details li ul li {
+            height: 30px;
+            line-height: 30px;
+            width: 399px;
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 0; }
+            .Line .Line-details .details li ul li a {
+              color: #000; }
+            .Line .Line-details .details li ul li a:hover {
+              color: #ed1a1a; }
+      .Line .Line-details .details .details-left {
+        margin-right: 10px; }
+    .Line .Line-details .Line-new {
+      width: 818px;
+      height: 237px; }
+      .Line .Line-details .Line-new ul {
+        width: 401px;
+        height: 237px;
+        margin-right: 12px;
+        background: #e6e6e6; }
+        .Line .Line-details .Line-new ul .Line-title {
+          width: 318px;
+          height: 22px;
+          margin: 20px 0;
+          padding-left: 38px; }
+          .Line .Line-details .Line-new ul .Line-title .title-h2 {
+            float: left;
+            font-size: 20px;
+            color: #000;
+            height: 22px;
+            line-height: 22px;
+            padding-left: 10px;
+            border-left: 5px solid #eea821; }
+          .Line .Line-details .Line-new ul .Line-title span {
+            float: right;
+            font-size: 14px;
+            font-weight: 400; }
+            .Line .Line-details .Line-new ul .Line-title span img {
+              margin-right: 5px; }
+        .Line .Line-details .Line-new ul li {
+          width: 318px;
+          height: 35px;
+          font-size: 16px;
+          margin-left: 38px;
+          margin-right: 0; }
+          .Line .Line-details .Line-new ul li a {
+            color: #585858; }
+            .Line .Line-details .Line-new ul li a b {
+              display: inline-block;
+              width: 6px;
+              height: 6px;
+              margin-right: 12px;
+              background: url("../img201707/xh-icon.png"); }
+          .Line .Line-details .Line-new ul li a:hover {
+            color: #ed1a1a; }
+      .Line .Line-details .Line-new .Line-Newest {
+        margin-right: 0; }
+
+.online {
+  width: 100%;
+  height: 641px;
+  margin-bottom: 55px;
+  background: url("../img201707/gppt-bg.png") 50% 50% no-repeat; }
+  .online .online-content {
+    width: 1200px;
+    height: 641px;
+    margin: 0 auto; }
+    .online .online-content .online-platform {
+      width: 350px;
+      height: 540px;
+      margin-top: 47px;
+      background-color: #ed1a1a; }
+      .online .online-content .online-platform h3 {
+        font-size: 30px;
+        color: #fff;
+        margin-left: 40px;
+        margin-top: 40px;
+        font-weight: 500; }
+        .online .online-content .online-platform h3 b {
+          display: inline-block;
+          width: 30px;
+          height: 56px;
+          border-bottom: 2px solid #fff;
+          font-weight: normal; }
+      .online .online-content .online-platform p {
+        display: block;
+        margin: 28px 0 20px 40px;
+        width: 208px;
+        font-size: 16px;
+        color: #fff;
+        line-height: 32px; }
+      .online .online-content .online-platform span {
+        display: block;
+        width: 81px;
+        height: 26px;
+        text-align: center;
+        line-height: 26px;
+        font-size: 14px;
+        border-radius: 4px;
+        margin-left: 40px;
+        border: 1px solid #fff; }
+        .online .online-content .online-platform span a {
+          display: block;
+          width: 100%;
+          color: #fff; }
+    .online .online-content .online-details {
+      width: 818px;
+      height: 460px;
+      margin: 87px 0; }
+      .online .online-content .online-details .online-mold {
+        width: 818px;
+        height: 223px; }
+        .online .online-content .online-details .online-mold li {
+          float: left;
+          width: 401px;
+          height: 59px;
+          font-size: 22px;
+          text-align: center;
+          line-height: 59px;
+          margin-bottom: 15px;
+          background-color: #e6e6e6; }
+          .online .online-content .online-details .online-mold li a {
+            color: #333; }
+          .online .online-content .online-details .online-mold li a:hover {
+            color: #ed1a1a; }
+        .online .online-content .online-details .online-mold .mold-left {
+          margin-right: 15px; }
+      .online .online-content .online-details .online-hot {
+        width: 401px;
+        height: 237px;
+        margin-right: 15px;
+        background-color: #e6e6e6; }
+        .online .online-content .online-details .online-hot span {
+          display: block;
+          overflow: hidden;
+          margin: 17px 0; }
+          .online .online-content .online-details .online-hot span h2 {
+            float: left;
+            margin-left: 54px; }
+          .online .online-content .online-details .online-hot span .title-h2 {
+            font-size: 20px;
+            color: #000;
+            height: 22px;
+            line-height: 20px;
+            padding-left: 10px;
+            border-left: 5px solid #eea821; }
+          .online .online-content .online-details .online-hot span b {
+            float: right;
+            font-size: 14px;
+            font-weight: 400;
+            margin-right: 50px; }
+            .online .online-content .online-details .online-hot span b a:hover {
+              color: #ed1a1a; }
+            .online .online-content .online-details .online-hot span b a {
+              color: #414141; }
+              .online .online-content .online-details .online-hot span b a img {
+                margin-right: 5px; }
+        .online .online-content .online-details .online-hot ul {
+          width: 297px;
+          margin-left: 54px;
+          overflow: hidden; }
+          .online .online-content .online-details .online-hot ul li {
+            width: 100%;
+            min-height: 16px;
+            height: auto;
+            display: inline-block;
+            line-height: 16px;
+            font-size: 14px;
+            margin-bottom: 10px;
+            text-align: center;
+            border-bottom: 1px dashed #7d7d7d; }
+            .online .online-content .online-details .online-hot ul li a {
+              float: left;
+              font-size: 16px;
+              text-align: left;
+              color: #333; }
+              .online .online-content .online-details .online-hot ul li a img {
+                width: 17px;
+                height: 17px;
+                float: left;
+                margin-right: 5px;
+                vertical-align: middle; }
+              .online .online-content .online-details .online-hot ul li a p {
+                display: inline-block;
+                line-height: 16px;
+                margin-left: 24px; }
+              .online .online-content .online-details .online-hot ul li a .info {
+                margin-left: 24px;
+                margin-top: 5px;
+                font-size: 12px;
+                width: 240px;
+                padding-bottom: 10px; }
+                .online .online-content .online-details .online-hot ul li a .info b {
+                  font-weight: normal;
+                  color: #000;
+                  margin-right: 5px;
+                  float: left; }
+                .online .online-content .online-details .online-hot ul li a .info .state {
+                  float: right;
+                  color: #666; }
+            .online .online-content .online-details .online-hot ul li a:hover {
+              color: #ed1a1a; }
+          .online .online-content .online-details .online-hot ul .last {
+            border-bottom: none; }
+      .online .online-content .online-details .online-practical {
+        width: 401px;
+        height: 237px;
+        background-color: #e6e6e6; }
+        .online .online-content .online-details .online-practical img {
+          width: 372px;
+          height: 69px;
+          margin-top: 13px;
+          margin-left: 15px;
+          margin-bottom: 20px; }
+        .online .online-content .online-details .online-practical .title-h2 {
+          font-size: 20px;
+          color: #000;
+          height: 22px;
+          line-height: 20px;
+          margin-left: 47px;
+          margin-bottom: 15px;
+          padding-left: 10px;
+          border-left: 5px solid #eea821; }
+        .online .online-content .online-details .online-practical ul {
+          width: 300px;
+          height: 95px;
+          margin-left: 47px; }
+          .online .online-content .online-details .online-practical ul li {
+            float: left;
+            width: 130px;
+            height: 30px;
+            font-size: 18px;
+            text-align: center;
+            line-height: 30px;
+            margin: 0 9px 17px 9px; }
+          .online .online-content .online-details .online-practical ul a {
+            display: block;
+            width: 100%;
+            color: #fff;
+            background-color: #ed1a1a;
+            border-radius: 4px; }
+          .online .online-content .online-details .online-practical ul a:hover {
+            color: #666;
+            background-color: #e6e6e6;
+            border: 1px solid #7d7d7d; }
+
+.other {
+  width: 1200px;
+  height: 272px;
+  margin: 0 auto 68px; }
+  .other h3 {
+    font-size: 28px;
+    color: #000;
+    border-left: 10px solid #eea821;
+    padding-left: 12px;
+    margin-bottom: 36px; }
+  .other ul {
+    width: 1200px;
+    height: 200px; }
+    .other ul li {
+      width: 285px;
+      height: 200px;
+      float: left;
+      margin-right: 20px; }
+      .other ul li p {
+        margin-top: 63px;
+        margin-bottom: 18px;
+        font-size: 26px;
+        text-align: center;
+        color: #000; }
+      .other ul li span {
+        margin-left: 126px; }
+        .other ul li span img {
+          width: 33px;
+          height: 33px; }
+    .other ul .first {
+      background: url("../img201707/gppt-qh.png"); }
+    .other ul .Second {
+      background: url("../img201707/gppt-jj.png"); }
+    .other ul .Third {
+      background: url("../img201707/gppt-tz.png"); }
+    .other ul .last {
+      background: url("../img201707/gppt-lc.png");
+      margin-right: 0; }
+
+
+      .sidebar{
+        width:46px;
+        height:auto;
+        position:fixed;
+        right:0;
+        z-index: 9999;
+        top:25%;
+      }
+
+      .sidebar .kf img{
+        width:46px;
+        height:46px;
+        margin-bottom: 3.6px;
+      }
+
+      .sidebar .top{
+        display: inline-block;
+        width:26px;
+        height:20px;
+      }
+
+      .sidebar .top img{
+        width: 46px;
+        height:46px;
+      }
+
+      .sidebar .img1{
+        width:46px;
+      }
+
+/*# sourceMappingURL=gp-platform.css.map */

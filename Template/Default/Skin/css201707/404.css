@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding-top:100px;
+}
+
+.layout-center .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.f-12, a.f-12 {
+    font-size: 20px;
+    color: #ed1a1a;
+}
+
+section, header, nav, footer, article {
+    display: block;
+}
+
+a {
+    color: #2d64b3;
+    text-decoration: none;
+}
+
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: auto;
+        text-decoration:none;
+        color: #ed1a1a;
+    }
+
+    .f-simsun, a.f-simsun {
+        font-family: "\5b8b\4f53";
+    }
+
+.line:after, .clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.grid {
+    display: inline;
+    float: left;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+.f-20, a.f-20 {
+    font-size: 20px;
+}
+
+.f-yahei, a.f-yahei {
+    font-size: 18px;
+    font-family: "Microsoft YaHei",SimHei,arial,"\5b8b\4f53";
+    color: #000;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.wgt-none {
+  width: 720px;
+  height: 325px;
+    margin-top: 65px;
+    margin-left: 60px;
+    margin-bottom: 200px;
+    background: url("../img201707/404.png")no-repeat;
+}
+
+    .wgt-none .right-wraper {
+        margin-left: 400px;
+        margin-top: 108px;
+        font-family: "Microsoft YaHei", SimHei, arial, "\5b8b\4f53";
+    }
+
+.wgt-loading {
+    margin-bottom: 200px;
+    margin-left: 0;
+    text-align: center;
+}
+
+    .wgt-loading .loading-icon {
+        padding: 30px 0;
+    }
+
+.wgt-none .btn-re-index {
+    padding-left: 50px;
+    font-size: 16px;
+    line-height: 29px;
+    color: #ed1a1a;
+    text-align: center;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+.wgt-none .right-wraper span{
+  color: #ed1a1a;
+  font-size: 14px;
+}

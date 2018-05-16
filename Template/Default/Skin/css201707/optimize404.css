@@ -1,0 +1,103 @@
+.content{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+.content .content-title{
+  font-size: 16px;
+  text-align: left;
+  color: #ed1a1a;
+  line-height: 16px;
+  margin-bottom: 33px;
+}
+.content .content-title a{
+  color: #ed1a1a;
+}
+
+.content .content-center{
+  width: 505px;
+  margin: 0 auto;
+}
+.content .content-center .center-img{
+  width: 256px;
+  height: 334px;
+  margin: 0 auto 15px;
+}
+.content .content-center .center-zi{
+  width: 505px;
+}
+.content .content-center .center-zi h3{
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2.7px;
+  text-align: center;
+  color: #ff6460;
+  margin-bottom: 15px;
+}
+.content .content-center .center-zi p{
+  font-size: 18px;
+  line-height: 1.09;
+  text-align: center;
+  color: #9c9c9c;
+  margin-bottom: 23px;
+}
+
+
+.content .content-center .center-return{
+  width: 127px;
+  height: 40px;
+  margin: 0 auto;
+  background: url("../img201707/four-retrun.png") 50% 50% no-repeat;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+.content .content-center .center-return a{
+  color: #fff;
+}
+
+
+
+.base{
+  width: 100%;
+  height: 335px;
+  min-width: 1200px;
+  background: url("../img201707/fou-down.png") 50% 50% no-repeat;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+}
+.base .base-content{
+  width: 1000px;
+  margin: 116px auto 0;
+}
+.base .base-content h3{
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 0.89;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-left: 240px;
+}
+.base .base-content ul{
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.base .base-content ul li{
+  float: left;
+  font-size: 18px;
+ line-height: 18px;
+ text-align: left;
+ margin-bottom: 32px;
+ margin-left: 17px;
+ margin-right: 17px;
+}
+.base .base-content ul li a{
+  color: #333333;
+}
+.base .base-content ul li a:hover{
+  color: #ed1a1a;
+}

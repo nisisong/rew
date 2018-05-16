@@ -1,0 +1,714 @@
+body{
+  color: #000;
+}
+
+/*侧边栏*/
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}
+
+.banner{
+  width:100%;
+  min-width: 1200px;
+  height:450px;
+  background:url("../img201707/tzlc-banner.png") 50% 50% no-repeat;
+}
+
+.infoBox{
+  width:100%;
+  min-width:1200px;
+  height:290px;
+  border-bottom:1px solid #e5e5e5;
+}
+
+.infoBox .info{
+  width:1200px;
+  height:290px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.infoBox .smallBt{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  letter-spacing:1px;
+}
+
+.infoBox .mainBt{
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.infoBox .text1{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.infoBox .text2{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+/*理财四招*/
+
+.lcsz{
+  width:100%;
+  min-width:1200px;
+  height:auto;
+}
+
+.lcszBt_Box{
+  width:100%;
+  min-width:1200px;
+  height:150px;
+  border-bottom:1px solid #e5e5e5;
+  background:#f9f9f9;
+}
+
+.lcszBt_Box .lcszBt{
+  width:1200px;
+  height:150px;
+  margin: 0 auto;
+
+}
+
+.lcszBt_Box .lcszBt .smallBt{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing:1px;
+}
+
+.lcszBt_Box .lcszBt .mainBt{
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:10px;
+  letter-spacing: 9px;
+}
+
+.lcszBt_Box .lcszBt img{
+  position: relative;
+  top:-22px;
+  left:569px;
+}
+
+.lcszNr{
+  width: 100%;
+  min-width:1200px;
+  height:1200px;
+  background: #eee;
+}
+
+.lcszNr .nrTop{
+  width:100%;
+  min-width: 1200px;
+  height: 600px;
+  background:url("../img201707/tz图1.png") 50% 50% no-repeat;
+}
+
+.lcszNr .nrTop .nrLeft{
+  width:1200px;
+  height:600px;
+  margin:0 auto;
+}
+
+.lcszNr .nrTop .nrLeft .article{
+  width:640px;
+  height:600px;
+  float: left;
+}
+
+.lcszNr .nrTop .nrLeft .article .title{
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lcszNr .nrTop .nrLeft .article .one{
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.lcszNr .nrTop .nrLeft .article .two{
+  margin-top:95px;
+  margin-bottom: 30px;
+}
+
+.lcszNr .nrTop .nrLeft .article .text{
+  font-size:16px;
+  line-height:30px;
+  text-align: justify;
+  width:580px;
+  text-indent: 2em;
+  margin:0 auto;
+}
+
+.lcszNr .nrBottom{
+  width:100%;
+  min-width: 1200px;
+  height: 600px;
+  background:url("../img201707/tz图2.png") 50% 50% no-repeat;
+}
+
+.lcszNr .nrBottom .nrRight{
+  width:1200px;
+  height:600px;
+  margin:0 auto;
+}
+
+.lcszNr .nrBottom .nrRight .article{
+  width:640px;
+  height:600px;
+  float: right;
+}
+
+.lcszNr .nrBottom .nrRight .title{
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lcszNr .nrBottom .nrRight .one{
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.lcszNr .nrBottom .nrRight .two{
+  margin-top:60px;
+  margin-bottom: 30px;
+}
+
+.lcszNr .nrBottom .nrRight .text{
+  font-size:16px;
+  line-height: 25px;
+  text-align: justify;
+  width:580px;
+  text-indent: 2em;
+  margin:0 auto;
+}
+
+/*理财十法*/
+
+.lcsf{
+  width:100%;
+  min-width:1200px;
+  height:auto;
+}
+
+.lcsfBt_Box{
+  width:100%;
+  min-width:1200px;
+  height:150px;
+  border-bottom:1px solid #e5e5e5;
+  background:#f9f9f9;
+}
+
+.lcsfBt_Box .lcsfBt{
+  width:1200px;
+  height:150px;
+  margin: 0 auto;
+
+}
+
+.lcsfBt_Box .lcsfBt .smallBt{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing:1px;
+}
+
+.lcsfBt_Box .lcsfBt .mainBt{
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:10px;
+  letter-spacing: 9px;
+}
+
+.lcsfBt_Box .lcsfBt img{
+  position: relative;
+  top:-22px;
+  left:569px;
+}
+
+.lcsfNr{
+  width: 100%;
+  min-width:1200px;
+  height:635px;
+  background:url(../../Skin/img201707/tzlc背景图.png) 50% 50% no-repeat;
+}
+
+.lcsfNr .nr{
+  width: 1200px;
+  margin:0 auto;
+  height:auto;
+  padding:30px 0;
+  overflow: hidden;
+}
+
+.lcsfNr .nr .ff{
+  width:220px;
+  height:250px;
+  background:url(../img201707/grlc透明白底.png);
+  margin:25px 25px 25px 0;
+  float: left;
+}
+
+.lcsfNr .nr .last{
+  width:220px;
+  height:250px;
+  background:url(../img201707/grlc透明白底.png);
+  margin:25px 0;
+  float: left;
+}
+
+.lcsfNr .nr .ff h2{
+  font-size: 25px;
+  line-height: 25px;
+  height:25px;
+  padding-bottom: 10px;
+  width: 180px;
+  border-bottom: 2px solid #000;
+  margin: 30px auto 10px;
+}
+
+.lcsfNr .nr .ff .title{
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding:0 20px 20px;
+  width:180px;
+  border-bottom: 1px dashed #fff;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.lcsfNr .nr .ff .text{
+  font-size: 15px;
+  line-height: 20px;
+  width: 180px;
+  margin:0 auto;
+  text-align: justify;
+}
+
+.shlj{
+  width:100%;
+  min-width:1200px;
+  height:auto;
+}
+
+.shljBt_Box{
+  width:100%;
+  min-width:1200px;
+  height:150px;
+  border-bottom:1px solid #e5e5e5;
+  background:#f9f9f9;
+}
+
+.shljBt_Box .shljBt{
+  width:1200px;
+  height:150px;
+  margin: 0 auto;
+
+}
+
+.shljBt_Box .shljBt .smallBt{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing:1px;
+}
+
+.shljBt_Box .shljBt .mainBt{
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:10px;
+  letter-spacing: 9px;
+}
+
+.shljBt_Box .shljBt img{
+  position: relative;
+  top:-22px;
+  left:569px;
+}
+
+.shljNr{
+  width: 100%;
+  min-width: 1200px;
+  height:auto;
+  overflow: hidden;
+}
+
+.shljNr .nrBox{
+  width: 100%;
+  min-width: 1200px;
+  height:683px;
+  margin-bottom: 72px;
+  background: url(../img201707/grlc公司简介配图.png) 50% 50% no-repeat;
+}
+
+.shljNr .nrBox .nr{
+  width:1200px;
+  height:auto;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.shljNr .nrBox .nr .gsjjBox{
+  width:210px;
+  height:90px;
+  float: right;
+  margin-right: 234px;
+  margin-top: 170px;
+}
+
+
+.shljNr .nrBox .nr .gsjjBox .gsjj{
+  width:210px;
+  height: 70px;
+  background: #eee;
+  overflow: hidden;
+}
+
+.shljNr .nrBox .nr .gsjjBox .gsjj .mainBt{
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-top:20px;
+  letter-spacing: 2px;
+}
+
+.shljNr .nrBox .nr .gsjjBox .smallBt{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing:1px;
+  position: relative;
+  bottom: 9px;
+}
+
+.shljNr .nrBox .nr .gsjjnr{
+  width: 1000px;
+  height: 260px;
+  background:#eee;
+  float: right;
+  margin-top: 45px;
+  padding:95px 0;
+}
+
+.shljNr .nrBox .nr .gsjjnr p{
+  font-size: 16px;
+  line-height: 33px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.jypt{
+  width:100%;
+  min-width:1200px;
+  height:auto;
+  position: relative;
+}
+
+.jyptBt_Box{
+  width:100%;
+  min-width:1200px;
+  height:150px;
+  border-bottom:1px solid #e5e5e5;
+  background:#f9f9f9;
+}
+
+.jyptBt_Box .jyptBt{
+  width:1200px;
+  height:150px;
+  margin: 0 auto;
+
+}
+
+.jyptBt_Box .jyptBt .smallBt{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing:1px;
+}
+
+.jyptBt_Box .jyptBt .mainBt{
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom:10px;
+  letter-spacing: 9px;
+}
+
+.jyptBt_Box .jyptBt img{
+  position: relative;
+  top:-22px;
+  left:569px;
+}
+
+.jysNr{
+  width: 1200px;
+  height:470px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.jysNr .nr{
+  width:750px;
+  height:250px;
+  background: #eee;
+  margin:0 auto;
+}
+
+.jysNr .nr ul{
+  width:374px;
+  height:190px;
+  margin:30px 0;
+  display: block;
+  float: left;
+  border-right:1px dashed #d2d2d2;
+}
+
+.jysNr .nr .last{
+  width:375px;
+  height:190px;
+  margin:30px 0;
+  display: block;
+  float: left;
+  border-right:0;
+}
+
+.jysNr .nr ul li{
+  height:16px;
+  margin-bottom: 25px;
+}
+
+.jysNr .nr ul li a{
+  font-size: 16px;
+  line-height: 16px;
+  margin-left:70px;
+  color: #585858;
+}
+
+.jysNr .nr ul li a:hover{
+  color: #ed1a1a;
+}
+
+.jysNr .nr ul li img{
+  height:16px;
+  width: 16px;
+  margin-right: 5px;
+}
+
+.jysNr .nr .button{
+  position: relative;
+  bottom:25px;
+  left: 333px;
+}
+
+.jypt .bj{
+  width: 100%;
+  min-width: 1200px;
+  height: 291px;
+  background: url(../../Skin/img201707/grlc交易平台介绍背景图.png) 50% 50% no-repeat;
+  position: absolute;
+  z-index: -1;
+  top:291px;
+}
+
+/*新闻资讯*/
+.xwzx{
+  width: 100%;
+  min-width: 1200px;
+  height: auto;
+  margin-bottom: 90px;
+}
+
+.xwzx .xwzxBt{
+  width:1200px;
+  height:100px;
+  margin:0 auto;
+}
+
+.xwzx .xwzxBt .smallBt{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+  margin-bottom: 10px;
+  letter-spacing:1px;
+}
+
+.xwzx .xwzxBt .mainBt{
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom:10px;
+  letter-spacing: 9px;
+} 
+
+.xwzx .zxbj{
+  width:100%;
+  min-width: 1200px;
+  height: 537px;
+  background: url(../../Skin/img201707/lc新闻资讯底图.png) 50% 50% no-repeat;
+}
+
+.xwzx .zxbj .zxnr{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.xwzx .zxbj .zxnr ul{
+  margin-top: 60px;
+  margin-left:22px;
+  width: 515px;
+  float: left;
+}
+
+.xwzx .zxbj .zxnr ul li{
+  width: 515px;
+  border-bottom: 1px dashed #fff;
+  padding: 20px 0;
+}
+
+.xwzx .zxbj .zxnr ul .last{
+  width: 515px;
+  border-bottom:0;
+  padding: 20px 0;
+}
+
+.xwzx .zxbj .zxnr ul li a{
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  letter-spacing: 0.7px;
+}
+
+.xwzx .zxbj .zxnr ul li a:hover{
+  color: #ed1a1a;
+}
+
+.xwzx .zxbj .zxnr ul li b{
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.xwzx .zxbj .zxnr ul li .date{
+  margin-left: 26px;
+  margin-left: 18px\0;
+}
+
+.xwzx .zxbj .zxnr ul li b a{
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.xwzx .zxbj .zxnr ul span{
+  width:78px;
+  height:23px;
+  line-height: 23px;
+  display: inline-block;
+  border: 1px solid #fff;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.xwzx .zxbj .zxnr ul span a{
+  width:78px;
+  height:23px;
+  line-height: 23px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.xwzx .zxbj .zxnr ul span a:hover{
+  color: #fff;
+  background: #ed1a1a;
+  border-radius: 5px;
+}
+
+.xwzx .zxbj .zxnr .zx{
+  width:235px;
+  height: 395px;
+  background: #fff;
+  float: left;
+  margin-top: 75px;
+  margin-left:15px;
+  padding:0 50px;
+}
+
+.xwzx .zxbj .zxnr .zx .title{
+  font-size: 18px;
+  line-height:25px;
+  margin-top: 105px;
+  margin-bottom: 25px;
+}
+
+.xwzx .zxbj .zxnr .zx .text{
+  font-size: 14px;
+  line-height:20px;
+  letter-spacing: 1px;
+}
+
+.xwzx .zxbj .zxnr .zx .text b a{
+  color: #ed1a1a;
+}

@@ -1,0 +1,267 @@
+.header {
+	height: 163px;
+	margin: 0 auto;
+}
+
+.header .header-top {
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #e5e5e5;
+	min-width: 1200px;
+}
+
+.header .header-top .top-nav {
+	width: 1200px;
+	margin: 0 auto;
+	height: 70px;
+}
+
+.header .header-top .top-nav .nav {
+	float: left;
+	width: 705px;
+	height: 70px;
+	margin-left: 239px;
+}
+
+.header .header-top .top-nav .nav ul {
+	height: 70px;
+}
+
+.header .header-top .top-nav .nav ul li {
+	line-height: 70px;
+	text-align: center;
+	float: left;
+	padding-right: 28px;
+	padding-left: 10px;
+	height: 70px;
+	font-size: 16px;
+}
+
+.header .header-top .top-nav .nav ul li a {
+	color: #333;
+}
+
+.header .header-top .top-nav .nav ul li a:hover {
+	color: #ed1a1a;
+}
+
+.header .header-top .top-nav .nav ul .nav-bright {
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.header .header-top .top-nav .nav ul .nav-bright a {
+	color: #ed1a1a;
+}
+
+.header .header-top .top-nav .nav ul .nav-bright a b {
+	display: inline-block;
+	height: 40px;
+	*height: 35px;
+	font-weight: 300;
+	font-style: normal;
+	margin-top: 15px;
+	border-top: 2px solid #e5493a;
+}
+
+.header .header-top .top-nav .header-sous {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-top: 29px;
+	margin-left: 103px;
+	cursor: pointer;
+}
+
+.header .header-top .top-nav .header-sous img {
+	width: 20px;
+	height: 20px;
+}
+
+.header .header-top .top-nav .header-wide {
+	width: 477px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 358px;
+	margin-top: 20px;
+	display: none;
+}
+
+.header .header-top .top-nav .header-wide img {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.header .header-top .top-nav .header-wide input {
+	width: 400px;
+	height: 20px;
+	margin: 5px 14px 0;
+	border: none;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+.header .header-top .top-nav .header-login {
+	width: 100px;
+	height: 70px;
+	float: right;
+}
+
+.header .header-top .top-nav .header-login ul {
+	margin-top: 27px;
+	width: 100px;
+	height: 20px;
+}
+
+.header .header-top .top-nav .header-login ul li {
+	line-height: 20px;
+	float: left;
+}
+
+.header .header-top .top-nav .header-login ul li img {
+	width: 17px;
+	height: 17px;
+	margin-top: 1px;
+}
+
+.header .header-top .top-nav .header-login ul li a {
+	font-size: 14px;
+	color: #333;
+}
+
+.header .header-top .top-nav .header-login ul li a:hover {
+	color: #ed1a1a;
+}
+
+.header .nav-son {
+	width: 1200px;
+	height: 91px;
+	margin: 0 auto;
+}
+
+.header .nav-son .logo {
+	width: 110px;
+	height: 50px;
+	margin-top: 22px;
+}
+
+.header .nav-son .logo img {
+	width: 110px;
+	height: 50px;
+}
+
+.header .nav-son .nav-ification {
+	width: 1000px;
+	margin-top: 30px;
+	margin-left: 55px;
+}
+
+.header .nav-son .nav-ification ul {
+	float: left;
+	text-align: center;
+}
+
+.header .nav-son .nav-ification .nav-qh {
+	width: 142px;
+	border-right: 1px solid #a6a6a6;
+	padding: 0 21px;
+}
+
+.header .nav-son .nav-ification .nav-daquan {
+	width: 145px;
+}
+.header .nav-son .nav-ification .nav-class{
+  width: 208px;
+}
+.header .nav-son .nav-ification .nav-pingtai {
+	width: 170px;
+}
+
+.header .nav-son .nav-ification .nav-qh li {
+	height: 22px;
+	font-size: 14px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.header .nav-son .nav-ification .nav-qh .colors a {
+	color: #ed1a1a;
+}
+
+.header .nav-son .nav-ification .nav-qh .nav-er {
+	*width: 28px;
+}
+
+.header .nav-son .nav-ification .nav-qh .nav-si {
+	margin-left: 15px;
+}
+
+.header .nav-son .nav-ification .nav-qh li a:hover {
+	color: #ed1a1a;
+}
+
+.header .nav-son .nav-ification .nav-qh li h3 {
+	font-size: 14px;
+	float: left;
+}
+
+.header .nav-son .nav-ification .nav-qh li h3 a {
+	color: #333;
+}
+
+.header .nav-son .nav-ification .nav-qh li img {
+	width: 5px;
+	height: 7px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.header .nav-son .nav-ification .nav-last {
+	width: 130px;
+	padding-left: 21px;
+}
+
+.header .nav-son .nav-ification .nav-last li {
+	height: 22px;
+	font-size: 14px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.header .nav-son .nav-ification .nav-last .colors a {
+	color: #ed1a1a;
+}
+
+.header .nav-son .nav-ification .nav-last .nav-er {
+	*width: 28px;
+}
+
+.header .nav-son .nav-ification .nav-last .nav-si {
+	margin-left: 14px;
+}
+
+.header .nav-son .nav-ification .nav-last li a:hover {
+	color: #ed1a1a;
+}
+
+.header .nav-son .nav-ification .nav-last li h3 {
+	font-size: 14px;
+	float: left;
+}
+
+.header .nav-son .nav-ification .nav-last li h3 a {
+	color: #333;
+}
+
+.header .nav-son .nav-ification .nav-last li img {
+	width: 5px;
+	height: 7px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.header .nav-son .nav-ification .qh-class{
+	width: 222px;
+}

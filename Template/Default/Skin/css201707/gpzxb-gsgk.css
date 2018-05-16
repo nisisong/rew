@@ -1,0 +1,81 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+  border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.public_title h3 span{
+	font-size: 14px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+
+.xin {
+    overflow: hidden;
+		margin-bottom: 20px;
+		font-size: 14px;
+}
+.xin table {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    line-height: 21px;
+}
+.xin table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #f7f7f7;
+    color: #333;
+    height: 25px;
+}
+.xin table tr td {
+    border: 1px solid #D7D7D7;
+		text-align: left;
+		line-height: 25px;
+    padding-left: 7px;
+}
+.tips-colname-Left span {
+    margin-left: 7px;
+}
+
+
+.firm {
+    width: 973px;
+    border: 1px solid #dbebf8;
+    margin-bottom: 20px;
+    border-top: none;
+    padding-bottom: 20px;
+}
+.firm p {
+    padding: 20px 20px 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    text-align: justify;
+    color: #333333;
+}
+
+
+.tips-fieldnameL {
+  width: 185px;
+    padding-left: 7px;
+    color: #333;
+    font-weight: normal;
+    text-align: left;
+}

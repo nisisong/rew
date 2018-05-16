@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta content="{PE.Label id="取得META信息" siteConfig="true" metaType="keywords" /}" name="Keywords" />
+<meta content="{PE.Label id="取得META信息" siteConfig="true" metaType="description" /}" name="Description"/>
+  <title>{PE.SiteConfig.SiteTitle/}</title>
+  <link rel="stylesheet" href="../../Skin/css201707/reset.css">
+  <link rel="stylesheet" href="../../Skin/css201707/index.css">
+  <script src="{PE.SiteConfig.ApplicationPath/}js/WebGlobal.js" type="text/javascript"></script>
+  {PE.Label id="公共脚本" /}
+</head>
+<body>
+  <a name="top"></a>
+  {PE.Label id="整站头部" nodes="@RequestInt_Id" prefix="4" showType="0" /}
+  {PE.Label id="整站头部" nodes="@RequestInt_Id" prefix="5" showType="0" /}
+
+  <!--头部结束  -->
+  <div id="player">
+      <div class="player">
+          <div class="slide1 slide"><a target="_blank" href="/lejifen/"></a></div>
+          <div class="slide2 slide"><a target="_blank" href="/qihuotong/"></a></div>
+          <div class="slide3 slide"><a target="_blank" href="/lejifen/"></a></div>
+          <div class="slide4 slide"><a target="_blank" href="/qihuotong/"></a></div>
+          <div class="tab_page">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </div>
+              <!--左右按钮-->
+              <div class="tab_left"></div>
+              <div class="tab_right"></div>
+      </div>
+      <!-- <div class="player_box"> -->
+          <!--中间部分-->
+          <!-- <div class="player_center"> -->
+              <!--分页器-->
+
+          <!-- </div> -->
+      <!-- </div> -->
+       <!-- 公司简介 -->
+     <div class="companyBox">
+        <div class="company">
+           <div class="companyTitle">
+               给你选择融e的理由
+           </div>
+
+           <div class="company1 fl">
+              <a rel="nofollow" target="_blank" href="/lejifen/"><img src="../../Skin/img201707/乐积分.png" alt=""></a>
+              <p class="name">投资教育基地</p>
+              <p class="tm">上海乐玑信息科技有限公司</p>
+              <p>“以知识保护投资人”的初衷，突破</p>
+              <p>传统金融教育平台单一的学习模式，更好的了解市场、把控风险、掌握正确投资技巧</p>
+            </div>
+           <div class="company2 fl">
+             <a rel="nofollow" target="_blank" href="/qihuotong/"><img src="../../Skin/img201707/ky.png" alt=""></a>
+              <p class="name">期货投资者的理财专家</p>
+              <p class="tm">杭州易实科技有限公司</p>
+              <p>K易期货通,最新投资分析金融市场点评,</p>
+              <p>低门槛玩转全球热门期货, 权威财经日历洞悉行情变化,更适合你的投资平台。</p>
+           </div>
+           <div class="company3 fl">
+              <a target="_blank" href="/fenxishi/"><img src="../../Skin/img201707/jrgg.png" alt=""></a>
+              <p class="name">分析师专刊</p>
+              <p class="tm">更专业的行情分析</p>
+              <p>关注金融行情走势方向，齐聚专业的金融</p>
+              <p>分析师，每日深度剖析你想了解的行情知识，实时把握金融市场动态。</p>
+
+           </div>
+        </div>
+     </div>
+  </div>
+  <!--轮播结束  -->
+
+  <!-- 股票 -->
+
+  <div class="stockBox">
+     <div class="line"></div>
+     <div class="stock">
+        <div class="stockMain">
+           <div class="top">
+              <div class="left fl">
+                 <div class="photo">
+                    <a target="_blank" href="/gupiao/"><img src="../../Skin/img201707/股票标题.png" alt=""></a>
+                 </div>
+
+                 <div class="news">
+                   <h2>
+                     <b></b>
+                     股票要闻
+                   </h2>
+                      {PE.Label id="ql-股票获取功能列表001" prefix="81" nodes="547,553,549" outputQty="1" iType="0" pageNum="8" /}
+                     <ul>
+                     <li class="first">
+                        <h3>股票新闻</h3>
+                     </li>
+                        {PE.Label id="ql-股票获取功能列表001" prefix="82" nodes="547" outputQty="4" iType="0" pageNum="1" /}
+                      </ul>
+                      <ul>
+                        <li class="first">
+                           <h3>股票知识</h3>
+                        </li>
+                        {PE.Label id="ql-股票获取功能列表001" prefix="82" nodes="553" outputQty="4" iType="0" pageNum="1" /}
+                   </ul>
+               </div>
+              </div>
+              <div class="right fl">
+                <span><h2 class="title-h2">股票教程</h2><b><a target="_blank" href="/gupiao/jiaocheng/">更多教程》</a></b></span>
+                <div class="book">
+                   <span>
+                     {PE.Label id="ql-教程获取功能列表001" prefix="36" nodes="532" /}
+                   </span>
+                   <ul>
+                   {PE.Label id="ql-教程获取功能列表001" prefix="37" nodes="532" outputQty="5" iType="1" /}
+                </ul>
+                </div>
+                <span><h2 class="title-h2">股票经验</h2><b><a target="_blank" href="/gupiao/info/xinwen/">查看更多》</a></b></span>
+                <ul class="Knowledge">
+                  {PE.Label id="通用信息列表" bindStyle="普通式" outputQty="6" titleLength="32" nodes="549" listOrderType="3" perType="1" displayDateTime="mm-dd" /}
+                </ul>
+              </div>
+           </div>
+           <div class="bottom">
+             <div class="left">
+                <span>
+                   <h2 class="title-h2">热门股票</h2>
+                   <!-- 滚动广告 -->
+                   <div class="gb fl">
+                     <img src="../../Skin/img201707/小喇叭.png" alt="">
+                     <div id="demo" class="qimo8 fl">
+                       <div class="qimo">
+                         <div id="demo1">
+                           <ul>
+                             <li><a href='' >某某股上新啦！</a></li>
+                           </ul>
+                         </div>
+                         <div id="demo2"></div>
+                       </div>
+                     </div>
+                   </div>
+                   <!-- 滚动广告结束 -->
+                   <b><a href="">查看更多》</a></b>
+                </span>
+             <div class="left-tell">
+               <div class="tell-ency">
+                 <div id="tell-roll">
+                   <div class="tell-contenter">
+                     <div class="tell-content">
+                         <div class="img1 tell-imgroll">
+                           <div class="hotStock">
+                           <div class="top d1"><h2>A股</h2></div>
+                           <div class="bottom">
+                              <ul>
+                                <li><a href="">平安银行</a></li>
+                                <li><a href="">平安银行</a></li>
+                                <li><a href="">平安银行</a></li>
+                                <li><a href="">平安银行</a></li>
+                                <li class="last"><a href="">MORE+</a></li>
+                              </ul>
+                           </div>
+                         </div>
+                        </div>
+                       <div class="img2 tell-imgroll">
+                         <div class="hotStock">
+                            <div class="top d2"><h2>B股</h2></div>
+                            <div class="bottom">
+                               <ul>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li class="last"><a href="">MORE+</a></li>
+                               </ul>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="img3 tell-imgroll">
+                         <div class="hotStock">
+                            <div class="top d3"><h2>H股</h2></div>
+                            <div class="bottom">
+                               <ul>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li class="last"><a href="">MORE+</a></li>
+                               </ul>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="img4 tell-imgroll">
+                         <div class="hotStock">
+                            <div class="top d4"><h2>S股</h2></div>
+                            <div class="bottom">
+                               <ul>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li class="last"><a href="">MORE+</a></li>
+                               </ul>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="img5 tell-imgroll">
+                         <div class="hotStock">
+                            <div class="top d5"><h2>N股</h2></div>
+                            <div class="bottom">
+                               <ul>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li class="last"><a href="">MORE+</a></li>
+                               </ul>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="img1 tell-imgroll">
+                         <div class="hotStock">
+                            <div class="top d1"><h2>A股</h2></div>
+                            <div class="bottom">
+                               <ul>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li class="last"><a href="">MORE+</a></li>
+                               </ul>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="img2 tell-imgroll">
+                         <div class="hotStock">
+                            <div class="top d2"><h2>B股</h2></div>
+                            <div class="bottom">
+                               <ul>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li class="last"><a href="">MORE+</a></li>
+                               </ul>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="img3 tell-imgroll">
+                         <div class="hotStock">
+                            <div class="top d3"><h2>H股</h2></div>
+                            <div class="bottom">
+                               <ul>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li><a href="">平安银行</a></li>
+                                 <li class="last"><a href="">MORE+</a></li>
+                               </ul>
+                            </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                   <!-- 中间 -->
+                   <div class="tell-left"></div>
+                   <!-- 左键 -->
+                   <div class="tell-right"></div>
+                   <!-- 右键 -->
+                 </div>
+               </div>
+             </div>
+              </div>
+
+              
+              <div class="right">
+                <span><h2 class="title-h2">知识问答</h2><b><a target="_blank" href="/ask/">查看更多》</a></b></span>
+                <ul class="rmwd">
+                  <li class="list1">
+                  <a target="_blank" href="/">
+                     <img src="../../Skin/img201707/问.png" alt="" class="small">
+                     <p class="wt">问：金融学和金融是一样的么？</p>
+                     <p class="info">
+                        <b class="twr">提问人：大白云</b>
+                        <b class="time">2017.07.07</b>
+                        <b class="state">未解决</b>
+                     </p>
+                  </a>
+                  </li>
+                  <li class="list2">
+                  <a target="_blank" href="/">
+                     <img src="../../Skin/img201707/问.png" alt="" class="small">
+                     <p class="wt">问：金融学和金融是一样的么？</p>
+                     <p class="info">
+                        <b class="twr">提问人：大白云</b>
+                        <b class="time">2017.07.07</b>
+                        <b class="state">未解决</b>
+                     </p>
+                  </a>
+                  </li>
+                  <li class="list3">
+                  <a target="_blank" href="/">
+                     <img src="../../Skin/img201707/问.png" alt="" class="small">
+                     <p class="wt">问：金融学和金融是一样的么？</p>
+                     <p class="info">
+                        <b class="twr">提问人：大白云</b>
+                        <b class="time">2017.07.07</b>
+                        <b class="state">未解决</b>
+                     </p>
+                  </a>
+                  </li>
+                  <li class="list4">
+                  <a target="_blank" href="/">
+                     <img src="../../Skin/img201707/问.png" alt="" class="small">
+                     <p class="wt">问：金融学和金融是一样的么？</p>
+                     <p class="info">
+                        <b class="twr">提问人：大白云</b>
+                        <b class="time">2017.07.07</b>
+                        <b class="state">未解决</b>
+                     </p>
+                  </a>
+                  </li>
+                  <li class="list5">
+                  <a target="_blank" href="/">
+                     <img src="../../Skin/img201707/问.png" alt="" class="small">
+                     <p class="wt">问：金融学和金融是一样的么？</p>
+                     <p class="info">
+                        <b class="twr">提问人：大白云</b>
+                        <b class="time">2017.07.07</b>
+                        <b class="state">未解决</b>
+                     </p>
+                  </a>
+                  </li>
+                  <li class="list6">
+                  <a target="_blank" href="/">
+                     <img src="../../Skin/img201707/问.png" alt="" class="small">
+                     <p class="wt">问：金融学和金融是一样的么？</p>
+                     <p class="info">
+                        <b class="twr">提问人：大白云</b>
+                        <b class="time">2017.07.07</b>
+                        <b class="state">未解决</b>
+                     </p>
+                  </a>
+                  </li>
+                </ul>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+
+  <!-- 期货 -->
+  <div class="futuresBox">
+     <div class="line"></div>
+     <div class="futures">
+        <div class="futuresMain">
+           <div class="top">
+              <div class="left fl">
+                 <div class="photo">
+                    <a target="_blank" href="/qihuo/"><img src="../../Skin/img201707/期货标题.png" alt=""></a>
+                 </div>
+                 <div class="futuresList">
+                    <ul class="rmzx">
+                       <span>
+                         <h2 class="title-h2 fl">期货资讯</h2><!--<b><a href="">查看更多》</a></b>-->
+                       </span>
+                       {PE.Label id="通用信息列表" outputQty="7" titleLength="32" nodes="550" listOrderType="3" perType="1" /}
+                    </ul>
+                    <ul class="rmjy">
+                       <span>
+                         <h2 class="title-h2 fl">期货经验</h2><!--<b><a href="">查看更多》</a></b>-->
+                       </span>
+                       {PE.Label id="通用信息列表" outputQty="7" titleLength="32" nodes="554" listOrderType="3" perType="1" /}
+                    </ul>
+                 </div>
+              </div>
+              <div class="right fl">
+                 <div class="wz_tool">
+                  <span><h2 class="title-h2">实用&nbsp;&nbsp;●&nbsp;&nbsp;工具</h2></span>
+                     <ul class="smallButton">
+                         <li><a href="/gupiao/stocklist/" target="_blank" class="begin" title="股票大全">股票大全</a></li>
+                         <li><a href="/qihuo/daquan/" target="_blank" class="begin" title="期货大全">期货大全</a></li>
+                         <li><a href="/jijin/daquan/" target="_blank" class="begin" title="基金分类">基金分类</a></li>
+                        <li><a href="/gupiao/guba/" target="_blank" class="begin" title="股吧论坛">股吧论坛</a></li>
+                         <li><a href="/qihuo/jiaocheng/" target="_blank" class="begin" title="期货教程">期货教程</a></li>
+                         <li><a href="/company/" target="_blank" class="begin" title="企业百科">企业百科</a></li>
+                        <li><a href="/touzi/daquan/MultiList.html?key=%u751F%u6D3B%u670D%u52A1" target="_blank" class="begin" title="投资项目">投资项目</a></li>
+                         <li><a href="/licai/daquan/" target="_blank" class="begin" title="理财分类">理财分类</a></li>
+                         <li><a href="http://www.rongew.com/gpzt/account/Index.html" target="_blank" class="begin" title="股票开户">股票开户</a></li>
+                     </ul>
+                </div>
+                <span><h2 class="title-h2">期货知识</h2><b><a target="_blank" href="/qihuo/info/zhishi/">查看更多》</a></b></span>
+                <ul class="Knowledge">
+                  {PE.Label id="通用信息列表" outputQty="5" titleLength="30" nodes="551" listOrderType="3" perType="1" displayDateTime="mm-dd" /}
+                </ul>
+              </div>
+           </div>
+           <div class="bottom">
+               <div class="rmjc fl">
+                  <span><h2 class="title-h2">期货教程</h2><b><a target="_blank" href="/qihuo/jiaocheng/">更多教程》</a></b></span>
+                  <div class="book">
+                    <span>
+                     {PE.Label id="ql-教程获取功能列表001" prefix="36" nodes="535" /}
+                    </span>
+                    <ul>
+                      {PE.Label id="ql-教程获取功能列表001" prefix="37" nodes="535" outputQty="5" iType="1" /}
+                    </ul>
+                  </div>
+               </div>
+               <div class="rmqh fl">
+                 <span>
+                    <h2 class="title-h2">期货市场</h2>
+                    <!-- 滚动广告 -->
+                    <div class="gb fl">
+                      <img src="../../Skin/img201707/小喇叭.png" alt="">
+                      <div id="demoBox" class="qimoBox fl">
+                        <div class="qimo">
+                          <div id="demoOne">
+                            <ul>
+                              <li><a target="_blank" href="/qihuo/MultiList.html">方便、快捷、查询你所想了解的期货！</a></li>
+                            </ul>
+                          </div>
+                          <div id="demoTwo"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 滚动广告结束 -->
+                    <b><a target="_blank" href="/qihuo/daquan/">查看更多》</a></b>
+                 </span>
+                 {PE.Label id="ql-获取功能列表001" prefix="5" outputQty="3" /}
+               </div>
+               <a rel="nofollow" target="_blank" href="/qhzt/ruanjian/"><div class="tlAd fl"></div></a>
+           </div>
+        </div>
+     </div>
+  </div>
+
+  <!-- 基金 -->
+  <div class="fundBox">
+     <div class="line"></div>
+     <div class="fund">
+        <div class="fundMain">
+           <div class="top">
+             <div class="left fl">
+               <div class="photo">
+                 <a target="_blank" href="/jijin/"><img src="../../Skin/img201707/基金标题.png" alt=""></a>
+               </div>
+               <div class="zxBox fl">
+                  <span>
+                    <h2 class="title-h2 fl">基金行情</h2>
+                    <b><a target="_blank" href="/jijin/info/hangqing/">查看更多》</a></b>
+                  </span>
+                  <span class="info">
+                    {PE.Label id="ql-获取功能列表001" prefix="2" nodes="555" titleLength="39" /}
+                  </span>
+                  <ul>
+                    {PE.Label id="ql-股票获取功能列表001" prefix="82" nodes="555" outputQty="4" iType="0" pageNum="1" /}
+                  </ul>
+               </div>
+               <div class="zsBox fl">
+                  <div class="rmjy">
+                    <span>
+                    <h2 class="title-h2 fl">基金经验</h2>
+                    <b><a target="_blank" href="/jijin/info/zhinan/">查看更多》</a></b>
+                    </span>
+                    <ul>
+                      {PE.Label id="通用信息列表" outputQty="4" titleLength="32" nodes="557" listOrderType="3" perType="1" /}
+                    </ul>
+                  </div>
+                  <div class="rmzs">
+                    <span>
+                      <h2 class="title-h2 fl">基金知识</h2>
+                      <b><a target="_blank" href="/jijin/info/zhishi/">查看更多》</a></b>
+                    </span>
+                    <ul>
+                      {PE.Label id="通用信息列表" outputQty="4" titleLength="32" nodes="556" listOrderType="3" perType="1" /}
+                    </ul>
+                  </div>
+               </div>
+             </div>
+             <div class="right fl">
+               <span>
+                  <h2 class="title-h2 fl"><a target="_blank" href="/company/">企业百科</a></h2>
+                  <b><a onclick="companyChange()"><img src="../../Skin/img201707/换一批.png" alt="热门企业-融e网">换一批</a></b>
+                </span>
+                <ul id="companyList">
+                  {PE.Label id="ql-获取功能列表001" prefix="6" outputQty="10" titleLength="27" /}
+                </ul>
+             </div>
+           </div>
+           <div class="bottom">
+              <div class="rmjc fl">
+                  <span><h2 class="title-h2">基金教程</h2><b><a target="_blank" href="/jijin/jjjc/">更多教程》</a></b></span>
+                  <div class="book">
+                    <span>
+                     {PE.Label id="ql-教程获取功能列表001" prefix="36" nodes="538" /}
+                    </span>
+                    <ul>
+                      {PE.Label id="ql-教程获取功能列表001" prefix="37" nodes="538" outputQty="4" iType="1" /}
+                    </ul>
+                  </div>
+               </div>
+              <div class="rmjypt">
+                 <span><h2 class="title-h2">基金交易平台</h2><b><a target="_blank" href="/jijin/plat/">查看更多》</a></b></span>
+                 {PE.Label id="ql-获取功能列表001" prefix="7" nodes="587" outputQty="2"  /}
+              </div>
+              <div class="rmji">
+                 <span>
+                  <h2 class="title-h2 fl">热门基金</h2>
+                  <b><a target="_blank" href="/jijin/daquan/">查看更多》</a></b>
+                 </span>
+                 {PE.Label id="ql-获取功能列表001" prefix="3" outputQty="4" titleLength="30" /}
+              </div>
+              <a rel="nofollow" target="_blank" href="/gpzt/software/"><div class="tlAd fl"></div></a>
+           </div>
+        </div>
+     </div>
+  </div>
+
+  <!-- 投资 -->
+  <div class="investmentBox">
+     <div class="line"></div>
+     <div class="investment">
+        <div class="investmentMain">
+           <div class="top">
+             <div class="left fl">
+               <div class="photo">
+                 <a target="_blank" href="/touzi/"><img src="../../Skin/img201707/投资标题.png" alt=""></a>
+               </div>
+               <div class="rmjc">
+                   <span><h2 class="title-h2">投资教程</h2><b><a target="_blank" href="/touzi/jiaocheng/">更多教程》</a></b></span>
+                   {PE.Label id="ql-教程获取功能列表001" prefix="13" nodes="593" outputQty="2" /}
+               </div>
+             </div>
+             <div class="right fl">
+               <span><h2 class="title-h2">视频中心</h2><b><a target="_blank" href="/Video/" >查看更多》</a></b></span>
+               {PE.Label id="Flash信息列表" bindStyle="二册式" outputQty="2"  /}
+             </div>
+           </div>
+           <div class="bottom">
+              <ul>
+                 <span>
+                  <h2 class="title-h2 fl">投资资讯</h2>
+                  <b><a target="_blank" href="/touzi/info/xiwnen/">查看更多》</a></b>
+                 </span>
+                 {PE.Label id="通用信息列表" outputQty="5" titleLength="32" nodes="558" listOrderType="3" /}
+              </ul>
+              <ul>
+                 <span>
+                  <h2 class="title-h2 fl">投资知识</h2>
+                  <b><a target="_blank" href="/touzi/info/zhishi/">查看更多》</a></b>
+                 </span>
+                 {PE.Label id="通用信息列表" outputQty="5" titleLength="32" nodes="559" listOrderType="3" /}
+              </ul>
+              <ul>
+                 <span>
+                  <h2 class="title-h2 fl">投资经验</h2>
+                  <b><a target="_blank" href="/touzi/info/zhinan/">查看更多》</a></b>
+                 </span>
+                 {PE.Label id="通用信息列表" outputQty="5" titleLength="32" nodes="560" listOrderType="3" /}
+              </ul>
+              <div class="tzfl">
+                 <span><h2 class="title-h2">投资分类</h2></span>
+                 <div class="hotStock">
+                    <div class="top d1">
+                      <h2>
+                        <a target="_blank" href="/touzi/Immigrant.html">投资移民</a>
+                      </h2>
+                    </div>
+                 </div>
+                 <div class="hotStock">
+                    <div class="top d2">
+                      <h2>
+                        <a target="_blank" href="/touzi/Risk.html">风险投资</a>
+                      </h2>
+                    </div>
+                 </div>
+                 <div class="hotStock">
+                    <div class="top d3">
+                      <h2>
+                        <a target="_blank" href="/touzi/Finance.html">金融投资</a>
+                      </h2>
+                    </div>
+                 </div>
+                 <div class="hotStock">
+                    <div class="top d4">
+                      <h2>
+                        <a target="_blank" href="/touzi/Manage.html">投资管理</a>
+                      </h2>
+                    </div>
+                 </div>
+                 <div class="hotStock">
+                    <div class="top d5">
+                      <h2>
+                      <a href="http://www.rongew.com/touzi/daquan/MultiList.html" target="_blank">找项目</a>
+                      </h2>
+                    </div>
+                 </div>
+                 <div class="hotStock">
+                    <div class="top d6">
+                      <h2>
+                        <a target="_blank" href="/touzi/daquan/">
+                           <img src="../../Skin/img201707/new-jia.png" alt="">
+                           全部
+                         </a>
+                      </h2>
+                    </div>
+                 </div>
+              </div>
+              <div class="adw">
+                <a href="/lejifen/">
+                   <img src="../../Skin/img201707/index-tayc.png" alt="">
+                </a>
+             </div>
+           </div>
+        </div>
+     </div>
+  </div>
+
+  <!-- 理财 -->
+  <div class="manageMoneyBox">
+     <div class="line"></div>
+     <div class="manageMoney ">
+        <div class="manageMoneyMain">
+           <div class="top">
+             <div class="left fl">
+               <div class="photo">
+                 <a target="_blank" href="/licai/"><img src="../../Skin/img201707/理财标题.png" alt=""></a>
+               </div>
+             </div>
+             <div class="right fl">
+                <a target="_blank" href="https://weibo.com/laoyucj/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1"><img src="../../Skin/img201707/企业词条接口.png" alt=""></a>
+             </div>
+             <div class="manageMoneyList fl">
+                <div class="manage">
+                    <div class="top d1"></div>
+                    <div class="bottom">
+                       <ul>
+                         <p>理财资讯 <b><a target="_blank" href="/licai/info/xiwnen/">查看更多》</a></b></p>
+                         {PE.Label id="通用信息列表" outputQty="7" titleLength="36" nodes="561" noShow="1" listOrderType="3" perType="1" /}
+                       </ul>
+                    </div>
+                 </div>
+                 <div class="manage">
+                    <div class="top d2"></div>
+                    <div class="bottom">
+                       <ul>
+                         <p>理财经验<b><a target="_blank" href="/licai/info/zhinan/">查看更多》</a></b></p>
+                         {PE.Label id="通用信息列表" outputQty="7" titleLength="36" nodes="562" noShow="1" listOrderType="3" perType="1" /}
+                       </ul>
+                    </div>
+                 </div>
+                 <div class="manage last">
+                    <div class="top d3"></div>
+                    <div class="bottom">
+                       <ul>
+                         <p>理财知识<b><a target="_blank" href="/licai/info/zhishi/">查看更多》</a></b></p>
+                         {PE.Label id="通用信息列表" outputQty="7" titleLength="36" nodes="563" noShow="1" listOrderType="3" perType="1" /}
+                       </ul>
+                    </div>
+                 </div>
+             </div>
+           </div>
+           <div class="bottom">
+              <div class="bleft fl">
+                <div class="btop">
+                   <div class="rmjc">
+                   <span><h2 class="title-h2">理财教程</h2><b><a target="_blank" href="/licai/jiaocheng/">更多教程》</a></b></span>
+                  {PE.Label id="ql-教程获取功能列表001" prefix="13" nodes="594" outputQty="2" /}
+               </div>
+                </div>
+                <div class="bbttom">
+                <div class="rmjypt">
+                 <span><h2 class="title-h2 fl">热门交易平台</h2><b><a target="_blank" href="/licai/plat/">查看更多》</a></b></span>
+                 {PE.Label id="ql-获取功能列表001" prefix="7" nodes="592" outputQty="4"  /}
+              </div>
+                </div>
+              </div>
+              <div class="bright fl">
+                <span><h2 class="title-h2 fl">理财分类</h2><b><a target="_blank" href="/licai/daquan/">查看更多》</a></b></span>
+                <div class="cxl">
+                   <a target="_blank" href="/licai/daquan/PersonFinanc.html"><img src="../../Skin/img201707/储蓄类配图.png" alt=""></a>
+                   <p class="title">
+                     <a target="_blank" href="/licai/daquan/PersonFinanc.html">个人理财</a>
+                   </p>
+                   <p class="text">
+                       个人理财是指根据财务状况，建立合理的个人财务规划，并适当参与投资活动。个人理财的投资包括：股票、基金、国债、储蓄...<a target="_blank" href="/licai/info/zhishi/4919.html">【查看详情】</a>
+                   </p>
+                </div>
+                <div class="hlwjr">
+                   <a target="_blank" href="/licai/daquan/FamilyFinanc.html"><img src="../../Skin/img201707/互联网金融配图.png" alt=""></a>
+                   <p class="title">
+                     <a target="_blank" href="/licai/daquan/FamilyFinanc.html">家庭理财</a>
+                   </p>
+                   <p class="text">
+                       说起来理财是一件非常平凡的事情，但实际上却非常有学问。家庭理财是一门新兴的实用科学，它是以经济学为指导、以会计学...<a target="_blank" href="/licai/info/zhishi/4938.html">【查看详情】
+                     </a>
+                   </p>
+                </div>
+                <div class="cjl">
+                   <a target="_blank" href="/licai/daquan/InvestFinanc.html"><img src="../../Skin/img201707/炒金类配图.png" alt=""></a>
+                   <p class="title">
+                     <a target="_blank" href="/licai/daquan/InvestFinanc.html">投资理财</a>
+                   </p>
+                   <p class="text">
+                       投资理财不等于简单的攒钱、存钱，把钱放在银行里，也不等于简单的炒股(股票买卖)。投资理财是根据需求和目的将所有财产和负债...<a target="_blank" href="/licai/info/zhishi/4939.html">【查看详情】
+                     </a>
+                   </p>
+                </div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+
+  <!-- 友情链接 -->
+
+  <div class="linkBox">
+     <div class="link">
+       <span><h2 class="title-h2">友情链接</h2></span>
+       <ul>
+         {PE.Label id="友情链接列表"  outputQty="40" titleLength="50" listOrderType="4" nodes="6" /}
+       </ul>
+     </div>
+  </div>
+
+  {PE.Label id="整站头部" prefix="2" /}
+  <!--尾部结束 -->
+<script type="text/javascript" src="{PE.SiteConfig.ApplicationPath /}{PE.SiteConfig.includefilepath /}/CustomerSide.js"></script>
+</body>
+ <script type="text/javascript" src="../../Skin/Alljs201707/index.js"></script>
+</html>
+<script type="text/javascript">
+    function companyChange() {
+        //企业词条 换一换
+        $.pe.ajax('accessLabel', {
+            labelName: 'ql-获取功能列表001', params: { prefix: 6, outputQty: 10, titleLength: 25 }, success: function (response) {
+                $("#companyList").html($(response).find('body').text());
+            }
+        });
+    }
+
+    $("#btnSearch").click(function () {
+        var strWord = $("#txtSearch").val();
+        if (strWord != null && strWord != '') {
+            window.open("/search.html?keyWord=" + escape(strWord));
+        }
+    });
+    $("#txtSearch").keydown(function (e) {
+        var strWord = $.trim($(this).val());
+        if (e.keyCode == 13 && strWord != null && strWord != '') {
+            window.open("/search.html?keyWord=" + escape(strWord));
+        }
+    });
+</script>

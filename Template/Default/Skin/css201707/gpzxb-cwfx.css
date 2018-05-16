@@ -1,0 +1,739 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+  border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.public_title h3 span{
+	font-size: 14px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+
+.xin {
+    overflow: hidden;
+		margin-bottom: 20px;
+		font-size: 14px;
+}
+.xin table {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    line-height: 21px;
+}
+.xin table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #f7f7f7;
+    color: #333;
+    height: 25px;
+}
+.xin table tr td {
+    border: 1px solid #D7D7D7;
+		text-align: center;
+		line-height: 25px;
+}
+.tips-colname-Left span {
+    margin-left: 7px;
+}
+
+
+
+.zfmz{
+	width:973px;
+	border: 1px solid #dbebf8;
+	margin-bottom:20px;
+}
+.zfmz .tab{
+	width:973px;
+	height: 57px;
+	border-bottom:#dbebf8 1px solid;
+}
+.zfmz .tab span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+}
+.zfmz .tab .on{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+
+}
+.zfmz .nr{
+	display: none;
+  height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+ tr.ChooseBlue {
+    background-color: #FFEFC1;
+}
+
+
+
+
+.dbfx{
+	width:973px;
+	border: 1px solid #dbebf8;
+	margin-bottom:20px;
+}
+.dbfx .tBr{
+	width:973px;
+	height: 57px;
+}
+.dbfx .tBr span{
+  display: inline-block;
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	margin:0 15px;
+	cursor: pointer;
+  height: 48px;
+  margin-top: 5px;
+
+}
+.dbfx .tBr .sele{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	background-color:#2f5895;
+	font-weight: bold;
+  color: #fff;
+
+}
+.dbfx .switch{
+	display: none;
+}
+
+
+.switch{
+	width:973px;
+}
+.switch .sun{
+	width:973px;
+	height: 57px;
+}
+.switch .sun span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+}
+.switch .sun .pick{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+
+}
+.switch-content{
+	display: none;
+  margin-bottom: 0;
+}
+
+
+
+
+.switch .sunsam{
+	width:973px;
+	height: 57px;
+}
+.switch .sunsam span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+}
+.switch .sunsam .pick{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+
+}
+.switch-center{
+	display: none;
+  margin-bottom: 0;
+}
+
+.xin .canvas {
+    border: 1px solid #353537;
+}
+
+
+
+
+
+
+
+
+.bfbbb{
+	width:973px;
+	border: 1px solid #dbebf8;
+	margin-bottom:20px;
+}
+.bfbbb .ten{
+	width:973px;
+	height: 57px;
+}
+.bfbbb .ten span{
+  display: inline-block;
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	margin:0 15px;
+	cursor: pointer;
+  height: 48px;
+
+}
+.bfbbb .ten .onc{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+}
+.bfbbb .single{
+	display: none;
+}
+
+.bbmx{
+	width:973px;
+	border: 1px solid #dbebf8;
+	margin-bottom:20px;
+}
+.bbmx .taBr{
+	width:973px;
+	height: 57px;
+}
+.bbmx .taBr span{
+  display: inline-block;
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	margin:0 15px;
+	cursor: pointer;
+  height: 48px;
+
+}
+.bbmx .taBr .xian{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+}
+.bbmx .tabrs{
+	display: none;
+}
+
+ .xin .db_01 {
+    width: 956px;
+    height: 56px;
+    background: url(../../Skin/img201707/db_w_01.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_01 .db_data01 {
+    position: relative;
+    left: 418px;
+    top: 32px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.tips-unit {
+    color: #666;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+ .xin .db_02 {
+    width: 956px;
+    height: 55px;
+    background: url(../../Skin/img201707/db_w_02.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_02 .db_data01 {
+    position: relative;
+    left: 259px;
+    top: 31px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_02 .db_data02 {
+    position: relative;
+    left: 498px;
+    top: 13px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_02 .db_data03 {
+    position: relative;
+    left: 735px;
+    top: -4px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_03 {
+    width: 956px;
+    height: 55px;
+    background: url(../../Skin/img201707/db_w_03.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_03 .db_data01 {
+    position: relative;
+    left: 101px;
+    top: 31px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_03 .db_data02 {
+    position: relative;
+    left: 418px;
+    top: 13px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_03 .db_data03 {
+    position: relative;
+    left: 735px;
+    top: -4px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_04 {
+    width: 956px;
+    height: 55px;
+    background: url(../../Skin/img201707/db_w_04.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_04 .db_data01 {
+    position: relative;
+    left: 22px;
+    top: 31px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_04 .db_data02 {
+    position: relative;
+    left: 180px;
+    top: 14px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_04 .db_data03 {
+    position: relative;
+    left: 339px;
+    top: -3px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_04 .db_data04 {
+    position: relative;
+    left: 497px;
+    top: -20px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_04 .db_data05 {
+    position: relative;
+    left: 656px;
+    top: -37px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_04 .db_data06 {
+    position: relative;
+    left: 814px;
+    top: -54px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_05 {
+    width: 956px;
+    height: 55px;
+    background: url(../../Skin/img201707/db_w_05.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_05 .db_data01 {
+    position: relative;
+    left: 22px;
+    top: 31px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_05 .db_data02 {
+    position: relative;
+    left: 180px;
+    top: 14px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_05 .db_data03 {
+    position: relative;
+    left: 497px;
+    top: -3px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_05 .db_data04 {
+    position: relative;
+    left: 656px;
+    top: -20px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_06 {
+    width: 956px;
+    height: 49px;
+    background: url(../../Skin/img201707/db_w_06.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_06 .db_data01 {
+    position: relative;
+    left: 22px;
+    top: 31px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_06 .db_data02 {
+    position: relative;
+    left: 180px;
+    top: 14px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_06 .db_data03 {
+    position: relative;
+    left: 339px;
+    top: -3px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_06 .db_data04 {
+    position: relative;
+    left: 497px;
+    top: -20px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_06 .db_data05 {
+    position: relative;
+    left: 656px;
+    top: -37px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_06 .db_data06 {
+    position: relative;
+    left: 814px;
+    top: -54px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_07 {
+    width: 956px;
+    height: 37px;
+    background: url(../../Skin/img201707/db_w_07.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_07 .db_data01 {
+    position: relative;
+    left: 22px;
+    top: 20px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_07 .db_data02 {
+    position: relative;
+    left: 180px;
+    top: 3px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_07 .db_data03 {
+    position: relative;
+    left: 497px;
+    top: -14px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_07 .db_data04 {
+    position: relative;
+    left: 656px;
+    top: -31px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_07 .db_data05 {
+    position: relative;
+    left: 814px;
+    top: -48px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_08 {
+    width: 956px;
+    height: 38px;
+    background: url(../../Skin/img201707/db_w_08.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_08 .db_data01 {
+    position: relative;
+    left: 22px;
+    top: 21px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_08 .db_data02 {
+    position: relative;
+    left: 180px;
+    top: 4px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_08 .db_data03 {
+    position: relative;
+    left: 339px;
+    top: -34px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_08 .db_data04 {
+    position: relative;
+    left: 497px;
+    top: -30px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_08 .db_data05 {
+    position: relative;
+    left: 656px;
+    top: -47px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_08 .db_data06 {
+    position: relative;
+    left: 814px;
+    top: -64px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_09 {
+    width: 956px;
+    height: 38px;
+    background: url(../../Skin/img201707/db_w_09.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_09 .db_data01 {
+    position: relative;
+    left: 22px;
+    top: 21px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_09 .db_data02 {
+    position: relative;
+    left: 180px;
+    top: 4px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_09 .db_data03 {
+    position: relative;
+    left: 339px;
+    top: -34px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_09 .db_data04 {
+    position: relative;
+    left: 497px;
+    top: -30px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_09 .db_data05 {
+    position: relative;
+    left: 656px;
+    top: -47px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_09 .db_data06 {
+    position: relative;
+    left: 814px;
+    top: -64px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_10 {
+    width: 956px;
+    height: 38px;
+    background: url(../../Skin/img201707/db_w_10.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_10 .db_data01 {
+    position: relative;
+    left: 180px;
+    top: 21px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_10 .db_data02 {
+    position: relative;
+    left: 339px;
+    top: -16px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_10 .db_data03 {
+    position: relative;
+    left: 497px;
+    top: -14px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_10 .db_data04 {
+    position: relative;
+    left: 656px;
+    top: -30px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_10 .db_data05 {
+    position: relative;
+    left: 814px;
+    top: -47px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_11 {
+    width: 956px;
+    height: 40px;
+    background: url(../../Skin/img201707/db_w_11.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_11 .db_data01 {
+    position: relative;
+    left: 497px;
+    top: 21px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_11 .db_data02 {
+    position: relative;
+    left: 656px;
+    top: 4px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.xin .db_11 .db_data03 {
+    position: relative;
+    left: 814px;
+    top: -14px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+ .xin .db_12 {
+    width: 956px;
+    height: 53px;
+    background: url(../../Skin/img201707/db_w_12.jpg) no-repeat;
+    overflow: hidden;
+}
+.xin .db_12 .db_data01 {
+    position: relative;
+    left: 497px;
+    top: 19px;
+    width: 119px;
+    height: 17px;
+    text-align: center;
+}
+.tips-note2 {
+    margin: 15px 0 15px 20px;
+    color: #666;
+    text-align: left;
+}
+.tips-explain {
+    margin-left: 10px;
+    color: #868686;
+    line-height: 45px;
+}

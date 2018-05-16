@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>持仓变动</title>
+  <link rel="stylesheet" href="../../Skin/css201707/reset.css">
+  <link rel="stylesheet" href="../../Skin/css201707/public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/jijgong-public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/jijgong-ccbd.css">
+</head>
+<body>
+  <div class="header clearfix">
+    <div class="header-top">
+      <div class="top-nav">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="">首页</a>
+            </li>
+            <li class="nav-bright">
+              <a href=""><b>股</b>票</a>
+            </li>
+            <li>
+              <a href="">期货</a>
+            </li>
+            <li>
+              <a href="">基金</a>
+            </li>
+            <li>
+              <a href="">投资</a>
+            </li>
+            <li>
+              <a href="">理财</a>
+            </li>
+            <li>
+              <a href="">视频</a>
+            </li>
+            <li>
+              <a href="">企业词条</a>
+            </li>
+            <li>
+              <a href="">问答中心</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-sous">
+          <img src="../../Skin/img201707/sous.png" alt="">
+        </div>
+        <div class="header-wide">
+          <img src="../../Skin/img201707/sous-icon.png" alt="">
+          <input type="text" name="" value="">
+          <img class="cha" src="../../Skin/img201707/cha-icon.png" alt="">
+        </div>
+        <div class="header-login">
+          <ul>
+            <li>
+              <img src="../../Skin/img201707/fang.png" alt="">
+              <a href="">登录</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href="">注册</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="nav-son">
+      <div class="logo fl">
+        <img src="../../Skin/img201707/logo.png" alt="">
+      </div>
+      <div class="nav-ification fl">
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">股票</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er  colors">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">期货</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">基金</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">投资</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-last">
+          <li>
+            <h3>
+              <a href="">理财</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 头部结束 -->
+  <div class="crumbs">
+    <span>
+      <a href="">融易首页</a>
+      >
+      <a href="">融易基金</a>
+      >
+      <a href="">基金分类</a>
+    </span>
+    <span class="wz-search">
+        <span class="search">
+          <input type="text" class="bsearch-text" placeholder="请输入基金代码或名称">
+          <button class="bsearch-btn">搜索</button>
+        </span>
+      </span>
+  </div>
+  <!-- 面包屑 -->
+  <div class="project">
+    <h1>天弘基金管理有限公司<span>Tianhong Asset Management Co.,ltd</span></h1>
+  </div>
+<div class="content">
+  <!-- 左侧 -->
+  <div class="plate fl">
+    <div class="plate-index">
+      基金公司档案
+    </div>
+    <div class="plate-title tab">
+      <span>基本资料</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li>
+        <a href="">基本概况</a>
+      </li>
+      <li>
+        <a href="">基金经理</a>
+      </li>
+      <li class="last">
+        <a href="">基金评级</a>
+      </li>
+    </ul>
+    <!--基本资料  -->
+    <div class="plate-title tab">
+      <span>分红回报</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li>
+        <a href="">旗下基金净值</a>
+      </li>
+      <li>
+        <a href="">分红送配</a>
+      </li>
+      <li>
+        <a href="">阶段涨幅</a>
+      </li>
+      <li class="last">
+        <a href="">季/年度涨幅</a>
+      </li>
+    </ul>
+    <!-- 分红回报  -->
+    <div class="plate-title tab">
+      <span>投资组合</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li>
+        <a href="">公司持仓</a>
+      </li>
+      <li>
+        <a href="">债券持仓</a>
+      </li>
+      <li>
+        <a href="">行业配置</a>
+      </li>
+      <li>
+        <a href="">资产配置</a>
+      </li>
+      <li class="active">
+        <a href="">持仓变动</a>
+      </li>
+      <li class="last">
+        <a href="">资产组合</a>
+      </li>
+    </ul>
+    <!--投资组合 -->
+    <div class="plate-title tab">
+      <span>规模份额</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li>
+        <a href="">规模变动</a>
+      </li>
+      <li class="last">
+        <a href="">持有人结构</a>
+      </li>
+    </ul>
+    <!-- 规模份额 -->
+    <div class="plate-title tab">
+      <span>财务数据</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li>
+        <a href="">旗下基金财务指标合计</a>
+      </li>
+      <li>
+        <a href="">旗下基金资产负债表合计</a>
+      </li>
+      <li>
+        <a href="">旗下基金利润表合计</a>
+      </li>
+      <li>
+        <a href="">旗下基金收入分析</a>
+      </li>
+      <li class="last">
+        <a href="">旗下基金费用分析</a>
+      </li>
+    </ul>
+    <!-- 财务数据 -->
+    <div class="plate-title tab">
+      <span>销售信息</span>
+      <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+    </div>
+    <ul class="net">
+      <li class="last">
+        <a href="">基金费率</a>
+      </li>
+    </ul>
+    <!-- 销售信息 -->
+  </div>
+  <!-- 左侧 -->
+  <div class="content-right">
+    <div class="public_title">
+      <h3>持仓变动</h3>
+      <div class="main-title-select">
+        <span>其他公司持仓变动查询：</span>
+        <div class="ttjj-select active ">
+          <div href="" class="ttjj-select-heading">
+            <span>天弘基金</span>
+            <span class="ttjj-iconfont">
+              <img src="../../Skin/img201707/gp-xsbdown.png" alt="">
+            </span>
+          </div>
+          <ul>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+            <li>
+              <a href="">博导基金</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- 名称 -->
+    <div class="zfmz">
+      <div class="tab">
+            <span class="on">累计买入</span>
+            <span class="">累计卖出</span>
+        </div>
+        <p class="state">累计买入、卖出金额超出预期基金资产净值2%或前20名的股票明细。</p>
+        <div class="nr" style="display:block">
+          <div class="xin">
+          <div class="common-sub-title">
+            <h3>安信基金 2017年4季度累计买入股票明细（全部）</h3>
+            <p>截止至：2017-12-31</p>
+          </div>
+          <table class="ttjj-table ttjj-table-hover">
+           <thead>
+            <tr>
+             <th>序号</th>
+             <th>股票代码</th>
+             <th class="td-align-left">股票名称</th>
+             <th>相关资讯</th>
+             <th>买入基金数</th>
+             <th class="td-align-right">本期累计买入金额(万元)</th>
+            </tr>
+           </thead>
+           <tbody class="tbody">
+            <tr class="">
+             <td>1</td>
+             <td><a href="sh601288">601288</a></td>
+             <td class="td-align-left"><a href="sh601288">农业银行</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_601288_2017_0_1">详情</a> <a href="601288">股吧</a> <a href="601288">行情</a> <a href="code=sh601288">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_601288_2017_0_1">20</a></td>
+             <td class="td-align-right">32,018.30</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>2</td>
+             <td><a href="sh600068">600068</a></td>
+             <td class="td-align-left"><a href="sh600068">葛洲坝</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600068_2017_0_1">详情</a> <a href="600068">股吧</a> <a href="600068">行情</a> <a href="code=sh600068">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600068_2017_0_1">30</a></td>
+             <td class="td-align-right">31,602.45</td>
+            </tr>
+            <tr class="">
+             <td>3</td>
+             <td><a href="sh600887">600887</a></td>
+             <td class="td-align-left"><a href="sh600887">伊利股份</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600887_2017_0_1">详情</a> <a href="600887">股吧</a> <a href="600887">行情</a> <a href="code=sh600887">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600887_2017_0_1">26</a></td>
+             <td class="td-align-right">26,755.20</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>4</td>
+             <td><a href="sh600566">600566</a></td>
+             <td class="td-align-left"><a href="sh600566">济川药业</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600566_2017_0_1">详情</a> <a href="600566">股吧</a> <a href="600566">行情</a> <a href="code=sh600566">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600566_2017_0_1">14</a></td>
+             <td class="td-align-right">26,737.17</td>
+            </tr>
+            <tr class="">
+             <td>5</td>
+             <td><a href="sh600612">600612</a></td>
+             <td class="td-align-left"><a href="sh600612">老凤祥</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600612_2017_0_1">详情</a> <a href="600612">股吧</a> <a href="600612">行情</a> <a href="code=sh600612">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600612_2017_0_1">5</a></td>
+             <td class="td-align-right">26,418.39</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>6</td>
+             <td><a href="sh600036">600036</a></td>
+             <td class="td-align-left"><a href="sh600036">招商银行</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600036_2017_0_1">详情</a> <a href="600036">股吧</a> <a href="600036">行情</a> <a href="code=sh600036">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600036_2017_0_1">24</a></td>
+             <td class="td-align-right">25,761.56</td>
+            </tr>
+            <tr class="">
+             <td>7</td>
+             <td><a href="sz002202">002202</a></td>
+             <td class="td-align-left"><a href="sz002202">金风科技</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_002202_2017_0_1">详情</a> <a href="002202">股吧</a> <a href="002202">行情</a> <a href="code=sz002202">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_002202_2017_0_1">19</a></td>
+             <td class="td-align-right">22,655.66</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>8</td>
+             <td><a href="sh600028">600028</a></td>
+             <td class="td-align-left"><a href="sh600028">中国石化</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600028_2017_0_1">详情</a> <a href="600028">股吧</a> <a href="600028">行情</a> <a href="code=sh600028">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600028_2017_0_1">20</a></td>
+             <td class="td-align-right">21,986.71</td>
+            </tr>
+            <tr class="">
+             <td>9</td>
+             <td><a href="sh600201">600201</a></td>
+             <td class="td-align-left"><a href="sh600201">生物股份</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600201_2017_0_1">详情</a> <a href="600201">股吧</a> <a href="600201">行情</a> <a href="code=sh600201">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600201_2017_0_1">4</a></td>
+             <td class="td-align-right">21,317.97</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>10</td>
+             <td><a href="sz000963">000963</a></td>
+             <td class="td-align-left"><a href="sz000963">华东医药</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_000963_2017_0_1">详情</a> <a href="000963">股吧</a> <a href="000963">行情</a> <a href="code=sz000963">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_000963_2017_0_1">13</a></td>
+             <td class="td-align-right">19,577.44</td>
+            </tr>
+           </tbody>
+          </table>
+          <p class="more">显示全部累计买入>></p>
+        </div>
+        <div class="xin">
+          <div class="common-sub-title">
+            <h3>安信基金 2017年2季度累计买入股票明细（全部）</h3>
+            <p>截止至：2017-06-30</p>
+          </div>
+          <table class="ttjj-table ttjj-table-hover">
+           <thead>
+            <tr>
+             <th>序号</th>
+             <th>股票代码</th>
+             <th class="td-align-left">股票名称</th>
+             <th>相关资讯</th>
+             <th>买入基金数</th>
+             <th class="td-align-right">本期累计买入金额(万元)</th>
+            </tr>
+           </thead>
+           <tbody class="tbody">
+            <tr class="">
+             <td>1</td>
+             <td><a href="sh601288">601288</a></td>
+             <td class="td-align-left"><a href="sh601288">农业银行</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_601288_2017_0_1">详情</a> <a href="601288">股吧</a> <a href="601288">行情</a> <a href="code=sh601288">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_601288_2017_0_1">20</a></td>
+             <td class="td-align-right">32,018.30</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>2</td>
+             <td><a href="sh600068">600068</a></td>
+             <td class="td-align-left"><a href="sh600068">葛洲坝</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600068_2017_0_1">详情</a> <a href="600068">股吧</a> <a href="600068">行情</a> <a href="code=sh600068">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600068_2017_0_1">30</a></td>
+             <td class="td-align-right">31,602.45</td>
+            </tr>
+            <tr class="">
+             <td>3</td>
+             <td><a href="sh600887">600887</a></td>
+             <td class="td-align-left"><a href="sh600887">伊利股份</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600887_2017_0_1">详情</a> <a href="600887">股吧</a> <a href="600887">行情</a> <a href="code=sh600887">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600887_2017_0_1">26</a></td>
+             <td class="td-align-right">26,755.20</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>4</td>
+             <td><a href="sh600566">600566</a></td>
+             <td class="td-align-left"><a href="sh600566">济川药业</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600566_2017_0_1">详情</a> <a href="600566">股吧</a> <a href="600566">行情</a> <a href="code=sh600566">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600566_2017_0_1">14</a></td>
+             <td class="td-align-right">26,737.17</td>
+            </tr>
+            <tr class="">
+             <td>5</td>
+             <td><a href="sh600612">600612</a></td>
+             <td class="td-align-left"><a href="sh600612">老凤祥</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600612_2017_0_1">详情</a> <a href="600612">股吧</a> <a href="600612">行情</a> <a href="code=sh600612">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600612_2017_0_1">5</a></td>
+             <td class="td-align-right">26,418.39</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>6</td>
+             <td><a href="sh600036">600036</a></td>
+             <td class="td-align-left"><a href="sh600036">招商银行</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600036_2017_0_1">详情</a> <a href="600036">股吧</a> <a href="600036">行情</a> <a href="code=sh600036">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600036_2017_0_1">24</a></td>
+             <td class="td-align-right">25,761.56</td>
+            </tr>
+            <tr class="">
+             <td>7</td>
+             <td><a href="sz002202">002202</a></td>
+             <td class="td-align-left"><a href="sz002202">金风科技</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_002202_2017_0_1">详情</a> <a href="002202">股吧</a> <a href="002202">行情</a> <a href="code=sz002202">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_002202_2017_0_1">19</a></td>
+             <td class="td-align-right">22,655.66</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>8</td>
+             <td><a href="sh600028">600028</a></td>
+             <td class="td-align-left"><a href="sh600028">中国石化</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600028_2017_0_1">详情</a> <a href="600028">股吧</a> <a href="600028">行情</a> <a href="code=sh600028">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600028_2017_0_1">20</a></td>
+             <td class="td-align-right">21,986.71</td>
+            </tr>
+            <tr class="">
+             <td>9</td>
+             <td><a href="sh600201">600201</a></td>
+             <td class="td-align-left"><a href="sh600201">生物股份</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600201_2017_0_1">详情</a> <a href="600201">股吧</a> <a href="600201">行情</a> <a href="code=sh600201">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_600201_2017_0_1">4</a></td>
+             <td class="td-align-right">21,317.97</td>
+            </tr>
+            <tr class="grey-bg">
+             <td>10</td>
+             <td><a href="sz000963">000963</a></td>
+             <td class="td-align-left"><a href="sz000963">华东医药</a></td>
+             <td class="links"> <a href="/Company/f10/ccbdxq_80163340_000963_2017_0_1">详情</a> <a href="000963">股吧</a> <a href="000963">行情</a> <a href="code=sz000963">档案</a> </td>
+             <td class="links"><a href="/Company/f10/ccbdxq_80163340_000963_2017_0_1">13</a></td>
+             <td class="td-align-right">19,577.44</td>
+            </tr>
+           </tbody>
+          </table>
+          <p class="more">显示全部累计买入>></p>
+        </div>
+      </div>
+
+      <div class="nr">
+        <div class="xin">
+        <div class="common-sub-title">
+          <h3>安信基金 2017年4季度累计卖出股票明细（全部）</h3>
+          <p>截止至：2017-12-31</p>
+        </div>
+        <table class="ttjj-table ttjj-table-hover">
+         <thead>
+          <tr>
+           <th>序号</th>
+           <th>股票代码</th>
+           <th class="td-align-left">股票名称</th>
+           <th>相关资讯</th>
+           <th>买入基金数</th>
+           <th class="td-align-right">本期累计买入金额(万元)</th>
+          </tr>
+         </thead>
+         <tbody class="tbody">
+          <tr class="">
+           <td>1</td>
+           <td><a href="sh601288">601288</a></td>
+           <td class="td-align-left"><a href="sh601288">农业银行</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_601288_2017_0_1">详情</a> <a href="601288">股吧</a> <a href="601288">行情</a> <a href="code=sh601288">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_601288_2017_0_1">20</a></td>
+           <td class="td-align-right">32,018.30</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>2</td>
+           <td><a href="sh600068">600068</a></td>
+           <td class="td-align-left"><a href="sh600068">葛洲坝</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600068_2017_0_1">详情</a> <a href="600068">股吧</a> <a href="600068">行情</a> <a href="code=sh600068">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600068_2017_0_1">30</a></td>
+           <td class="td-align-right">31,602.45</td>
+          </tr>
+          <tr class="">
+           <td>3</td>
+           <td><a href="sh600887">600887</a></td>
+           <td class="td-align-left"><a href="sh600887">伊利股份</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600887_2017_0_1">详情</a> <a href="600887">股吧</a> <a href="600887">行情</a> <a href="code=sh600887">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600887_2017_0_1">26</a></td>
+           <td class="td-align-right">26,755.20</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>4</td>
+           <td><a href="sh600566">600566</a></td>
+           <td class="td-align-left"><a href="sh600566">济川药业</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600566_2017_0_1">详情</a> <a href="600566">股吧</a> <a href="600566">行情</a> <a href="code=sh600566">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600566_2017_0_1">14</a></td>
+           <td class="td-align-right">26,737.17</td>
+          </tr>
+          <tr class="">
+           <td>5</td>
+           <td><a href="sh600612">600612</a></td>
+           <td class="td-align-left"><a href="sh600612">老凤祥</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600612_2017_0_1">详情</a> <a href="600612">股吧</a> <a href="600612">行情</a> <a href="code=sh600612">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600612_2017_0_1">5</a></td>
+           <td class="td-align-right">26,418.39</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>6</td>
+           <td><a href="sh600036">600036</a></td>
+           <td class="td-align-left"><a href="sh600036">招商银行</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600036_2017_0_1">详情</a> <a href="600036">股吧</a> <a href="600036">行情</a> <a href="code=sh600036">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600036_2017_0_1">24</a></td>
+           <td class="td-align-right">25,761.56</td>
+          </tr>
+          <tr class="">
+           <td>7</td>
+           <td><a href="sz002202">002202</a></td>
+           <td class="td-align-left"><a href="sz002202">金风科技</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_002202_2017_0_1">详情</a> <a href="002202">股吧</a> <a href="002202">行情</a> <a href="code=sz002202">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_002202_2017_0_1">19</a></td>
+           <td class="td-align-right">22,655.66</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>8</td>
+           <td><a href="sh600028">600028</a></td>
+           <td class="td-align-left"><a href="sh600028">中国石化</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600028_2017_0_1">详情</a> <a href="600028">股吧</a> <a href="600028">行情</a> <a href="code=sh600028">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600028_2017_0_1">20</a></td>
+           <td class="td-align-right">21,986.71</td>
+          </tr>
+          <tr class="">
+           <td>9</td>
+           <td><a href="sh600201">600201</a></td>
+           <td class="td-align-left"><a href="sh600201">生物股份</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600201_2017_0_1">详情</a> <a href="600201">股吧</a> <a href="600201">行情</a> <a href="code=sh600201">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600201_2017_0_1">4</a></td>
+           <td class="td-align-right">21,317.97</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>10</td>
+           <td><a href="sz000963">000963</a></td>
+           <td class="td-align-left"><a href="sz000963">华东医药</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_000963_2017_0_1">详情</a> <a href="000963">股吧</a> <a href="000963">行情</a> <a href="code=sz000963">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_000963_2017_0_1">13</a></td>
+           <td class="td-align-right">19,577.44</td>
+          </tr>
+         </tbody>
+        </table>
+        <p class="more">显示全部累计卖出>></p>
+      </div>
+      <div class="xin">
+        <div class="common-sub-title">
+          <h3>安信基金 2017年2季度累计卖出股票明细（全部）</h3>
+          <p>截止至：2017-06-30</p>
+        </div>
+        <table class="ttjj-table ttjj-table-hover">
+         <thead>
+          <tr>
+           <th>序号</th>
+           <th>股票代码</th>
+           <th class="td-align-left">股票名称</th>
+           <th>相关资讯</th>
+           <th>买入基金数</th>
+           <th class="td-align-right">本期累计买入金额(万元)</th>
+          </tr>
+         </thead>
+         <tbody class="tbody">
+          <tr class="">
+           <td>1</td>
+           <td><a href="sh601288">601288</a></td>
+           <td class="td-align-left"><a href="sh601288">农业银行</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_601288_2017_0_1">详情</a> <a href="601288">股吧</a> <a href="601288">行情</a> <a href="code=sh601288">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_601288_2017_0_1">20</a></td>
+           <td class="td-align-right">32,018.30</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>2</td>
+           <td><a href="sh600068">600068</a></td>
+           <td class="td-align-left"><a href="sh600068">葛洲坝</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600068_2017_0_1">详情</a> <a href="600068">股吧</a> <a href="600068">行情</a> <a href="code=sh600068">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600068_2017_0_1">30</a></td>
+           <td class="td-align-right">31,602.45</td>
+          </tr>
+          <tr class="">
+           <td>3</td>
+           <td><a href="sh600887">600887</a></td>
+           <td class="td-align-left"><a href="sh600887">伊利股份</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600887_2017_0_1">详情</a> <a href="600887">股吧</a> <a href="600887">行情</a> <a href="code=sh600887">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600887_2017_0_1">26</a></td>
+           <td class="td-align-right">26,755.20</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>4</td>
+           <td><a href="sh600566">600566</a></td>
+           <td class="td-align-left"><a href="sh600566">济川药业</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600566_2017_0_1">详情</a> <a href="600566">股吧</a> <a href="600566">行情</a> <a href="code=sh600566">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600566_2017_0_1">14</a></td>
+           <td class="td-align-right">26,737.17</td>
+          </tr>
+          <tr class="">
+           <td>5</td>
+           <td><a href="sh600612">600612</a></td>
+           <td class="td-align-left"><a href="sh600612">老凤祥</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600612_2017_0_1">详情</a> <a href="600612">股吧</a> <a href="600612">行情</a> <a href="code=sh600612">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600612_2017_0_1">5</a></td>
+           <td class="td-align-right">26,418.39</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>6</td>
+           <td><a href="sh600036">600036</a></td>
+           <td class="td-align-left"><a href="sh600036">招商银行</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600036_2017_0_1">详情</a> <a href="600036">股吧</a> <a href="600036">行情</a> <a href="code=sh600036">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600036_2017_0_1">24</a></td>
+           <td class="td-align-right">25,761.56</td>
+          </tr>
+          <tr class="">
+           <td>7</td>
+           <td><a href="sz002202">002202</a></td>
+           <td class="td-align-left"><a href="sz002202">金风科技</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_002202_2017_0_1">详情</a> <a href="002202">股吧</a> <a href="002202">行情</a> <a href="code=sz002202">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_002202_2017_0_1">19</a></td>
+           <td class="td-align-right">22,655.66</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>8</td>
+           <td><a href="sh600028">600028</a></td>
+           <td class="td-align-left"><a href="sh600028">中国石化</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600028_2017_0_1">详情</a> <a href="600028">股吧</a> <a href="600028">行情</a> <a href="code=sh600028">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600028_2017_0_1">20</a></td>
+           <td class="td-align-right">21,986.71</td>
+          </tr>
+          <tr class="">
+           <td>9</td>
+           <td><a href="sh600201">600201</a></td>
+           <td class="td-align-left"><a href="sh600201">生物股份</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_600201_2017_0_1">详情</a> <a href="600201">股吧</a> <a href="600201">行情</a> <a href="code=sh600201">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_600201_2017_0_1">4</a></td>
+           <td class="td-align-right">21,317.97</td>
+          </tr>
+          <tr class="grey-bg">
+           <td>10</td>
+           <td><a href="sz000963">000963</a></td>
+           <td class="td-align-left"><a href="sz000963">华东医药</a></td>
+           <td class="links"> <a href="/Company/f10/ccbdxq_80163340_000963_2017_0_1">详情</a> <a href="000963">股吧</a> <a href="000963">行情</a> <a href="code=sz000963">档案</a> </td>
+           <td class="links"><a href="/Company/f10/ccbdxq_80163340_000963_2017_0_1">13</a></td>
+           <td class="td-align-right">19,577.44</td>
+          </tr>
+         </tbody>
+        </table>
+        <p class="more">显示全部累计卖出>></p>
+      </div>
+    </div>
+    </div>
+
+    <div class="new">
+      <div class="new-title">
+        <h3>
+          基金资讯
+          <b>
+            <a href="">查看更多+</a>
+          </b>
+        </h3>
+      </div>
+      <ul class="fl">
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+      </ul>
+      <ul class="fr news">
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+      </ul>
+    </div>
+    <!-- 热门教程 -->
+
+    <div class="content-course">
+      <div class="course-title">
+        <h3>
+          热门教程
+          <b>
+            <a href="">查看更多+</a>
+          </b>
+        </h3>
+      </div>
+      <ul>
+        <li>
+          <img src="../../Skin/img201707/jc-jic.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+        <li>
+          <img src="../../Skin/img201707/jc-kanp.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+        <li>
+          <img src="../../Skin/img201707/jc-kanp.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+        <li class="last">
+          <img src="../../Skin/img201707/jc-rm.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 热门视频、交易平台 -->
+
+    <div class="hot">
+      <div class="hot-tutorial fl">
+        <div class="tutorial-title">
+          <h3>
+            热门视频
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul>
+          <li>
+            <img src="../../Skin/img201707/sp-img.png" alt="">
+            <b>
+              <a href="">
+                <img src="../../Skin/img201707/bof.png" alt="">
+              </a>
+            </b>
+            <p>
+              <a href="">如何学会快速炒股？</a>
+            </p>
+          </li>
+          <li class="last">
+            <img src="../../Skin/img201707/sp-img.png" alt="">
+            <b>
+              <a href="">
+                <img src="../../Skin/img201707/bof.png" alt="">
+              </a>
+            </b>
+            <p>
+              <a href="">如何学会快速炒股？</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- 视频 -->
+      <div class="interfix fr">
+        <div class="interfix-title">
+          <h3>
+            热门平台
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+      </div>
+      <!-- 交易平台  -->
+    </div>
+    <!--视频、平台  -->
+  </div>
+  <!-- 内容右侧 -->
+</div>
+<!-- 内容 -->
+<div class="footer">
+  <div class="footer_content">
+    <ul>
+      <li>
+        <a href="#">首页</a>
+      </li>
+      <li>
+        <a href="#">股票</a>
+      </li>
+      <li>
+        <a href="#">期货</a>
+      </li>
+      <li>
+        <a href="#">基金</a>
+      </li>
+      <li>
+        <a href="#">投资</a>
+      </li>
+      <li>
+        <a href="#">理财</a>
+      </li>
+      <li>
+        <a href="#">视频</a>
+      </li>
+      <li>
+        <a href="#">企业词条</a>
+      </li>
+      <li>
+        <a href="#">问答中心</a>
+      </li>
+      <li>
+        <a href="#">关于我们</a>
+      </li>
+    </ul>
+    <p>未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任</p>
+    <p>Copyright 2010 - 2016 一融易网 All Rights Reserved</p>
+    <p>浙ICP备17019464号-1 杭州熙晟科技有限公司</p>
+  </div>
+</div>
+<!--尾部结束 -->
+</body>
+<script type="text/javascript" src="../../Skin/Alljs201707/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/search.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/jijgong-public.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/jijgong-tab.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/jijgong-ccbd.js"></script>
+</html>

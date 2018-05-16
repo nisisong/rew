@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>股本结构</title>
+  <link rel="stylesheet" href="../../Skin/css201707/reset.css">
+  <link rel="stylesheet" href="../../Skin/css201707/public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/gpzxb-public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/gpzxb-gbjg.css">
+</head>
+<body>
+  <div class="header clearfix">
+    <div class="header-top">
+      <div class="top-nav">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="">首页</a>
+            </li>
+            <li class="nav-bright">
+              <a href=""><b>股</b>票</a>
+            </li>
+            <li>
+              <a href="">期货</a>
+            </li>
+            <li>
+              <a href="">基金</a>
+            </li>
+            <li>
+              <a href="">投资</a>
+            </li>
+            <li>
+              <a href="">理财</a>
+            </li>
+            <li>
+              <a href="">视频</a>
+            </li>
+            <li>
+              <a href="">企业词条</a>
+            </li>
+            <li>
+              <a href="">问答中心</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-sous">
+          <img src="../../Skin/img201707/sous.png" alt="">
+        </div>
+        <div class="header-wide">
+          <img src="../../Skin/img201707/sous-icon.png" alt="">
+          <input type="text" name="" value="">
+          <img class="cha" src="../../Skin/img201707/cha-icon.png" alt="">
+        </div>
+        <div class="header-login">
+          <ul>
+            <li>
+              <img src="../../Skin/img201707/fang.png" alt="">
+              <a href="">登录</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href="">注册</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="nav-son">
+      <div class="logo fl">
+        <img src="../../Skin/img201707/logo.png" alt="">
+      </div>
+      <div class="nav-ification fl">
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">股票</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er  colors">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">期货</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">基金</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">投资</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-last">
+          <li>
+            <h3>
+              <a href="">理财</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 头部结束 -->
+  <div class="crumbs">
+    <span>
+      <a href="">融易首页</a>
+      >
+      <a href="">融易股票</a>
+      >
+      <a href="">股票分类</a>
+    </span>
+    <span class="wz-search">
+        <span class="search">
+          <input type="text" class="bsearch-text" placeholder="请输入股票代码或名称">
+          <button class="bsearch-btn">搜索</button>
+        </span>
+      </span>
+  </div>
+  <!-- 面包屑 -->
+  <div class="content">
+    <div class="plate fl">
+      <div class="plate-index">
+        <a href="">操盘必读</a>
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">股东研究</a>
+        </li>
+        <li>
+          <a href="">经营分析</a>
+        </li>
+        <li>
+          <a href="">核心题材</a>
+        </li>
+        <li>
+          <a href="">公司大事</a>
+        </li>
+        <li>
+          <a href="">公司概况</a>
+        </li>
+        <li>
+          <a href="">同行比较</a>
+        </li>
+        <li>
+          <a href="">盈利预测</a>
+        </li>
+        <li>
+          <a href="">财务分析</a>
+        </li>
+        <li>
+          <a href="">分红融资</a>
+        </li>
+        <li class="active">
+          <a href="">股本结构</a>
+        </li>
+        <li>
+          <a href="">公司高管</a>
+        </li>
+        <li>
+          <a href="">资本运作</a>
+        </li>
+        <li>
+          <a href="">关联个股</a>
+        </li>
+        <li class="last">
+          <a href="">资金流向</a>
+        </li>
+      </ul>
+    <!--公司资料  -->
+    </div>
+  <!--左侧速览 -->
+    <div class="content-right">
+      <div class="public_title">
+        <h3>
+          限售解禁
+        </h3>
+      </div>
+      <div class="xin">
+        <table>
+         <tbody>
+          <tr>
+           <th class="tips-colnameL">解禁时间</th>
+           <th class="tips-colnameL">解禁数量(股)</th>
+           <th class="tips-colnameL">解禁股占总股本比例</th>
+           <th class="tips-colnameL">解禁股占流通股本比例</th>
+           <th class="tips-colnameL">股票类型</th>
+          </tr>
+          <tr>
+           <td class="tips-dataL">2018-12-18</td>
+           <td class="tips-dataL">1515万</td>
+           <td class="tips-dataL">18.61%</td>
+           <td class="tips-dataL">74.42%</td>
+           <td class="tips-dataL">首发原股东限售股份</td>
+          </tr>
+          <tr>
+           <td class="tips-dataL">2020-12-18</td>
+           <td class="tips-dataL">4591万</td>
+           <td class="tips-dataL">56.39%</td>
+           <td class="tips-dataL">225.50%</td>
+           <td class="tips-dataL">首发原股东限售股份</td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="tips-sp20"></div>
+       </div>
+      <!-- 限售解禁 -->
+      <div class="public_title">
+        <h3>
+          股本结构
+        </h3>
+      </div>
+      <div class="xin">
+        <div class="tips-marginR tips-colR">
+          <table>
+           <tbody>
+            <tr>
+             <th class="tips-colnameL lef">股份流通受限表</th>
+             <th class="tips-colnameR">数值(万股)</th>
+             <th class="tips-colnameR">占比</th>
+            </tr>
+            <tr>
+             <td class="tips-fieldnameL lef">未流通股份</td>
+             <td class="tips-dataR">--</td>
+             <td class="tips-dataR">--</td>
+            </tr>
+            <tr>
+             <td class="tips-fieldnameL lef">流通受限股份</td>
+             <td class="tips-dataR">6,106.38</td>
+             <td class="tips-dataR">75.00%</td>
+            </tr>
+            <tr>
+             <td class="tips-fieldnameL lef">已流通股份</td>
+             <td class="tips-dataR">2,036.00</td>
+             <td class="tips-dataR">25.00%</td>
+            </tr>
+            <tr class="highlightbg">
+             <td class="tips-colnameL lef">总股本</td>
+             <td class="tips-dataR">8,142.38</td>
+             <td class="tips-dataR">100.00%</td>
+            </tr>
+           </tbody>
+          </table>
+          <table>
+           <tbody>
+            <tr>
+             <th class="tips-colnameL lef">流通股份分布情况表</th>
+             <th class="tips-colnameR">数值(万股)</th>
+             <th class="tips-colnameR">占比</th>
+            </tr>
+            <tr>
+             <td class="tips-fieldnameL lef">已上市流通A股</td>
+             <td class="tips-dataR">2,036.00</td>
+             <td class="tips-dataR">100.00%</td>
+            </tr>
+            <tr>
+             <td class="tips-fieldnameL lef">已上市流通B股</td>
+             <td class="tips-dataR">--</td>
+             <td class="tips-dataR">--</td>
+            </tr>
+            <tr>
+             <td class="tips-fieldnameL lef">境外上市流通股</td>
+             <td class="tips-dataR">0.00</td>
+             <td class="tips-dataR">0.00%</td>
+            </tr>
+            <tr>
+             <td class="tips-fieldnameL lef">其它已流通股份</td>
+             <td class="tips-dataR">--</td>
+             <td class="tips-dataR">--</td>
+            </tr>
+            <tr class="highlightbg">
+             <td class="tips-colnameL lef">流通股份合计</td>
+             <td class="tips-dataR">2,036.00</td>
+             <td class="tips-dataR">100.00%</td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+      </div>
+      <!-- 股本结构 -->
+      <div class="public_title">
+        <h3>
+          历年股本变动
+        </h3>
+      </div>
+      <div class="xin">
+        <table id="lngbbd_Table">
+          <tbody>
+           <tr>
+            <th class="tips-fieldnameL">单位:万股</th>
+            <th class="tips-dataR">2017-12-18</th>
+            <th class="tips-dataR">2016-06-24</th>
+           </tr>
+           <tr class="highlightbg">
+            <th class="tips-fieldnameL">总股本</th>
+            <td class="tips-dataR">8,142.38</td>
+            <td class="tips-dataR">6,106.38</td>
+           </tr>
+           <tr class="highlightbg">
+            <th class="tips-fieldnameL">流通受限股份</th>
+            <td class="tips-dataR">6,106.38</td>
+            <td class="tips-dataR">6,106.38</td>
+           </tr>
+           <tr class="highlightbg">
+            <th class="tips-fieldnameL">其他内资持股(受限)</th>
+            <td class="tips-dataR">6,106.38</td>
+            <td class="tips-dataR">6,106.38</td>
+           </tr>
+           <tr class="highlightbg">
+            <th class="tips-fieldnameL">境内自然人持股(受限)</th>
+            <td class="tips-dataR">5,740.00</td>
+            <td class="tips-dataR">5,740.00</td>
+           </tr>
+           <tr class="highlightbg">
+            <th class="tips-fieldnameL">已流通股份</th>
+            <td class="tips-dataR">2,036.00</td>
+            <td class="tips-dataR">--</td>
+           </tr>
+           <tr class="highlightbg">
+            <th class="tips-fieldnameL">已上市流通A股</th>
+            <td class="tips-dataR">2,036.00</td>
+            <td class="tips-dataR">--</td>
+           </tr>
+           <tr class="highlightbg">
+            <th class="tips-fieldnameL">变动原因</th>
+            <td class="tips-dataR">首发A股上市</td>
+            <td class="tips-dataR">上市前股本</td>
+           </tr>
+           <tr>
+           </tr>
+          </tbody>
+         </table>
+      </div>
+      <!-- 历年股本变动 -->
+      <div class="public_title">
+        <h3>
+          股本构成
+        </h3>
+      </div>
+      <div class="xin">
+        <table>
+          <tbody>
+           <tr>
+            <th class="tips-colnameL">股份构成(万股)\变更日期</th>
+            <th class="tips-dataR">2017-12-18</th>
+            <th class="tips-dataR">2016-06-24</th>
+           </tr>
+           <tr>
+            <th class="tips-colnameL">股份总数</th>
+            <td class="tips-dataR">8,142.38</td>
+            <td class="tips-dataR">6,106.38</td>
+           </tr>
+           <tr>
+            <th class="tips-colnameL">已上市流通A股</th>
+            <td class="tips-dataR">2,036.00</td>
+            <td class="tips-dataR">--</td>
+           </tr>
+           <tr>
+            <th class="tips-colnameL">受限流通股份</th>
+            <td class="tips-dataR">6,106.38</td>
+            <td class="tips-dataR">6,106.38</td>
+           </tr>
+          </tbody>
+       </table>
+      </div>
+      <!-- 股本构成 -->
+      <div class="new">
+        <div class="new-title">
+          <h3>
+            股票资讯
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul class="fl">
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+        </ul>
+        <ul class="fr news">
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+          <li>
+            <b></b>
+            <a href="">
+              <span>[股票行情]</span>
+            </a>
+            <a href="">
+              金融资讯金融资讯金融资讯金融资讯 ...
+            </a>
+            <span class="date">12-20</span>
+          </li>
+        </ul>
+      </div>
+      <!-- 股票资讯 -->
+
+
+      <div class="content-course">
+        <div class="course-title">
+          <h3>
+            热门教程
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul>
+          <li>
+            <img src="../../Skin/img201707/jc-jic.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+          <li>
+            <img src="../../Skin/img201707/jc-kanp.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+          <li>
+            <img src="../../Skin/img201707/jc-kanp.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+          <li class="last">
+            <img src="../../Skin/img201707/jc-rm.png" alt="">
+            <div class="course-content">
+              <h4>
+                <a href="">股票学习秘籍</a>
+              </h4>
+              <p>
+                简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+              </p>
+              <span>
+                <a href="">点击查看</a>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    <!-- 热门教程 -->
+
+
+    <div class="hot">
+      <div class="hot-tutorial fl">
+        <div class="tutorial-title">
+          <h3>
+            热门视频
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul>
+          <li>
+            <img src="../../Skin/img201707/sp-img.png" alt="">
+            <b>
+              <a href="">
+                <img src="../../Skin/img201707/bof.png" alt="">
+              </a>
+            </b>
+            <p>
+              <a href="">如何学会快速炒股？</a>
+            </p>
+          </li>
+          <li class="last">
+            <img src="../../Skin/img201707/sp-img.png" alt="">
+            <b>
+              <a href="">
+                <img src="../../Skin/img201707/bof.png" alt="">
+              </a>
+            </b>
+            <p>
+              <a href="">如何学会快速炒股？</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- 视频 -->
+      <div class="interfix fr">
+        <div class="interfix-title">
+          <h3>
+            热门平台
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        </div>
+      </div>
+      <!-- 交易平台  -->
+      </div>
+      <!--热门视频、 交易平台  -->
+    </div>
+    <!-- 右侧 -->
+  </div>
+<!-- 内容  -->
+
+
+<div class="footer">
+  <div class="footer_content">
+    <ul>
+      <li>
+        <a href="#">首页</a>
+      </li>
+      <li>
+        <a href="#">股票</a>
+      </li>
+      <li>
+        <a href="#">期货</a>
+      </li>
+      <li>
+        <a href="#">基金</a>
+      </li>
+      <li>
+        <a href="#">投资</a>
+      </li>
+      <li>
+        <a href="#">理财</a>
+      </li>
+      <li>
+        <a href="#">视频</a>
+      </li>
+      <li>
+        <a href="#">企业词条</a>
+      </li>
+      <li>
+        <a href="#">问答中心</a>
+      </li>
+      <li>
+        <a href="#">关于我们</a>
+      </li>
+    </ul>
+    <p>未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任</p>
+    <p>Copyright 2010 - 2016 一融易网 All Rights Reserved</p>
+    <p>浙ICP备17019464号-1 杭州熙晟科技有限公司</p>
+  </div>
+</div>
+<!--尾部结束 -->
+
+<div class="sidebar" style="display: none;">
+  <span class="kf">
+    <a href="">
+      <img src="../../Skin/img201707/客服.png" alt="">
+    </a>
+  </span>
+  <span class="top">
+    <a href="#top">
+      <img src="../../Skin/img201707/返回顶层.png" alt="">
+    </a>
+  </span>
+</div>
+<!-- 返回顶部 -->
+</body>
+<script type="text/javascript" src="../../Skin/Alljs201707/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/search.js"></script>
+</html>

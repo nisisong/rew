@@ -1,0 +1,65 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+    border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.mjzjtx{
+	width:973px;
+	height: auto;
+	border: 1px solid #dbebf8;
+	margin-bottom:20px;
+}
+.mjzjtx .m-table{
+	width:973px;
+	height: auto;
+	border-collapse:collapse;
+}
+.mjzjtx .m-table .rows tr th{
+	width:162px;
+	padding:10px 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2f5895; 
+}
+.mjzjtx .m-table tbody tr{
+	background-color: #f7f7f7;
+}
+.mjzjtx .m-table tbody .even{
+	background-color: #fff;
+}
+.mjzjtx .m-table tbody tr td{
+	width:162px;
+	padding:10px 0;
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+}
+.mjzjtx .m-table tbody tr td .ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width:162px;
+	text-align: left;
+}
+.mjzjtx .m-table tbody tr .txtLeft .ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width:162px;
+	text-align: left;
+}
+.noTableData{
+	height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+}

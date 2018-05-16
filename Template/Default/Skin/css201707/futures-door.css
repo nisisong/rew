@@ -1,0 +1,625 @@
+.banner{
+  width: 100%;
+  min-width: 1200px;
+  height: 664px;
+  background: url("../../Skin/img201707/qh-doorbanner.png") no-repeat center;
+  overflow: hidden;
+}
+.banner .banner-content{
+  width: 1200px;
+  height: 664px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.banner .banner-content .banner-info{
+  width: 395px;
+  margin:175px 0 0 65px;
+}
+.banner .banner-content .banner-info h3{
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 60px;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+.banner .banner-content .banner-info h4{
+  font-size: 30px;
+  color: #008fff;
+  text-align: left;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.banner .banner-content .banner-info p{
+  font-size: 16px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 25px;
+  margin-bottom: 45px;
+}
+
+.banner .banner-content .banner-info .banner-img{
+  width: 176px;
+  height: 210px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner .banner-content .banner-info .banner-img img{
+  width: 176px;
+  height: 176px;
+  margin-bottom: 16px;
+}
+.banner .banner-content .banner-info .banner-img span{
+  font-size: 14px;
+  color: #ffffff;
+  text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.52);
+}
+
+.account{
+  width: 100%;
+  min-width: 1200px;
+  height: 320px;
+  background: url("../../Skin/img201707/qh-doorbg1.png") no-repeat center;
+  overflow: hidden;
+}
+.account .account-content{
+  width: 1095px;
+  margin: 60px auto 0;
+}
+.account .account-content h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.account .account-content h3 img{
+  width: 446px;
+  height: 33px;
+}
+.account .account-content span{
+  display: block;
+  margin: 0 auto 34px;
+  font-size: 24px;
+  letter-spacing: 1.9px;
+  text-align: center;
+  color: #494949;
+  line-height: 24px;
+}
+.account .account-content span b{
+  display: inline-block;
+  width: 18px;
+ height: 1px;
+ background-color: #4082a2;
+ vertical-align: middle;
+ margin-left: 14px;
+ margin-right: 14px;
+}
+.account .account-content P{
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  text-align: justify;
+  color: #333333;
+  text-indent: 1.5em;
+}
+
+
+.tab{
+  width: 100%;
+  min-width: 1200px;
+  height: 925px;
+  background: url("../../Skin/img201707/qh-doorliuc.png")no-repeat center;
+}
+.tab .tab-content{
+  width: 1210px;
+  height: 925px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.tab-title{
+  width: 127px;
+  height: 925px;
+  background-color: #6398b1;
+  float: left;
+}
+.tab-title ul {
+  margin: 130px auto 0;
+}
+.tab-title ul li{
+  height: 36px;
+  margin-bottom:110px;
+  font-size: 22px;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 36px;
+  position: relative;
+  cursor: pointer;
+}
+.tab-title ul li span{
+  display: inline-block;
+  width: 17px;
+  height: 36px;
+  position: absolute;
+  top: 0 ;
+  right: -17px;
+  display: none;
+}
+.tab-title ul li span img{
+  width: 17px;
+  height: 36px;
+  z-index: 9999;
+}
+.tab-title ul li .active{
+  display: block;
+}
+
+.tab-center{
+  width: 1083px;
+  height: 740px;
+  margin-top: 102px;
+  float: left;
+  background: url("../../Skin/img201707/qh-doorhui.png")no-repeat center;
+}
+.tab-one{
+  width: 1010px;
+  max-height: 650px;
+  height: auto;
+  overflow-y: auto;
+  margin: 45px auto;
+  padding-right: 30px;
+}
+.tab-one p{
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 28px;
+  text-indent: 2em;
+}
+.tab-one .one-img{
+  width: 807px;
+  margin: 35px auto 0;
+}
+.tab-one .one-img img{
+  width: 807px;
+  height: 1538px;
+}
+
+.tab-two{
+  width: 1010px;
+  max-height: 650px;
+  height: auto;
+  overflow-y: auto;
+  margin: 45px auto;
+  display: none;
+}
+.tab-two p{
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 32px;
+  text-indent: 2em;
+}
+.tab-two p b{
+  font-weight: bold;
+}
+
+.tab-three{
+  width: 1010px;
+  max-height: 650px;
+  height: auto;
+  overflow-y: auto;
+  margin: 45px auto;
+  padding-right: 30px;
+  display: none;
+}
+.tab-three p{
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 32px;
+  text-indent: 2em;
+}
+.tab-three p b{
+  font-weight: bold;
+}
+
+
+.tab-four{
+  width: 1010px;
+  max-height: 650px;
+  height: auto;
+  overflow-y: auto;
+  margin: 45px auto;
+  padding-right: 30px;
+  display: none;
+}
+.tab-four p{
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 32px;
+  text-indent: 2em;
+}
+.tab-four p b{
+  font-weight: bold;
+}
+
+
+.tab-five{
+  width: 1010px;
+  max-height: 650px;
+  height: auto;
+  overflow-y: auto;
+  margin: 106px auto 0;
+  display: none;
+}
+.tab-five p{
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 32px;
+  text-indent: 2em;
+}
+.tab-five p b{
+  font-weight: bold;
+}
+
+
+::-webkit-scrollbar {
+width:12px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.8);
+border-radius:10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+border-radius:10px;
+background:rgba(211,211,211,0.8);
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+
+
+.audit{
+  width: 100%;
+  min-width: 1200px;
+  height: 920px;
+  background: url("../../Skin/img201707/qh-doorbg2.png") no-repeat center;
+  overflow: hidden;
+}
+.audit .audit-content{
+  width: 1160px;
+  margin: 65px auto 0;
+}
+.audit .audit-content h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.audit .audit-content h3 img{
+  width: 380px;
+  height: 34px;
+}
+.audit .audit-content span{
+  display: block;
+  margin: 0 auto 34px;
+  font-size: 24px;
+  letter-spacing: 1.9px;
+  text-align: center;
+  color: #494949;
+  line-height: 24px;
+}
+.audit .audit-content span b{
+  display: inline-block;
+  width: 18px;
+ height: 1px;
+ background-color: #4082a2;
+ vertical-align: middle;
+ margin-left: 14px;
+ margin-right: 14px;
+}
+.audit .audit-content P{
+  font-size: 18px;
+  letter-spacing: 1.4px;
+  text-align: justify;
+  color: #333333;
+  text-indent: 1.5em;
+  line-height: 32px;
+}
+
+
+.know{
+  width: 100%;
+  min-width: 1200px;
+  height: 512px;
+  background: url("../../Skin/img201707/qh-doorbg.png")no-repeat center;
+  overflow: hidden;
+}
+.know .know-content{
+  width: 1200px;
+  height: 512px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.know .know-content .know-center{
+  width: 840px;
+  margin-left: 295px;
+  margin-top: 163px;
+}
+.know .know-content .know-center h3{
+  font-size: 60px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 60px;
+  margin-bottom: 39px;
+  font-weight: 400;
+}
+.know .know-content .know-center p{
+  font-size: 18px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 18px;
+  margin-bottom: 42px;
+}
+.know .know-content .know-center span{
+  display: block;
+  width: 158px;
+  height: 42px;
+  background-color: #6398b1;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 42px;
+  margin-left: 6px;
+}
+.know .know-content .know-center span a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+
+.quotation{
+  width:100%;
+  min-width: 1200px;
+  height: 705px;
+  background: url("../../Skin/img201707/qh-doorbg3.png")no-repeat center;
+  overflow: hidden;
+}
+.quotation .question-content{
+  width: 1200px;
+  margin: 62px auto 0;
+}
+.quotation .question-content .question-title{
+  margin-bottom: 55px;
+}
+.quotation .question-content .question-title h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.quotation .question-content .question-title h3 img{
+  width: 488px;
+  height: 34px;
+}
+.quotation .question-content .question-title span{
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  letter-spacing: 1.9px;
+  text-align: center;
+  color: #494949;
+  line-height: 24px;
+}
+.quotation .question-content .question-title span b{
+  display: inline-block;
+  width: 18px;
+ height: 1px;
+ background-color: #4082a2;
+ vertical-align: middle;
+ margin-left: 14px;
+ margin-right: 14px;
+}
+
+.quoestion-center{
+  width: 1105px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.question-left{
+  float: left;
+  width: 496px;
+}
+.question-left img{
+  width: 496px;
+  height: 320px;
+  margin-bottom: 17px;
+}
+.question-left h3{
+  font-size: 15px;
+  text-align: left;
+  color: #141414;
+  line-height: 15px;
+  margin-bottom: 13px;
+  font-weight: 400;
+}
+.question-left h3 a{
+  color: #141414;
+}
+.question-left p{
+  font-size: 12px;
+  text-align: left;
+  color: #5b5b5b;
+}
+
+
+
+
+.question-right{
+  float: right;
+  width: 560px;
+}
+.question-right ul{
+  margin-bottom: 55px;
+}
+.question-right ul li{
+  width: 560px;
+  height: 43px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.question-right ul li span{
+  display:block;
+  float: left;
+}
+.question-right ul li .time{
+  width: 47px;
+  height: 43px;
+  background-color: #81abda;
+  margin-right: 33px;
+}
+.question-right ul li .time b{
+  display: block;
+  font-size: 22px;
+  line-height:28px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+}
+.question-right ul li .time em{
+  display: block;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #3e80c7;
+}
+.question-right ul li .tag{
+  width: 478px;
+}
+.question-right ul li .tag h3{
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  margin-bottom: 14px;
+  font-weight: 400;
+  color: #141414;
+  cursor: pointer;
+}
+.question-right ul li .tag h3:hover{
+  color: #ed1a1a;
+}
+.question-right ul li .tag h3 a{
+  color: #141414;
+}
+.question-right ul li .tag h3 a:hover{
+   color: #ed1a1a;
+}
+.question-right ul li .tag p{
+  font-size: 12px;
+ line-height: 12px;
+ text-align: justify;
+ color: #5b5b5b;
+}
+
+
+.learn{
+  width: 100%;
+  min-width: 1200px;
+  height: 595px;
+  background: url("../../Skin/img201707/qh-doorother.png")no-repeat center;
+  overflow: hidden;
+}
+.learn .learn-content{
+  width: 1200px;
+  height: 425px;
+  margin: 85px auto 0;
+}
+.learn .learn-content .learn-title{
+  margin-bottom: 75px;
+}
+.learn .learn-content .learn-title h3{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.learn .learn-content .learn-title h3 img{
+  width: 388px;
+  height: 33px;
+}
+.learn .learn-content .learn-title span{
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  letter-spacing: 1.9px;
+  text-align: center;
+  color: #494949;
+  line-height: 24px;
+}
+.learn .learn-content .learn-title span b{
+  display: inline-block;
+  width: 18px;
+ height: 1px;
+ background-color: #4082a2;
+ vertical-align: middle;
+ margin-left: 14px;
+ margin-right: 14px;
+}
+.learn .learn-content .learn-center ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.learn .learn-content .learn-center ul li a{
+  display: block;
+}
+.learn .learn-content .learn-center ul li img{
+  width: 144px;
+ height: 144px;
+ margin-bottom: 25px;
+}
+.learn .learn-content .learn-center ul li p{
+  font-size: 18px;
+  text-align: center;
+  color: #303030;
+}
+
+
+
+
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}

@@ -1,0 +1,130 @@
+/*侧边栏*/
+  .sidebar {
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 999;
+  top:25%;
+}
+.sidebar .kf img {
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+.sidebar .top {
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+.sidebar .top img {
+  width: 46px;
+  height:46px;
+}
+.sidebar .img1 {
+  width:46px;
+}
+
+.content{
+  width: 100%;
+  height: auto;
+  margin: 0 auto 55px;
+  min-height: 570px;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  border-top: 1px solid #bfbfbf;
+}
+.content .contenter{
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.content .contenter h3{
+  font-size: 22px;
+  margin-top: 40px;
+  line-height: 50px;
+  color: #666;
+  font-weight: 300;
+}
+.content .contenter h3 img{
+  vertical-align: middle;
+}
+.content .contenter input{
+  width: 598px;
+  height: 62px;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 60px;
+  color: #999;
+}
+.content .contenter .baohan{
+  width: 598px;
+  height: auto;
+  min-height: 178px;
+  margin-top: 40px;
+  border: 1px solid #bfbfbf;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.content .contenter .write{
+  width: 570px;
+  height: auto;
+  min-height: 70px;
+  margin: 0 auto;
+  border-top: 1px solid #bfbfbf;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.content .contenter .write b{
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+}
+.content .contenter #went{
+  width: 570px;
+  height: 85px;
+  margin-left: 12px;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #999;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.put{
+  width: 600px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #999;
+  margin-top: 40px;
+}
+.put button{
+  float: left;
+  width: 90px;
+  height: 35px;
+  border: none;
+  margin-right: 30px;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  background-color: #ed1a1a;
+}
+.put button a{
+  font-size: 14px;
+  color: #fff;
+}
+.put #check{
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  border: 1px solid #dfdfdf;
+}

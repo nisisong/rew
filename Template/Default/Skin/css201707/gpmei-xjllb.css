@@ -1,0 +1,72 @@
+.public_title{
+  background-color: #f3f8ff;
+  width: 973px;
+  height: 37px;
+  border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+  font-size: 18px;
+  line-height: 37px;
+  color: #2f5895;
+  padding-left: 18px;
+}
+.f10cnt{
+  width:971px;
+  height: auto;
+  border: 1px solid #dbebf8;
+  margin-bottom: 20px;
+}
+table tr{
+  width:973px;
+  height: auto;
+  border-collapse:collapse;
+}
+table tr th{
+  width:300px;
+  padding:10px 0 10px 5px;
+  font-size: 15px;
+  font-weight: normal;
+  color: #2f5895; 
+  text-align: left;
+  background: #f3f8ff;
+}
+table tr td{
+  width:152px;
+  padding:10px 15px 10px 0;
+  font-size: 15px;
+  color: #333;
+  text-align: right; 
+}
+table tr{
+  background: #fff;
+}
+/*table .bgc1 td{
+  background: #f7f7f7;
+}*/
+.gjzbBox .tab{
+  width:973px;
+  height: 57px;
+}
+.gjzbBox .tab span{
+  font-size: 18px;
+  padding:0 5px 5px;
+  line-height: 57px;
+  border-bottom: 2px solid #fff;
+  margin:0 15px;
+  cursor: pointer;
+}
+.gjzbBox .tab .on{
+  font-size: 18px;
+  padding:0 5px 5px;
+  line-height: 57px;
+  border-bottom: 2px solid #2f5895;
+  font-weight: bold;
+}
+
+.noTableData{
+	height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 16px;
+  display: none;
+}

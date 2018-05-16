@@ -1,0 +1,795 @@
+.banner{
+  width: 100%;
+  height: 550px;
+  min-width: 1200px;
+  overflow: hidden;
+  background: url(../img201707/gup-banner.png) 50% 50% no-repeat;
+}
+.banner a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.crumbs {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px;
+  overflow: hidden;
+  margin-bottom: 15px;
+ }
+.crumbs span {
+  display: inline-block;
+  font-size: 12px;
+  color: #666;
+ }
+.crumbs span a {
+  color: #666;
+}
+.crumbs .wz-search {
+	width: 300px;
+	height: 35px;
+	margin-top: 5px;
+  float: right;
+}
+.crumbs .wz-search .search{
+  line-height: 0;
+}
+.crumbs .wz-search .search input {
+	border: 1px solid #bbb;
+	padding: 11px 25px;
+	width: 154px;
+	height: 11px;
+	font-size: 15px;
+}
+
+.crumbs .wz-search .search button {
+	width: 80px;
+	height: 35px;
+	margin-left: 10px;
+	background: #2f5895;
+	font-size: 15px;
+	line-height: 35px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.plate{
+  width: 198px;
+  height: auto;
+  border: 1px solid #99badd;
+}
+.plate-title{
+  width: 100%;
+  height: 30px;
+  background-color: #2f5895;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
+.plate-title span{
+  font-size: 16px;
+  color: #fff;
+  line-height:30px;
+  padding-left: 38px;
+}
+.plate-title img{
+  float: right;
+  margin-right: 40px;
+  width: 9px;
+  height: 4px;
+  margin-top: 12px;
+}
+.plate .net{
+  width: 100%;
+  height: auto;
+  background-color: #f3f7fa;
+  padding-top: 5px;
+    display: none;
+}
+.plate .show{
+  display: block;
+}
+.plate .net li{
+  height: 28px;
+  margin-bottom: 5px;
+  width: 183px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.plate .net .active{
+  height: 26px;
+  border: 1px solid #99badd;
+  background-color: #fff;
+}
+.plate .net li span{
+  display: inline-block;
+  padding-left: 31px;
+  font-size: 14px;
+ font-weight: normal;
+ line-height: 26px;
+ text-align: left;
+ color: #757575;
+}
+.plate .net li:hover span{
+  color: #ed1a1a;
+}
+.plate .net li b{
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: right;
+  line-height: 26px;
+  color: #2f5895;
+  margin-right: 10px;
+}
+.qie{
+  position: relative;
+}
+.qie ul .hey{
+  width: 198px;
+}
+.qie ul .hey:hover{
+  width: 196px;
+  border-top: 1px solid #99badd;
+  border-bottom: 1px solid #99badd;
+  background-color: #fff;
+  z-index: 99999;
+  position: relative;
+}
+.qie ul .hey:hover b{
+  display: none;
+}
+.qie .industry{
+  width: 708px;
+ height: 322px;
+ background-color: #ffffff;
+ border: solid 1px #99badd;
+ position: absolute;
+ top: 29px;
+ right: -708px;
+ z-index: 9999;
+ display: none;
+}
+.qie .industry ul{
+  float: left;
+  width: 118px;
+  display: block;
+}
+.qie .industry ul li{
+  line-height:23px;
+  width: 98px;
+  overflow: hidden;
+}
+
+.qie .industry ul li .leter{
+    float: left;
+    margin-right: 20px;
+    width: 20px;
+    height: 23px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #d2d2d2;
+    padding: 0;
+    font-size: 14px;
+    color: #333333;
+}
+.qie .industry ul li .text{
+  font-size: 14px;
+  float: left;
+  color: #333333;
+}
+.qie .industry ul li .text:hover{
+  color: #ed1a1a;
+}
+
+
+.qie .concept{
+  width: 828px;
+ height: 621px;
+ background-color: #ffffff;
+ border: solid 1px #99badd;
+ position: absolute;
+ top: 92px;
+ right: -828px;
+ display: none;
+}
+.qie .concept ul{
+  float: left;
+  width: 118px;
+  display: block;
+}
+.qie .concept ul li{
+  line-height:23px;
+  width: 104px;
+  overflow: hidden;
+}
+
+.qie .concept ul li .leter{
+    float: left;
+    margin-right: 20px;
+    width: 20px;
+    height: 23px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #d2d2d2;
+    padding: 0;
+    font-size: 14px;
+    color: #333333;
+}
+.qie .concept ul li .text{
+  font-size: 14px;
+  float: left;
+  color: #333333;
+}
+.qie .concept ul li .text:hover{
+  color: #ed1a1a;
+}
+
+
+.qie .region{
+  width: 355px;
+ height: 322px;
+ background-color: #ffffff;
+ border: solid 1px #99badd;
+ position: absolute;
+ top: 64px;
+ right: -355px;
+ display: none;
+}
+.qie .region ul{
+  float: left;
+  width: 118px;
+  display: block;
+}
+.qie .region ul li{
+  line-height:23px;
+  width: 104px;
+  overflow: hidden;
+}
+
+.qie .region ul li .leter{
+    float: left;
+    margin-right: 20px;
+    width: 20px;
+    height: 23px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #d2d2d2;
+    padding: 0;
+    font-size: 14px;
+    color: #333333;
+}
+.qie .region ul li .text{
+  font-size: 14px;
+  float: left;
+  color: #333333;
+}
+.qie .region ul li .text:hover{
+  color: #ed1a1a;
+}
+.qie .show-content ul li .red{
+  color: #ed1a1a;
+}
+
+.qie .cont {display: none;}
+.qie .tBr {display: block;}
+
+
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table tr:nth-child(odd){background:#fff;}
+table tr:nth-child(even){background:#f7f7f7;}
+
+
+
+
+
+.content-right{
+  float: right;
+  width: 975px;
+}
+.content-right .list-right{
+  width: 973px;
+  background-color: #ffffff;
+  border: solid 1px #99badd;
+  margin-bottom: 20px;
+}
+.content-right .list-right table {
+    width: 100%;
+    border: 0 none;
+    border-collapse: collapse;
+}
+.content-right .list-right table th{
+  font-size: 16px;
+  color: #333333;
+  text-align: center;
+  font-weight: 400;
+  background-color: #ebf6ff;
+  line-height: 40px;
+  padding: initial;
+    border: 0 none;
+    border-right: 1px solid #bbd4e8;
+}
+.content-right .list-right table .code{
+  width: 70px;
+}
+.content-right .list-right table .name{
+  width: 170px;
+}
+.content-right .list-right table .ming{
+  width: 291px;
+}
+.content-right .list-right table .time{
+  width: 116px;
+}
+.content-right .list-right table .market{
+  width: 110px;
+}
+.content-right .list-right table .agora{
+  width: 175px;
+}
+.content-right .list-right table .sort{
+  width: 250px;
+}
+.content-right .list-right table .link{
+  width: 252px;
+}
+.content-right .list-right table .last{
+  border-bottom: 1px solid #bbd4e8;
+}
+.content-right .list-right table td{
+    font-size: 14px;
+    padding: initial;
+    line-height:35px;
+    border: 0 none;
+    border-top: 1px solid #bbd4e8;
+    border-right: 1px solid #bbd4e8;
+    text-align: center;
+    vertical-align: middle;
+}
+.content-right .list-right table td a{
+  text-decoration:underline;
+}
+.content-right .list-right table td a:hover{
+  color: #ed1a1a;
+}
+.content-right .list-right table .interval{
+  border-right: none;
+}
+.content-right .list-right table .interval a{
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.content-right .pager {
+  height: 30px;
+  padding: 10px 0;
+  clear: both;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+.content-right  .pager a {
+    display: inline-block;
+    border: 1px solid #c5c5c5;
+    padding: 2px 8px;
+  }
+ .as{
+  height: 42px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.as ul{
+  overflow: hidden;
+}
+.as ul li{
+  float: left;
+  width: 187px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #2f5895;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+.as ul .last{
+  margin-right: 0;
+}
+.as ul li a{
+  display: block;
+  color: #fff;
+}
+
+
+ .new{
+  width: 973px;
+  height: 208px;
+  background-color: #f3f7fa;
+  border: solid 1px #99badd;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.content-right .new .new-title {
+	width: 971px;
+	margin: 0 auto 15px;
+  height: 30px;
+  border-left: 2px solid #2f5895;
+}
+
+.content-right .new .new-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: left;
+  color: #2f5895;
+  margin: 0 14px 0 9px;
+}
+.content-right .new .new-title h3 b{
+  float: right;
+  font-size: 14px;
+ font-weight: normal;
+ text-align: left;
+ color: #333333;
+}
+.content-right .new .new-title h3 a{
+  color: #434343;
+}
+.content-right .new .new-title h3 a:hover{
+  color: #ed1a1a;
+}
+
+
+
+
+.content-right .new ul{
+  width: 461px;
+  overflow: hidden;
+}
+.content-right .new .news{
+  margin-right: 14px;
+}
+.content-right .new ul li{
+  padding-left: 11px;
+  height: 17px;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.content-right .new ul li b{
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  vertical-align: middle;
+  background: url("../../Skin/img201707/gup-huid.png")no-repeat;
+  margin-right: 11px;
+}
+.content-right .new ul li span{
+  margin-right: 3px;
+}
+.content-right .new ul li a{
+  color: #666;
+}
+.content-right .new ul li a:hover{
+  color: #ed1a1a;
+}
+.content-right .new ul li .date{
+  font-size: 14px;
+  line-height: 17px;
+  float: right;
+}
+
+
+
+.content-right .content-course {
+	width: 973px;
+	height: 210px;
+	background: #f3f7fa;
+	margin-bottom: 20px;
+  border: 1px solid #99badd;
+}
+
+.content-right .content-course .course-title {
+  height: 30px;
+  border-left: 2px solid #2f5895;
+  margin-bottom: 17px;
+}
+
+.content-right .content-course .course-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height:30px;
+  text-align: left;
+  color: #2f5895;
+  margin: 0 12px 0 9px;
+}
+
+.content-right .content-course .course-title h3 b {
+  float: right;
+  font-size: 14px;
+ font-weight: normal;
+ text-align: left;
+ color: #333333;
+}
+.content-right .content-course .course-title h3 b a{
+  color: #333333;
+}
+.content-right .content-course .course-title h3 b a:hover{
+  color: #ed1a1a;
+}
+
+.content-right .content-course ul {
+	width: 973px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+.content-right .content-course ul li {
+	float: left;
+	width: 242px;
+	height: 140px;
+}
+
+.content-right .content-course ul li img {
+	float: left;
+	width: 133px;
+	height: 140px;
+}
+
+.content-right .content-course ul li .course-content {
+	float: right;
+	width: 115px;
+	height: 140px;
+  margin-left: -10px;
+}
+
+.content-right .content-course ul li .course-content h4 {
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 500;
+}
+
+.content-right .content-course ul li .course-content h4 a {
+	color: #333;
+}
+
+.content-right .content-course ul li .course-content h4 a:hover {
+	color: #ed1a1a;
+}
+
+.content-right .content-course ul li .course-content p {
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 19px;
+}
+
+.content-right .content-course ul li .course-content span {
+	display: block;
+	width: 74px;
+	height: 20px;
+	border-radius: 6px;
+	border: 1px solid #ff0000;
+	text-align: center;
+	line-height: 20px;
+}
+
+.content-right .content-course ul li .course-content span a {
+	display: block;
+	width: 100%;
+	color: #ed1a1a;
+}
+
+.content-right .content-course ul li .course-content span a:hover {
+	color: #fff;
+	background-color: #ed1a1a;
+}
+
+.content-right .content-course ul .last {
+	width: 242px;
+	height: 140px;
+	margin: 0;
+}
+
+
+
+.content-right .hot{
+  width: 975px;
+  height: 210px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.content-right .hot .hot-tutorial{
+  width: 468px;
+ height: 208px;
+ background-color: #f3f7fa;
+ border: solid 1px #99badd;
+}
+
+.content-right .hot .hot-tutorial .tutorial-title {
+  height: 30px;
+  border-left: 2px solid #2f5895;
+  margin-bottom: 17px;
+}
+
+.content-right .hot .hot-tutorial .tutorial-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height:30px;
+  text-align: left;
+  color: #2f5895;
+  margin: 0 12px 0 9px;
+}
+
+.content-right .hot .hot-tutorial .tutorial-title h3 b {
+  float: right;
+  font-size: 14px;
+ font-weight: normal;
+ text-align: left;
+ color: #333333;
+}
+.content-right .hot .hot-tutorial .tutorial-title h3 b a{
+  color: #333333;
+}
+.content-right .hot .hot-tutorial .tutorial-title h3 b a:hover{
+  color: #ed1a1a;
+}
+
+
+
+.content-right .hot .hot-tutorial ul {
+	width: 436px;
+	height: 150px;
+	margin: 15px auto 0;
+}
+
+.content-right .hot .hot-tutorial ul li {
+	float: left;
+	width: 195px;
+	height: 150px;
+	position: relative;
+}
+
+.content-right .hot .hot-tutorial ul li img {
+	width: 195px;
+	height: 120px;
+}
+
+.content-right .hot .hot-tutorial ul li b {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 43px;
+	left: 80px;
+}
+
+.content-right .hot .hot-tutorial ul li b img {
+	width: 35px;
+	height: 35px;
+}
+
+.content-right .hot .hot-tutorial ul li p {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.content-right .hot .hot-tutorial ul li p a {
+	color: #333;
+}
+
+.content-right .hot .hot-tutorial ul li p a:hover {
+	color: #ed1a1a;
+}
+
+.content-right .hot .hot-tutorial ul .last {
+	width: 195px;
+	height: 150px;
+	margin: 0;
+  float: right;
+}
+
+
+
+
+.content-right .hot .interfix {
+	width: 488px;
+	height: 208px;
+  background-color: #f3f7fa;
+  border: solid 1px #99badd;
+}
+
+.content-right .hot .interfix .interfix-title {
+  height: 30px;
+  border-left: 2px solid #2f5895;
+  margin-bottom: 16px;
+}
+
+.content-right .hot .interfix .interfix-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: left;
+  color: #2f5895;
+  margin: 0 12px 0 9px;
+}
+
+.content-right .hot .interfix .interfix-title h3 b {
+  float: right;
+  font-size: 14px;
+ font-weight: normal;
+ text-align: left;
+ color: #333333;
+}
+.content-right .hot .interfix .interfix-title h3 b a{
+  color: #333333;
+}
+.content-right .hot .interfix .interfix-title h3 b a:hover{
+  color: #ed1a1a;
+}
+
+
+.content-right .hot .interfix span {
+	float: left;
+	margin: 0 10px 0;
+}
+.content-right .hot .interfix .last{
+  margin-right: 0;
+}
+
+.content-right .hot .interfix span .interfix-name {
+	font-size: 16px;
+	margin-bottom: 4px;
+	color: #000;
+}
+.content-right .hot .interfix span .interfix-name img{
+  width: 20px;
+  height: 17px;
+  vertical-align: middle;
+}
+
+.content-right .hot .interfix span .interfix-name a {
+	color: #000;
+}
+
+.content-right .hot .interfix span .interfix-name a:hover {
+	color: #ed1a1a;
+}
+
+.content-right .hot .interfix span .interfix-text {
+	font-size: 14px;
+	line-height: 20px;
+	width: 224px;
+	text-align: justify;
+	color: #666;
+  margin-bottom: 16px;
+}
+
+.content-right .hot .interfix span .interfix-text a {
+	color: #7aace1;
+}
+
+.content-right .hot .interfix span .interfix-text a:hover {
+	color: #ed1a1a;
+}
+/* */

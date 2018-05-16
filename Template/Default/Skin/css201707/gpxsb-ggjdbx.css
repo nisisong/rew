@@ -1,0 +1,88 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+    border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.ggjdbx{
+	width:973px;
+	height: auto;
+	border: 1px solid #dbebf8;
+	margin-bottom:20px;
+}
+.ggjdbx .m-table{
+	width:973px;
+	height: auto;
+	border-collapse:collapse;
+}
+.ggjdbx .m-table .rows tr th{
+	width:121px;
+	padding:10px 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2f5895; 
+}
+.ggjdbx .m-table tbody tr{
+	background-color: #f7f7f7;
+}
+.ggjdbx .m-table tbody .even{
+	background-color: #fff;
+}
+.ggjdbx .m-table tbody tr td{
+	width:121px;
+	padding:10px 0;
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+}
+.ggjdbx .m-table tbody tr .align-left{
+	width:101px;
+	padding:10px 10px;
+	font-size: 16px;
+	color: #2f5895;
+	text-align: left;
+}
+.ggjdbx .m-table tbody tr td .ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width:121px;
+	text-align: left;
+}
+.ggjdbx .m-table tbody tr .txtLeft .ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width:121px;
+	text-align: left;
+}
+.noTableData{
+	height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+}
+.TOTALREVENUE_TB a{
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+    background: url(../img201707/xsb_gb.png) 0 140px;
+    width: 17px;
+    height: 17px;
+}
+.TOTALREVENUE_HB a{
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+    background: url(../img201707/xsb_gb.png) 0 140px;
+    width: 17px;
+    height: 17px;
+}

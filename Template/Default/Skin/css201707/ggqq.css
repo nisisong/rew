@@ -1,0 +1,576 @@
+/*弹窗*/
+.downloadBox{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: url("../img201707/kaihu-bj.png");
+	z-index: 999;
+	display: none;
+}
+.tc{
+	width: 702px;
+	height: 520px;
+	margin:-260px 0 0 -351px;
+	background: #fff;
+	border-radius: 5px;
+	position: absolute;
+	top:50%;
+	left:50%;
+}
+.tc .title{
+	width: 702px;
+	height: 79px;
+	overflow: hidden;
+}
+.tc .title .close{
+	float: right;
+	margin:24px 36px 0 0;
+	width: 30px;
+	height: 31px;
+	cursor: pointer;
+}
+.tc .title .close img{
+	width: 30px;
+	height: 31px;
+}
+.tc .content{
+	width: 702px;
+  min-width: 702px;
+  background: #fff;
+	height: auto;
+	overflow: hidden;
+	margin-top: 80px;
+}
+.tc .content img{
+	width: 164px;
+	height: 165px;
+	display: block;
+	margin:0 auto 60px;
+}
+.tc .content p{
+	color: #0C0407;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.banner{
+  width: 100%;
+  height: 1635px;
+  min-width: 1200px;
+  overflow: hidden;
+  background: #ffbb22;
+}
+.banner .banner-img{
+  width: 100%;
+  height: 1350px;
+  min-width: 1200px;
+  position: absolute;
+  background: url("../../Skin/img201707/ggqq-banner.png")no-repeat center;
+}
+
+.banner .banner-img .one{
+  width: 1065px;
+  height: 803px;
+  margin:745px auto;
+  background: url("../../Skin/img201707/ggqq-one.png")no-repeat;
+  z-index: 9999;
+  overflow: hidden;
+}
+.banner .banner-img .one .one-content{
+  width: 810px;
+  margin: 90px auto;
+}
+.banner .banner-img .one .one-content h3{
+  font-size: 36px;
+ font-weight: bold;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 36px;
+ letter-spacing: normal;
+ text-align: center;
+ color: #cf1546;
+ margin-bottom: 38px;
+}
+.banner .banner-img .one .one-content ul{
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+.banner .banner-img .one ul li{
+  float: left;
+  margin-right: 78px;
+}
+.banner .banner-img .one ul .last{
+  margin-right: 0;
+}
+.banner .banner-img .one ul li span{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #da2615;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.banner .banner-img .one ul li .y1{
+  margin-left: 38px;
+}
+.banner .banner-img .one ul li .y2{
+  margin-left: 95px;
+}
+.banner .banner-img .one ul li span img{
+  width: 39px;
+  height: 39px;
+  margin-top: 30px;
+  margin-left: 27px;
+}
+.banner .banner-img .one ul li span b{
+  display:block;
+  margin: 30px auto;
+  width: 50px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.banner .banner-img .one ul li p{
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 22px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+.banner .banner-img .one .wen{
+  width: 290px;
+  margin: 0 auto 45px;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+.banner .banner-img .one .info{
+  width: 425px;
+  margin-left: 236px;
+}
+.banner .banner-img .one .info .name{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.banner .banner-img .one .info .name span{
+	float: left;
+  width: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 40px;
+  letter-spacing: normal;
+  text-align: right;
+  color: #333333;
+  margin-right: 20px;
+}
+.banner .banner-img .one .info .name input{
+	line-height: 40px;
+	padding-left:10px;
+	float: left;
+	font-size: 16px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: solid 1px #ffde94;
+}
+.banner .banner-img .one .info .phone{
+	overflow: hidden;
+  margin-bottom: 20px;
+}
+.banner .banner-img .one .info .phone span{
+	float: left;
+  width: 80px;
+  font-size: 20px;
+ font-weight: bold;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 40px;
+ letter-spacing: normal;
+ text-align: right;
+ color: #333333;
+ margin-right: 20px;
+}
+.banner .banner-img .one .info .phone input{
+  line-height: 40px;
+	padding-left:10px;
+	float: left;
+	font-size: 16px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: solid 1px #ffde94;
+}
+.banner .banner-img .one .info .phone .cwts{
+	float: left;
+	height: 40px;
+	margin-left: 15px;
+}
+.banner .banner-img .one .info .phone .cwts p{
+	color: #f00;
+	display: none;
+	font-size: 16px;
+	line-height: 40px;
+}
+.banner .banner-img .one .info .yzm{
+	overflow: hidden;
+}
+.banner .banner-img .one .info .yzm span{
+	float: left;
+  width: 80px;
+  font-size: 20px;
+ font-weight: bold;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 40px;
+ letter-spacing:- 0.9px;
+ text-align: right;
+ color: #333333;
+ margin-right: 20px;
+}
+.banner .banner-img .one .info .yzm input{
+  float: left;
+  width: 116px;
+  height: 40px;
+  mix-blend-mode: undefined;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: solid 1px #ffde94;
+  padding-left: 5px;
+  margin-right: 7px;
+}
+.banner .banner-img .one .info .yzm .button{
+	float: left;
+  width: 86px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffde94;
+  border: solid 1px #ffde94;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+  cursor: pointer;
+}
+
+.banner .banner-img .one .info .yzm .button .cfs{
+	display: none;
+	width: 120px;
+	height: 50px;
+	background: url("../img201707/重新发送验证码icon.png") no-repeat;
+}
+.banner .banner-img .one .info .yzm .button .cfs span{
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	font-weight: normal;
+}
+.banner .banner-img .one .info .yzm .button .yfs{
+	display: none;
+	width: 120px;
+	height: 50px;
+	background: url("../img201707/重新发送验证码icon.png") no-repeat;
+}
+.banner .banner-img .one .info .yzm .button .yfs .djs{
+	overflow: hidden;
+	padding-left: 10px;
+}
+.banner .banner-img .one .info .yzm .button .yfs .djs span{
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	float: left;
+	margin-right: 0;
+}
+.banner .banner-img .one .info .yzm .cwts2{
+	float: left;
+	margin-left: 110px;
+	margin-top: 8px;
+color: #f00;
+	font-size: 16px;
+}
+.banner .banner-img .one .info .yzm .cwts2 .ts3,.banner .banner-img .one .info .yzm .cwts2 .ts4{
+	 display:none;
+}
+.banner .banner-img .one .info .Button{
+  width: 295px;
+  height: 40px;
+  background-color: #ffde94;
+	margin-left: 20px;
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+  cursor: pointer;
+}
+.content{
+  width: 100%;
+  background: #ffbb22;
+  min-width: 1200px;
+  overflow: hidden;
+}
+.content .two{
+  width: 1041px;
+  height: 1392px;
+  margin: 0 auto 35px;
+  overflow: hidden;
+  background: url("../../Skin/img201707/ggqq-two.png")no-repeat;
+}
+.content .two .two-content{
+  width: 865px;
+  margin: 128px auto 0;
+}
+.content .two .two-content h3{
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height:36px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cf1546;
+  margin-bottom: 30px;
+}
+.content .two .two-content .twoJshow{
+  margin: 0 auto 75px;
+  position: relative;
+  overflow: hidden;
+}
+.content .two .two-content .two-left{
+  width: 198px;
+  float: left;
+  text-align: center;
+}
+.content .two .two-content .two-left span{
+  display: block;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+.content .two .two-content .two-left .zi1{
+  margin-bottom: 98px;
+}
+.content .two .two-content .two-left .zi2{
+  margin-bottom: 82px;
+}
+.content .two .two-content .two-left .zi3{
+  margin-left: 88px;
+}
+.content .two .two-content .two-center{
+  float: left;
+  width: 457px;
+  height: 277px;
+  margin-top:38px;
+  background: url("../../Skin/img201707/ggqq-zt.png")no-repeat;
+}
+
+
+.content .two .two-content .two-right{
+  width: 198px;
+  float: left;
+  text-align: center;
+}
+.content .two .two-content .two-right span{
+  display: block;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding-left: 10px;
+  color: #333333;
+}
+.content .two .two-content .two-right .zi4{
+  margin-bottom: 95px;
+  margin-top: 30px;
+}
+.content .two .two-content .two-right .zi5{
+  margin-bottom: 55px;
+}
+.content .two .two-content .two-right .zi6{
+  width: 200px;
+}
+
+.content .two .two-content .eg{
+  width: 851px;
+  height: 25px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+.content .two .two-content .eg .eg-left{
+  float: left;
+  width: 334px;
+  height: 22px;
+  background: url("../../Skin/img201707/ggqq-zuo.png")no-repeat;
+}
+.content .two .two-content .eg span{
+  float:left;
+  width: 165px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 25px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  padding-left: 10px;
+}
+.content .two .two-content .eg .eg-right{
+  float: left;
+  width: 334px;
+  height: 22px;
+  background: url("../../Skin/img201707/ggqq-zuo.png")no-repeat;
+}
+.content .two .two-content .egs{
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #333333;
+  text-indent: 1.5em;
+  margin-bottom: 45px;
+}
+.content .two .two-content .If{
+  width: 845px;
+  margin: 0 auto 50px;
+  overflow: hidden;
+}
+.content .two .two-content .If .If-left{
+  float: left;
+  width: 311px;
+  height: 202px;
+  background-color: #ffffff;
+  padding: 50px 27px 0
+}
+.content .two .two-content .If .If-left p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #333333;
+  text-indent: 1em;
+}
+.content .two .two-content .If .If-right{
+  float: right;
+  width: 311px;
+  height: 202px;
+  background-color: #ffffff;
+  padding: 50px 27px 0
+}
+.content .two .two-content .If .If-right p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #333333;
+  text-indent: 1em;
+}
+.content .two h5{
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height:36PX;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cf1546;
+  margin-bottom: 30px;
+}
+.content .two ul{
+  width: 945px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .two ul li{
+  float: left;
+  width: 196px;
+  height: 64px;
+  background-color: #cf1546;
+  margin-right: 53px;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 64px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.content .two ul .last{
+  margin-right: 0;
+}
+
+
+
+
+.content .three{
+  width: 996px;
+  height: 995px;
+  margin: 0 auto 140px;
+  background: url("../../Skin/img201707/ggqq-three.png")no-repeat;
+  overflow: hidden;
+}
+.content .three .three-content{
+  width: 860px;
+  margin: 114px auto 0;
+}
+.content .three .three-content p{
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #333333;
+  text-indent: 1.5em;
+}
+.content .three .three-content p span{
+  font-weight: bold;
+}

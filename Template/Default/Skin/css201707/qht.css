@@ -1,0 +1,422 @@
+.banner{
+  width: 100%;
+  height: 596px;
+  background: url("../img201707/qht-banner.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.banner .banner-content{
+  width: 1200px;
+  height: 596px;
+  margin: 0 auto;
+  position: relative;
+}
+.banner-content .banner-contenter{
+  width: 460px;
+  height: 180px;
+  position: absolute;
+  bottom: 50px;
+  right: 75px;
+}
+.banner-content .banner-contenter ul .er{
+  width: 180px;
+  height: 180px;
+}
+.banner-content .banner-contenter ul .er img{
+  width: 180px;
+  height: 180px;
+}
+.banner-content .banner-contenter ul .phone{
+  width: 200px;
+  height: 180px;
+}
+.banner-content .banner-contenter ul .phone a img{
+  width: 200px;
+  height: 64px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+
+
+.introduce-title{
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #c6c6c6;
+  /*margin-bottom: 50px;*/
+}
+.introduce-title .introduce-title-content{
+  width: 426px;
+  height: 89px;
+  border-bottom: 2px solid #fda72c;
+  margin: 0 auto;
+  background: url("../img201707/qht-kh.png") no-repeat;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 67px;
+  color: #fc1e43;
+}
+.introduce-content{
+  width: 1200px;
+  height: 660px;
+  margin:0 auto 53px;
+}
+.introduce-content h3{
+ font-size: 30px;
+ letter-spacing: 6px;
+ text-align: center;
+ line-height: 132px;
+ color: #fc1e43;
+ font-weight: normal;
+}
+.introduce-content .introduce-four{
+  width: 1200px;
+  height: 527px;
+  border-radius: 50px;
+  border: solid 2px #f1ead7;
+}
+.introduce-content .introduce-four .four-left{
+  float: left;
+  width: 400px;
+  height: 527px;
+  margin-right: 48px;
+}
+.introduce-content .introduce-four .four-left .left-blue{
+  display: block;
+  width: 332px;
+  height: 106px;
+  background: url("../img201707/qht-ly.png") no-repeat;
+  margin: 65px 0 134px 24px;
+}
+.introduce-content .introduce-four .four-left .left-blue p{
+  width: 246px;
+ font-size: 24px;
+ line-height: 38px;
+ letter-spacing: 1.5px;
+ text-align: justify;
+ color: #ffffff;
+ padding: 13px 22px;
+}
+.introduce-content .introduce-four .four-left .left-yellow{
+  display: block;
+  width: 332px;
+  height: 106px;
+  background: url("../img201707/qht-hy.png") no-repeat;
+  margin-left: 70px;
+}
+.introduce-content .introduce-four .four-left .left-yellow p{
+  font-size: 24px;
+ line-height: 106px;
+ letter-spacing: 1.8px;
+ padding-left: 20px;
+ color: #ffffff;
+}
+.introduce-content .introduce-four .four-center{
+  float: left;
+  width: 325px;
+  height: 527px;
+}
+.introduce-content .introduce-four .four-center img{
+  width: 325px;
+  height: 305px;
+  margin-top: 105px;
+}
+.introduce-content .introduce-four .four-right{
+  float: right;
+  width: 400px;
+  height: 527px;
+}
+.introduce-content .introduce-four .four-right .right-blue{
+  display: block;
+  width: 332px;
+  height: 106px;
+  background: url("../img201707/qht-hz.png") no-repeat;
+  margin: 65px 0 134px 30px;
+}
+.introduce-content .introduce-four .four-right .right-blue p{
+  font-size: 24px;
+ line-height: 106px;
+ letter-spacing: 1.8px;
+ padding-left: 65px;
+ color: #ffffff;
+}
+
+.introduce-content .introduce-four .four-right .right-yellow{
+  display: block;
+  width: 332px;
+  height: 106px;
+  background: url("../img201707/qht-lz.png") no-repeat;
+}
+.introduce-content .introduce-four .four-right .right-yellow  p{
+  width: 246px;
+ font-size: 24px;
+ line-height: 38px;
+ letter-spacing: 1.5px;
+ text-align: justify;
+ color: #ffffff;
+ padding-top: 13px;
+ padding-left: 70px;
+}
+
+
+.core{
+  width: 100%;
+  height: 656px;
+  background-color: #fafafa;
+  margin-bottom: 42px;
+  overflow: hidden;
+}
+.core-title{
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #c6c6c6;
+  margin-top: 47px;
+  margin-bottom: 50px;
+}
+.core-title .core-title-content{
+  width: 426px;
+  height: 89px;
+  border-bottom: 2px solid #fda72c;
+  margin: 0 auto;
+  background: url("../img201707/qht-kh.png") no-repeat;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 67px;
+  color: #fc1e43;
+}
+.core .core-content{
+  width: 1200px;
+  height: 420px;
+  margin: 0 auto;
+}
+.core .core-content ul li{
+  float: left;
+  width: 250px;
+  height: 417px;
+  background: url("../img201707/qht-hqbg.png") no-repeat;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.core .core-content ul li h3{
+  width: 123px;
+ height: 81px;
+ font-size: 28px;
+  line-height: 81px;
+  text-align: center;
+  color: #ffffff;
+  margin: 40px 0 50px 65px;
+  font-weight: normal;
+}
+.core .core-content ul li img{
+  width: 102px;
+  height: 102px;
+  margin-left: 75px;
+  margin-bottom: 34px;
+}
+.core .core-content ul li p{
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #fc1e43;
+  margin-bottom: 15px;
+}
+.core .core-content ul li .huan{
+  width: 90px;
+ height: 81px;
+ font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  margin: 45px 0 45px 85px;
+  font-weight: normal;
+}
+
+
+.serve-title{
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #c6c6c6;
+  margin-bottom: 50px;
+}
+.serve-title .serve-title-content{
+  width: 426px;
+  height: 89px;
+  border-bottom: 2px solid #fda72c;
+  margin: 0 auto;
+  background: url("../img201707/qht-kh.png") no-repeat;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 67px;
+  color: #fc1e43;
+}
+
+
+.server-content{
+  width: 1200px;
+  height: 347px;
+  margin: 0 auto;
+}
+.server-content ul{
+  width: 1200px;
+  height: 347px;
+  overflow: hidden;
+}
+.server-content ul li{
+  text-align: center;
+}
+.server-content ul .ks{
+  margin-right: 120px;
+}
+.server-content ul li img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.server-content ul li h3{
+  font-size: 30px;
+ letter-spacing: 2.3px;
+ text-align: center;
+ line-height: 30px;
+ margin-bottom: 22px;
+ color: #ff4766;
+ font-weight: normal;
+}
+.server-content ul li p{
+  font-size: 24px;
+  line-height: 1.67;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #ff4766;
+}
+
+.about{
+  width: 100%;
+  height: 380px;
+  background: url("../img201707/qht-gywm.png") 50% 50% no-repeat;
+  margin-bottom: 100px;
+}
+.about-content{
+  width: 1200px;
+  height: 380px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.about-content h3{
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  text-align: center;
+  color: #fefefe;
+  line-height: 40px;
+  margin-top: 73px;
+  margin-bottom: 49px;
+}
+.about-content p{
+  font-size: 30px;
+  letter-spacing: 6px;
+  text-align: justify;
+  color: #fefefe;
+  line-height:50px;
+}
+
+
+.speak{
+  width: 1200px;
+  height: 577px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.speak h3{
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fc1e43;
+  font-weight: 400;
+  margin:0 auto 35px;
+}
+.speak ul{
+  width: 1200px;
+  height: 50px;
+  margin-bottom: 24px;
+}
+.speak ul li{
+  width: 556px;
+  height: 46px;
+  border: 2px solid #fda72c;
+}
+.speak ul li input{
+  width: 496px;
+  height: 46px;
+  border: none;
+  margin-left: 30px;
+  font-size: 18px;
+  color: #999;
+}
+.speak .texts{
+  width: 1196px;
+  height: 196px;
+  margin-bottom: 48px;
+  border: 2px solid #fda72c;
+}
+.speak .texts textarea{
+  width: 1136px;
+  height: 196px;
+  margin-left: 30px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 36px;
+  color: #999;
+}
+.speak .more{
+ display: block;
+ width: 200px;
+height: 50px;
+border-radius: 25px;
+background-color: #fc1e43;
+ line-height: 50px;
+ border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+.speak .more a{
+  display: block;
+  width: 100%;
+  color: #ffffff;
+}
+
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}

@@ -1,0 +1,394 @@
+#zhegai{
+  height:100%;
+  width:100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 300;
+  position: absolute;
+  display: none;
+}
+  #ginPage{
+  	width:1000px;
+  	position: absolute;
+    z-index: 303;
+    display: none;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  #ginPage .close{
+    display: inline-block;
+    width: 100%;
+    height: 63px;
+    background-color: #d2d2d2;
+    cursor: pointer;
+    margin-bottom: 45px;
+  }
+    #ginPage .close p{
+      float: left;
+      margin-left: 75px;
+    font-size: 36px;
+    line-height: 63px;
+    text-align: left;
+    color: #ffffff;
+    text-shadow: 0px 2px 5px #888;
+  }
+  #ginPage .close img{
+    float: right;
+    width: 27px;
+    height: 27px;
+    margin-right: 19px;
+    margin-top: 16px;
+    vertical-align: middle;
+  }
+
+  #ginPage .ge-title{
+    width: 780px;
+    height: 85px;
+    margin: 0 auto 35px;
+    border-bottom: 1px solid #bfbfbf;
+    overflow: hidden;
+  }
+  #ginPage .ge-title h3{
+    font-size: 24px;
+   font-weight: bold;
+   text-align: center;
+   color: #333333;
+  }
+    #ginPage .ge-title .nr_share{
+        width: 330px;
+        height: 20px;
+        margin: 15px auto;
+        font-size: 12px;
+        text-align: center;
+        color: #666;
+    }
+  .ovfHiden{
+    overflow: hidden;
+    height: 100%;
+  }
+
+#ginPage .ge-content{
+  width: 780px;
+  height:600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0 auto 20px;
+
+}
+#ginPage .ge-content .nr_paragraph {
+    width: 780px;
+    height: auto;
+    margin: 0 auto;
+  }
+#ginPage .ge-content .nr_paragraph p {
+    text-indent: 2em;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 100;
+    line-height: 26px;
+    text-align: justify;
+    margin-right: 40px;
+  }
+#ginPage .source{
+    width: 780px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #333;
+  }
+
+#ginPage .source p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+#ginPage .nr_flip {
+    width: 780px;
+    height: 78px;
+    margin: 0 auto 80px;
+    border-top: 1px solid #dcdcdc;
+    overflow: hidden;
+}
+
+#ginPage .nr_flip ul {
+    width: 695px;
+    height: 78px;
+    float: left;
+}
+#ginPage .nr_flip ul li {
+    height: 39px;
+    line-height: 48px;
+}
+#ginPage .nr_flip ul li a {
+    font-size: 14px;
+    color: #333;
+cursor: pointer;
+}
+#ginPage .nr_flip span{
+  display: inline-block;
+  width: 85px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+  float: right;
+  text-align: center;
+  line-height:30px;
+  margin-top: 20px;
+}
+#ginPage .nr_flip span a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color:#fff;
+}
+#ginPage .nr_flip span a:hover{
+  color: #ed1a1a;
+}
+
+
+
+
+
+
+.banner{
+  width: 100%;
+  min-width: 1200px;
+  height: 500px;
+  margin-bottom: 45px;
+  background: url("../../Skin/img201707/fxsl-xf.png") no-repeat center;
+  overflow: hidden;
+}
+.banner .banner-content{
+  width: 1200px;
+  height: 50px;
+  margin: 312px auto 0;
+}
+.banner .banner-content span{
+  display: block;
+  width: 150px;
+  height: 43px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.banner .banner-content span a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.banner2{
+  width: 100%;
+  min-width: 1200px;
+  height: 500px;
+  margin-bottom: 45px;
+  background: url("../../Skin/img201707/fxsl-jiang.png") no-repeat center;
+  overflow: hidden;
+}
+.banner3{
+  width: 100%;
+  min-width: 1200px;
+  height: 500px;
+  margin-bottom: 45px;
+  background: url("../../Skin/img201707/fxsl-nnhc.png") no-repeat center;
+  overflow: hidden;
+}
+.banner4{
+  width: 100%;
+  min-width: 1200px;
+  height: 500px;
+  margin-bottom: 45px;
+  background: url("../../Skin/img201707/fxsl-fqy.png") no-repeat center;
+  overflow: hidden;
+}
+.banner5{
+  width: 100%;
+  min-width: 1200px;
+  height: 500px;
+  margin-bottom: 45px;
+  background: url("../../Skin/img201707/fxsl-slmt.png") no-repeat center;
+  overflow: hidden;
+}
+.banner6{
+  width: 100%;
+  min-width: 1200px;
+  height: 500px;
+  margin-bottom: 45px;
+  background: url("../../Skin/img201707/fxsl-ky.png") no-repeat center;
+  overflow: hidden;
+}
+
+.crumbs {
+    width: 1200px;
+    margin: 0 auto;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+.crumbs span {
+    font-size: 12px;
+    width: 1200px;
+    display: inline-block;
+    color: #666;
+}
+
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto 92px;
+}
+.content ul{
+  margin-bottom: 55px;
+}
+.content ul li{
+  width: 1200px;
+  height: 217px;
+  background-color: #f6f5f5;
+  margin-bottom: 26px;
+  overflow: hidden;
+}
+.content ul li span{
+  display:block;
+  float: left;
+}
+.content ul li .time{
+  width: 179px;
+  height: 217px;
+  background-color: #009fc6;
+  margin-right: 50px;
+}
+.content ul li .time b{
+  display: block;
+  font-size: 88px;
+  line-height:88px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.content ul li .time em{
+  display: block;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: right;
+  color: #ffffff;
+  margin-right: 37px;
+}
+.content ul li .title{
+  width: 906px;
+  margin-top: 34px;
+}
+.content ul li .title h3{
+  font-size: 28px;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 22px;
+  font-weight: 400;
+  color: #2e2e2e;
+  cursor: pointer;
+}
+.content ul li .title h3:hover{
+  color: #009fc6;
+}
+.content ul li .title h3 a{
+  color: #2e2e2e;
+}
+.content ul li .title h3 a:hover{
+   color: #009fc6;
+}
+.content ul li .title p{
+  font-size: 16px;
+ line-height: 28px;
+ text-align: justify;
+ color: #646363;
+}
+.content ul li .title b{
+  display: block;
+  font-size: 14px;
+  line-height: 2.19;
+  text-align: right;
+  font-weight: normal;
+  margin-right: 80px;
+  color: #009fc6;
+  cursor: pointer;
+}
+.content ul li .title b a{
+  color: #009fc6;
+}
+
+
+
+
+.content .pager {
+    height: 30px;
+    padding: 10px 0;
+    clear: both;
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.content .pager a {
+    display: inline-block;
+    border: 1px solid #009fc6;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 10px 15px;
+    color: #009fc6
+}
+
+
+
+
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}
+
+
+
+
+::-webkit-scrollbar {
+width:12px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+border-radius:10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+border-radius:10px;
+background:rgba(0,0,0,0.1);
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}

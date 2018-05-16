@@ -1,0 +1,151 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+    border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.even {
+    background: #fff;
+}
+.odd {
+    background: #f7f7f7;
+}
+
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.box_conts {
+    margin: 0 0 20px;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    overflow-x: auto;
+    border: 1px solid #dbebf8;
+    border-top: none;
+}
+.bigbox {
+    margin-bottom: 0;
+    overflow: hidden;
+    zoom: 1;
+}
+.box_conts table {
+    border: 0 none;
+    border-collapse: collapse;
+    border-left: 1px solid #bbd4e8;
+    border-bottom: 1px solid #bbd4e8;
+}
+.fix_table {
+    table-layout: fixed;
+}
+.big_table {
+    width: 100%;
+}
+#summary_topScroller{
+  width: 973px;
+    position: relative;
+    z-index: 99;
+    overflow-x: scroll;
+    height: 18px;
+}
+#summary_topScroller div{
+  width: 1671px;
+    height: 1px;
+}
+#summary_tableLayout{
+    overflow: visible;
+    height: 1552px;
+    width: 973px;
+}
+#summary_tableFix{
+    height: 28px;
+    width: 210px;
+    overflow: hidden;
+    position: relative;
+    z-index: 50;
+    top: 0px;
+    left: 0px;
+}
+
+#summary_tableHead{
+  height: 28px;
+    overflow: hidden;
+    width: 210px;
+    position: relative;
+    z-index: 45;
+    top: -28px;
+    left: 0px;
+}
+
+#summary_tableColumn{
+  width: 250px;
+  overflow: hidden;
+  height: 1552px;
+  position: relative;
+  z-index: 40;
+  top: -56px;
+  left: 0px;
+}
+
+#summary_tableData{
+    overflow: auto;
+    width: 973px;
+    height: 1552px;
+    position: relative;
+    z-index: 35;
+    top: -1608px;
+    left: 0px;
+}
+.box_conts table{
+  width: 773px;
+  margin: 0px;
+}
+.box_conts table th {
+  width: 250px;
+    padding: initial;
+    line-height: 25px;
+    border: 0 none;
+    border-top: 1px solid #bbd4e8;
+    border-right: 1px solid #bbd4e8;
+}
+
+.box_conts .text_right, .box_conts td.text_right,.box_conts th.text_right {
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 0;
+}
+.box_conts table td, .box_conts table th {
+    padding: initial;
+    line-height: 25px;
+    border: 0 none;
+    border-top: 1px solid #bbd4e8;
+    border-right: 1px solid #bbd4e8;
+}
+
+.box_conts table .text_left{
+   width: 250px;
+   border-right: none;
+  background-color: #dbebf8;
+ }
+.box_conts table .wit{
+  width: 0px!important;
+}
+ .box_conts .text_left,  .box_conts table.text_left td,  .box_conts table.text_left th,  .box_conts td.text_left,  .box_conts th.text_left {
+       text-align: left;
+       padding-left: 10px;
+   }

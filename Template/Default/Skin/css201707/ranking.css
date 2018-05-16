@@ -1,0 +1,378 @@
+.banner{
+  width: 100%;
+  height: 270px;
+  background-color: #3e7fd1;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.banner-content{
+  width: 1200px;
+  height: 210px;
+  margin: 35px auto 0;
+  overflow: hidden;
+}
+.banner-content .banner-zi{
+  width: 590px;
+  float: left;
+  margin-left: 110px;
+  margin-top: 45px;
+}
+.banner-content .banner-zi h1{
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  line-height:40px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.banner-content .banner-zi p{
+  display: block;
+  width: 590px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+}
+.banner-content .banner-img{
+  width: 215px;
+  float: right;
+  margin-right: 110px;
+}
+.banner-content .banner-img img{
+  width: 215px;
+  height: 209px;
+}
+
+
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto 55px;
+}
+.content .fen{
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+.content .fen ul li{
+  float: left;
+  width: 280px;
+  height: 140px;
+  background-color: #ea6e6e;
+  margin-right: 26px;
+}
+.content .fen ul .last{
+  margin-right: 0;
+}
+.content .fen ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.content .fen ul li p{
+  display: block;
+  text-align: center;
+  height: 40px;
+  margin-top: 54px;
+}
+
+.fen ul li p img{
+  display: inline-block;
+  width: 35px;
+  height: 37px;
+  vertical-align: top;
+  margin-right: 22px;
+}
+.fen ul li p .beat{
+  width: 44px;
+  height: 26px;
+  margin-right:18px;
+  margin-top: 6px;
+}
+.fen ul li p span{
+  display: inline-block;
+  font-size: 24px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height:24px;
+   margin-top: 6px;
+   letter-spacing: normal;
+   text-align: left;
+   color: #ffffff;
+}
+.where{
+  width: 1200px;
+  margin-bottom: 45px;
+}
+.where .title{
+  height: 60px;
+  background-color: #89bbfb;
+
+}
+.where .title h2{
+  font-size: 30px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1;
+ letter-spacing: normal;
+ text-align: left;
+ color: #ffffff;
+ line-height: 60px;
+ margin-left: 18px;
+}
+.where .where-content{
+  overflow: hidden;
+}
+.where .where-content ul li{
+  float: left;
+  width: 400px;
+  height: 157px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.where .where-content ul .tinct{
+  background-color: #f3f9fe;
+}
+.where .where-content ul li span{
+  display: block;
+  width: 340px;
+  margin: 35px auto 0;
+}
+.where .where-content ul li h3{
+  height: 33px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  line-height: 33px;
+}
+.where .where-content ul li b{
+  display: inline-block;
+  width: 30px;
+  height: 33px;
+  background: url("../../Skin/img201707/pm-dengp.png");
+  margin-right: 6px;
+  vertical-align: top;
+}
+.where .where-content ul li a{
+  color: #4078ad;
+}
+.where .where-content ul li a:hover{
+  color: #ed1a1a;
+}
+.where .where-content ul li p{
+  display: block;
+  font-size: 16px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.63;
+   letter-spacing: normal;
+   text-align: justify;
+   color: #999999;
+   text-indent: 1.5em;
+}
+
+
+
+
+
+
+
+.new{
+  width: 1200px;
+  margin-bottom: 45px;
+}
+.new .title{
+  height: 60px;
+  background-color: #89bbfb;
+
+}
+.new .title p{
+  font-size: 30px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1;
+ letter-spacing: normal;
+ text-align: left;
+ color: #ffffff;
+ line-height: 60px;
+ margin-left: 18px;
+}
+.new-content{
+  width: 1180px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.new-content ul{
+  float: left;
+  width: 345px;
+  margin-right: 70px;
+}
+.new-content .last{
+  margin-right: 0;
+}
+.new-content ul li{
+  height: 20px;
+  margin-top: 15px;
+  font-size: 18px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 20px;
+ text-align: justify;
+ color: #666666;
+}
+.new-content ul li b{
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: url("../../Skin/img201707/椭圆-1.png") no-repeat;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+.new-content ul li a{
+  color: #666;
+}
+.new-content ul li a:hover{
+  color: #ed1a1a;
+}
+.new-content ul li span{
+  float: right;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+
+.interfix{
+  margin-bottom: 45px;
+  overflow: hidden;
+}
+.interfix .title{
+  height: 60px;
+  background-color: #89bbfb;
+  margin-bottom: 32px;
+}
+.interfix .title p{
+  font-size: 30px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1;
+ letter-spacing: normal;
+ text-align: left;
+ color: #ffffff;
+ line-height: 60px;
+ margin-left: 18px;
+}
+.interfix .interfix-content ul{
+  overflow: hidden;
+}
+.interfix .interfix-content ul li{
+  float: left;
+  width: 353px;
+  height: 170px;
+  margin-right: 70px;
+}
+.interfix .interfix-content ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.interfix .interfix-content ul li img{
+  width: 353px;
+  height: 170px;
+}
+.interfix .interfix-content ul .last{
+  margin-right: 0;
+}
+
+
+
+
+
+.ping{
+  width: 1198px;
+  height: 190px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+.ping .title{
+  width: 1165px;
+  margin:20px auto 19px;
+  overflow: hidden;
+}
+.ping .title p{
+  float: left;
+  font-size: 22px;
+  font-weight: bold;
+}
+.ping .title b{
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #ed1a1a;
+}
+.ping .title a{
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    color: #333333;
+}
+.ping .title a:hover{
+  color: #ed1a1a;
+}
+
+
+.ping span {
+	float: left;
+	margin-right: 42px;
+}
+.ping .pt1{
+  margin-left: 15px;
+}
+
+.ping .last {
+	margin-right: 0;
+}
+
+.ping span .ping-name {
+	font-size: 16px;
+	margin-bottom: 4px;
+	color: #000;
+}
+
+.ping span .ping-name img {
+	width: 20px;
+	height: 17px;
+	vertical-align: middle;
+}
+
+.ping span .ping-name a {
+	color: #000;
+}
+
+.ping span .ping-name a:hover {
+	color: #ed1a1a;
+}
+
+.ping span .ping-text {
+	font-size: 14px;
+	line-height:30px;
+	width: 260px;
+  letter-spacing:-0.2px;
+	color: #666;
+}

@@ -1,0 +1,191 @@
+.all{
+  width: 100%;
+  height: 85px;
+  background: #f8f8f8;
+  margin-bottom: 45px;
+}
+.all .all-content{
+  width: 1200px;
+  height: 85px;
+  margin: 0 auto 45px;
+  overflow: hidden;
+  line-height: 85px;
+}
+.all .all-content span{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 85px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+}
+.all .all-content .wrap{
+  float: right;
+  position: relative;
+}
+.all .all-content input{
+  margin-top: 22px;
+  width: 160px;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 12.5px;
+  background-color: #ffffff;
+  border: solid 1px #e2e2e2;
+}
+.all .all-content .dosearch{
+    position: absolute;
+    top:35px;
+    right: 20px;
+    display:inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../../Skin/img201707/search.png")no-repeat;
+    cursor: pointer;
+}
+.content{
+  width: 1200px;
+  margin: 0 auto 55px;
+}
+.content ul li{
+  padding: 45px 65px;
+  border-bottom: 1px solid #ececec;
+  overflow: hidden;
+}
+.content ul li span{
+ float: left;
+ width: 240px;
+ height: 174px;
+ margin-right: 28px;
+}
+.content ul li span img{
+  width: 240px;
+  height: 174px;
+}
+.content .list-intro{
+  float: right;
+  width: 775px;
+}
+.content .list-intro h4{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 18px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+  margin-bottom: 17px;
+}
+.content .list-intro h4 a{
+  color: #666;
+}
+.content .list-intro p{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+}
+.content .list-intro .jine{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+  margin-bottom: 12px;
+}
+.content .list-intro .jine b{
+  color: #ed1a1a;
+  font-size: 25px;
+  font-weight: bold;
+}
+.content .list-intro .p1{
+  width: 535px;
+  height: 65px;
+  text-indent: 2em;
+  text-align: justify;
+}
+.content .list-intro .other{
+  position: relative;
+  padding-top: 15px;
+}
+.content .list-intro .other p{
+  display: inline-block;
+  font-size: 14px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height:22px;
+ letter-spacing: normal;
+ text-align: left;
+ color: #6e6e6e;
+ margin-right: 30px;
+}
+.content .list-intro .other p .i1{
+  display: block;
+  float: left;
+    width: 26px;
+    height: 22px;
+    margin-right: 15px;
+    background: url("../../Skin/img201707/touz-xsbjb.png")no-repeat;
+}
+.content .list-intro .other p .i2{
+  display: block;
+  float: left;
+    width: 18px;
+    height: 22px;
+    margin-right: 10px;
+    background: url("../../Skin/img201707/touz-xsbdd.png")no-repeat;
+}
+.content .list-intro .other p .i3{
+    display: block;
+    float: left;
+    width: 23px;
+    height: 22px;
+    margin-right: 12px;
+    background: url("../../Skin/img201707/touz-xsbsj.png")no-repeat;
+}
+.content .list-intro .other .toudi{
+  display: block;
+  width: 120px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #f63756;
+  float: right;
+  margin-top: -10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 35px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+
+
+.content .pager {
+    height: 30px;
+    padding: 10px 0;
+    clear: both;
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 50px;
+}
+.content .pager a {
+    display: inline-block;
+    border: 1px solid #c5c5c5;
+    padding: 2px 8px;
+}

@@ -1,0 +1,236 @@
+body{
+  background: #ececec;
+}
+.crumbs {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+.crumbs span {
+    font-size: 14px;
+    color: #666;
+}
+.crumbs span a {
+    color: #666;
+}
+.intro {
+    background-color: #fff;
+    width: 1200px;
+    margin:0 auto 20px;
+    padding: 56px 0 46px;
+}
+.intro .intro-con{
+  margin:0 68px;
+  overflow: hidden;
+}
+.intro .intro-left{
+  float: left;
+  width: 665px;
+}
+.intro .intro-left .bd{
+    width: 665px;
+    height: 388px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 35px;
+}
+.intro .intro-left .bd ul{
+  overflow: hidden;
+}
+.intro .intro-left .bd ul li{
+  width: 665px;
+  height: 388px;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.intro .intro-left .bd ul li img{
+  width: 665px;
+  height: 388px;
+}
+.intro .intro-left .hd{
+  position: relative;
+  overflow: hidden;
+  height: 75px;
+}
+.intro .intro-left .hd .temp{
+  overflow: hidden;
+  height: 75px;
+}
+.intro .intro-left .hd ul{
+  display: block;
+  width:1000px;
+  overflow: hidden;
+    height: 75px;
+}
+.intro .intro-left .hd ul li{
+  float: left;
+  width: 103px;
+  height: 72px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.intro .intro-left .hd ul li img{
+  width: 103px;
+  height: 70px;
+}
+.intro .intro-left .hd #spec-list{
+  overflow: hidden;
+  width: 595px;
+  float: left;
+  height: 75px;
+}
+#spec-list ul li .ImgCurr {
+  border:1px solid #ff6600;
+  padding:1px;
+}
+
+.intro .intro-left .hd #spec-left{
+  width: 25px;
+    height: 40px;
+    margin-top: 15px;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.intro .intro-left .hd #spec-left img{
+  width: 25px;
+    height: 44px;
+}
+.intro .intro-left .hd #spec-right{
+  width: 25px;
+    height: 40px;
+    margin-top: 15px;
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.intro .intro-left .hd #spec-right img{
+  width: 25px;
+    height: 44px;
+}
+.intro .intro-right{
+  float: right;
+  width: 325px;
+}
+.intro .intro-right .intro-top{
+  padding-top: 25px;
+}
+.intro .intro-right .intro-top h4{
+    font-size: 18px;
+    line-height: 28px;
+    height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 24px;
+}
+.intro .intro-right .intro-top .finance {
+    height: 75px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 40px;
+}
+.intro .intro-right .intro-top .finance .p1 {
+    font-size: 14px;
+    color: #666;
+    line-height: 14px;
+    margin-bottom: 14px;
+}
+.intro .intro-right .intro-top .finance .p2 {
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f63756;
+}
+.intro .intro-right .intro-top .others{
+  overflow: hidden;
+  margin-bottom: 65px;
+}
+.intro .intro-right .intro-top .others p{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6e6e6e;
+}
+.intro .intro-right .intro-top .others p i {
+    display: block;
+    float: left;
+}
+.intro .intro-right .intro-top .others p .i1{
+    width: 26px;
+    height: 22px;
+    margin-right: 15px;
+    background: url("../../Skin/img201707/touz-xsbjb.png")no-repeat;
+}
+.intro .intro-right .intro-top .others p .i2{
+  width: 18px;
+  height: 22px;
+    margin-right: 20px;
+    background: url("../../Skin/img201707/touz-xsbdd.png")no-repeat;
+}
+.intro .intro-right .intro-top .others p .i3{
+  width: 23px;
+  height: 22px;
+    margin-right: 15px;
+    background: url("../../Skin/img201707/touz-xsbsj.png")no-repeat;
+}
+.intro .intro-right .toudi{
+  display: block;
+  width: 260px;
+  height: 50px;
+  background-color: #f63756;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 50px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.depict{
+  width: 1200px;
+  padding:45px 0 35px;
+  background:#fff;
+  margin: 0 auto 55px;
+}
+.depict .depict-con{
+  width: 1065px;
+  margin: 0 auto;
+}
+ .depict .depict-con h4{
+   font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height:18px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 45px;
+ }
+ .depict .depict-con p{
+   font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #333333;
+  margin-bottom:35px;
+ }

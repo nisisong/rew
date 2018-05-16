@@ -1,0 +1,442 @@
+.banner{
+  width: 100%;
+  height: 694px;
+  background: url("../img201707/ky-banner.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom:75px;
+}
+.banner .banner-content{
+  width: 1200px;
+  height: 470px;
+  margin: 145px auto 0;
+}
+.banner .banner-content .banner-nei h2{
+  font-size: 36px;
+  line-height: 36px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+.banner .banner-content .banner-nei h3{
+  font-size: 32px;
+ line-height: 32px;
+ text-align: left;
+ color: #ffffff;
+ margin-bottom: 25px;
+}
+.banner .banner-content .banner-nei p{
+  display: block;
+  width: 500px;
+  font-size: 18px;
+ text-align: justify;
+ color: #ffffff;
+ line-height: 26px;
+ margin-bottom: 70px;
+}
+.banner-img{
+  width: 410px;
+  margin: 0 50px;
+  overflow: hidden;
+}
+.banner-img .banner-img1{
+  width: 176px;
+  height: 200px;
+  float: left;
+}
+.banner-img .banner-img1 img{
+  width: 176px;
+  height: 176px;
+  margin-bottom: 8px;
+}
+.banner-img .banner-img1 span{
+  display: block;
+  font-size: 16px;
+ line-height: 16px;
+ text-align: center;
+ color: #ffffff;
+}
+
+.banner-img .banner-img2{
+  width: 176px;
+  height: 200px;
+  float: right;
+}
+.banner-img .banner-img2 img{
+  width: 176px;
+  height: 176px;
+  margin-bottom: 8px;
+}
+.banner-img .banner-img2 span{
+  display: block;
+  font-size: 16px;
+ line-height: 16px;
+ text-align: center;
+ color: #ffffff;
+}
+
+
+.introduce{
+  width: 1200px;
+  height: 542px;
+  margin:0 auto 95px;
+}
+.introduce .introduce-title{
+  width: 1000px;
+  border-bottom: 1px solid #ebebeb;
+  margin: 0 auto 29px;
+}
+.introduce .introduce-title p{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 12px;
+}
+.introduce .introduce-title h3{
+  font-size: 24px;
+ line-height: 24px;
+ text-align: center;
+ color: #333333;
+ margin-bottom: 19px;
+  font-weight: normal;
+}
+.introduce .introduce-title h3 span{
+  padding-bottom: 13px;
+  border-bottom: 6px solid #0076ca;
+}
+.introduce .introduce-content{
+  width: 1200px;
+}
+.introduce .introduce-content p{
+  font-size: 18px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 12px;
+}
+.introduce .introduce-content ul{
+  margin-top: 60px;
+  width: 100%;
+  overflow: hidden;
+}
+.introduce .introduce-content ul li{
+  float: left;
+  width: 240px;
+  cursor: pointer;
+}
+.introduce .introduce-content ul li img{
+  margin-left: 62px;
+  width: 115px;
+  height: 115px;
+  margin-bottom: 17px;
+}
+.introduce .introduce-content ul li h3{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 16px;
+  text-align: center;
+  color: #878787;
+  margin-bottom: 16px;
+}
+.introduce .introduce-content ul li p{
+  font-size: 16px;
+  text-align: center;
+  color: #878787;
+}
+.introduce .introduce-content ul li:hover h3{
+  color: #0076ca;
+}
+.introduce .introduce-content ul li:hover p{
+  color: #0076ca;
+}
+.introduce .introduce-strata{
+  width: 750px;
+  height: 530px;
+  margin:-145px auto 0;
+  /*position: relative;*/
+}
+.introduce .introduce-strata .strata1{
+  width: 363px;
+  height: 535px;
+  display: none;
+}
+.introduce .introduce-strata .strata1 img{
+  width: 363px;
+  height: 535px;
+}
+.introduce .introduce-strata .strata2{
+  width: 363px;
+  height: 535px;
+  margin-left: 210px;
+  display: none;
+}
+.introduce .introduce-strata .strata2 img{
+  width: 363px;
+  height: 535px;
+}
+.introduce .introduce-strata .strata3{
+  width: 363px;
+  height: 535px;
+  margin-left: 450px;
+  display: none;
+}
+.introduce .introduce-strata .strata3 img{
+  width: 363px;
+  height: 535px;
+}
+.introduce .introduce-strata .strata4{
+  width: 363px;
+  height: 535px;
+  margin-left: 160px;
+  display: none;
+}
+.introduce .introduce-strata .strata4 img{
+  width: 363px;
+  height: 535px;
+}
+.introduce .introduce-strata .strata5{
+  width: 363px;
+  height: 535px;
+  margin-left: 405px;
+  display: none;
+}
+.introduce .introduce-strata .strata5 img{
+  width: 363px;
+  height: 535px;
+}
+
+.guang{
+  width: 100%;
+  height: 370px;
+  background: url("../img201707/ky-guang.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom:44px;
+}
+
+
+
+.transaction{
+  width: 1200px;
+  margin: 0 auto 80px;
+}
+.transaction .transaction-title{
+  width: 1000px;
+  border-bottom: 1px solid #ebebeb;
+  margin: 0 auto 37px;
+}
+.transaction .transaction-title p{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 12px;
+}
+.transaction .transaction-title h3{
+  font-size: 24px;
+ line-height: 24px;
+ text-align: center;
+ color: #333333;
+ margin-bottom: 19px;
+  font-weight: normal;
+}
+.transaction .transaction-title h3 span{
+  padding-bottom: 13px;
+  border-bottom: 6px solid #0076ca;
+}
+.transaction .transaction-content{
+  width: 1200px;
+}
+
+.transaction .transaction-content p{
+ font-size: 18px;
+ text-align: center;
+ color: #333333;
+ line-height:30px;
+}
+.transaction .transaction-content p span{
+  font-weight: bold;
+}
+
+.transaction .transaction-content .transaction-img{
+  width: 711px;
+  height: 465px;
+  margin: 75px auto 0;
+}
+
+.prospect{
+  width: 100%;
+  height: 317px;
+  background: url("../img201707/ky-qj.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom:50px;
+}
+.prospect .prospect-content{
+  width: 1200px;
+  height:317px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.prospect .prospect-content .prospect-title{
+  width: 1000px;
+  border-bottom: 1px solid #ebebeb;
+  margin: 55px auto 37px;
+}
+.prospect .prospect-content .prospect-title p{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+  text-indent:0;
+}
+.prospect .prospect-content .prospect-title h3{
+  font-size: 24px;
+ line-height: 24px;
+ text-align: center;
+ color: #fff;
+ margin-bottom: 19px;
+ font-weight: normal;
+}
+.prospect .prospect-content .prospect-title h3 span{
+  padding-bottom: 13px;
+  border-bottom: 6px solid #0076ca;
+}
+.prospect .prospect-content p{
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 2em;
+  color: #fff;
+  line-height: 30px;
+}
+
+
+
+.about{
+  width: 1200px;
+  margin: 0 auto 68px;
+}
+.about .about-title{
+  width: 1000px;
+  border-bottom: 1px solid #ebebeb;
+  margin: 0 auto 37px;
+}
+.about .about-title p{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 12px;
+}
+.about .about-title h3{
+  font-size: 24px;
+ line-height: 24px;
+ text-align: center;
+ color: #333333;
+ margin-bottom: 19px;
+  font-weight: normal;
+}
+.about .about-title h3 span{
+  padding-bottom: 13px;
+  border-bottom: 6px solid #0076ca;
+}
+
+.about-content{
+  width: 1000px;
+  margin:0 auto;
+}
+.about-content p{
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 30px;
+  color: #333333;
+}
+
+
+
+
+
+.speak{
+  width: 1200px;
+  margin: 0 auto 75px;
+  overflow: hidden;
+}
+.speak .speak-title{
+  width: 1000px;
+  border-bottom: 1px solid #ebebeb;
+  margin: 0 auto 37px;
+}
+.speak .speak-title p{
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 12px;
+}
+.speak .speak-title h3{
+  font-size: 24px;
+ line-height: 24px;
+ text-align: center;
+ color: #333333;
+ margin-bottom: 19px;
+  font-weight: normal;
+}
+.speak .speak-title h3 span{
+  padding-bottom: 13px;
+  border-bottom: 6px solid #0076ca;
+}
+.speak ul{
+  width: 1200px;
+  height: 50px;
+  margin-bottom: 24px;
+}
+.speak ul li{
+  width: 556px;
+  height: 46px;
+  border: 2px solid #999;
+}
+.speak ul li input{
+  width: 496px;
+  height: 46px;
+  border: none;
+  margin-left: 30px;
+  font-size: 18px;
+  color: #000;
+}
+.speak .texts{
+  width: 1196px;
+  height: 196px;
+  margin-bottom: 48px;
+  border: 2px solid #999;
+}
+.speak .texts textarea{
+  width: 1136px;
+  height: 196px;
+  margin-left: 30px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 36px;
+  color: #000;
+  font-family: "Microsoft YaHei";
+}
+.speak .more{
+ display: block;
+ width: 200px;
+ height: 40px;
+ line-height: 40px;
+ border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  background: #0076ca;
+  margin: 0 auto;
+}
+.speak .more a{
+  display: block;
+  width: 100%;
+  color: #ffffff;
+}

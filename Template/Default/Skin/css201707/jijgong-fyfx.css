@@ -1,0 +1,287 @@
+/*
+*@ author：sns
+*@ date：2018-04-09
+*/
+
+
+.public_title h3{
+  float: left;
+}
+.public_title .main-title-select{
+  float: right;
+  margin-right: 15px;
+}
+.public_title .main-title-select span{
+  font-size: 14px;
+  line-height: 37px;
+}
+.public_title .ttjj-select{
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 137px;
+  height: 25px;
+  border: 1px solid #4a90e2;
+  font-size: 14px;
+  text-align: left;
+  vertical-align: middle;
+}
+.public_title .ttjj-select span{
+  line-height: 25px;
+}
+.ttjj-select .ttjj-select-heading {
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 10px;
+    background: #fff;
+    color: #333 !important;
+    line-height: 25px;
+}
+.ttjj-select .ttjj-select-heading .ttjj-iconfont {
+    float: right;
+    padding-right: 13px;
+    width: 9px;
+    height: 4px;
+    margin-top: 10px;
+}
+.public_title .ttjj-select ul{
+  display: none;
+  width: 137px;
+  max-height: 230px;
+  overflow: auto;
+  overflow-x: hidden;
+  position: absolute;
+  top: 26px;
+  left: -1px;
+  background: #fff;
+  border: 1px solid #dbdbdb
+}
+.ttjj-select .active {
+    border-color: #4a90e2;
+}
+.ttjj-select ul li {
+    border-bottom: 1px solid #dbdbdb;
+    width: 137px;
+}
+.ttjj-select ul li a {
+    display: block;
+    padding-left: 10px;
+    line-height: 25px;
+    color: #333;
+}
+.ttjj-select ul li:hover{
+  background: #4a90e2;
+}
+.ttjj-select ul li:hover a{
+  color: #fff;
+}
+.common-information{
+  border: 1px solid #dbebf8;
+  padding: 10px 0 10px 18px;
+}
+.common-information p{
+  font-size: 16px;
+  line-height: 1.23;
+  color: #333;
+}
+
+
+
+.xin {
+    width: 973px;
+    height: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #dbebf8;
+}
+.zfmz {
+    width: 973px;
+    height: auto;
+    border: 1px solid #dbebf8;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.zfmz .tab {
+    width: 973px;
+    height: 57px;
+    border-bottom: #dbebf8 1px solid;
+}
+.zfmz .tab span {
+    font-size: 16px;
+    padding: 0 5px 5px;
+    line-height: 57px;
+    border-bottom: 2px solid #fff;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.zfmz .tab .on {
+    font-size: 16px;
+    padding: 0 5px 5px;
+    line-height: 57px;
+    border-bottom: 2px solid #2f5895;
+    font-weight: bold;
+}
+.common-sub-title {
+    padding:15px;
+    line-height: 28px;
+    overflow: hidden;
+    background-color: #f3f8ff;
+}
+.common-sub-title h3 {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.common-sub-title p{
+    float: right;
+    font-size: 14px;
+    color: #666;
+}
+.zfmz .nr {
+    display: none;
+}
+
+
+
+
+.ttjj-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.ttjj-table th {
+    background: #f5f5f5;
+    font-size: 14px;
+    color: #000;
+}
+.ttjj-table th, .ttjj-table td {
+    text-align: center;
+    font-weight: 400;
+    padding: 14px 0 14px 10px;
+}
+.ttjj-table td {
+    font-size: 14px;
+    color: #333;
+}
+.grey-bg{
+ background-color: #f5f5f5;
+}
+
+
+ .ttjj-table {
+    border-top: 1px solid #dbebf8;
+    border-bottom: 1px solid #dbebf8;
+}
+.common-sort-table i{
+  font-style: normal;
+}
+.common-sort-table th .arrow {
+	display: inline-block;
+	padding-top: 0;
+	color: #ccc;
+	vertical-align: middle
+}
+
+.common-sort-table th .arrow i {
+	display: block;
+	font-size: 16px;
+	line-height: 8px
+}
+
+.common-sort-table th .arrow i.sequence {
+	color: red
+}
+
+.common-sort-table th .arrow-p span {
+	display: inline-block;
+	*display: inline;
+	vertical-align: middle;
+	*height: 24px;
+	_height: 30px
+}
+
+.common-sort-table th .th-blue {
+	color: #4a90e2
+}
+
+.common-sort-table th .th-blue i {
+	display: block;
+	line-height: 16px
+}
+.ttjj-table th.fund-name-code {
+	padding-left: 14px;
+	text-align: left
+}
+
+.ttjj-table td.fund-name-code {
+	width: 126px;
+	padding-left: 14px;
+	line-height: 17px;
+	text-align: left;
+	padding-right: 5px
+}
+
+.ttjj-table td.fund-name-code a {
+}
+
+.ttjj-table td.fund-name-code a.name {
+	width: 126px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-right: 6px
+}
+
+.ttjj-table td.links a {
+	margin-right: 3px
+}
+
+.ttjj-table tr.grey-bg td {
+	background: #f9f9f9
+}
+
+.common-block-con {
+	border: 1px solid #dbdbdb
+}
+
+.common-block-con .ttjj-tags {
+	padding: 20px 0 20px 10px
+}
+
+.common-block-con .pagination-wrap {
+	margin: 34px 0 18px 0;
+	text-align: center
+}
+.ttjj-fund-rise {
+    color: red !important;
+    font-style: normal;
+}
+.ttjj-fund-down {
+    color: #3c3 !important;
+    font-style: normal;
+}
+.ttjj-table a {
+    text-decoration: underline;
+    color: #4a90e2;
+    
+}
+
+
+
+.ttjj-btn-xs {
+    padding: 5px 8px;
+    font-size: 12px;
+}
+.ttjj-table td.td-align-left, .ttjj-table th.td-align-left{
+    text-align: left;
+    padding-left: 10px;
+}
+.ttjj-table td.td-align-right, .ttjj-table th.td-align-right {
+    text-align: right;
+    padding-right: 10px;
+}
+.ttjj-table tr.bg-yellow, .ttjj-table tr.bg-yellow {
+    background-color: #f9f4db;
+}

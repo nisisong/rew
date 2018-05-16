@@ -1,0 +1,3252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>估值分析</title>
+  <link rel="stylesheet" href="../../Skin/css201707/reset.css">
+  <link rel="stylesheet" href="../../Skin/css201707/public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/gpgang-public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/gpgang-gzfx.css">
+</head>
+<body>
+  <div class="header clearfix">
+    <div class="header-top">
+      <div class="top-nav">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="">首页</a>
+            </li>
+            <li class="nav-bright">
+              <a href=""><b>股</b>票</a>
+            </li>
+            <li>
+              <a href="">期货</a>
+            </li>
+            <li>
+              <a href="">基金</a>
+            </li>
+            <li>
+              <a href="">投资</a>
+            </li>
+            <li>
+              <a href="">理财</a>
+            </li>
+            <li>
+              <a href="">视频</a>
+            </li>
+            <li>
+              <a href="">企业词条</a>
+            </li>
+            <li>
+              <a href="">问答中心</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-sous">
+          <img src="../../Skin/img201707/sous.png" alt="">
+        </div>
+        <div class="header-wide">
+          <img src="../../Skin/img201707/sous-icon.png" alt="">
+          <input type="text" name="" value="">
+          <img class="cha" src="../../Skin/img201707/cha-icon.png" alt="">
+        </div>
+        <div class="header-login">
+          <ul>
+            <li>
+              <img src="../../Skin/img201707/fang.png" alt="">
+              <a href="">登录</a>
+            </li>
+            <li>/</li>
+            <li>
+              <a href="">注册</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="nav-son">
+      <div class="logo fl">
+        <img src="../../Skin/img201707/logo.png" alt="">
+      </div>
+      <div class="nav-ification fl">
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">股票</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er  colors">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">期货</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">基金</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-qh">
+          <li>
+            <h3>
+              <a href="">投资</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+        <ul class="nav-last">
+          <li>
+            <h3>
+              <a href="">理财</a>
+            </h3>
+            <img src="../../Skin/img201707/sanj-icon.png" alt="">
+          </li>
+          <li class="nav-er">
+            <a href="">教程</a>
+          </li>
+          <li class="nav-er">
+            <a href="">分类</a>
+          </li>
+          <li class="nav-si">
+            <a href="">交易平台</a>
+          </li>
+          <li class="nav-si">
+            <a href="">新闻资讯</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 头部结束 -->
+  <div class="crumbs">
+    <span>
+      <a href="">融易首页</a>
+      >
+      <a href="">融易股票</a>
+      >
+      <a href="">股票分类</a>
+    </span>
+    <span class="wz-search">
+        <span class="search">
+          <input type="text" class="bsearch-text" placeholder="请输入股票代码或名称">
+          <button class="bsearch-btn">搜索</button>
+        </span>
+      </span>
+  </div>
+  <!-- 面包屑 -->
+  <div class="content">
+    <!--左侧速览 -->
+    <div class="plate fl">
+      <div class="plate-index">
+        <a href="">股票速览</a>
+      </div>
+      <div class="plate-title tab">
+        <span>公司基本资料</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">业务回顾</a>
+        </li>
+        <li>
+          <a href="">业务展望</a>
+        </li>
+        <li>
+          <a href="">股本结构</a>
+        </li>
+        <li class="last">
+          <a href="">主要股东</a>
+        </li>
+      </ul>
+      <!--公司基本资料  -->
+      <div class="plate-title tab">
+        <span>董事会及管理层信息</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">董事会成员</a>
+        </li>
+        <li>
+          <a href="">监事会成员</a>
+        </li>
+        <li class="last">
+          <a href="">经营管理成员</a>
+        </li>
+      </ul>
+      <!-- 董事会及管理层信息  -->
+      <div class="plate-title tab">
+        <span>市场行情数据</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li class="active">
+          <a href="">估值分析</a>
+        </li>
+        <li>
+          <a href="">每日行情数据统计</a>
+        </li>
+        <li class="last">
+          <a href="">AH股折溢价统计</a>
+        </li>
+      </ul>
+      <!--市场行情数据 -->
+      <div class="plate-title tab">
+        <span>财务数据</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">资产负债表</a>
+        </li>
+        <li>
+          <a href="">利润表</a>
+        </li>
+        <li class="last">
+          <a href="">现金流量表</a>
+        </li>
+      </ul>
+      <!-- 财务数据 -->
+      <div class="plate-title tab">
+        <span>财务分析</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">财务分析摘要</a>
+        </li>
+        <li>
+          <a href="">每股指标</a>
+        </li>
+        <li>
+          <a href="">盈利能力与收益质量</a>
+        </li>
+        <li>
+          <a href="">资本结构与偿债能力</a>
+        </li>
+        <li class="last">
+          <a href="">成长能力</a>
+        </li>
+      </ul>
+      <!-- 财务分析 -->
+      <div class="plate-title tab">
+        <span>公司大事</span>
+        <img src="../../Skin/img201707/gp-xsbup.png" alt="">
+      </div>
+      <ul class="net">
+        <li>
+          <a href="">IPO资料</a>
+        </li>
+        <li>
+          <a href="">分红派息</a>
+        </li>
+        <li>
+          <a href="">股票回购</a>
+        </li>
+        <li class="last">
+          <a href="">拆股合股</a>
+        </li>
+      </ul>
+      <!-- 公司大事 -->
+    </div>
+    <!-- 左侧内容 -->
+    <div class="content-right">
+      <div class="public_title">
+        <h3>
+          估值分析
+        </h3>
+      </div>
+      <div class="box_conts" id="box_conts">
+        <div class="bigbox clearFix">
+          <div id="reset">
+            <div id="summary_topScroller">
+              <div></div>
+            </div>
+            <div id="summary_tableLayout">
+              <div id="summary_tableFix">
+                <table cellspacing="0" cellpadding="0" class="big_table fix_table" id="summary_tableFixClone">
+                  <thead>
+                    <tr class="even">
+                      <th class=""></th>
+                      <th class="wit"></th>
+                      <th class="">2017</th>
+                      <th class="">2016</th>
+                      <th class="">2015</th>
+                      <th class="">2014</th>
+                      <th class="">2013</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td class="text_left theader">交易币种</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市盈率(PE,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">20.4290</td>
+                      <td class="text_right">35.3043</td>
+                      <td class="text_right">17.1862</td>
+                      <td class="text_right">16.2871</td>
+                      <td class="text_right">9.0967</td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.3249</td>
+                      <td class="text_right">60.7557</td>
+                      <td class="text_right">26.2040</td>
+                      <td class="text_right">19.1031</td>
+                      <td class="text_right">14.5170</td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">15.4797</td>
+                      <td class="text_right">17.6042</td>
+                      <td class="text_right">11.8280</td>
+                      <td class="text_right">13.7300</td>
+                      <td class="text_right">5.2386</td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">21.6957</td>
+                      <td class="text_right">30.6520</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市盈率(PE,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">26.4758</td>
+                      <td class="text_right">25.4606</td>
+                      <td class="text_right">17.2646</td>
+                      <td class="text_right">16.2643</td>
+                      <td class="text_right">7.5679</td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">30.2660</td>
+                      <td class="text_right">31.2964</td>
+                      <td class="text_right">25.4449</td>
+                      <td class="text_right">19.2665</td>
+                      <td class="text_right">14.5170</td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">23.2194</td>
+                      <td class="text_right">17.6042</td>
+                      <td class="text_right">13.4083</td>
+                      <td class="text_right">13.7300</td>
+                      <td class="text_right">4.8863</td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.1780</td>
+                      <td class="text_right">25.6989</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市净率(PB,MRQ)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.6514</td>
+                      <td class="text_right">1.5611</td>
+                      <td class="text_right">1.4446</td>
+                      <td class="text_right">1.2489</td>
+                      <td class="text_right">1.4051</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.9433</td>
+                      <td class="text_right">1.9463</td>
+                      <td class="text_right">2.0941</td>
+                      <td class="text_right">1.4650</td>
+                      <td class="text_right">2.0973</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.4279</td>
+                      <td class="text_right">1.0585</td>
+                      <td class="text_right">1.1407</td>
+                      <td class="text_right">1.0568</td>
+                      <td class="text_right">0.8827</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.6849</td>
+                      <td class="text_right">1.5873</td>
+                      <td class="text_right">1.2565</td>
+                      <td class="text_right">1.3444</td>
+                      <td class="text_right">1.1174</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市净率(PB,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.7545</td>
+                      <td class="text_right">1.5308</td>
+                      <td class="text_right">1.4409</td>
+                      <td class="text_right">1.2523</td>
+                      <td class="text_right">1.3930</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">2.0057</td>
+                      <td class="text_right">1.8817</td>
+                      <td class="text_right">2.1266</td>
+                      <td class="text_right">1.4830</td>
+                      <td class="text_right">2.0973</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.5387</td>
+                      <td class="text_right">1.0585</td>
+                      <td class="text_right">1.1206</td>
+                      <td class="text_right">1.0568</td>
+                      <td class="text_right">0.9036</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.9336</td>
+                      <td class="text_right">1.5451</td>
+                      <td class="text_right">1.2565</td>
+                      <td class="text_right">1.3444</td>
+                      <td class="text_right">1.1174</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市销率(PS,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6316</td>
+                      <td class="text_right">0.5691</td>
+                      <td class="text_right">0.5896</td>
+                      <td class="text_right">0.6929</td>
+                      <td class="text_right">0.7763</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.7586</td>
+                      <td class="text_right">0.6968</td>
+                      <td class="text_right">0.9224</td>
+                      <td class="text_right">0.8302</td>
+                      <td class="text_right">1.2208</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.5418</td>
+                      <td class="text_right">0.3923</td>
+                      <td class="text_right">0.3942</td>
+                      <td class="text_right">0.5863</td>
+                      <td class="text_right">0.4993</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6779</td>
+                      <td class="text_right">0.6044</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.6420</td>
+                      <td class="text_right">0.6199</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市销率(PS,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6177</td>
+                      <td class="text_right">0.5673</td>
+                      <td class="text_right">0.6875</td>
+                      <td class="text_right">0.6943</td>
+                      <td class="text_right">0.8107</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.7062</td>
+                      <td class="text_right">0.6974</td>
+                      <td class="text_right">1.0155</td>
+                      <td class="text_right">0.8227</td>
+                      <td class="text_right">1.2208</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.5418</td>
+                      <td class="text_right">0.3923</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.5863</td>
+                      <td class="text_right">0.5259</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6808</td>
+                      <td class="text_right">0.5726</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.6420</td>
+                      <td class="text_right">0.6199</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市现率(PCF,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">22.4692</td>
+                      <td class="text_right">28.4796</td>
+                      <td class="text_right">10.4698</td>
+                      <td class="text_right">-12.6488</td>
+                      <td class="text_right">-1.9523</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">54.9369</td>
+                      <td class="text_right">67.7128</td>
+                      <td class="text_right">197.9502</td>
+                      <td class="text_right">97.0546</td>
+                      <td class="text_right">42.2921</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-8.8337</td>
+                      <td class="text_right">4.6791</td>
+                      <td class="text_right">-88.2293</td>
+                      <td class="text_right">-122.0038</td>
+                      <td class="text_right">-45.6890</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.1780</td>
+                      <td class="text_right">25.6989</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市现率(PCF,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">31.6014</td>
+                      <td class="text_right">-79.0198</td>
+                      <td class="text_right">-15.3095</td>
+                      <td class="text_right">27.9423</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">38.8448</td>
+                      <td class="text_right">25.9391</td>
+                      <td class="text_right">-12.7216</td>
+                      <td class="text_right">42.2921</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">21.8502</td>
+                      <td class="text_right">-117.1901</td>
+                      <td class="text_right">-74.0857</td>
+                      <td class="text_right">-13.4509</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">31.8972</td>
+                      <td class="text_right">25.9391</td>
+                      <td class="text_right">-74.0857</td>
+                      <td class="text_right">-13.4509</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>总市值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>67,942,095,728
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>53,851,859,125
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>43,792,811,710
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>47,620,882,430
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>36,207,859,659
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>流通市值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>16,923,973,000
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>14,342,350,000
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>11,711,090,300
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>12,852,514,400
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>9,973,545,600
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>企业股权价值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>96,304,713,110
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>67,127,054,191
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>67,340,479,148
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>66,269,370,737
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>46,480,332,032
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>股息率(股价复权)
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>-
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0240
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0296
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0364
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0482
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>区间起始日
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>2017-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2016-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2015-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2014-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2013-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>区间截止日
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>2017-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2016-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2015-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2014-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2013-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div id="summary_tableHead">
+                <table cellspacing="0" cellpadding="0" class="big_table fix_table" id="summary_tableHeadClone">
+                  <thead>
+                    <tr class="even">
+                      <th class=""></th>
+                      <th class="wit"></th>
+                      <th class="">2017</th>
+                      <th class="">2016</th>
+                      <th class="">2015</th>
+                      <th class="">2014</th>
+                      <th class="">2013</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td class="text_left theader">交易币种</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市盈率(PE,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">20.4290</td>
+                      <td class="text_right">35.3043</td>
+                      <td class="text_right">17.1862</td>
+                      <td class="text_right">16.2871</td>
+                      <td class="text_right">9.0967</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.3249</td>
+                      <td class="text_right">60.7557</td>
+                      <td class="text_right">26.2040</td>
+                      <td class="text_right">19.1031</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">15.4797</td>
+                      <td class="text_right">17.6042</td>
+                      <td class="text_right">11.8280</td>
+                      <td class="text_right">13.7300</td>
+                      <td class="text_right">5.2386</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">21.6957</td>
+                      <td class="text_right">30.6520</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市盈率(PE,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">26.4758</td>
+                      <td class="text_right">25.4606</td>
+                      <td class="text_right">17.2646</td>
+                      <td class="text_right">16.2643</td>
+                      <td class="text_right">7.5679</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">30.2660</td>
+                      <td class="text_right">31.2964</td>
+                      <td class="text_right">25.4449</td>
+                      <td class="text_right">19.2665</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">23.2194</td>
+                      <td class="text_right">17.6042</td>
+                      <td class="text_right">13.4083</td>
+                      <td class="text_right">13.7300</td>
+                      <td class="text_right">4.8863</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.1780</td>
+                      <td class="text_right">25.6989</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市净率(PB,MRQ)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.6514</td>
+                      <td class="text_right">1.5611</td>
+                      <td class="text_right">1.4446</td>
+                      <td class="text_right">1.2489</td>
+                      <td class="text_right">1.4051</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.9433</td>
+                      <td class="text_right">1.9463</td>
+                      <td class="text_right">2.0941</td>
+                      <td class="text_right">1.4650</td>
+                      <td class="text_right">2.0973</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.4279</td>
+                      <td class="text_right">1.0585</td>
+                      <td class="text_right">1.1407</td>
+                      <td class="text_right">1.0568</td>
+                      <td class="text_right">0.8827</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.6849</td>
+                      <td class="text_right">1.5873</td>
+                      <td class="text_right">1.2565</td>
+                      <td class="text_right">1.3444</td>
+                      <td class="text_right">1.1174</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市净率(PB,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.7545</td>
+                      <td class="text_right">1.5308</td>
+                      <td class="text_right">1.4409</td>
+                      <td class="text_right">1.2523</td>
+                      <td class="text_right">1.3930</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">2.0057</td>
+                      <td class="text_right">1.8817</td>
+                      <td class="text_right">2.1266</td>
+                      <td class="text_right">1.4830</td>
+                      <td class="text_right">2.0973</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.5387</td>
+                      <td class="text_right">1.0585</td>
+                      <td class="text_right">1.1206</td>
+                      <td class="text_right">1.0568</td>
+                      <td class="text_right">0.9036</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.9336</td>
+                      <td class="text_right">1.5451</td>
+                      <td class="text_right">1.2565</td>
+                      <td class="text_right">1.3444</td>
+                      <td class="text_right">1.1174</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市销率(PS,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6316</td>
+                      <td class="text_right">0.5691</td>
+                      <td class="text_right">0.5896</td>
+                      <td class="text_right">0.6929</td>
+                      <td class="text_right">0.7763</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.7586</td>
+                      <td class="text_right">0.6968</td>
+                      <td class="text_right">0.9224</td>
+                      <td class="text_right">0.8302</td>
+                      <td class="text_right">1.2208</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.5418</td>
+                      <td class="text_right">0.3923</td>
+                      <td class="text_right">0.3942</td>
+                      <td class="text_right">0.5863</td>
+                      <td class="text_right">0.4993</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6779</td>
+                      <td class="text_right">0.6044</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.6420</td>
+                      <td class="text_right">0.6199</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市销率(PS,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6177</td>
+                      <td class="text_right">0.5673</td>
+                      <td class="text_right">0.6875</td>
+                      <td class="text_right">0.6943</td>
+                      <td class="text_right">0.8107</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.7062</td>
+                      <td class="text_right">0.6974</td>
+                      <td class="text_right">1.0155</td>
+                      <td class="text_right">0.8227</td>
+                      <td class="text_right">1.2208</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.5418</td>
+                      <td class="text_right">0.3923</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.5863</td>
+                      <td class="text_right">0.5259</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6808</td>
+                      <td class="text_right">0.5726</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.6420</td>
+                      <td class="text_right">0.6199</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市现率(PCF,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">22.4692</td>
+                      <td class="text_right">28.4796</td>
+                      <td class="text_right">10.4698</td>
+                      <td class="text_right">-12.6488</td>
+                      <td class="text_right">-1.9523</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">54.9369</td>
+                      <td class="text_right">67.7128</td>
+                      <td class="text_right">197.9502</td>
+                      <td class="text_right">97.0546</td>
+                      <td class="text_right">42.2921</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-8.8337</td>
+                      <td class="text_right">4.6791</td>
+                      <td class="text_right">-88.2293</td>
+                      <td class="text_right">-122.0038</td>
+                      <td class="text_right">-45.6890</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.1780</td>
+                      <td class="text_right">25.6989</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市现率(PCF,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">31.6014</td>
+                      <td class="text_right">-79.0198</td>
+                      <td class="text_right">-15.3095</td>
+                      <td class="text_right">27.9423</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">38.8448</td>
+                      <td class="text_right">25.9391</td>
+                      <td class="text_right">-12.7216</td>
+                      <td class="text_right">42.2921</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">21.8502</td>
+                      <td class="text_right">-117.1901</td>
+                      <td class="text_right">-74.0857</td>
+                      <td class="text_right">-13.4509</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">31.8972</td>
+                      <td class="text_right">25.9391</td>
+                      <td class="text_right">-74.0857</td>
+                      <td class="text_right">-13.4509</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>总市值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>67,942,095,728
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>53,851,859,125
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>43,792,811,710
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>47,620,882,430
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>36,207,859,659
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>流通市值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>16,923,973,000
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>14,342,350,000
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>11,711,090,300
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>12,852,514,400
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>9,973,545,600
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>企业股权价值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>96,304,713,110
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>67,127,054,191
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>67,340,479,148
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>66,269,370,737
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>46,480,332,032
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>股息率(股价复权)
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>-
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0240
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0296
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0364
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0482
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>区间起始日
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>2017-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2016-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2015-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2014-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2013-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>区间截止日
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>2017-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2016-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2015-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2014-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2013-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div id="summary_tableColumn">
+                <table cellspacing="0" cellpadding="0" class="big_table fix_table">
+                  <thead>
+                    <tr class="even">
+                      <th class=""></th>
+                      <th class="wit"></th>
+                      <th class="">2017</th>
+                      <th class="">2016</th>
+                      <th class="">2015</th>
+                      <th class="">2014</th>
+                      <th class="">2013</th></tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td class="text_left theader">交易币种</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市盈率(PE,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">20.4290</td>
+                      <td class="text_right">35.3043</td>
+                      <td class="text_right">17.1862</td>
+                      <td class="text_right">16.2871</td>
+                      <td class="text_right">9.0967</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.3249</td>
+                      <td class="text_right">60.7557</td>
+                      <td class="text_right">26.2040</td>
+                      <td class="text_right">19.1031</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">15.4797</td>
+                      <td class="text_right">17.6042</td>
+                      <td class="text_right">11.8280</td>
+                      <td class="text_right">13.7300</td>
+                      <td class="text_right">5.2386</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">21.6957</td>
+                      <td class="text_right">30.6520</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市盈率(PE,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">26.4758</td>
+                      <td class="text_right">25.4606</td>
+                      <td class="text_right">17.2646</td>
+                      <td class="text_right">16.2643</td>
+                      <td class="text_right">7.5679</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">30.2660</td>
+                      <td class="text_right">31.2964</td>
+                      <td class="text_right">25.4449</td>
+                      <td class="text_right">19.2665</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">23.2194</td>
+                      <td class="text_right">17.6042</td>
+                      <td class="text_right">13.4083</td>
+                      <td class="text_right">13.7300</td>
+                      <td class="text_right">4.8863</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.1780</td>
+                      <td class="text_right">25.6989</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市净率(PB,MRQ)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.6514</td>
+                      <td class="text_right">1.5611</td>
+                      <td class="text_right">1.4446</td>
+                      <td class="text_right">1.2489</td>
+                      <td class="text_right">1.4051</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.9433</td>
+                      <td class="text_right">1.9463</td>
+                      <td class="text_right">2.0941</td>
+                      <td class="text_right">1.4650</td>
+                      <td class="text_right">2.0973</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.4279</td>
+                      <td class="text_right">1.0585</td>
+                      <td class="text_right">1.1407</td>
+                      <td class="text_right">1.0568</td>
+                      <td class="text_right">0.8827</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.6849</td>
+                      <td class="text_right">1.5873</td>
+                      <td class="text_right">1.2565</td>
+                      <td class="text_right">1.3444</td>
+                      <td class="text_right">1.1174</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市净率(PB,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.7545</td>
+                      <td class="text_right">1.5308</td>
+                      <td class="text_right">1.4409</td>
+                      <td class="text_right">1.2523</td>
+                      <td class="text_right">1.3930</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">2.0057</td>
+                      <td class="text_right">1.8817</td>
+                      <td class="text_right">2.1266</td>
+                      <td class="text_right">1.4830</td>
+                      <td class="text_right">2.0973</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.5387</td>
+                      <td class="text_right">1.0585</td>
+                      <td class="text_right">1.1206</td>
+                      <td class="text_right">1.0568</td>
+                      <td class="text_right">0.9036</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.9336</td>
+                      <td class="text_right">1.5451</td>
+                      <td class="text_right">1.2565</td>
+                      <td class="text_right">1.3444</td>
+                      <td class="text_right">1.1174</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市销率(PS,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6316</td>
+                      <td class="text_right">0.5691</td>
+                      <td class="text_right">0.5896</td>
+                      <td class="text_right">0.6929</td>
+                      <td class="text_right">0.7763</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.7586</td>
+                      <td class="text_right">0.6968</td>
+                      <td class="text_right">0.9224</td>
+                      <td class="text_right">0.8302</td>
+                      <td class="text_right">1.2208</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.5418</td>
+                      <td class="text_right">0.3923</td>
+                      <td class="text_right">0.3942</td>
+                      <td class="text_right">0.5863</td>
+                      <td class="text_right">0.4993</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6779</td>
+                      <td class="text_right">0.6044</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.6420</td>
+                      <td class="text_right">0.6199</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市销率(PS,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6177</td>
+                      <td class="text_right">0.5673</td>
+                      <td class="text_right">0.6875</td>
+                      <td class="text_right">0.6943</td>
+                      <td class="text_right">0.8107</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.7062</td>
+                      <td class="text_right">0.6974</td>
+                      <td class="text_right">1.0155</td>
+                      <td class="text_right">0.8227</td>
+                      <td class="text_right">1.2208</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.5418</td>
+                      <td class="text_right">0.3923</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.5863</td>
+                      <td class="text_right">0.5259</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6808</td>
+                      <td class="text_right">0.5726</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.6420</td>
+                      <td class="text_right">0.6199</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市现率(PCF,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">22.4692</td>
+                      <td class="text_right">28.4796</td>
+                      <td class="text_right">10.4698</td>
+                      <td class="text_right">-12.6488</td>
+                      <td class="text_right">-1.9523</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">54.9369</td>
+                      <td class="text_right">67.7128</td>
+                      <td class="text_right">197.9502</td>
+                      <td class="text_right">97.0546</td>
+                      <td class="text_right">42.2921</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-8.8337</td>
+                      <td class="text_right">4.6791</td>
+                      <td class="text_right">-88.2293</td>
+                      <td class="text_right">-122.0038</td>
+                      <td class="text_right">-45.6890</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.1780</td>
+                      <td class="text_right">25.6989</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市现率(PCF,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">31.6014</td>
+                      <td class="text_right">-79.0198</td>
+                      <td class="text_right">-15.3095</td>
+                      <td class="text_right">27.9423</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">38.8448</td>
+                      <td class="text_right">25.9391</td>
+                      <td class="text_right">-12.7216</td>
+                      <td class="text_right">42.2921</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">21.8502</td>
+                      <td class="text_right">-117.1901</td>
+                      <td class="text_right">-74.0857</td>
+                      <td class="text_right">-13.4509</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-</td>
+                      <td class="text_right">31.8972</td>
+                      <td class="text_right">25.9391</td>
+                      <td class="text_right">-74.0857</td>
+                      <td class="text_right">-13.4509</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>总市值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>67,942,095,728
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>53,851,859,125
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>43,792,811,710
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>47,620,882,430
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>36,207,859,659
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>流通市值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>16,923,973,000
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>14,342,350,000
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>11,711,090,300
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>12,852,514,400
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>9,973,545,600
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>企业股权价值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>96,304,713,110
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>67,127,054,191
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>67,340,479,148
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>66,269,370,737
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>46,480,332,032
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>股息率(股价复权)
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>-
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0240
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0296
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0364
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0482
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>区间起始日
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>2017-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2016-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2015-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2014-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2013-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>区间截止日
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>2017-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2016-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2015-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2014-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2013-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div id="summary_tableData">
+                <table cellspacing="0" cellpadding="0" class="big_table fix_table" id="summary">
+                  <thead>
+                    <tr class="even">
+                      <th class=""></th>
+                      <th class="wit"></th>
+                      <th class="">2017</th>
+                      <th class="">2016</th>
+                      <th class="">2015</th>
+                      <th class="">2014</th>
+                      <th class="">2013</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="odd">
+                      <td class="text_left theader">交易币种</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td>
+                      <td class="text_right">港元</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市盈率(PE,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">20.4290</td>
+                      <td class="text_right">35.3043</td>
+                      <td class="text_right">17.1862</td>
+                      <td class="text_right">16.2871</td>
+                      <td class="text_right">9.0967</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.3249</td>
+                      <td class="text_right">60.7557</td>
+                      <td class="text_right">26.2040</td>
+                      <td class="text_right">19.1031</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">15.4797</td>
+                      <td class="text_right">17.6042</td>
+                      <td class="text_right">11.8280</td>
+                      <td class="text_right">13.7300</td>
+                      <td class="text_right">5.2386</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">21.6957</td>
+                      <td class="text_right">30.6520</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市盈率(PE,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">26.4758</td>
+                      <td class="text_right">25.4606</td>
+                      <td class="text_right">17.2646</td>
+                      <td class="text_right">16.2643</td>
+                      <td class="text_right">7.5679</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">30.2660</td>
+                      <td class="text_right">31.2964</td>
+                      <td class="text_right">25.4449</td>
+                      <td class="text_right">19.2665</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">23.2194</td>
+                      <td class="text_right">17.6042</td>
+                      <td class="text_right">13.4083</td>
+                      <td class="text_right">13.7300</td>
+                      <td class="text_right">4.8863</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.1780</td>
+                      <td class="text_right">25.6989</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市净率(PB,MRQ)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.6514</td>
+                      <td class="text_right">1.5611</td>
+                      <td class="text_right">1.4446</td>
+                      <td class="text_right">1.2489</td>
+                      <td class="text_right">1.4051</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.9433</td>
+                      <td class="text_right">1.9463</td>
+                      <td class="text_right">2.0941</td>
+                      <td class="text_right">1.4650</td>
+                      <td class="text_right">2.0973</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.4279</td>
+                      <td class="text_right">1.0585</td>
+                      <td class="text_right">1.1407</td>
+                      <td class="text_right">1.0568</td>
+                      <td class="text_right">0.8827</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.6849</td>
+                      <td class="text_right">1.5873</td>
+                      <td class="text_right">1.2565</td>
+                      <td class="text_right">1.3444</td>
+                      <td class="text_right">1.1174</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市净率(PB,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.7545</td>
+                      <td class="text_right">1.5308</td>
+                      <td class="text_right">1.4409</td>
+                      <td class="text_right">1.2523</td>
+                      <td class="text_right">1.3930</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">2.0057</td>
+                      <td class="text_right">1.8817</td>
+                      <td class="text_right">2.1266</td>
+                      <td class="text_right">1.4830</td>
+                      <td class="text_right">2.0973</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.5387</td>
+                      <td class="text_right">1.0585</td>
+                      <td class="text_right">1.1206</td>
+                      <td class="text_right">1.0568</td>
+                      <td class="text_right">0.9036</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">1.9336</td>
+                      <td class="text_right">1.5451</td>
+                      <td class="text_right">1.2565</td>
+                      <td class="text_right">1.3444</td>
+                      <td class="text_right">1.1174</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市销率(PS,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6316</td>
+                      <td class="text_right">0.5691</td>
+                      <td class="text_right">0.5896</td>
+                      <td class="text_right">0.6929</td>
+                      <td class="text_right">0.7763</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.7586</td>
+                      <td class="text_right">0.6968</td>
+                      <td class="text_right">0.9224</td>
+                      <td class="text_right">0.8302</td>
+                      <td class="text_right">1.2208</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.5418</td>
+                      <td class="text_right">0.3923</td>
+                      <td class="text_right">0.3942</td>
+                      <td class="text_right">0.5863</td>
+                      <td class="text_right">0.4993</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6779</td>
+                      <td class="text_right">0.6044</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.6420</td>
+                      <td class="text_right">0.6199</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市销率(PS,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6177</td>
+                      <td class="text_right">0.5673</td>
+                      <td class="text_right">0.6875</td>
+                      <td class="text_right">0.6943</td>
+                      <td class="text_right">0.8107</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.7062</td>
+                      <td class="text_right">0.6974</td>
+                      <td class="text_right">1.0155</td>
+                      <td class="text_right">0.8227</td>
+                      <td class="text_right">1.2208</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.5418</td>
+                      <td class="text_right">0.3923</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.5863</td>
+                      <td class="text_right">0.5259</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">0.6808</td>
+                      <td class="text_right">0.5726</td>
+                      <td class="text_right">0.4657</td>
+                      <td class="text_right">0.6420</td>
+                      <td class="text_right">0.6199</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>市现率(PCF,TTM)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;平均值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">22.4692</td>
+                      <td class="text_right">28.4796</td>
+                      <td class="text_right">10.4698</td>
+                      <td class="text_right">-12.6488</td>
+                      <td class="text_right">-1.9523</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;最大值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">54.9369</td>
+                      <td class="text_right">67.7128</td>
+                      <td class="text_right">197.9502</td>
+                      <td class="text_right">97.0546</td>
+                      <td class="text_right">42.2921</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">&nbsp;&nbsp;最小值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">-8.8337</td>
+                      <td class="text_right">4.6791</td>
+                      <td class="text_right">-88.2293</td>
+                      <td class="text_right">-122.0038</td>
+                      <td class="text_right">-45.6890</td></tr>
+                    <tr class="even">
+                      <td class="text_left theader">&nbsp;&nbsp;期末值</td>
+                      <td class="text_left theader wit"></td>
+                      <td class="text_right">29.1780</td>
+                      <td class="text_right">25.6989</td>
+                      <td class="text_right">20.8986</td>
+                      <td class="text_right">16.0859</td>
+                      <td class="text_right">14.5170</td></tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>市现率(PCF,LYR)
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>
+                          <b>
+                          </b>
+                        </b>
+                      </td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                      <td class="text_right"></td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        &nbsp;&nbsp;平均值          
+                      </td>
+                      <td class="text_left theader">
+                      </td>
+                      <td class="text_right">
+                        -          
+                      </td>
+                      <td class="text_right">
+                        31.6014          
+                      </td>
+                      <td class="text_right">
+                        -79.0198          
+                      </td>
+                      <td class="text_right">
+                        -15.3095          
+                      </td>
+                      <td class="text_right">
+                        27.9423          
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        &nbsp;&nbsp;最大值          
+                      </td>
+                      <td class="text_left theader">
+                      </td>
+                      <td class="text_right">
+                        -          
+                      </td>
+                      <td class="text_right">
+                        38.8448          
+                      </td>
+                      <td class="text_right">
+                        25.9391          
+                      </td>
+                      <td class="text_right">
+                        -12.7216          
+                      </td>
+                      <td class="text_right">
+                        42.2921          
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        &nbsp;&nbsp;最小值          
+                      </td>
+                      <td class="text_left theader">
+                      </td>
+                      <td class="text_right">
+                        -          
+                      </td>
+                      <td class="text_right">
+                        21.8502          
+                      </td>
+                      <td class="text_right">
+                        -117.1901          
+                      </td>
+                      <td class="text_right">
+                        -74.0857          
+                      </td>
+                      <td class="text_right">
+                        -13.4509          
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                      &nbsp;&nbsp;期末值          
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        -          
+                      </td>
+                      <td class="text_right">
+                        31.8972          
+                      </td>
+                      <td class="text_right">
+                        25.9391          
+                      </td>
+                      <td class="text_right">
+                        -74.0857          
+                      </td>
+                      <td class="text_right">
+                        -13.4509          
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>总市值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>67,942,095,728
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>53,851,859,125
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>43,792,811,710
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>47,620,882,430
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>36,207,859,659
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>流通市值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>16,923,973,000
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>14,342,350,000
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>11,711,090,300
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>12,852,514,400
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>9,973,545,600
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>企业股权价值
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>96,304,713,110
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>67,127,054,191
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>67,340,479,148
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>66,269,370,737
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>46,480,332,032
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>股息率(股价复权)
+                          <i id="ask_img" class="ask_img_yellow" title="期末值">
+                            <b></b>
+                          </i>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>-
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0240
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0296
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0364
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>0.0482
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="even">
+                      <td class="text_left theader">
+                        <b>区间起始日
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>2017-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2016-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2015-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2014-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2013-01-01
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                    <tr class="odd">
+                      <td class="text_left theader">
+                        <b>区间截止日
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_left theader"></td>
+                      <td class="text_right">
+                        <b>2017-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2016-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2015-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2014-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                      <td class="text_right">
+                        <b>2013-12-31
+                          <b></b>
+                        </b>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="noTableData">没有相关数据...</div>
+    <div class="new">
+      <div class="new-title">
+        <h3>
+          股票资讯
+          <b>
+            <a href="">查看更多+</a>
+          </b>
+        </h3>
+      </div>
+      <ul class="fl">
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+      </ul>
+      <ul class="fr news">
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+        <li>
+          <b></b>
+          <a href="">
+            <span>[股票行情]</span>
+          </a>
+          <a href="">
+            金融资讯金融资讯金融资讯金融资讯 ...
+          </a>
+          <span class="date">12-20</span>
+        </li>
+      </ul>
+    </div>
+    <!-- 热门教程 -->
+    <div class="content-course">
+      <div class="course-title">
+        <h3>
+          热门教程
+          <b>
+            <a href="">查看更多+</a>
+          </b>
+        </h3>
+      </div>
+      <ul>
+        <li>
+          <img src="../../Skin/img201707/jc-jic.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+        <li>
+          <img src="../../Skin/img201707/jc-kanp.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+        <li>
+          <img src="../../Skin/img201707/jc-kanp.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+        <li class="last">
+          <img src="../../Skin/img201707/jc-rm.png" alt="">
+          <div class="course-content">
+            <h4>
+              <a href="">股票学习秘籍</a>
+            </h4>
+            <p>
+              简介：例如，某只股交量显示为1000股，表示以买卖双方意...
+            </p>
+            <span>
+              <a href="">点击查看</a>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 热门视频、交易平台 -->
+    <div class="hot">
+      <div class="hot-tutorial fl">
+        <div class="tutorial-title">
+          <h3>
+            热门视频
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <ul>
+          <li>
+            <img src="../../Skin/img201707/sp-img.png" alt="">
+            <b>
+              <a href="">
+                <img src="../../Skin/img201707/bof.png" alt="">
+              </a>
+            </b>
+            <p>
+              <a href="">如何学会快速炒股？</a>
+            </p>
+          </li>
+          <li class="last">
+            <img src="../../Skin/img201707/sp-img.png" alt="">
+            <b>
+              <a href="">
+                <img src="../../Skin/img201707/bof.png" alt="">
+              </a>
+            </b>
+            <p>
+              <a href="">如何学会快速炒股？</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- 视频 -->
+      <div class="interfix fr">
+        <div class="interfix-title">
+          <h3>
+            热门平台
+            <b>
+              <a href="">查看更多+</a>
+            </b>
+          </h3>
+        </div>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+        <span>
+          <p class="interfix-name">
+            <a href="">
+              上海证券交易所
+            </a>
+          </p>
+          <p class="interfix-text">
+            上海证券交易所，1990年12月18上海证券交易所，1990...<a href="">[查看详情]</a>
+          </p>
+        </span>
+      </div>
+      <!-- 交易平台  -->
+    </div>
+    <!--视频、平台  -->
+    </div>
+    <!-- 右侧 -->
+  </div>
+  <!-- 内容 -->
+
+  <div class="footer">
+    <div class="footer_content">
+      <ul>
+        <li>
+          <a href="#">首页</a>
+        </li>
+        <li>
+          <a href="#">股票</a>
+        </li>
+        <li>
+          <a href="#">期货</a>
+        </li>
+        <li>
+          <a href="#">基金</a>
+        </li>
+        <li>
+          <a href="#">投资</a>
+        </li>
+        <li>
+          <a href="#">理财</a>
+        </li>
+        <li>
+          <a href="#">视频</a>
+        </li>
+        <li>
+          <a href="#">企业词条</a>
+        </li>
+        <li>
+          <a href="#">问答中心</a>
+        </li>
+        <li>
+          <a href="#">关于我们</a>
+        </li>
+      </ul>
+      <p>未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任</p>
+      <p>Copyright 2010 - 2016 一融易网 All Rights Reserved</p>
+      <p>浙ICP备17019464号-1 杭州熙晟科技有限公司</p>
+    </div>
+  </div>
+  <!--尾部结束 -->
+
+  <div class="sidebar" style="display: none;">
+    <span class="kf">
+      <a href="">
+        <img src="../../Skin/img201707/客服.png" alt="">
+      </a>
+    </span>
+    <span class="top">
+      <a href="#top">
+        <img src="../../Skin/img201707/返回顶层.png" alt="">
+      </a>
+    </span>
+  </div>
+  <!-- 返回顶部 -->
+</body>
+
+<script type="text/javascript" src="../../Skin/Alljs201707/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/search.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/gpgang-public.js"></script>
+<script type="text/javascript" src="../../Skin/Alljs201707/gpgang-scroll.js"></script>
+</html>

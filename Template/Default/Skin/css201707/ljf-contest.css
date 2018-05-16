@@ -1,0 +1,291 @@
+.header {
+  background-color: #fff;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  background: url("../../Skin/img201707/contest-bg.png");
+}
+.content{
+  width: 100%;
+  min-width: 1200px;
+  height: auto;
+  background: url("../../Skin/img201707/contest-dianz.png");
+}
+.banner{
+  width: 1200px;
+  height: 2973px;
+  margin: 0 auto;
+}
+.banner {
+  width: 1200px;
+  height: 973px;
+}
+
+
+
+
+.procedure{
+  width: 100%;
+  min-width: 1200px;
+  height: 328px;
+  margin-top: -160px;
+  margin-bottom: 40px;
+  overflow: hidden;
+  background: url("../../Skin/img201707/contest-liucbg.png") no-repeat center;
+}
+.procedure .procedure-content{
+  width: 1200px;
+  height: 328px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.procedure .procedure-content h3{
+  text-align: center;
+  margin-top: 47px;
+  margin-bottom: 58px;
+}
+.procedure .procedure-content h3 img{
+  width: 908px;
+  height: 37px;
+}
+.procedure .procedure-content p{
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.procedure .procedure-content p img{
+  width: 894px;
+  height: 62px;
+}
+.procedure .procedure-content p span{
+  display: inline-block;
+  width: 175px;
+  margin-right: 25px;
+  margin-left: 14px;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+.procedure .procedure-content p .first{
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+
+
+.enroll{
+  width: 1200px;
+  margin: 0 auto 135px;
+
+}
+.enroll p{
+  display: block;
+  width: 1067px;
+  margin:0 auto;
+  overflow: hidden;
+ }
+.enroll p span{
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 400;
+}
+
+
+.final{
+  width: 1200px;
+  margin: -355px auto 138px;
+}
+.final .final-content{
+  width: 1067px;
+  margin: 0 auto;
+}
+.final img{
+  width: 1067px;
+  height: 1567px;
+}
+
+
+
+.tabBar{
+  width:1200px;
+  margin: 0 auto 100px;
+  height:auto;
+}
+.tabBar .tabBar-content{
+  width: 1015px;
+  height: auto;
+  margin: 0 auto;
+}
+.tabBar .tabBar-content ul{
+  width: 100%;
+}
+.tabBar .tabBar-content .tab-title{
+  height: 76px;
+  overflow: hidden;
+}
+.tabBar .tabBar-content .tab-title li{
+  float: left;
+  width: 200px;
+  height: 76px;
+  background: url("../../Skin/img201707/contest-zs.png") no-repeat;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 76px;
+  text-align: center;
+  color: #1d193f;
+  cursor: pointer;
+}
+.tabBar .tabBar-content .tab-title .active{
+  background: url("../../Skin/img201707/contest-huang.png") no-repeat;
+  color: #000;
+}
+
+.tabBar .tabBar-content .tab-content{
+  overflow: hidden;
+}
+.tabBar .tabBar-content .tab-content .tab-one{
+  width: 1005px;
+  height: 418px;
+  background: url("../../Skin/img201707/contest-qiea.png") no-repeat;
+  overflow: hidden;
+  display: none;
+}
+.tabBar .tabBar-content .tab-content .tab-one .one-content{
+   width: 916px;
+   margin: 62px auto 0;
+}
+.tabBar .tabBar-content .tab-content p{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.83;
+  text-align: left;
+  color: #848aff;
+  margin-bottom: 34px;
+}
+.tabBar .tabBar-content .tab-content .tab-two{
+  width: 1005px;
+  background: url("../../Skin/img201707/contest-qieb.png") no-repeat;
+  overflow: hidden;
+  display: none;
+}
+.tabBar .tabBar-content .tab-content .tab-two .two-content{
+   width: 916px;
+   margin: 62px auto 0;
+}
+.tabBar .tabBar-content .tab-content .tab-three{
+  width: 1005px;
+  background: url("../../Skin/img201707/contest-qiec.png") no-repeat;
+  overflow: hidden;
+  display: none;
+}
+.tabBar .tabBar-content .tab-content .tab-three .three-content{
+   width: 916px;
+   margin: 62px auto 0;
+
+}
+.tabBar .tabBar-content .tab-content .tab-four{
+  width: 1005px;
+  background: url("../../Skin/img201707/contest-qied.png") no-repeat;
+  overflow: hidden;
+  display: none;
+}
+.tabBar .tabBar-content .tab-content .tab-four .four-content{
+   width: 916px;
+   margin: 62px auto;
+
+}
+.tabBar .tabBar-content .tab-content .tab-five{
+  width: 1005px;
+  background: url("../../Skin/img201707/contest-qiee.png") no-repeat;
+  overflow: hidden;
+  display: none;
+}
+.tabBar .tabBar-content .tab-content .tab-five .five-content{
+   width: 916px;
+   margin: 62px auto;
+
+}
+.tabBar .tabBar-content .tab-content .tabact{
+  display: block;
+}
+
+.cooperation{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.cooperation h3{
+  height: 37px;
+  margin-bottom: 43px;
+  text-align: center;
+}
+.cooperation h3 img{
+  width: 908px;
+  height: 37px;
+}
+.cooperation ul{
+  width: 1035px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.cooperation ul li{
+  float: left;
+  width: 203px;
+  height: 76px;
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+
+
+
+
+.erweima{
+    position: fixed;
+    right: 5%;
+    top: 17%;
+    width: 177px;
+    height: 242px;
+}
+.erweima img{
+  width: 177px;
+  height: 242px;
+}
+
+
+
+
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}

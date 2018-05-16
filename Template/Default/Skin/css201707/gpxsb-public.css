@@ -1,0 +1,634 @@
+.header .nav-son{
+  border-bottom: 1px solid #2f5895;
+}
+
+.xlBox{
+        width: 100%;
+        min-width: 1200px;
+        background:url("../img201707/gp-flxial.png") no-repeat center center;
+        height:600px;
+        overflow: hidden;
+        position: relative;
+      }
+      .xlBox a{
+        display: inline-block;
+        width: 100%;
+        min-width: 1200px;
+        height: 600px;
+      }
+      .xlBox .close img{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top:10px;
+        right:100px;
+        cursor: pointer;
+      }
+      .ad_time {
+        width:80px;
+        height:20px;
+        line-height: 20px;
+        background:url("../img201707/guangtiao.png") no-repeat;
+        position:absolute;
+        top:15px;
+        right:20.5px;
+        color:#fff;
+        font-size: 16px;
+        text-align: center;
+        border-radius:30px;
+      }
+      .ad_time span {
+        font-weight:bold;
+        color:#cc0;
+        padding:0 5px;
+      }
+.bt1{
+  width: 244px;
+    height: auto;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right:-250px;
+    color: #fff;
+  z-index:9999;
+}
+.bt1 img{
+  width: 244px;
+  height: 203px;
+}
+
+
+.crumbs {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px;
+  overflow: hidden;
+  margin-bottom: 15px;
+ }
+.crumbs span {
+  display: inline-block;
+  font-size: 12px;
+  color: #666;
+ }
+.crumbs span a {
+  color: #666;
+}
+.crumbs .wz-search {
+	width: 300px;
+	height: 35px;
+	margin-top: 5px;
+  float: right;
+}
+.crumbs .wz-search .search{
+  line-height: 0;
+}
+.crumbs .wz-search .search input {
+	border: 1px solid #bbb;
+	padding: 11px 25px;
+	width: 154px;
+	height: 11px;
+	font-size: 15px;
+}
+
+.crumbs .wz-search .search button {
+	width: 80px;
+	height: 35px;
+	margin-left: 10px;
+	background: #2f5895;
+	font-size: 15px;
+	line-height: 35px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.content{
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.plate{
+  width: 198px;
+  height: auto;
+  border: 1px solid #99badd;
+}
+.plate .plate-index{
+  height: 39px;
+  background-color: #2f5895;
+  font-size: 22px;
+  line-height: 39px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 40px;
+}
+.plate .plate-index a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+.plate-title{
+  width: 100%;
+  height: 30px;
+  background-color: #f3f7fa;
+  cursor: pointer;
+  border-bottom: 1px solid #dee2eb;
+  text-align: left;
+  font-weight: 400;
+}
+.plate-title span{
+  font-size: 16px;
+  color: #2f5895;
+  line-height:30px;
+  padding-left: 45px;
+}
+.plate-title:hover span{
+  color: #ed1a1a;
+}
+.plate-title img{
+  float: right;
+  margin-right: 40px;
+  width: 9px;
+  height: 4px;
+  margin-top: 12px;
+}
+.plate .net{
+  width: 100%;
+  height: auto;
+  background-color: #f3f7fa;
+}
+.plate .show{
+  display: none;
+}
+.plate .net li{
+  height: 28px;
+  margin-bottom: 5px;
+  margin: 0 auto;
+  font-size: 14px;
+ font-weight: normal;
+ line-height: 26px;
+ text-align: left;
+ padding-left: 45px;
+ border-bottom: 1px solid #fff;
+}
+.plate .net .last{
+  border-bottom: 1px solid #dee2eb;
+}
+.plate .net .active{
+  height: 26px;
+  border: 1px solid #99badd;
+  background-color: #d3ebfc;
+
+}
+.plate .net .active a{
+  color:#ed1a1a;
+}
+.plate .net li a{
+ color: #757575;
+}
+.plate .net li:hover{
+  background-color: #d3ebfc;
+}
+.plate .net li:hover a{
+  color: #ed1a1a;
+}
+.plate .net li b{
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: right;
+  line-height: 26px;
+  color: #2f5895;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-right{
+  float: right;
+  width: 975px;
+}
+.content-right .new{
+  width: 973px;
+  height: 208px;
+  background-color: #f3f7fa;
+  border: solid 1px #99badd;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.content-right .new .new-title {
+	width: 971px;
+	margin: 0 auto 15px;
+  height: 30px;
+  border-left: 2px solid #2f5895;
+}
+
+.content-right .new .new-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: left;
+  color: #2f5895;
+  margin: 0 14px 0 9px;
+}
+.content-right .new .new-title h3 b{
+  float: right;
+  font-size: 14px;
+ font-weight: normal;
+ text-align: left;
+ color: #333333;
+}
+.content-right .new .new-title h3 a{
+  color: #434343;
+}
+.content-right .new .new-title h3 a:hover{
+  color: #ed1a1a;
+}
+
+
+
+
+.content-right .new ul{
+  width: 461px;
+  overflow: hidden;
+}
+.content-right .new .news{
+  margin-right: 14px;
+}
+.content-right .new ul li{
+  padding-left: 11px;
+  height: 17px;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.content-right .new ul li b{
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  vertical-align: middle;
+  background: url("../../Skin/img201707/gup-huid.png")no-repeat;
+  margin-right: 11px;
+}
+.content-right .new ul li span{
+  margin-right: 3px;
+}
+.content-right .new ul li a{
+  color: #666;
+}
+.content-right .new ul li a:hover{
+  color: #ed1a1a;
+}
+.content-right .new ul li .date{
+  font-size: 14px;
+  line-height: 17px;
+  float: right;
+}
+
+
+
+.content-right .content-course {
+	width: 973px;
+	height: 210px;
+	background: #f3f7fa;
+	margin-bottom: 20px;
+  border: 1px solid #99badd;
+}
+
+.content-right .content-course .course-title {
+  height: 30px;
+  border-left: 2px solid #2f5895;
+  margin-bottom: 17px;
+}
+
+.content-right .content-course .course-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height:30px;
+  text-align: left;
+  color: #2f5895;
+  margin: 0 12px 0 9px;
+}
+
+.content-right .content-course .course-title h3 b {
+  float: right;
+  font-size: 14px;
+ font-weight: normal;
+ text-align: left;
+ color: #333333;
+}
+.content-right .content-course .course-title h3 b a{
+  color: #333333;
+}
+.content-right .content-course .course-title h3 b a:hover{
+  color: #ed1a1a;
+}
+
+.content-right .content-course ul {
+	width: 973px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+.content-right .content-course ul li {
+	float: left;
+	width: 242px;
+	height: 140px;
+}
+
+.content-right .content-course ul li img {
+	float: left;
+	width: 133px;
+	height: 140px;
+}
+
+.content-right .content-course ul li .course-content {
+	float: right;
+	width: 115px;
+	height: 140px;
+  margin-left: -10px;
+}
+
+.content-right .content-course ul li .course-content h4 {
+	font-size: 16px;
+	line-height: 40px;
+	font-weight: 500;
+}
+
+.content-right .content-course ul li .course-content h4 a {
+	color: #333;
+}
+
+.content-right .content-course ul li .course-content h4 a:hover {
+	color: #ed1a1a;
+}
+
+.content-right .content-course ul li .course-content p {
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 19px;
+}
+
+.content-right .content-course ul li .course-content span {
+	display: block;
+	width: 74px;
+	height: 20px;
+	border-radius: 6px;
+	border: 1px solid #ff0000;
+	text-align: center;
+	line-height: 20px;
+}
+
+.content-right .content-course ul li .course-content span a {
+	display: block;
+	width: 100%;
+	color: #ed1a1a;
+}
+
+.content-right .content-course ul li .course-content span a:hover {
+	color: #fff;
+	background-color: #ed1a1a;
+}
+
+.content-right .content-course ul .last {
+	width: 242px;
+	height: 140px;
+	margin: 0;
+}
+
+
+
+.content-right .hot{
+  width: 975px;
+  height: 210px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.content-right .hot .hot-tutorial{
+  width: 468px;
+ height: 208px;
+ background-color: #f3f7fa;
+ border: solid 1px #99badd;
+}
+
+.content-right .hot .hot-tutorial .tutorial-title {
+  height: 30px;
+  border-left: 2px solid #2f5895;
+  margin-bottom: 17px;
+}
+
+.content-right .hot .hot-tutorial .tutorial-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height:30px;
+  text-align: left;
+  color: #2f5895;
+  margin: 0 12px 0 9px;
+}
+
+.content-right .hot .hot-tutorial .tutorial-title h3 b {
+  float: right;
+  font-size: 14px;
+ font-weight: normal;
+ text-align: left;
+ color: #333333;
+}
+.content-right .hot .hot-tutorial .tutorial-title h3 b a{
+  color: #333333;
+}
+.content-right .hot .hot-tutorial .tutorial-title h3 b a:hover{
+  color: #ed1a1a;
+}
+
+
+
+.content-right .hot .hot-tutorial ul {
+	width: 436px;
+	height: 150px;
+	margin: 15px auto 0;
+}
+
+.content-right .hot .hot-tutorial ul li {
+	float: left;
+	width: 195px;
+	height: 150px;
+	position: relative;
+}
+
+.content-right .hot .hot-tutorial ul li img {
+	width: 195px;
+	height: 120px;
+}
+
+.content-right .hot .hot-tutorial ul li b {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 43px;
+	left: 80px;
+}
+
+.content-right .hot .hot-tutorial ul li b img {
+	width: 35px;
+	height: 35px;
+}
+
+.content-right .hot .hot-tutorial ul li p {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.content-right .hot .hot-tutorial ul li p a {
+	color: #333;
+}
+
+.content-right .hot .hot-tutorial ul li p a:hover {
+	color: #ed1a1a;
+}
+
+.content-right .hot .hot-tutorial ul .last {
+	width: 195px;
+	height: 150px;
+	margin: 0;
+  float: right;
+}
+
+
+
+
+.content-right .hot .interfix {
+	width: 488px;
+	height: 208px;
+  background-color: #f3f7fa;
+  border: solid 1px #99badd;
+}
+
+.content-right .hot .interfix .interfix-title {
+  height: 30px;
+  border-left: 2px solid #2f5895;
+  margin-bottom: 16px;
+}
+
+.content-right .hot .interfix .interfix-title h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: left;
+  color: #2f5895;
+  margin: 0 12px 0 9px;
+}
+
+.content-right .hot .interfix .interfix-title h3 b {
+  float: right;
+  font-size: 14px;
+ font-weight: normal;
+ text-align: left;
+ color: #333333;
+}
+.content-right .hot .interfix .interfix-title h3 b a{
+  color: #333333;
+}
+.content-right .hot .interfix .interfix-title h3 b a:hover{
+  color: #ed1a1a;
+}
+
+
+.content-right .hot .interfix span {
+	float: left;
+	margin: 0 10px 0;
+}
+.content-right .hot .interfix .last{
+  margin-right: 0;
+}
+
+.content-right .hot .interfix span .interfix-name {
+	font-size: 16px;
+	margin-bottom: 4px;
+	color: #000;
+}
+.content-right .hot .interfix span .interfix-name img{
+  width: 20px;
+  height: 17px;
+  vertical-align: middle;
+}
+
+.content-right .hot .interfix span .interfix-name a {
+	color: #000;
+}
+
+.content-right .hot .interfix span .interfix-name a:hover {
+	color: #ed1a1a;
+}
+
+.content-right .hot .interfix span .interfix-text {
+	font-size: 14px;
+	line-height: 20px;
+	width: 224px;
+	text-align: justify;
+	color: #666;
+  margin-bottom: 16px;
+}
+
+.content-right .hot .interfix span .interfix-text a {
+	color: #7aace1;
+}
+
+.content-right .hot .interfix span .interfix-text a:hover {
+	color: #ed1a1a;
+}
+
+
+
+
+
+
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}

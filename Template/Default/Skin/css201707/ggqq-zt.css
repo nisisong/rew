@@ -1,0 +1,539 @@
+.banner{
+  width: 100%;
+  height: 590px;
+  min-width: 1200px;
+  overflow: hidden;
+  background: url("../../Skin/img201707/ggzt-banner.png")no-repeat center;
+}
+.stock{
+  width: 100%;
+  height: 745px;
+  background: #d3ecf5;
+  overflow: hidden;
+}
+.stock .stock-abroad{
+  width: 1545px;
+  margin: 80px auto 0;
+  position: relative;
+}
+.stock .stock-abroad .stock-content{
+  width: 1094px;
+  margin: 0 auto;
+}
+.stock-content .stock-title{
+  width: 652px;
+  height: 202px;
+  margin: 0 auto 34px;
+}
+.stock-content .stock-title img{
+  width: 652px;
+  height: 202px;
+}
+.stock-content p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 0.9px;
+  text-align: justify;
+  color: #407898;
+  margin-bottom: 85px;
+}
+.stock-content ul{
+  width:750px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.stock-content ul li{
+  float: left;
+  margin-right: 108px;
+}
+.stock-content ul .last{
+  margin-right: 0;
+}
+.stock-content ul li span{
+  display: block;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border: 1px solid #4d809d;
+}
+.stock-content ul li .y1{
+  margin-left: 29px;
+}
+.stock-content ul li .y2{
+  margin-left: 82px;
+}
+.stock-content ul li .y3{
+  margin-left: 37px;
+}
+.stock-content ul li span img {
+    width: 39px;
+    height: 39px;
+    margin-top: 24px;
+    margin-left: 22px;
+}
+.stock-content ul li p {
+    font-size:18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 22px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4d809d;
+    margin-bottom: 0;
+}
+.stock .stock-abroad .stock-img{
+  width: 112px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  top: 325px;
+}
+.stock .stock-abroad .stock-img img{
+  width: 112px;
+  height: 80px;
+}
+
+
+
+.trait{
+  width: 100%;
+  height: auto;
+  padding: 52px 0 85px;
+  background: #4d809d;
+}
+.trait .trait-abroad{
+  width: 1575px;
+  margin: 0 auto;
+  position: relative;
+}
+.trait .trait-abroad .trait-content{
+  width: 1290px;
+  margin: 0 auto;
+}
+.trait-content .trait-title{
+  width: 840px;
+  height: 107px;
+  margin: 0 auto 50px;
+}
+.trait-content .trait-title img{
+  width: 840px;
+  height: 107px;
+}
+.trait-content .td{
+  width: 1098px;
+  margin: 0 auto 40px;
+}
+.trait-content .tds{
+  margin-bottom: 100px;
+}
+.trait-content .td p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.61;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #ffffff;
+}
+.trait-content .trait-bigimg{
+  width: 1289px;
+  height: 543px;
+  margin: 0 auto 80px;
+  background: url("../../Skin/img201707/ggzt-gg.png")no-repeat center;
+  overflow: hidden;
+}
+.trait-content .trait-bigimg span{
+  display: block;
+  width: 237px;
+  height: 78px;
+  margin: 355px 0 0 519px;
+}
+.trait-content .trait-bigimg span a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.trait-content .trait-roll{
+  width: 1200px;
+  height: 570px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.trait-content .trait-roll .roll-con{
+  width: 1094px;
+  height: auto;
+  max-height: 505px;
+  overflow-y: auto;
+  margin: 35px auto 0;
+  padding-right: 40px;
+  margin-left: 51px;
+}
+.trait-content .trait-roll .roll-con p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.3;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #000000;
+}
+.trait-content .trait-roll .roll-con p b{
+  font-weight: bold;
+}
+::-webkit-scrollbar {
+width:13px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+-webkit-box-shadow:inset 0 0 6px rgba(220,220,220,0.5);
+background:rgba(220,220,220,0.8);
+border-radius:10px;
+box-shadow: inset 0px 1px 3px 0 rgba(0, 0, 0, 0.43);
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+border-radius:10px;
+background:rgba(255,255,255,1);
+-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.5);
+box-shadow: inset 0px 1px 3px 0 rgba(0, 0, 0, 0.43);
+border-image-slice: 1;
+}
+.trait .trait-abroad .trait-img{
+  width: 89px;
+  height: 63px;
+  position: absolute;
+  top: 319px;
+  left: 0;
+}
+.trait .trait-abroad .trait-img img{
+  width: 89px;
+  height: 63px;
+}
+.trait .trait-abroad .trait-img2{
+  width: 106px;
+  height: 114px;
+  position: absolute;
+  top: 837px;
+  right: 0;
+}
+.trait .trait-abroad .trait-img2 img{
+  width: 106px;
+  height: 114px;
+}
+
+
+.price{
+  width: 100%;
+  padding: 80px 0 80px;
+  background: #d3ecf5;
+}
+.price .price-aborad{
+  width: 1465px;
+  margin: 0 auto;
+  position: relative;
+}
+.price .price-aborad .price-content{
+  width: 1094px;
+  margin: 0 auto;
+}
+.price-content .price-title{
+  width: 652px;
+  height: 202px;
+  margin: 0 auto 34px;
+}
+.price-content .price-title img{
+  width: 652px;
+  height: 202px;
+}
+.price-content .price-con{
+  width: 1060px;
+  margin: 0 auto;
+}
+.price-content .price-con p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 1.2px;
+  text-align: justify;
+  color: #407898;
+}
+.price-content .price-con p b{
+  font-weight: bold;
+}
+.price .price-aborad .price-img{
+  width: 103px;
+  height: 72px;
+  position: absolute;
+  top: 503px;
+  left: 0;
+}
+.price .price-aborad .price-img img{
+  width: 103px;
+  height: 72px;
+}
+
+.new{
+  width: 1200px;
+  padding: 70px 0 0;
+  margin: 0 auto 70px;
+}
+.new .new-title{
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.new .new-title span{
+  font-size: 73.2px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 5.9px;
+  text-align: center;
+  color: #4d809d;
+}
+.new .new-title h3{
+  display: inline-block;
+}
+.new .new-title h3 p{
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 2.3px;
+  text-align: center;
+  color: #4d809d;
+}
+.new .new-title h3 b{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #4d809d;
+}
+.new .new-content{
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.new .new-content ul{
+  width: 550px;
+}
+.new .new-content ul li span{
+  display: block;
+  float: left;
+}
+.new .new-content ul li{
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+.new .new-content ul li .time{
+  width: 66px;
+  height: 87px;
+  background-color: #e5e5e5;
+  margin-right: 10px;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 16px;
+  letter-spacing: 1.1px;
+  text-align: center;
+  color: #383737;
+}
+.new .new-content ul li .time b {
+    font-size: 24px;
+    line-height: 24px;
+    color: #383737;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 10px;
+    width: 47px;
+    margin: 20px auto 8px;
+    text-align: center;
+    border-bottom: 2px solid #383737;
+}
+.new .new-content ul li .col{
+  background-color: #4d809d;
+  color: #fefefe;
+}
+
+.new .new-content ul li .col b{
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.new .new-content ul li .ti{
+  width: 462px;
+}
+.new .new-content ul li .ti h2{
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #000;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  margin-bottom: 9px;
+}
+.new .new-content ul li .ti h2 a{
+  color: #000;
+}
+.new .new-content ul li .ti h2 a:hover{
+  color: #4d809d;
+}
+.new .new-content ul li .ti p{
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: 1.5px;
+  text-align: justify;
+  color: #393737;
+}
+.new .new-content ul .ti b{
+  float: right;
+  width: 83px;
+  height: 30px;
+    display: block;
+    font-size: 14px;
+    line-height:30px;
+    text-align: left;
+    font-weight: normal;
+    margin-right: 11px;
+    color: #3c3c3c;
+    cursor: pointer;
+    padding: 0 7px;
+    background-color: #e5e5e5;
+    margin-top: -21px;
+}
+.new .new-content ul .ti b a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #3c3c3c;
+}
+.new .new-content ul .ti b a img{
+  float: right;
+  width: 13px;
+  height: 15px;
+  margin: 0;
+  margin-top: 7px;
+}
+
+
+.new .new-content ul .first{
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 11px;
+  overflow: hidden;
+}
+.new .new-content ul .first img{
+  float: left;
+  width: 196px;
+  height: 121px;
+  margin-right: 15px;
+}
+.new .new-content ul .first span{
+  float: left;
+  width: 321px;
+}
+.new .new-content ul .first span h2{
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height:21px;
+  letter-spacing: 1.7px;
+  text-align: left;
+  color: #4d809d;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  margin-bottom: 14px;
+}
+.new .new-content ul .first span h2 a{
+  color: #4d809d;
+}
+.new .new-content ul .first span p{
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: 1.7px;
+  text-align: left;
+  color: #393737;
+  margin-bottom: 7px;
+}
+.new .new-content ul .first span b{
+  float: right;
+  width: 83px;
+  height: 30px;
+    display: block;
+    font-size: 14px;
+    line-height:30px;
+    text-align: left;
+    font-weight: normal;
+    margin-right: 11px;
+    color: #3c3c3c;
+    cursor: pointer;
+    padding: 0 7px;
+    background-color: #e5e5e5;
+}
+.new .new-content ul .first span b a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #3c3c3c;
+}
+.new .new-content ul .first span b a img{
+  float: right;
+  width: 13px;
+  height: 15px;
+  margin: 0;
+  margin-top: 7px;
+}
+
+
+.new .more{
+  width: 1200px;
+  height: 20px;
+}
+.new .more .xian{
+  border-bottom: 1px solid #e5e5e5;
+}
+.new .more a{
+  display: block;
+  width: 170px;
+  height: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0 20px;
+  text-align: left;
+  color: #4d809d;
+  margin: -10px auto 0;
+  background-color: #fff;
+}
+.new .more a img{
+ float: right;
+ width: 13px;
+ height: 15px;
+ margin: 0;
+ margin-top: 2px;
+}

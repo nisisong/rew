@@ -1,0 +1,53 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+  border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.public_title h3 span{
+	font-size: 14px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+.core{
+  width: 943px;
+  border: 1px solid #dbebf8;
+  font-size: 16px;
+  padding:0 15px;
+  margin-bottom: 20px;
+}
+.summary {
+    margin: 10px 0 20px;
+    color: #333;
+    line-height: 150%;
+}
+.summary p {
+    margin: 15px 0;
+}
+.p_div {
+    line-height: 22px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+.summary p font {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}

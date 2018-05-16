@@ -1,0 +1,888 @@
+.titleOn{
+  border-bottom:3px solid #e5493a;
+}
+/*鼠标经过字体颜色变化*/
+a:hover{
+  color:#ed1a1a;
+}
+ul li a:hover{
+  color:#ed1a1a;
+}
+body{
+  background-color: #fafafa;
+}
+/*banner*/
+.bannerBox{
+	width: 100%;
+	height:300px;
+	background:url(../img201707/tz-Listbanner.png) no-repeat 50% 50%;
+	min-width: 1200px;
+}
+.bannerBox .banner{
+	width: 1200px;
+	margin:0 auto;
+	height:300px;
+}
+.bannerBox .banner .tzrBox{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	background:url(../img201707/tz-tzrbannerBj.png) no-repeat 50% 50%;
+}
+.bannerBox .banner .tzrBox .tp{
+	width: 110px;
+	height: 142px;
+	margin:39px auto 15px;
+}
+.bannerBox .banner .tzrBox .tp img{
+	width: 110px;
+	height: 142px;
+}
+.bannerBox .banner .tzrBox .name{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    line-height: 50px;
+}
+.bannerBox .banner .tzrBox .job{
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+/*面包屑*/
+.crumbs{
+    width: 1200px;
+    height: 55px;
+    margin: 0 auto;
+    line-height: 55px;
+    font-weight: 300;
+}
+.wz_crumbs span {
+    font-size: 12px;
+    height: 55px;
+    line-height: 55px;
+    display: inline-block;
+    color: #4c4c4c;
+}
+/*正文*/
+.content {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto 50px;
+	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.content .content-left {
+	width: 880px;
+	height: auto;
+}
+/*信息*/
+.content-left .info{
+	padding:30px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+.content-left .info ul{
+	overflow: hidden;
+}
+.content-left .info ul li{
+	float: left;
+	font-size: 16px;
+	width: 370px;
+    margin:8px 0;
+    padding-left: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content-left .info ul li span{
+	color: #999;
+	width: 65px;
+	margin-right: 10px;
+	font-size: 14px;
+	display: inline-block;
+}
+/*简介*/
+.intro{
+	background: #fff;
+	margin-bottom: 30px;
+}
+.intro .title {
+    height: 67px;
+    line-height: 67px;
+    color: #101010;
+    padding-left: 35px;
+    font-size: 18px;
+    position: relative;
+    border-bottom: 1px solid #ececec;
+}
+.intro .title b {
+    position: absolute;
+    width: 106px;
+    height: 2px;
+    background-color: #ed1a1a;
+    bottom: -2px;
+    left: 0;
+}
+.intro .intro-text{
+	padding:30px;
+}
+.intro .intro-text p{
+	text-align: justify;
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+}
+.intro .intro-text p strong{
+	font-size: 24px;
+	color: #ed1a1a;
+	line-height: 35px;
+}
+/*投资案例*/
+.tz-cases{
+	background: #fff;
+	margin-bottom: 30px;
+}
+.tz-cases .title {
+    height: 67px;
+    line-height: 67px;
+    color: #101010;
+    padding-left: 35px;
+    font-size: 18px;
+    position: relative;
+    border-bottom: 1px solid #ececec;
+}
+.tz-cases .title b {
+    position: absolute;
+    width: 143px;
+    height: 2px;
+    background-color: #ed1a1a;
+    bottom: -2px;
+    left: 0;
+}
+.tz-cases .cases-text{
+	padding:30px;
+}
+.tz-cases .cases-text p{
+	text-align: justify;
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+}
+.tz-cases .cases-text p span{
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+}
+/*投资人*/
+.tz-tzr{
+	background: #fff;
+	margin-bottom: 30px;
+}
+.tz-tzr .title {
+    height: 67px;
+    line-height: 67px;
+    color: #101010;
+    padding-left: 35px;
+    font-size: 18px;
+    position: relative;
+    border-bottom: 1px solid #ececec;
+}
+.tz-tzr .title b {
+    position: absolute;
+    width: 225px;
+    height: 2px;
+    background-color: #ed1a1a;
+    bottom: -2px;
+    left: 0;
+}
+.tz-tzr .tzr-text{
+    padding:30px 14px;
+}
+.tz-tzr .tzr-text ul{
+	overflow: hidden;
+}
+.tz-tzr .tzr-text ul li a{
+	float: left;
+	border: 1px solid #e5e5e5;
+	width: 110px;
+	height: 32px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px 15px;
+}
+/*投资机构*/
+.tz-jg{
+	background: #fff;
+	margin-bottom: 30px;
+}
+.tz-jg .title {
+    height: 67px;
+    line-height: 67px;
+    color: #101010;
+    padding-left: 35px;
+    font-size: 18px;
+    position: relative;
+    border-bottom: 1px solid #ececec;
+}
+.tz-jg .title b {
+    position: absolute;
+    width: 225px;
+    height: 2px;
+    background-color: #ed1a1a;
+    bottom: -2px;
+    left: 0;
+}
+.tz-jg .jg-text{
+    padding:30px 14px;
+}
+.tz-jg .jg-text ul{
+	overflow: hidden;
+}
+.tz-jg .jg-text ul li a{
+	float: left;
+	border: 1px solid #e5e5e5;
+	width: 110px;
+	height: 32px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px 15px;
+}
+/*右侧*/
+.content .content-right {
+	width: 300px;
+	height: auto;
+}
+
+.content .content-right .wz-search {
+	width: 300px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+.content .content-right .wz-search .search input {
+	border: 1px solid #bbb;
+	padding: 11px 25px;
+	width: 154px;
+	height: 11px;
+	font-size: 15px;
+	border-radius: 4px;
+	float: left;
+}
+.content .content-right .wz-search .search button {
+	width: 80px;
+	height: 35px;
+	margin-left: 10px;
+	background: #ed1a1a;
+	font-size: 15px;
+	line-height: 35px;
+	border: none;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+}
+
+/*企业*/
+
+.content .content-right .companyLunbo{
+	width: 300px;
+	height: 280px;
+	background: #fff;
+	margin-bottom: 10px;
+	border-top: 1px solid #ed1a1a;
+}
+
+.content .content-right .companyLunbo h3 {
+	font-size: 18px;
+	color: #ed1a1a;
+	margin-left: 33px;
+	margin-top: 20px;
+	font-weight: 500;
+	margin-bottom: 21px;
+}
+
+.content .content-right .companyLunbo #cylb-roll {
+	width: 300px;
+	height: 190px;
+	position: relative;
+}
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter {
+	width: 300px;
+	height: 190px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content {
+	width: 1200px;
+	height: 190px;
+	position: absolute;
+}
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll {
+	width: 300px;
+	height: 190px;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+}
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll a img {
+	border: none;
+	vertical-align: top;
+}
+.content .content-right .companyLunbo #cylb-roll .cylb-left {
+	height:27px;
+	width:16px;
+	position: absolute;
+	top:82px;
+	left:9px;
+	cursor: pointer;
+	background: url("../img201707/向左icon.png") no-repeat;
+}
+.content .content-right .companyLunbo #cylb-roll .cylb-right {
+	height:27px;
+	width:16px;
+	position: absolute;
+	top:82px;
+	right:9px;
+	cursor: pointer;
+	background: url("../img201707/向右icon.png") no-repeat;
+}
+
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll .cylbBox{
+	width: 235px;
+	height:152px;
+	padding-top:36px;
+	margin:0 auto;
+	background: #fff;
+	border: solid 1px #e5e5e5;
+}
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll .cylbBox .info{
+	width: 205px;
+	height:60px;
+	margin:0 auto;
+}
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll .cylbBox .info span{
+	display: block;
+	width:60px;
+	height:60px;
+	float: left;
+	margin-right: 17px;
+}
+
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll .cylbBox .info i{
+	font-style: normal;
+	display: inline-block;
+	line-height:20px;
+	font-size: 12px;
+	color: #494949;
+}
+
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll .cylbBox .info .industry i{
+	color: #808080;
+}
+
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll .cylbBox .info .time i{
+	color: #808080;
+}
+
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll .cylbBox .info .state i{
+	color: #808080;
+}
+
+.content .content-right .companyLunbo #cylb-roll .cylb-contenter .cylb-content .cylb-imgroll .cylbBox h2{
+	font-size: 14px;
+	color:#494949;
+	margin-top: 42px;
+	text-align: center;
+}
+
+.content .content-right .hot {
+	width: 300px;
+	height: 250px;
+	background: #fff;
+	margin-bottom: 10px;
+	border-top: 1px solid #ed1a1a;
+}
+.content .content-right .hot ul {
+	width: 300px;
+	height: 250px;
+}
+.content .content-right .hot ul li {
+	margin: 15px 25px 0;
+	height: 50px;
+}
+.content .content-right .hot ul li img {
+	width: 15px;
+	height: 15px;
+	margin-right: 7px;
+	margin-top: 4px;
+	float: left;
+}
+.content .content-right .hot ul li h3 {
+	float: left;
+	font-size: 18px;
+	color: #ed1a1a;
+	font-weight: 300;
+}
+.content .content-right .hot ul li p {
+	font-size: 12px;
+	color: #ababab;
+	margin-left: 13px;
+}
+.content .content-right .hot ul li .title {
+	font-size: 14px;
+	color: #333;
+	font-weight: 600;
+}
+.content .content-right .hot ul li .title b {
+	display: inline-block;
+	width: 3px;
+	height: 3px;
+	background: url("../img201707/red-icon.png");
+	margin-right: 5px;
+}
+.content .content-right .hot ul li .title a {
+	color: #333;
+}
+.content .content-right .hot ul li .title a:hover {
+	color: #ed1a1a;
+}
+.content .content-right .hot ul li .title i {
+	font-style: normal;
+	float: right;
+}
+.content .content-right .hot ul .first {
+	margin: 15px 33px 0;
+	height: 20px;
+}
+
+.content .content-right .new-information {
+	width: 300px;
+	height: 222px;
+	margin-bottom: 10px;
+	background: #fff;
+	border-top: 1px solid #ed1a1a;
+}
+.content .content-right .new-information h3 {
+	font-size: 18px;
+	color: #ed1a1a;
+	margin-left: 33px;
+	margin-top: 20px;
+	font-weight: 500;
+}
+.content .content-right .new-information ul {
+	width: 200px;
+	height: 160px;
+	margin-left: 35px;
+}
+.content .content-right .new-information ul li {
+	margin-top: 15px;
+	height: 17px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 15px;
+}
+.content .content-right .new-information ul li a {
+	color: #333;
+}
+.content .content-right .new-information ul li a b {
+	display: inline-block;
+	width: 17px;
+	height: 16px;
+	margin-right: 16px;
+}
+.content .content-right .new-information ul li a b img {
+	width: 17px;
+	height: 16px;
+}
+.content .content-right .new-information ul li a:hover {
+	color: #ed1a1a;
+}
+.content .content-right .left-tell {
+	width: 300px;
+	height: 115px;
+	margin-bottom: 10px;
+	background: #f66;
+}
+.content .content-right .left-tell .tell-ency {
+	width: 300px;
+	height: 115px;
+}
+.content .content-right .left-tell .tell-ency #tell-roll {
+	width: 300px;
+	height: 115px;
+	position: relative;
+}
+.content .content-right .left-tell .tell-ency #tell-roll .tell-contenter {
+	width: 300px;
+	height: 115px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.content .content-right .left-tell .tell-ency #tell-roll .tell-contenter .tell-content {
+	width: 1200px;
+	height: 115px;
+	position: absolute;
+}
+.content .content-right .left-tell .tell-ency #tell-roll .tell-contenter .tell-content .tell-imgroll {
+	width: 300px;
+	height: 115px;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+}
+.content .content-right .left-tell .tell-ency #tell-roll .tell-contenter .tell-content .tell-imgroll a img {
+	border: none;
+	vertical-align: top;
+}
+.content .content-right .left-tell .tell-ency #tell-roll .tell-left {
+	height: 20px;
+	width: 14px;
+	position: absolute;
+	top: 48px;
+	left:0;
+	cursor: pointer;
+	background: url("../img201707/left.png");
+}
+.content .content-right .left-tell .tell-ency #tell-roll .tell-right {
+	height: 20px;
+	width: 14px;
+	position: absolute;
+	top: 48px;
+	right: 0;
+	cursor: pointer;
+	background: url("../img201707/right.png");
+}
+.content .content-right .Newest {
+	width: 300px;
+	height: 222px;
+	margin-bottom: 10px;
+	background: #fff;
+	border-top: 1px solid #ed1a1a;
+}
+.content .content-right .Newest h3 {
+	font-size: 18px;
+	color: #ed1a1a;
+	margin-left: 33px;
+	margin-top: 20px;
+	font-weight: 500;
+}
+.content .content-right .Newest ul {
+	width: 200px;
+	height: 160px;
+	margin-left: 35px;
+}
+.content .content-right .Newest ul li {
+	margin-top: 15px;
+	height: 17px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 15px;
+}
+.content .content-right .Newest ul li a {
+	color: #333;
+}
+.content .content-right .Newest ul li a b {
+	display: inline-block;
+	width: 21px;
+	height: 16px;
+	margin-right: 14px;
+}
+.content .content-right .Newest ul li a b img {
+	width: 21px;
+	height: 16px;
+}
+.content .content-right .Newest ul li a:hover {
+	color: #ed1a1a;
+}
+
+/*其他分类*/
+
+.content .content-right .other {
+	width: 300px;
+	height: 185px;
+	background: #fff;
+	border-top: 1px solid #ed1a1a;
+	margin-bottom: 10px;
+}
+.content .content-right .other h3 {
+	font-size: 18px;
+	margin: 22px 0 22px 32px;
+	color: #ed1a1a;
+	font-weight: 500;
+}
+
+.content .content-right .other #rmfl-roll {
+	width: 300px;
+	height: 115px;
+	position: relative;
+}
+.content .content-right .other #rmfl-roll .rmfl-contenter {
+	width: 300px;
+	height: 115px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.content .content-right .other #rmfl-roll .rmfl-contenter .rmfl-content {
+	width: 1200px;
+	height: 115px;
+	position: absolute;
+}
+.content .content-right .other #rmfl-roll .rmfl-contenter .rmfl-content .rmfl-imgroll {
+	width: 300px;
+	height: 115px;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+}
+.content .content-right .other #rmfl-roll .rmfl-contenter .rmfl-content .rmfl-imgroll a img {
+	border: none;
+	vertical-align: top;
+}
+.content .content-right .other #rmfl-roll .rmfl-left {
+	height:27px;
+	width:16px;
+	position: absolute;
+	top: 20px;
+	left:20px;
+	cursor: pointer;
+	background: url("../img201707/向左icon.png") no-repeat;
+}
+.content .content-right .other #rmfl-roll .rmfl-right {
+	height:27px;
+	width:16px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	background: url("../img201707/向右icon.png") no-repeat;
+}
+
+.content .content-right .other #rmfl-roll .rmfl-contenter .rmfl-content .rmfl-imgroll ul {
+	width: 250px;
+	height: 85px;
+	margin:0 auto;
+}
+.content .content-right .other #rmfl-roll .rmfl-contenter .rmfl-content .rmfl-imgroll ul li {
+	width: 112px;
+	height: 29px;
+	margin:0 auto 13px;
+	background: #ed1a1a;
+	text-align: center;
+	line-height: 29px;
+	font-size: 16px;
+}
+.content .content-right .other #rmfl-roll .rmfl-contenter .rmfl-content .rmfl-imgroll ul li a {
+	color: #fff;
+}
+
+.content .content-right .wz_rmwd {
+	width: 300px;
+	height: 288px;
+	background: #fff;
+	margin-bottom: 10px;
+	border-top: 1px solid #ed1a1a;
+}
+.content .content-right .wz_rmwd h3 {
+	font-size: 16px;
+	font-weight: 300;
+	color: #ed1a1a;
+	margin-top: 22px;
+	margin-bottom: 19px;
+	margin-left: 32px;
+}
+.content .content-right .wz_rmwd ul {
+	width: 300px;
+	overflow: hidden;
+}
+.content .content-right .wz_rmwd ul li {
+	width: 100%;
+	min-height: 16px;
+	height: auto;
+	display: inline-block;
+	line-height: 16px;
+	font-size: 14px;
+	margin-bottom: 19px;
+	text-align: center;
+	border-bottom: 1px dashed #e5e5e5;
+}
+.content .content-right .wz_rmwd ul li a {
+	float: left;
+	font-size: 15px;
+	text-align: left;
+	color: #333;
+}
+.content .content-right .wz_rmwd ul li a img {
+	width: 17px;
+	height: 17px;
+	float: left;
+	margin-left: 32px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.content .content-right .wz_rmwd ul li a p {
+	display: inline-block;
+	line-height: 15px;
+}
+.content .content-right .wz_rmwd ul li a .info {
+	margin-left: 32px;
+	margin-top: 5px;
+	font-size: 12px;
+	width: 240px;
+	padding-bottom: 20px;
+}
+.content .content-right .wz_rmwd ul li a .info b {
+	font-weight: normal;
+	color: #000;
+	margin-right: 5px;
+	float: left;
+}
+.content .content-right .wz_rmwd ul li a .info .state {
+	float: right;
+	color: #666;
+}
+.content .content-right .wz_rmwd ul .last {
+	border: none;
+}
+.content .content-right .rightSide{
+	width: auto;
+}
+
+.content .content-right .rightSide .wz_tool {
+	width: 300px;
+	height: 302px;
+	background: #fff;
+	border-top: 1px solid #ed1a1a;
+}
+.content .content-right .rightSide .fix {
+	position: fixed;
+	top: 0;
+}
+.content .content-right .rightSide .wz_tool h3 {
+	font-size: 16px;
+	color: #ed1a1a;
+	margin-left: 32px;
+	margin-top: 20px;
+}
+.content .content-right .rightSide .wz_tool ul {
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+}
+.content .content-right .rightSide .wz_tool .smallButton {
+	margin-left: 11px;
+	width: 282px;
+	margin-top: 10px;
+}
+.content .content-right .rightSide .wz_tool .smallButton li {
+	float: left;
+}
+.content .content-right .rightSide .wz_tool .smallButton li a {
+	float: left;
+	color: #fff;
+	background: #ed1a1a;
+	width: 84px;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid #e1e1e1;
+	font-size: 15px;
+	margin: 9px 8px 8px 0;
+	text-align: center;
+}
+.content .content-right .rightSide .wz_tool .smallButton li a:hover {
+	color: #666;
+	background: #fff;
+}
+.content .content-right .rightSide .wz_tool .articleList li {
+	padding-left: 16px;
+	height: 15px;
+	font-size: 15px;
+	margin: 12px 0;
+}
+.content .content-right .rightSide .wz_tool .articleList li a {
+	font-size: 15px;
+	color: #333;
+}
+.content .content-right .rightSide .wz_tool .articleList li .icon {
+	display: inline-block;
+	width: 4px;
+	height: 7px;
+	margin-right: 10px;
+	background: url("../img201707/huid-icon.png") no-repeat;
+}
+.content .content-right .rightSide .wz_tool .articleList li a:hover {
+	color: #ed1a1a;
+}
+.sidebar {
+	width:46px;
+	height:auto;
+	position:fixed;
+	right:0;
+	z-index: 9999;
+	top:25%;
+}
+.sidebar .kf img {
+	width:46px;
+	height:46px;
+	margin-bottom: 3.6px;
+}
+.sidebar .top {
+	display: inline-block;
+	width:26px;
+	height:20px;
+}
+.sidebar .top img {
+	width: 46px;
+	height:46px;
+}
+.sidebar .img1 {
+	width:46px;
+}
+/*底部*/
+.footer {
+  width: 100%;
+  height: 242px;
+  background-color: #333;
+  min-width:1200px;
+  overflow: hidden;
+}
+.footer .footer_content {
+  width: 1200px;
+  height: 242px;
+  margin: 0 auto;
+}
+.footer .footer_content ul {
+  width: 760px;
+  height: 125px;
+  margin: 0 auto;
+}
+.footer .footer_content ul li {
+  font-size: 20px;
+  line-height: 125px;
+  float: left;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.footer .footer_content ul li a {
+  color: #fff;
+}
+.footer .footer_content p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #999;
+  text-align: center;
+}

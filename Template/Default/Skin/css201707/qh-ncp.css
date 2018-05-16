@@ -1,0 +1,428 @@
+.banner {
+  width: 100%;
+  height: 550px;
+  min-width: 1200px;
+  background: url("../img201707/ncp-bnnaer.png") 50% 50% no-repeat; }
+
+.present {
+  width: 880px;
+  height: 544px;
+  margin: -330px auto 54px;
+  overflow: hidden;
+  background: url("../img201707/ncp-big.png") no-repeat; }
+  .present .present-content {
+    width: 721px;
+    height: 241px;
+    margin-top: 47px;
+    margin-bottom: 62px;
+    padding-left: 87px; }
+    .present .present-content h3 {
+      width: 198px;
+      height: 41px;
+      margin-bottom: 16px;
+      background: url("../img201707/ncp-zt.png") no-repeat; }
+    .present .present-content p {
+      font-size: 16px;
+      text-align: justify;
+      color: #333333;
+      line-height: 26px;
+      text-indent: 2em; }
+  .present ul {
+    width: 720px;
+    height: 192px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .present ul li {
+      float: left;
+      width: 360px;
+      height: 30px;
+      margin-bottom: 6px;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: left;
+      color: #000; }
+      .present ul li span {
+        display: inline-block;
+        width: 130px;
+        height: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 30px;
+        text-align: center;
+        color: #333333;
+        margin-right: 30px;
+        background-color: #e7e7e7; }
+
+.correlation {
+  width: 100%;
+  height: 200px;
+  min-width: 1200px;
+  background: url("../img201707/ncp-xw.png") 50% 50% no-repeat; }
+  .correlation .correlation-content {
+    width: 1200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto; }
+    .correlation .correlation-content h3 {
+      font-size: 40px;
+      text-align: left;
+      color: #ffffff;
+      margin-left: 17px;
+      margin-top: 90px;
+      font-weight: 500; }
+
+.headlieds {
+  width: 1200px;
+  height: 290px;
+  overflow: hidden;
+  margin: -27px auto 155px; }
+  .headlieds .lunbo {
+    width: 632px;
+    height: 290px;
+    float: left; }
+    #player{
+        width:632px;
+        height:290px;
+        position: relative;}
+    #player .player .slide{
+        width:100%;
+        height:290px;
+        position: absolute;}
+    #player .player .slide b{
+      display: inline-block;
+      width: 604px;
+      height: 47px;
+      font-size: 18px;
+      padding-left: 28px;
+      font-weight: normal;
+      color: #fff;
+      line-height: 47px;
+      position: absolute;
+      left:0;
+      bottom: 0;
+      background-image: url("../img201707/ncp-lbg.png");
+    }
+    #player .player_box{
+        width:280px;
+        height:290px;
+        /*当子元素绝对定位时，margin:0 auto;没有效果，可用left:50%;margin-left:-594px;达到margin: 0 auto;效果*/
+        left:50%;
+        position: absolute;
+        z-index: 4;}
+        #player .player_box .player_center{
+            width:280px;
+            height:290px;
+            float: left;
+            position: relative;}
+        #player .player_box .player_center div.tab_page{
+            position: absolute;
+            left:90%;
+            bottom:14px;
+            margin-left:-80px;}
+        #player .player_box .player_center div.tab_page span{
+            width:10px;
+            height:10px;
+            border-radius:100%;
+            display: inline-block;
+            left:100px;background: #666;
+            margin-right:8px;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;}
+  .headlieds ul {
+    width: 445px;
+    height: 222px;
+    margin-top: 50px;
+    margin-right: 60px; }
+    .headlieds ul li {
+      height: 37px;
+      font-size: 16px; }
+      .headlieds ul li a {
+        color: #333; }
+        .headlieds ul li a span {
+          margin-right: 10px; }
+      .headlieds ul li a:hover {
+        color: #ed1a1a; }
+      .headlieds ul li b {
+        float: right;
+        font-weight: 300; }
+
+.define {
+  width: 1200px;
+  height: 477px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 55px; }
+  .define .define-content {
+    width: 458px;
+    height: 350px;
+    position: absolute;
+    left: 150px;
+    top: 75px; }
+    .define .define-content h3 {
+      font-size: 30px;
+      line-height: 30px;
+      text-align: left;
+      color: #333333;
+      margin-left: 60px;
+      margin-bottom: 15px;
+      font-weight: 300; }
+      .define .define-content span{
+        display: block;
+        width: 458px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+      }
+    .define .define-content .define-contents {
+      width: 458px;
+      height: 293px;
+      overflow: hidden;
+      background: url("../img201707/ncp-one.png"); }
+      .define .define-content .define-contents .define-con {
+        width: 393px;
+        margin: 20px auto 0; }
+        .define .define-content .define-contents .define-con p {
+          font-size: 14px;
+          line-height: 24px;
+          text-align: justify;
+          color: #333333; }
+  .define .define-img {
+    width: 730px;
+    height: 477px;
+    background: url("../img201707/ncp-pt.png") no-repeat; }
+
+.value {
+  width: 1200px;
+  height: 477px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 55px; }
+  .value .value-content {
+    width: 458px;
+    height: 350px;
+    position: absolute;
+    right: 150px;
+    top: 75px; }
+    .value .value-content h3 {
+      font-size: 30px;
+      line-height: 30px;
+      text-align: left;
+      color: #333333;
+      margin-left: 170px;
+      margin-bottom: 15px;
+      font-weight: 300; }
+      .value .value-content span{
+        display: block;
+        width: 458px;
+        margin-left: 170px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+      }
+    .value .value-content .value-contents {
+      width: 458px;
+      height: 293px;
+      overflow: hidden;
+      background: url("../img201707/ncp-one.png"); }
+      .value .value-content .value-contents .value-con {
+        width: 393px;
+        margin: 20px auto 0; }
+        .value .value-content .value-contents .value-con p {
+          font-size: 14px;
+          line-height: 28px;
+          text-align: justify;
+          color: #333333; }
+  .value .value-img {
+    width: 730px;
+    height: 477px;
+    background: url("../img201707/ncp-jz.png") no-repeat;
+  }
+
+.history {
+  width: 1200px;
+  height: 477px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 150px; }
+  .history .history-content {
+    width: 458px;
+    height: 350px;
+    position: absolute;
+    left: 150px;
+    top: 75px; }
+    .history .history-content h3 {
+      font-size: 30px;
+      line-height: 30px;
+      text-align: left;
+      color: #333333;
+      margin-left: 60px;
+      margin-bottom: 15px;
+      font-weight: 300; }
+      .history .history-content span{
+        display: block;
+        margin-left: 60px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+      }
+    .history .history-content .history-contents {
+      width: 458px;
+      height: 348px;
+      overflow: hidden;
+      background: url("../img201707/ncp-one.png"); }
+      .history .history-content .history-contents .history-con {
+        width: 393px;
+        margin: 15px auto 0; }
+        .history .history-content .history-contents .history-con p {
+          font-size: 14px;
+          line-height: 25px;
+          text-align: justify;
+          color: #333333; }
+  .history .history-img {
+    width: 730px;
+    height: 477px;
+    background: url("../img201707/ncp-ls.png") no-repeat; }
+
+.futures {
+  width: 100%;
+  height: 411px;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom: 38px;
+  background: url("../img201707/ncp-xg.png") 50% 50% no-repeat; }
+  .futures .futures-content {
+    width: 1200px;
+    height: 321px;
+    margin: 89px auto 0; }
+    .futures .futures-content h3 {
+      font-size: 40px;
+      line-height: 40px;
+      text-align: left;
+      margin-left: 26px;
+      margin-bottom: 120px;
+      color: #ffffff;
+      font-weight: 500; }
+    .futures .futures-content ul {
+      width: 1092px;
+      height: 122px;
+      margin: 0 auto; }
+      .futures .futures-content ul li {
+        float: left;
+        height: 40px;
+        margin-right: 58px;
+        font-size: 20px;
+        width: 85px;
+        text-align: left; }
+        .futures .futures-content ul li a {
+          color: #000000; }
+        .futures .futures-content ul li a:hover {
+          color: #ed1a1a; }
+      .futures .futures-content ul .mr {
+        margin-right: 0; }
+
+.content-course {
+  width: 1200px;
+  height: 210px;
+  margin: 0 auto 120px; }
+  .content-course .course-title {
+    width: 1142px;
+    height: 20px;
+    margin: 15px auto 0; }
+    .content-course .course-title h3 {
+      font-size: 16px;
+      color: #ed1a1a;
+      float: left; }
+    .content-course .course-title b {
+      float: right;
+      cursor: pointer; }
+      .content-course .course-title b img {
+        width: 16px;
+        height: 18px; }
+  .content-course ul {
+    width: 1200px;
+    height: 140px;
+    margin: 20px auto; }
+    .content-course ul li {
+      float: left;
+      width: 269px;
+      height: 140px;
+      margin-right: 27px; }
+      .content-course ul li img {
+        float: left;
+        width: 133px;
+        height: 140px; }
+      .content-course ul li .course-content {
+        float: right;
+        width: 136px;
+        height: 140px; }
+        .content-course ul li .course-content h4 {
+          font-size: 16px;
+          line-height: 40px;
+          font-weight: 500; }
+          .content-course ul li .course-content h4 a {
+            color: #333; }
+          .content-course ul li .course-content h4 a:hover {
+            color: #ed1a1a; }
+        .content-course ul li .course-content p {
+          font-size: 12px;
+          color: #999;
+          margin-bottom: 19px; }
+        .content-course ul li .course-content span {
+          display: block;
+          width: 74px;
+          height: 20px;
+          border-radius: 6px;
+          border: 1px solid #ff0000;
+          text-align: center;
+          line-height: 20px; }
+          .content-course ul li .course-content span a {
+            display: block;
+            width: 100%;
+            color: #ed1a1a; }
+          .content-course ul li .course-content span a:hover {
+            color: #fff;
+            background-color: #ed1a1a; }
+    .content-course ul .last {
+      width: 269px;
+      height: 140px;
+      margin: 0; }
+
+
+
+
+
+      .sidebar{
+        width:46px;
+        height:auto;
+        position:fixed;
+        right:0;
+        z-index: 9999;
+        top:25%;
+      }
+
+      .sidebar .kf img{
+        width:46px;
+        height:46px;
+        margin-bottom: 3.6px;
+      }
+
+      .sidebar .top{
+        display: inline-block;
+        width:26px;
+        height:20px;
+      }
+
+      .sidebar .top img{
+        width: 46px;
+        height:46px;
+      }
+
+      .sidebar .img1{
+        width:46px;
+      }
+/*# sourceMappingURL=qh-ncp.css.map */

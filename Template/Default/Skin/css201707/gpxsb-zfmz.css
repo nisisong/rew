@@ -1,0 +1,88 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+    border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.zfmz{
+	width:973px;
+	height: auto;
+	border: 1px solid #dbebf8;
+	margin-bottom:20px;
+}
+.zfmz .tab{
+	width:973px;
+	height: 57px;
+	border-bottom:#dbebf8 1px solid;
+}
+.zfmz .tab span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+}
+.zfmz .tab .on{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+}
+.zfmz .nr{
+	display: none;
+}
+.zfmz .nr .m-table{
+	width:973px;
+	height: auto;
+	border-collapse:collapse;
+}
+.zfmz .m-table .rows tr th{
+	width:139px;
+	padding:10px 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #2f5895;
+}
+.zfmz .m-table tbody tr{
+	background-color: #f7f7f7;
+}
+.zfmz .m-table tbody .even{
+	background-color: #fff;
+}
+.zfmz .m-table tbody tr td{
+	width:139px;
+	padding:10px 0;
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+}
+.zfmz .m-table tbody tr td .ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width:139px;
+	text-align: center;
+}
+.zfmz .m-table tbody tr .txtLeft .ellipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width:139px;
+	text-align: left;
+}
+.noTableData{
+	height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+}

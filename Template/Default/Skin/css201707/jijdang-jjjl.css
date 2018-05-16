@@ -1,0 +1,185 @@
+/*
+*@ author : sns;
+*@ date : 2018-04-10
+*
+*/
+
+.public_title h3{
+  float: left;
+}
+.public_title .main-title-select{
+  float: right;
+  margin-right: 15px;
+}
+.public_title .main-title-select span{
+  font-size: 14px;
+  line-height: 37px;
+}
+.public_title .ttjj-select{
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 230px;
+  height: 25px;
+  border: 1px solid #4a90e2;
+  font-size: 14px;
+  text-align: left;
+  vertical-align: middle;
+}
+.public_title .ttjj-select span{
+  line-height: 25px;
+}
+.ttjj-select .ttjj-select-heading {
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 10px;
+    background: #fff;
+    color: #333 !important;
+    line-height: 25px;
+}
+.ttjj-select .ttjj-select-heading .ttjj-iconfont {
+    float: right;
+    padding-right: 13px;
+    width: 9px;
+    height: 4px;
+    margin-top: 10px;
+}
+.public_title .ttjj-select ul{
+  display: none;
+  width: 230px;
+  max-height: 230px;
+  overflow: auto;
+  overflow-x: hidden;
+  position: absolute;
+  top: 26px;
+  left: -1px;
+  background: #fff;
+  border: 1px solid #dbdbdb
+}
+.ttjj-select .active {
+    border-color: #4a90e2;
+}
+.ttjj-select ul li {
+    border-bottom: 1px solid #dbdbdb;
+    width: 230px;
+}
+.ttjj-select ul li a {
+    display: block;
+    padding-left: 10px;
+    line-height: 25px;
+    color: #333;
+}
+.ttjj-select ul li:hover{
+  background: #4a90e2;
+}
+.ttjj-select ul li:hover a{
+  color: #fff;
+}
+
+
+.xin {
+    width: 973px;
+    height: auto;
+    border: 1px solid #dbebf8;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.common-sub-title {
+    padding: 15px;
+    line-height: 28px;
+    overflow: hidden;
+    background-color: #f3f8ff;
+}
+.common-sub-title h3 {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.common-sub-title p{
+    float: right;
+    font-size: 14px;
+    color: #666;
+}
+
+.jloff {
+    width: 935px;
+    border: 1px solid #dfdfdf;
+    border-bottom: none;
+    margin: 15px auto;
+}
+.jloff tr{
+  height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border: 1px solid #d3d3d3;
+}
+table.jloff th, table.jloff td {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    border: 1px solid #d3d3d3;
+}
+.txt_in td {
+    height: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+}
+table.jloff th {
+    background: #e7e7e7;
+}
+ .xin a {
+    text-decoration: underline;
+    color: #003497;
+    vertical-align: baseline;
+}
+.jl_intro {
+    margin: 10px 22px;
+    overflow: hidden;
+}
+.jl_intro img {
+    border: 1px solid #d3d3d3;
+    padding: 3px 2px;
+}
+.jl_intro img, .jl_intro .text {
+    display: inline;
+    float: left;
+}
+.jl_intro .text {
+    width: 810px;
+    margin-left: 10px;
+}
+.jl_intro .text p {
+    margin: 8px 0;
+    padding: 0;
+    font-size: 14px;
+}
+.jloff td.tol {
+    text-align: left;
+    padding-left: 10px;
+}
+.txt_in table, .txt_in th, .txt_in td {
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    font-size: 14px;
+}
+.grn {
+    color: #097c25;
+}
+.red {
+    color: #ed1a1a;
+}
+.space10 {
+    clear: both;
+    height: 10px;
+    overflow: hidden;
+}
+.sline {
+    margin: 0 5px;
+    height: 1px;
+    overflow: hidden;
+    border-bottom: 1px dashed #bfbfbf;
+}

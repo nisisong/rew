@@ -1,0 +1,53 @@
+/*
+*@ author:sns
+*@ date:2018-04-04
+*/
+
+
+.common-block-con {
+    border: 1px solid #dbebf8;
+    margin-bottom: 20px;
+}
+.ttjj-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.ttjj-table th {
+    background: #f5f5f5;
+    font-size: 16px;
+    color: #000;
+}
+.ttjj-table th, .ttjj-table td {
+    text-align: center;
+    font-weight: 400;
+    padding: 14px 0 14px 10px;
+}
+.ttjj-table td {
+    font-size: 15px;
+    color: #333;
+}
+.grey-bg{
+ background-color: #f5f5f5;
+}
+
+.sprite{
+  background-image: url("../../Skin/img201707/sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.sprite-star1{width:15px;height:14px;background-position:-5px -5px}
+.sprite-star2{width:15px;height:14px;background-position:-30px -5px}
+.sprite-star3{width:15px;height:14px;background-position:-5px -29px}
+.sprite-star4{width:15px;height:14px;background-position:-30px -29px}
+.sprite-star5{width:15px;height:14px;background-position:-55px -5px}
+.sprite-star6{width:15px;height:15px;background-position:-55px -29px}
+
+
+.ttjj-table a {
+    text-decoration: underline;
+    color: #4a90e2;
+}
+.no-pjdata {
+    color: #999;
+}

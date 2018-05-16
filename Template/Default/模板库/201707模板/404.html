@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>融e网 - 信息提示</title>
+    <link rel="stylesheet" href="../../Skin/css201707/reset.css">
+    <link rel="stylesheet" href="../../Skin/css201707/public.css">
+    <link rel="stylesheet" href="../../Skin/css201707/404.css">
+</head>
+
+<body class="layout-center">
+    <div id="body" class="container">
+        <nav class="wgt-nav f-12">
+            <a href="/">融e网</a><span class="f-simsun">></span>温馨提醒您：
+        </nav>
+        <div class="wgt-none line">
+            <div class="grid right-wraper">
+                <div class="f-yahei f-20 mb-20">很抱歉，页面被金币淹没，不见啦</div>
+                <div class="f-yahei f-20 mb-20">你要坚强些，继续发掘别的页面去吧！</div>
+                <a class="btn-re-index" href="/">返回首页</a>
+                <span id="countdown-timer" class="f-green ml-5">6</span><span class="ml-5">s</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+<script type="text/javascript">
+    var counter = 6;
+    function runCounter() {
+        if (counter == 0) {
+            location.href = '/';
+        } else {
+            document.getElementById("countdown-timer").innerText=--counter;
+            setTimeout(runCounter, 1000);
+        }
+    }
+    // runCounter();
+
+</script>

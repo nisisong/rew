@@ -1,0 +1,77 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+    border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.public_title h3 span{
+	font-size: 14px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.zjlx{
+    width:973px;
+    height: auto;
+    border: 1px solid #dbebf8;
+    margin-bottom:20px;
+}
+.zjlx table thead{
+    width: 973px;
+    background: #fff;
+}
+.zjlx table .fix{
+    position: fixed;
+    top:0;
+}
+.zjlx table thead tr th{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.zjlx table thead tr .first{
+    width: 100px;
+}
+.zjlx tbody{
+    width: 973px;
+}
+.zjlx tbody tr{
+    background-color: #f7f7f7;
+}
+.zjlx tbody .odd{
+    background-color: #fff;
+}
+.zjlx tbody tr td{
+    width:75px;
+    text-align: center;
+    padding:10px 0;
+    font-size: 16px;
+}
+.zjlx tbody tr td .red{
+   color: #f00;
+}
+.zjlx tbody tr td .green{
+   color: #090;
+}
+.noTableData{
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+}

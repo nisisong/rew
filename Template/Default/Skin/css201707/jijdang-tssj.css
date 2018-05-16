@@ -1,0 +1,237 @@
+/*
+*@ author : sns;
+*@ date : 2018-04-10
+*
+*/
+
+.public_title h3{
+  float: left;
+}
+.public_title .main-title-select{
+  float: right;
+  margin-right: 15px;
+}
+.public_title .main-title-select span{
+  font-size: 14px;
+  line-height: 37px;
+}
+.public_title .ttjj-select{
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 230px;
+  height: 25px;
+  border: 1px solid #4a90e2;
+  font-size: 14px;
+  text-align: left;
+  vertical-align: middle;
+}
+.public_title .ttjj-select span{
+  line-height: 25px;
+}
+.ttjj-select .ttjj-select-heading {
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    padding-left: 10px;
+    background: #fff;
+    color: #333 !important;
+    line-height: 25px;
+}
+.ttjj-select .ttjj-select-heading .ttjj-iconfont {
+    float: right;
+    padding-right: 13px;
+    width: 9px;
+    height: 4px;
+    margin-top: 10px;
+}
+.public_title .ttjj-select ul{
+  display: none;
+  width: 230px;
+  max-height: 230px;
+  overflow: auto;
+  overflow-x: hidden;
+  position: absolute;
+  top: 26px;
+  left: -1px;
+  background: #fff;
+  border: 1px solid #dbdbdb
+}
+.ttjj-select .active {
+    border-color: #4a90e2;
+}
+.ttjj-select ul li {
+    border-bottom: 1px solid #dbdbdb;
+    width: 230px;
+}
+.ttjj-select ul li a {
+    display: block;
+    padding-left: 10px;
+    line-height: 25px;
+    color: #333;
+}
+.ttjj-select ul li:hover{
+  background: #4a90e2;
+}
+.ttjj-select ul li:hover a{
+  color: #fff;
+}
+
+.xin {
+    width: 973px;
+    height: auto;
+    border: 1px solid #dbebf8;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.common-sub-title {
+    padding: 15px;
+    line-height: 28px;
+    overflow: hidden;
+    background-color: #f3f8ff;
+}
+.common-sub-title h3 {
+    float: left;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+.space20 {
+    clear: both;
+    height: 20px;
+    overflow: hidden;
+}
+.fxdj {
+    float: left;
+    width: 480px;
+}
+.fxdj p {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+.fivebar {
+    padding-left:88px;
+}
+.allfxdj li {
+    float: left;
+    width: 58px;
+}
+.allfxdj .low1 {
+    height: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    width: 58px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffcc00;
+}
+.allfxdj .low2 {
+    height: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    width: 58px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffaa00;
+}
+.allfxdj .low3 {
+    height: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    width: 58px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ff7700;
+}
+.allfxdj .low4 {
+    height: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    width: 58px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ff6600;
+}
+.allfxdj .low5 {
+    height: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    width: 58px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ff0000;
+}
+.chooseLow {
+    border: 1px solid #333;
+    height: 18.5px !important;
+    width: 56px !important;
+}
+.UpArrow {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.UpArrowImg {
+    border: 0 none;
+    display: block;
+    margin-left: 23px;
+    margin-top: 2px;
+}
+.fxtb {
+    width: 910px;
+    border: 1px solid #e3e3e3;
+}
+.xin th {
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    font-weight: normal;
+}
+.xin table, .xin th, .xin td {
+    /* border: 1px solid #d3d3d3; */
+    text-align: center;
+    font-size: 16px;
+}
+.fxtb th {
+    background: #f5f5f5;
+}
+.xin td {
+    height: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+}
+.limit-time {
+    padding: 8px 0;
+    color: #888;
+    font-size: 14px;
+}
+.xin  p {
+   font-size: 14px;
+   padding: 0;
+   line-height: 1.6;
+}
+.tzfg {
+    padding-left: 23px;
+}
+.tzfg .fgcontent {
+    float: left;
+    width: 350px;
+}
+.tzfg .fgcontentfr {
+    float: right;
+    width: 390px;
+    margin-right: 40px;
+}
+.tzfg .fgcontentfr table, .tzfg .fgcontentfr th, .tzfg .fgcontentfr td {
+    text-align: center;
+    font-size: 16px;
+}
+.tzfg .fgcontentfr table{
+  width: 390px;
+  border: 1px solid #d3d3d3;
+}
+.tzfg .fgcontentfr th {
+    background: #f5f5f5;
+}

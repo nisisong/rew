@@ -1,0 +1,699 @@
+body{
+  background-color: #fafafa;
+}
+/*弹窗*/
+.downloadBox{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url(../img201707/kaihu/kaihu-bj.png);
+  z-index: 999;
+  display: none;
+}
+.tc{
+  width: 702px;
+  height: 520px;
+  margin:-260px 0 0 -351px;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+.tc .title{
+  width: 702px;
+  height: 79px;
+  overflow: hidden;
+}
+.tc .title .close{
+  float: right;
+  margin:24px 36px 0 0;
+  width: 24px;
+  height: 25px;
+  cursor: pointer;
+}
+.tc .title .close img{
+  width: 24px;
+  height: 25px;
+}
+.tc .content{
+  width: 702px;
+  height: auto;
+  overflow: hidden;
+  margin-top: 80px;
+}
+.tc .content img{
+  width: 164px;
+  height: 165px;
+  display: block;
+  margin:0 auto 60px;
+}
+.tc .content p{
+  color: #0C0407;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.download{
+  width: 702px;
+  height: 520px;
+  margin:-260px 0 0 -351px;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top:50%;
+  left:50%;
+}
+.download .title{
+  width: 702px;
+  height: 60px;
+  border-bottom: 1px solid #dddddd;
+  overflow: hidden;
+}
+.download .title .bt{
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  font-size:20px;
+  color: #0080cc;
+  font-weight: bold;
+  margin-left: 32px;
+}
+.download .title .close{
+  float: right;
+  margin:19px 30px 0 0;
+  width: 24px;
+  height: 25px;
+  cursor: pointer;
+}
+.download .title .close img{
+  width: 24px;
+  height: 25px;
+}
+.download .name{
+  overflow: hidden;
+  margin:20px 0 20px 100px;
+}
+.download .name span{
+  float: left;
+  font-size: 16px;
+  line-height: 40px;
+  color: #666;
+  margin-right: 75px;
+  font-weight: bold;
+}
+.download .name span b{
+  color: #ed1a1a;
+}
+.download .name input{
+  width:300px;
+  height: 40px;
+  line-height: 40px;
+  border:1px solid #dddddd;
+  border-radius:5px;
+  padding-left:20px;
+  float: left;
+  font-size: 16px;
+}
+.download .phone{
+  overflow: hidden;
+  margin:0 0 20px 100px;
+}
+.download .phone span{
+  float: left;
+  font-size: 16px;
+  line-height: 40px;
+  color: #666;
+  margin-right: 59px;
+  font-weight: bold;
+}
+.download .phone span b{
+  color: #ed1a1a;
+}
+.download .phone input{
+  width:300px;
+  height: 40px;
+  line-height: 40px;
+  border:1px solid #dddddd;
+  border-radius:5px;
+  padding-left:20px;
+  float: left;
+  font-size: 16px;
+}
+.download .phone .cwts{
+  float: left;
+  display: none;
+  height: 40px;
+  margin-left: 15px;
+}
+.download .phone .cwts p{
+  color: #f00;
+  display: none;
+  font-size: 16px;
+  line-height: 40px;
+}
+.download .yzm{
+  overflow: hidden;
+  margin-left: 100px;
+}
+.download .yzm span{
+  float: left;
+  font-size: 16px;
+  line-height: 40px;
+  color: #666;
+  margin-right: 27px;
+  font-weight: bold;
+}
+.download .yzm span b{
+  color: #ed1a1a;
+}
+.download .yzm input{
+  width:300px;
+  height: 40px;
+  line-height: 40px;
+  border:1px solid #dddddd;
+  border-radius:5px;
+  padding-left:20px;
+  float: left;
+  font-size: 16px;
+}
+.download .yzm .button{
+  float: left;
+  width: 96px;
+  height: 40px;
+  margin-left: 22px;
+}
+.download .yzm .button .fs img{
+  width: 96px;
+  height: 40px;
+}
+.download .yzm .button .cfs{
+  display: none;
+  width: 96px;
+  height: 40px;
+  background: url(../img201707/kaihu/重新发送验证码icon.png) no-repeat;
+}
+.download .yzm .button .cfs span{
+  width: 96px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-weight: normal;
+}
+.download .yzm .button .yfs{
+  display: none;
+  width: 96px;
+  height: 40px;
+  background: url(../img201707/kaihu/重新发送验证码icon.png) no-repeat;
+}
+.download .yzm .button .yfs .djs{
+  overflow: hidden;
+  padding-left: 8px;
+}
+.download .yzm .button .yfs .djs span{
+  color: #fff;
+  font-size: 13px;
+  font-weight: normal;
+  float: left;
+  margin-right: 0;
+}
+.download .yzm .cwts2{
+  float: left;
+  margin-left: 110px;
+  margin-top: 20px;
+  color: #f00;
+  font-size: 16px;
+  display: none;
+}
+.download .xmms{
+  overflow: hidden;
+  margin:20px 0 20px 100px;
+}
+.download .xmms span{
+  float: left;
+  font-size: 16px;
+  line-height: 40px;
+  color: #666;
+  margin-right: 43px;
+  font-weight: bold;
+}
+.download .xmms span b{
+  color: #ed1a1a;
+}
+.download .xmms .xm-text{
+  width:300px;
+  height:100px;
+  line-height: 25px;
+  border:1px solid #dddddd;
+  border-radius:5px;
+  padding:0 10px;
+  float: left;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+.download .Button{
+  width:361px;
+  height:61px;
+  margin:20px auto 0;
+}
+
+/*广告位*/
+.banner {
+	width: 100%;
+	height:100px;
+	background-color: #5b95f5;
+	min-width: 1200px;
+}
+/*正文*/
+.ListBox{
+  width: 1200px;
+  height: auto;
+  margin:30px auto 0;
+  border:1px solid #cecece;
+  margin-bottom: 30px;
+  background: #fff;
+}
+.ListTab{
+  height: 53px;
+  background: #eee;
+}
+.ListTab span{
+  width: 114px;
+  height: 52px;
+  font-size: 16px;
+  color: #101010;
+  line-height: 53px;
+  text-align: center;
+  display: inline-block;
+  border-right: 1px solid #cecece;
+  float: left;
+  cursor: pointer;
+}
+.ListTab .tab-on{
+  width: 114px;
+  height: 52px;
+  font-size: 16px;
+  color: #ed1a1a;
+  line-height: 53px;
+  text-align: center;
+  display: inline-block;
+  border-right: 1px solid #cecece;
+  position: relative;
+  top:-1px;
+  border-top: 2px solid #ed1a1a;
+  background: #fff;
+}
+.ListTab span i{
+  width: 9px;
+  height: 6px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  background: url(../img201707/tz-down.png) no-repeat;
+}
+.ListTab span .cur{
+  width: 9px;
+  height: 6px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  background: url(../img201707/tz-up.png) no-repeat;
+}
+/*创业投资*/
+.Entrepreneurship{
+  width: 1200px;
+  margin:0 auto;
+  background: #fff;
+  overflow: hidden;
+}
+.Entrepreneurship .title{
+  height: 67px;
+  line-height: 67px;
+  color: #101010;
+  padding-left: 39px;
+  font-size: 24px;
+  position: relative;
+  border-bottom: 1px solid #ececec;
+}
+.Entrepreneurship .title b{
+  position: absolute;
+  width: 318px;
+  height: 2px;
+  background-color: #ed1a1a;
+  bottom:-2px;
+  left:0;
+}
+.Entrepreneurship .list{
+  overflow: hidden;
+}
+.Entrepreneurship .list li{
+  padding:50px 20px;
+  overflow: hidden;
+  border-bottom: 1px dashed #cecece;
+}
+.Entrepreneurship .list li .e-img{
+  float: left;
+  width: 215px;
+  height: 262px;
+  margin-left: 23px;
+}
+.Entrepreneurship .list li .e-img img{
+  width: 215px;
+  height: 262px;
+}
+.Entrepreneurship .list li .intro{
+  margin-left: 23px;
+  width: 602px;
+  float: left;
+}
+.Entrepreneurship .list li .intro .bt{
+  font-size: 24px;
+  color: #101010;
+  line-height: 60px;
+}
+.Entrepreneurship .list li .intro .job{
+  font-size: 20px;
+  color: #0b0b0b;
+}
+.Entrepreneurship .list li .intro .info{
+  font-size: 14px;
+  line-height: 35px;
+  text-align: justify;
+  color: #666666;
+  margin-bottom: 70px;
+}
+.Entrepreneurship .list li .intro .cases,.cases1{
+  font-size: 14px;
+  height: 22px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.Entrepreneurship .list li .intro .cases span{
+  width: 71px;
+  height: 22px;
+  color: #666;
+  line-height: 22px;
+  text-align: center;
+  display: inline-block;
+  margin:0 9px;
+  background-color: #e5e5e5;
+}
+.Entrepreneurship .list li .intro .cases1 span{
+  width: 71px;
+  height: 22px;
+  color: #666;
+  line-height: 22px;
+  text-align: center;
+  display: inline-block;
+  margin:0 9px;
+  background-color: #ffe0cd;
+}
+.Entrepreneurship .list li .button{
+  float: right;
+  width: 152px;
+  height: 61px;
+  line-height: 61px;
+  background-color: #ed1a1a;
+  margin: 95px 90px 17px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.Entrepreneurship .list li .button a{
+  color: #fff;
+}
+.Entrepreneurship .list li .button .browse{
+  font-size: 14px;
+  color: #666;
+}
+.Entrepreneurship .list li .button .browse img{
+  width: 20px;
+  height: 14px;
+  margin:3px 10px 0 23px;
+}
+.pager {
+    height: 30px;
+    padding: 10px 50px;
+    clear: both;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pager p {
+    display: inline-block;
+}
+.pager .red{
+  color: #f00;
+  margin:0 5px;
+}
+.pager a {
+    display: inline-block;
+    border: 1px solid #c5c5c5;
+    padding: 2px 8px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+/*天使投资*/
+.Angel{
+  width: 1200px;
+  margin:0 auto;
+  background: #fff;
+  overflow: hidden;
+}
+.Angel .title{
+  height: 67px;
+  line-height: 67px;
+  color: #101010;
+  padding-left: 39px;
+  font-size: 24px;
+  position: relative;
+  border-bottom: 1px solid #ececec;
+}
+.Angel .title b{
+  position: absolute;
+  width: 318px;
+  height: 2px;
+  background-color: #ed1a1a;
+  bottom:-2px;
+  left:0;
+}
+.Angel .list{
+  overflow: hidden;
+}
+.Angel .list li{
+  padding:50px 20px;
+  overflow: hidden;
+  border-bottom: 1px dashed #cecece;
+}
+.Angel .list li .e-img{
+  float: left;
+  width: 215px;
+  height: 262px;
+  margin-left: 23px;
+}
+.Angel .list li .e-img img{
+  width: 215px;
+  height: 262px;
+}
+.Angel .list li .intro{
+  margin-left: 23px;
+  width: 602px;
+  float: left;
+}
+.Angel .list li .intro .bt{
+  font-size: 24px;
+  color: #101010;
+  line-height: 60px;
+}
+.Angel .list li .intro .job{
+  font-size: 20px;
+  color: #0b0b0b;
+}
+.Angel .list li .intro .info{
+  font-size: 14px;
+  line-height: 35px;
+  text-align: justify;
+  color: #666666;
+  margin-bottom: 70px;
+}
+.Angel .list li .intro .cases,.cases1{
+  font-size: 14px;
+  height: 22px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.Angel .list li .intro .cases span{
+  width: 71px;
+  height: 22px;
+  color: #666;
+  line-height: 22px;
+  text-align: center;
+  display: inline-block;
+  margin:0 9px;
+  background-color: #e5e5e5;
+}
+.Angel .list li .intro .cases1 span{
+  width: 71px;
+  height: 22px;
+  color: #666;
+  line-height: 22px;
+  text-align: center;
+  display: inline-block;
+  margin:0 9px;
+  background-color: #ffe0cd;
+}
+.Angel .list li .button{
+  float: right;
+  width: 152px;
+  height: 61px;
+  line-height: 61px;
+  background-color: #ed1a1a;
+  margin: 95px 90px 17px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.Angel .list li .button a{
+  color: #fff;
+}
+.Angel .list li .button .browse{
+  font-size: 14px;
+  color: #666;
+}
+.Angel .list li .button .browse img{
+  width: 20px;
+  height: 14px;
+  margin:3px 10px 0 23px;
+}
+/*投资新闻*/
+.new{
+  width:1198px;
+  height:auto;
+  background:#fff;
+  margin:34px auto 60px;
+  overflow: hidden;
+  border: 1px solid #cecece;
+}
+.new .title{
+  height: 67px;
+  line-height: 67px;
+  color: #101010;
+  padding-left: 39px;
+  font-size: 24px;
+  position: relative;
+  border-bottom: 1px solid #ececec;
+}
+.new .title b{
+  position: absolute;
+  width: 168px;
+  height: 2px;
+  background-color: #ed1a1a;
+  bottom:-2px;
+  left:0;
+}
+.new .new-text {
+  width:100%;
+  overflow:hidden;
+  margin:30px 0;
+}
+.new .new-text ul {
+  float:left;
+  width:345px;
+  margin-right:52px;
+  margin-left:10px;
+}
+.new .new-text .last {
+  margin-right:14px;
+}
+.new .new-text ul li {
+  height:18px;
+  font-size:18px;
+  line-height:18px;
+  text-align:left;
+  margin-bottom:15px;
+}
+.new .new-text ul li b {
+  display:inline-block;
+  width:4px;
+  height:4px;
+  background:url(../img201707/gup-huid.png) no-repeat;
+  margin-right:10px;
+  vertical-align:middle;
+}
+.new .new-text ul li a {
+  color:#666;
+}
+.new .new-text ul li a:hover {
+  color:#ed1a1a;
+}
+.new .new-text ul li span {
+  float:right;
+  font-size:16px;
+  line-height:18px;
+  color:#666;
+}
+/*侧边框*/
+.sidebar {
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+.sidebar .kf img {
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+.sidebar .top {
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+.sidebar .top img {
+  width: 46px;
+  height:46px;
+}
+.sidebar .img1 {
+  width:46px;
+}
+/*底部*/
+.footer {
+  width: 100%;
+  height: 242px;
+  background-color: #333;
+  min-width:1200px;
+  overflow: hidden;
+}
+.footer .footer_content {
+  width: 1200px;
+  height: 242px;
+  margin: 0 auto;
+}
+.footer .footer_content ul {
+  width: 760px;
+  height: 125px;
+  margin: 0 auto;
+}
+.footer .footer_content ul li {
+  font-size: 20px;
+  line-height: 125px;
+  float: left;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.footer .footer_content ul li a {
+  color: #fff;
+}
+.footer .footer_content p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #999;
+  text-align: center;
+}

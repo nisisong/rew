@@ -1,0 +1,307 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+  border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.public_title h3 span{
+	font-size: 14px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+
+
+.xin {
+    overflow: hidden;
+		margin-bottom: 20px;
+		font-size: 14px;
+}
+.xin table {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    line-height: 21px;
+}
+.xin table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #f7f7f7;
+    color: #333;
+    height: 25px;
+}
+.xin table tr td {
+    border: 1px solid #D7D7D7;
+		text-align: center;
+		line-height: 25px;
+}
+.tips-colname-Left span {
+    margin-left: 7px;
+}
+.tips-fieldnameL {
+    padding-left: 7px;
+    color: #333;
+    font-weight: normal;
+}
+
+
+
+
+
+
+.jiaoy{
+	width: 973px;
+	border: 1px solid #dbebf8;
+	margin-bottom: 20px;
+	padding: 20px 0;
+}
+.jiaoy h2{
+	text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.zfmz{
+	width:973px;
+	height: auto;
+	margin-bottom:20px;
+	overflow: hidden;
+	color: #333;
+	border:1px solid #dbebf8;
+}
+.zfmz .tab{
+	width:973px;
+	height: 57px;
+}
+.zfmz .tab span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+	color: #333;
+}
+.zfmz .tab .on{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+
+}
+.zfmz .nr{
+	display: none;
+}
+.noTableData{
+	height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+}
+.zfmz .nr table {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    line-height: 25px;
+		font-size: 14px;
+}
+.zfmz .nr table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #E7E7E7;
+    color: #333;
+    height: 21px;
+}
+.tips-num {
+    float: left;
+    width: 15px;
+		font-style: normal;
+}
+.zfmz .nr table tr td {
+    border: 1px solid #D7D7D7;
+}
+.tips-dataL{
+    padding-left: 7px;
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+}
+.tab {
+    height: 35px;
+    color: #E2E2E2;
+    overflow: hidden;
+}
+.tab li.current {
+  margin-top: 5px;
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  background-color: #2f5895;
+  text-align: center;
+}
+
+
+
+
+.xin{
+	width:973px;
+	height: auto;
+	margin-bottom:20px;
+	overflow: hidden;
+	color: #333;
+	border:1px solid #dbebf8;
+}
+.xin .taB{
+	width:973px;
+	height: 57px;
+}
+.xin .taB span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+	color: #333;
+}
+.xin .taB .one{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+
+}
+.xin .tb{
+	display: none;
+}
+
+
+
+.bian {
+    overflow: hidden;
+		margin-bottom: 20px;
+		font-size: 12px;
+}
+.bian .tab{
+	width:973px;
+	height: 57px;
+}
+.bian .tab span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+	color: #333;
+}
+.bian .tab .on{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+
+}
+.bian .two{
+	display: none;
+}
+.bian table {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    line-height: 21px;
+}
+.bian table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #f7f7f7;
+    color: #333;
+    height: 25px;
+}
+.bian table tr td {
+    border: 1px solid #D7D7D7;
+		text-align: center;
+		line-height: 25px;
+}
+.bian .tips-dataL{
+	padding-left: 0;
+}
+
+
+
+.jjcy{
+	width:973px;
+	height: auto;
+	margin-bottom:20px;
+	overflow: hidden;
+	color: #333;
+	border:1px solid #dbebf8;
+	font-size: 14px;
+}
+.jjcy .taBar{
+	width:973px;
+	height: 57px;
+}
+.jjcy .taBar span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+	color: #333;
+}
+.jjcy .taBar .own{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+
+}
+.jjcy .wich{
+	display: none;
+}
+.jjcy table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #E7E7E7;
+    color: #333;
+    height: 21px;
+}
+.jjcy .tips-dataL {
+    padding-left: 7px;
+    color: #333;
+    font-weight: normal;
+    text-align: left;
+}
+.jjcy table{
+    width: 100%;
+    line-height: 25px;
+}
+.jjcy table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #f7f7f7;
+    color: #333;
+    height: 25px;
+}
+.jjcy table tr td {
+    border: 1px solid #D7D7D7;
+		text-align: center;
+		line-height: 25px;
+}

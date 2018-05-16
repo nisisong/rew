@@ -1,0 +1,231 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+  border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.bg {
+    background-color: #f7f7f7;
+}
+
+
+
+.gbjg {
+    border: 1px solid #d3e6f6;
+    border-top: 0;
+    min-height: 212px;
+    margin-bottom: 20px;
+}
+.divTh {
+    float: left;
+    width: 150px;
+    padding-left: 10px;
+    color: #2f5895;
+}
+.divTh .xmmc {
+    text-align: center;
+    border-bottom: 1px solid #d3e6f6;
+    color: #2f5895;
+    font-weight: bold;
+		font-size: 16px;
+    line-height: 24px;
+    padding: 8px 10px 8px 0;
+    border-bottom: 1px solid #d3e6f6;
+    white-space: nowrap;
+}
+.divTh ul li {
+    float: none;
+    color: #2f5895;
+		font-size: 16px;
+    line-height: 16px;
+    padding: 8px 0;
+    text-align: center;
+}
+.gbjg_sj {
+    float: left;
+    width: 813px;
+    overflow-x: auto;
+}
+.gbjg_sj table {
+    line-height: 32px;
+    color: #333;
+    width: 850px;
+}
+.gbjg_sj table th {
+    color: #2F5895;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 8px 10px 8px 0px;
+    text-align: center;
+    border-bottom: 1px solid #d3e6f6;
+}
+.gbjg_sj table td {
+    text-align: center;
+    width: 110px;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.page-main {
+    position: relative;
+    z-index: 0;
+    margin-bottom: 20px;
+    border: 1px solid #dbebf8;
+    font-size: 16px;
+}
+.xsjj table {
+    line-height: 45px;
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+.xsjj table th {
+    color: #2F5895;
+    font-weight: bold;
+    line-height: 45px;
+    background-color: #f3f8ff;
+}
+.m-table td {
+    padding: 0 2px;
+    text-align: center;
+    line-height: 45px;
+}
+.m-table td span{
+  color: #2f5895;
+  cursor: pointer;
+}
+.m-table tr.even {
+    background: #f7f7f7;
+}
+
+
+.sale_list {
+    width: 100%;
+    border-top: 3px solid #2f5895;
+    margin-bottom: 15px;
+    position: relative;
+    display: none;
+}
+.saletive{
+  display: block;
+}
+.sale_list .list_top {
+    color: #2f5895;
+    font-weight: bold;
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 25px;
+}
+.sale_list .list_top > span {
+    float: left;
+    display: block;
+}
+.sale_list .list_top .sale_date {
+    width: 347px;
+}
+.sale_list i {
+    font-style: normal;
+    color: #ed1a1a;
+}
+.sale_list .sale_list_info .sale_list_title {
+    border-top: 1px solid #bbd4e8;
+    border-bottom: 1px solid #bbd4e8;
+    color: #2f5895;
+}
+.sale_list .sale_list_info ul li{
+	float: left;
+}
+.sale_list .sale_list_info ul li.wd90 {
+    width: 90px;
+}
+.sale_list .sale_list_info ul li.wd255 {
+    width: 315px;
+}
+.sale_list .sale_list_info ul li.textright{
+  width: 120px;
+}
+.sale_list .sale_list_info ul li.wd185-right {
+    width: 225px;
+    text-align: center;
+}
+.sale_list .sale_list_info ul li.wd180 {
+    width: 200px;
+    text-indent: 45px;
+}
+.sale_list .sale_list_info ul {
+    width: 100%;
+    box-sizing: border-box;
+    height: 45px;
+    line-height:45px;
+    position: relative;
+    float: left;
+}
+.sale_list .sale_list_info .sum_total {
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    position: relative;
+    float: left;
+    font-size: 16px;
+}
+.sale_list .sale_list_info .sum_total .sum_text {
+    width: 90px;
+    text-align: center;
+    margin-left: 20px;
+}
+.sale_list .sale_list_info .sum_total .suminfo {
+    margin-left: 280px;
+}
+.sale_list_info{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.content-right ul li{
+  display: block;
+}
+.sale_list .sale_list_info ul li{
+  width: 100px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+width:12px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+border-radius:10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+border-radius:10px;
+background:rgba(0,0,0,0.1);
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}

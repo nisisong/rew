@@ -1,0 +1,590 @@
+.banner{
+  width: 100%;
+  height: 550px;
+  background: url("../img201707/fx-banner.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+}
+.banner a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.crumbs {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px; }
+  .crumbs span {
+    font-size: 12px;
+    color: #666; }
+    .crumbs span a {
+      color: #666; }
+.abstract{
+  width: 1198px;
+  height: 463px;
+  margin: 0 auto 50px;
+  border: 1px solid #534f50;
+  overflow: hidden;
+}
+.abstract h3{
+  float: left;
+  width: 48px;
+  margin-top: 150px;
+  margin-left: 34px;
+  margin-right: 20px;
+  font-size: 48px;
+  text-align: left;
+  color: #555555;
+  font-weight: 400;
+}
+.abstract p{
+  float: left;
+  width: 1058px;
+  font-size: 20px;
+  text-align: justify;
+  color: #555555;
+  margin-top: 50px;
+  line-height: 33px;
+}
+
+.wares{
+  width: 100%;
+  height: 266px;
+  background:url("../img201707/fx-sjd.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+}
+
+
+.wares-content{
+  width: 1200px;
+  height: 762px;
+  margin: -140px auto 55px;
+  z-index: 999;
+}
+.wares-content ul{
+  width: 1200px;
+  height: 762px;
+}
+.wares-content ul li{
+  float: left;
+  width: 292px;
+  height: 762px;
+}
+.wares-content ul .narrow1{
+  margin-right: 10px;
+  background: url("../img201707/fx-zz.png") no-repeat;
+}
+.wares-content ul .narrow1 h3{
+  margin-left: 29px;
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.wares-content ul .narrow1 p{
+  width: 216px;
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  margin-left: 38px;
+  line-height: 30px;
+}
+.wares-content ul .narrow2{
+  margin-right: 10px;
+  background: url("../img201707/fx-dr.png") no-repeat;
+}
+.wares-content ul .narrow2 h3{
+  margin-left: 29px;
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.wares-content ul .narrow2 p{
+  width: 216px;
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  margin-left: 38px;
+  line-height: 30px;
+}
+.wares-content ul .narrow3{
+  margin-right: 10px;
+  background: url("../img201707/fx-cz.png") no-repeat;
+}
+.wares-content ul .narrow3 h3{
+  margin-left: 29px;
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.wares-content ul .narrow3 p{
+  width: 216px;
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  margin-left: 38px;
+  line-height: 30px;
+}
+.wares-content ul .narrow4{
+  background: url("../img201707/fx-cs.png") no-repeat;
+}
+.wares-content ul .narrow4 h3{
+  margin-left: 29px;
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.wares-content ul .narrow4 p{
+  width: 216px;
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  margin-left: 38px;
+  line-height: 30px;
+}
+
+
+
+
+
+.effect{
+  width: 100%;
+  height: 580px;
+  background:url("../img201707/fx-zy.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+}
+.effect-content{
+  width: 1200px;
+  height: 381px;
+  margin: 125px auto 0;
+  background: url("../img201707/fx-jux.png") no-repeat;
+  overflow: hidden;
+}
+.effect-content p{
+  width: 1169px;
+  height: 301px;
+  margin-left: 12px;
+  margin-top: 40px;
+  font-size: 18px;
+  text-align: justify;
+  color: #333333;
+  line-height: 30px;
+}
+
+
+
+.meaning{
+  width: 1198px;
+  height: 414px;
+  margin: 0 auto;
+  border-left: 1px solid #534f50;
+  border-right: 1px solid #534f50;
+  overflow: hidden;
+}
+.meaning p{
+  float: left;
+  width: 1049px;
+  margin-left: 47px;
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: left;
+  color: #333333;
+  line-height: 32px;
+  margin-right: 35px;
+}
+.meaning h3{
+  float: left;
+  width: 48px;
+  text-align: left;
+  font-size: 48px;
+  color: #333333;
+  font-weight: 400;
+  margin-top: 140px;
+}
+
+
+.hot-img {
+  width: 100%;
+  height: 263px;
+  min-width: 1200px;
+  overflow: hidden;
+  background: url("../img201707/fx-new.png") no-repeat; }
+
+.hot {
+  width: 1200px;
+  height: 275px;
+  margin: -155px auto 55px; }
+  .hot .hot-news {
+    width: 380px;
+    height: 275px;
+    margin-right: 26px;
+    position: relative; }
+    .hot .hot-news .hot-newtitle {
+      width: 380px;
+      height: 70px;
+      background: #bfbfbf; }
+      .hot .hot-news .hot-newtitle h3 {
+        float: left;
+        line-height: 35px;
+        margin-left: 35px;
+        font-size: 16px;
+        color: #000; }
+      .hot .hot-news .hot-newtitle b {
+        float: right;
+        margin-right: 37px;
+        margin-top: 10px; }
+        .hot .hot-news .hot-newtitle b img {
+          width: 15px;
+          height: 15px; }
+    .hot .hot-news .hot-newlist {
+      width: 340px;
+      height: 240px;
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 35px;
+      left: 20px; }
+      .hot .hot-news .hot-newlist ul {
+        width: 300px;
+        height: 240px;
+        margin-left: 14px; }
+        .hot .hot-news .hot-newlist ul li {
+          height: 40px;
+          font-size: 14px;
+          line-height: 40px; }
+          .hot .hot-news .hot-newlist ul li a {
+            color: #585858; }
+            .hot .hot-news .hot-newlist ul li a b {
+              display: inline-block;
+              width: 4px;
+              height: 4px;
+              margin-right: 15px;
+              background: url("../img201707/hdian.png") no-repeat; }
+          .hot .hot-news .hot-newlist ul li a:hover {
+            color: #ed1a1a; }
+  .hot .hot-experience {
+    width: 380px;
+    height: 275px;
+    position: relative; }
+    .hot .hot-experience .hot-experiencetitle {
+      width: 380px;
+      height: 70px;
+      background: #bfbfbf; }
+      .hot .hot-experience .hot-experiencetitle h3 {
+        float: left;
+        line-height: 35px;
+        margin-left: 35px;
+        font-size: 16px;
+        color: #000; }
+      .hot .hot-experience .hot-experiencetitle b {
+        float: right;
+        margin-right: 37px;
+        margin-top: 10px; }
+        .hot .hot-experience .hot-experiencetitle b img {
+          width: 15px;
+          height: 15px; }
+    .hot .hot-experience .hot-experiencelist {
+      width: 340px;
+      height: 240px;
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 35px;
+      left: 20px; }
+      .hot .hot-experience .hot-experiencelist ul {
+        width: 300px;
+        height: 240px;
+        margin-left: 14px; }
+        .hot .hot-experience .hot-experiencelist ul li {
+          height: 40px;
+          font-size: 14px;
+          line-height: 40px; }
+          .hot .hot-experience .hot-experiencelist ul li a {
+            color: #585858; }
+            .hot .hot-experience .hot-experiencelist ul li a b {
+              display: inline-block;
+              width: 4px;
+              height: 4px;
+              margin-right: 15px;
+              background: url("../img201707/hdian.png") no-repeat; }
+          .hot .hot-experience .hot-experiencelist ul li a:hover {
+            color: #ed1a1a; }
+  .hot .hot-lore {
+    width: 380px;
+    height: 275px;
+    position: relative; }
+    .hot .hot-lore .hot-loretitle {
+      width: 380px;
+      height: 70px;
+      background: #bfbfbf; }
+      .hot .hot-lore .hot-loretitle h3 {
+        float: left;
+        line-height: 35px;
+        margin-left: 35px;
+        font-size: 16px;
+        color: #000; }
+      .hot .hot-lore .hot-loretitle b {
+        float: right;
+        margin-right: 37px;
+        margin-top: 10px; }
+        .hot .hot-lore .hot-loretitle b img {
+          width: 15px;
+          height: 15px; }
+    .hot .hot-lore .hot-lorelist {
+      width: 340px;
+      height: 240px;
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 35px;
+      left: 20px; }
+      .hot .hot-lore .hot-lorelist ul {
+        width: 300px;
+        height: 240px;
+        margin-left: 14px; }
+        .hot .hot-lore .hot-lorelist ul li {
+          height: 40px;
+          font-size: 14px;
+          line-height: 40px; }
+          .hot .hot-lore .hot-lorelist ul li a {
+            color: #585858; }
+            .hot .hot-lore .hot-lorelist ul li a b {
+              display: inline-block;
+              width: 4px;
+              height: 4px;
+              margin-right: 15px;
+              background: url("../img201707/hdian.png") no-repeat; }
+          .hot .hot-lore .hot-lorelist ul li a:hover {
+            color: #ed1a1a; }
+
+.include {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto 75px; }
+  .include .include-hd {
+    width: 580px;
+    height: 200px;
+    float: left; }
+    .include .include-hd .include-title {
+      width: 130px;
+      height: 200px;
+      background: #6393b4;
+      float: left;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center; }
+      .include .include-hd .include-title a {
+        color: #fff; }
+        .include .include-hd .include-title a p {
+          display: block;
+          line-height: 50px;
+          margin-top: 55px; }
+        .include .include-hd .include-title a img {
+          width: 25px;
+          height: 25px; }
+    .include .include-hd ul {
+      display: inline-block;
+      float: left;
+      background: #f9f9f9;
+      width: 450px;
+      height: 200px; }
+      .include .include-hd ul span {
+        display: block;
+        width: 97%;
+        overflow: hidden;
+        margin-top: 15px;
+        margin-bottom: 10px; }
+        .include .include-hd ul span b {
+          float: right;
+          font-size: 14px; }
+          .include .include-hd ul span b a img {
+            margin-right: 5px; }
+          .include .include-hd ul span b a:hover {
+            color: #ed1a1a; }
+      .include .include-hd ul li {
+        margin-left: 40px;
+        overflow: hidden;
+        width: 280px; }
+        .include .include-hd ul li a {
+          float: left;
+          font-size: 16px;
+          text-align: left;
+          color: #333; }
+          .include .include-hd ul li a .small {
+            vertical-align: middle;
+            width: 17px;
+            height: 17px;
+            float: left;
+            margin-right: 5px; }
+          .include .include-hd ul li a p {
+            display: inline-block;
+            line-height: 15px; }
+          .include .include-hd ul li a .include-info {
+            margin-left: 12px;
+            margin-top: 5px;
+            font-size: 12px;
+            width: 267px;
+            padding-bottom: 20px; }
+            .include .include-hd ul li a .include-info b {
+              font-weight: normal;
+              color: #000000;
+              margin-right: 5px;
+              float: left; }
+            .include .include-hd ul li a .include-info .twr {
+              margin-left: 10px; }
+            .include .include-hd ul li a .include-info .state {
+              float: right;
+              color: #666; }
+        .include .include-hd ul li a:hover {
+          color: #ed1a1a; }
+      .include .include-hd ul .include-list1 {
+        margin-bottom: 25px;
+        border-bottom: 1px dashed #e5e5e5; }
+  .include .include-jc {
+    width: 580px;
+    height: 200px;
+    float: right; }
+    .include .include-jc .include-title {
+      width: 130px;
+      height: 200px;
+      background: #6393b4;
+      float: left;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center; }
+      .include .include-jc .include-title a {
+        display: block;
+        color: #fff; }
+        .include .include-jc .include-title a p {
+          display: block;
+          line-height: 50px;
+          margin-top: 55px; }
+        .include .include-jc .include-title a img {
+          width: 25px;
+          height: 25px; }
+    .include .include-jc .include-book {
+      display: inline-block;
+      float: left;
+      background: #f9f9f9;
+      width: 450px;
+      height: 200px; }
+      .include .include-jc .include-book .include-change {
+        display: block;
+        width: 97%;
+        overflow: hidden;
+        margin-top: 15px;
+        margin-bottom: 10px; }
+        .include .include-jc .include-book .include-change b {
+          float: right;
+          font-size: 14px; }
+          .include .include-jc .include-book .include-change b a img {
+            margin-right: 5px; }
+          .include .include-jc .include-book .include-change b a:hover {
+            color: #ed1a1a; }
+      .include .include-jc .include-book .include-bookInfo {
+        display: inline-block;
+        width: 230px;
+        float: left;
+        height: auto;
+        overflow: hidden;
+        margin: 0; }
+        .include .include-jc .include-book .include-bookInfo img {
+          float: left;
+          width: 133px;
+          height: 140px; }
+        .include .include-jc .include-book .include-bookInfo p {
+          width: 96px;
+          display: inline-block;
+          text-align: justify; }
+        .include .include-jc .include-book .include-bookInfo .include-tm {
+          font-size: 16px;
+          line-height: 16px;
+          text-align: left;
+          color: #333333;
+          margin-bottom: 12px; }
+        .include .include-jc .include-book .include-bookInfo .include-info {
+          font-size: 12px;
+          line-height: 20px;
+          color: #999999;
+          margin-bottom: 5px; }
+        .include .include-jc .include-book .include-bookInfo .include-button {
+          width: 76px;
+          height: 21px;
+          border-radius: 6px;
+          border: solid 1px #3f71a1;
+          font-size: 12px;
+          line-height: 21px;
+          text-align: center;
+          color: #3f71a1; }
+          .include .include-jc .include-book .include-bookInfo .include-button a {
+            width: 76px;
+            height: 21px;
+            display: inline-block;
+            color: #3f71a1; }
+      .include .include-jc .include-book ul {
+        display: inline-block;
+        float: left;
+        margin-right: 32px; }
+        .include .include-jc .include-book ul li {
+          margin-top: 12px;
+          font-size: 16px;
+          text-align: left;
+          color: #333333; }
+          .include .include-jc .include-book ul li a .icon {
+            display: inline-block;
+            width: 4px;
+            height: 7px;
+            margin: 0px 10px 0px 17px;
+            background: url("../img201707/nand.png") no-repeat; }
+          .include .include-jc .include-book ul li a:hover {
+            color: #ed1a1a; }
+
+
+
+
+            .sidebar{
+              width:46px;
+              height:auto;
+              position:fixed;
+              right:0;
+              z-index: 9999;
+              top:25%;
+            }
+
+            .sidebar .kf img{
+              width:46px;
+              height:46px;
+              margin-bottom: 3.6px;
+            }
+
+            .sidebar .top{
+              display: inline-block;
+              width:26px;
+              height:20px;
+            }
+
+            .sidebar .top img{
+              width: 46px;
+              height:46px;
+            }
+
+            .sidebar .img1{
+              width:46px;
+            }

@@ -1,0 +1,723 @@
+.fix{
+	position: fixed;
+	top:0;
+}
+.banner {
+	background: url(../img201707/gz-banner.png) no-repeat center center;
+	width: 100%;
+	height: 623px;
+	min-width: 1200px;
+}
+/*内容*/
+.container {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: -103px;
+	z-index: 20;
+	overflow: hidden;
+}
+/*左侧*/
+.container .leftBox {
+	width: 270px;
+	height: 721px;
+	float: left;
+}
+
+.container .left {
+	width: 270px;
+	height: auto;
+}
+
+.container .left .mlj {
+	width: 270px;
+	height: auto;
+}
+
+.container .left .mlj li {
+	width: 255px;
+	height: 49px;
+	padding-left: 13px;
+	border: solid 1px #d4d4d4;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 49px;
+	text-align: left;
+	margin-bottom: 20px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.container .left .mlj li a {
+  color: #333;
+  width: 255px;
+  height: 49px;
+  display: inline-block;
+}
+
+.container .left .mlj li img{
+	float: right;
+	margin-right: 20px;
+	margin-top: 23px;
+}
+
+.container .left .mlj .net{
+	padding-left: 30px;
+	margin-bottom: 20px;
+	display: none;
+}
+
+.container .left .mlj .net li{
+	width: 180px;
+	height: 20px;
+	padding-left: 0;
+	border:0;
+	font-size: 16px;
+	font-weight: normal;
+	line-height:20px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.container .left .mlj .net li a {
+  color: #333;
+  width: 180px;
+  height: 20px;
+  display: inline-block;
+}
+
+.container .left .mlj .active {
+	color: #33607f;
+	border-bottom: solid 1px #33607f;
+}
+
+.container .left .mlj .active a {
+	color: #33607f;
+}
+
+.container .left .xgtj {
+	width: 270px;
+	height: auto;
+}
+
+.container .left .xgtj .bt {
+	width: 270px;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+.container .left .xgtj .bt b {
+	width: 270px;
+	float: left;
+	display: block;
+	font-size: 30px;
+	color: #33607f;
+}
+
+.container .left .xgtj .bt i {
+	width: 100%;
+	display: inline-block;
+	width: 70px;
+	height: 1px;
+	background-color: #888;
+	float: left;
+	margin-top: 10px;
+}
+
+.container .left .xgtj .bt .line1 {
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+.container .left .xgtj li {
+	width: 255px;
+	height: 49px;
+	padding-left: 13px;
+	border: solid 1px #d4d4d4;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 49px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+/*右侧*/
+.container .right {
+	width: 900px;
+	height: auto;
+	margin-left: 30px;
+	float: left;
+}
+/*简介*/
+.container .right .info {
+	margin-bottom: 15px;
+	width: 900px;
+	height: auto;
+}
+
+.container .right .info .title {
+	width: 900px;
+	border-bottom: 1px solid #33607f;
+}
+
+.container .right .info .title b {
+	display: inline-block;
+	width: 40px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+
+.container .right .info .text {
+	margin-top: 10px;
+}
+
+.container .right .info .text p {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 30px;
+	text-indent: 2em;
+	color: #333;
+}
+/*品种分类*/
+.container .right .pzfl {
+	margin-bottom: 15px;
+	width: 900px;
+	height: auto;
+	margin-top: 25px;
+}
+
+.container .right .pzfl .title {
+	width: 900px;
+	border-bottom: 1px solid #33607f;
+}
+
+.container .right .pzfl .title b {
+	display: inline-block;
+	width: 80px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+
+.container .right .pzfl .text {
+	margin-top: 10px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+.container .right .pzfl .text li {
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+	float: left;
+	background-color: #33607f;
+	color: #fff;
+	text-align: center;
+	margin: 5px 5px;
+}
+
+.container .right .pzfl .text li a {
+	color: #fff;
+}
+.container .right .pzfl .nr {
+	margin-top: 10px;
+}
+
+.container .right .pzfl .nr p {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 30px;
+	text-indent: 2em;
+	color: #333;
+}
+/*版一*/
+.container .right .Box1 {
+	margin-bottom: 15px;
+	width: 900px;
+	height: auto;
+	margin-top: 25px;
+}
+
+.container .right .Box1 .title {
+	width: 900px;
+	border-bottom: 1px solid #33607f;
+}
+
+.container .right .Box1 .title b {
+	display: inline-block;
+	width: 80px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+
+.container .right .Box1 .text {
+	margin-top: 10px;
+}
+
+.container .right .Box1 .text p {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 30px;
+	text-indent: 2em;
+	color: #333;
+}
+/*意义*/
+.container .right .yy .title b {
+	display: inline-block;
+	width: 40px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+/*交易标的介绍*/
+.container .right .bjs .title b {
+	display: inline-block;
+	width: 120px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+/*挂盘基准价*/
+.container .right .gpjzj .title b {
+	display: inline-block;
+	width: 100px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+/*国债期货成功上市交易*/
+.container .right .cgssjy .title b {
+	display: inline-block;
+	width: 200px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+/*327国债事件*/
+.container .right .gzsj .title b {
+	display: inline-block;
+	width: 120px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+/*我国国债期货现状*/
+.container .right .gzqhxz .title b {
+	display: inline-block;
+	width: 160px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+/*国债期货对股市的影响*/
+.container .right .dgsyx .title b {
+	display: inline-block;
+	width:200px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+/*版本二*/
+.container .right .Box2 {
+	margin-bottom: 15px;
+	width: 900px;
+	height: auto;
+	margin-top: 25px;
+}
+
+.container .right .Box2 .title {
+	width: 900px;
+	border-bottom: 1px solid #33607f;
+}
+
+.container .right .Box2 .title b {
+	display: inline-block;
+	width: 80px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+.container .right .Box2 .tabBox1 .tab{
+	width:900;
+	height: auto;
+	overflow: hidden;
+	margin-top: 16px;
+}
+
+.container .right .Box2 .tabBox1 .tab span{
+	float: left;
+	padding:0 30px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #333;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+	border: solid 1px #33607f;
+}
+.container .right .Box2 .tabBox1 .tab .on{
+	float: left;
+	padding:0 30px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+	background: #33607f;
+	text-align: center;
+}
+
+.container .right .Box2 .tabBox1 .nr {
+	margin-top: 10px;
+	display: none;
+}
+
+.container .right .Box2 .tabBox1 .nr p {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 30px;
+	text-indent: 2em;
+	color: #333;
+}
+/*交易策略*/
+
+/*广告*/
+.container .right .ad {
+	width: 900px;
+	height: 100px;
+	background: url(../img201707/qh-ad.png) no-repeat;
+	margin-top: 25px;
+}
+/*其他期货*/
+.container .right .qtqh {
+	margin-bottom: 15px;
+	width: 900px;
+	height: auto;
+	margin-top: 25px;
+}
+
+.container .right .qtqh .title {
+	width: 900px;
+	border-bottom: 1px solid #33607f;
+}
+
+.container .right .qtqh .title b {
+	display: inline-block;
+	width: 80px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+
+.container .right .qtqh .text {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.container .right .qtqh .text li {
+	width: 210px;
+	height: 35px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 35px;
+	float: left;
+	background-color: #33607f;
+	color: #fff;
+	text-align: center;
+	margin: 5px 20px 0 0;
+}
+.container .right .qtqh .text .last{
+	margin-right:0;
+}
+.container .right .qtqh .text li a {
+	color: #fff;
+}
+/*资讯*/
+.newBox {
+	width: 900px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 32px;
+}
+
+.newBox .new {
+	width: 255px;
+	height: auto;
+	float: left;
+}
+
+.newBox .middle {
+	margin: 0 67px;
+}
+
+.newBox .new .title {
+	width: 255px;
+	border-bottom: 1px solid #33607f;
+}
+
+.newBox .new .title b {
+	display: inline-block;
+	width: 81px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+
+.newBox .new .title img {
+	display: block;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.newBox .new ul {
+	width: 255px;
+	overflow: hidden;
+}
+
+.newBox .new .news {
+	margin-right: 14px;
+}
+
+.newBox .new ul li {
+	padding-left: 1px;
+	height: 17px;
+	font-size: 16px;
+	line-height: 17px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.newBox .new ul li b {
+	display: inline-block;
+	width: 3px;
+	height: 3px;
+	vertical-align: middle;
+	background: url("../../Skin/img201707/qh-dian.png")no-repeat;
+	margin-right: 6px;
+}
+
+.newBox .new ul li a {
+	width: 170px;
+	height: auto;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #333;
+}
+
+.newBox .new ul li a:hover {
+	color: #ed1a1a;
+}
+
+.newBox .new ul li .date {
+	font-size: 14px;
+	line-height: 17px;
+	float: right;
+	margin-right: 5px;
+	color: #333;
+}
+/*热门平台*/
+.interfix {
+	width: 900px;
+	height: auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.interfix .title {
+	width: 900px;
+	border-bottom: 1px solid #33607f;
+	margin-bottom: 30px;
+}
+
+.interfix .title b {
+	display: inline-block;
+	width: 81px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+
+.interfix .title a {
+	float: right;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+	color: #333333;
+	margin-top: 10px;
+}
+
+.interfix .title b a:hover {
+	color: #ed1a1a;
+}
+
+.interfix span {
+	float: left;
+	margin: 0 10px 0;
+}
+
+.interfix .pt2{
+	margin:0 40px;
+}
+
+.interfix .last {
+	margin-right: 0;
+}
+
+.interfix span .interfix-name {
+	font-size: 16px;
+	margin-bottom: 4px;
+	color: #000;
+}
+
+.interfix span .interfix-name img {
+	width: 20px;
+	height: 17px;
+	vertical-align: middle;
+}
+
+.interfix span .interfix-name a {
+	color: #000;
+}
+
+.interfix span .interfix-name a:hover {
+	color: #ed1a1a;
+}
+
+.interfix span .interfix-text {
+	font-size: 14px;
+	line-height:30px;
+	width: 260px;
+	text-align: justify;
+	color: #666;
+	margin-bottom: 16px;
+}
+/*热门教程*/
+.content-course {
+	width: 900px;
+	height: 210px;
+	margin-top: 10px;
+}
+
+.content-course .title {
+	width: 900px;
+	border-bottom: 1px solid #33607f;
+	margin-bottom: 16px;
+}
+
+.content-course .title b {
+	display: inline-block;
+	width: 81px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #33607f;
+}
+
+.content-course .title a {
+	float: right;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: left;
+	color: #333333;
+	margin-top: 10px;
+}
+
+.content-course .title b a:hover {
+	color: #ed1a1a;
+}
+
+.content-course ul {
+	width: 900px;
+	height: 140px;
+	margin: 0 auto;
+}
+
+.content-course ul li {
+	float: left;
+	width: 218px;
+	height: 140px;
+}
+
+.content-course ul li img {
+	float: left;
+	width: 133px;
+	height: 140px;
+}
+
+.content-course ul li .course-content {
+	float: left;
+	width: 95px;
+	height: 140px;
+	margin-left: -10px;
+}
+
+.content-course ul li .course-content h4 {
+	font-size: 15px;
+	line-height: 40px;
+	font-weight: 500;
+}
+
+.content-course ul li .course-content h4 a {
+	color: #333;
+}
+
+.content-course ul li .course-content h4 a:hover {
+	color: #ed1a1a;
+}
+
+.content-course ul li .course-content p {
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 19px;
+	text-align: justify;
+}
+
+.content-course ul li .course-content span {
+	display: block;
+	width: 74px;
+	height: 20px;
+	border-radius: 6px;
+	border: 1px solid #ff0000;
+	text-align: center;
+	line-height: 20px;
+}
+
+.content-course ul li .course-content span a {
+	display: block;
+	width: 100%;
+	color: #ed1a1a;
+}
+
+.content-course ul li .course-content span a:hover {
+	color: #fff;
+	background-color: #ed1a1a;
+}
+
+.content-course ul .last {
+	width: 242px;
+	height: 140px;
+	margin: 0;
+}

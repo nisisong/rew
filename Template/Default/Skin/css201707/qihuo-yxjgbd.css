@@ -1,0 +1,25 @@
+.blkContainerSblkCon{
+  width: 866px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 30px;
+}
+.blkContainerSblkCon p{
+  text-align: justify;
+  text-indent: 1.5em;
+}
+.img_wrapper {
+  margin: 10px auto;
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+.img_wrapper img{
+  width: 500px;
+  display: block;
+}
+.img_wrapper .img_descr {
+    margin: 5px auto;
+    display: inline-block;
+    zoom: 1;
+}

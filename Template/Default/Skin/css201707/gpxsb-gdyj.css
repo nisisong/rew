@@ -1,0 +1,123 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+  border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table tr:nth-child(odd){background:#fff;}
+table tr:nth-child(even){background:#f7f7f7;}
+.bg {
+    background-color: #f7f7f7;
+}
+
+
+
+
+.zfmz{
+	width:973px;
+	height: auto;
+	border: 1px solid #dbebf8;
+	margin-bottom:30px;
+}
+.zfmz .tab{
+	width:973px;
+	height: 57px;
+	border-bottom:#dbebf8 1px solid;
+}
+.zfmz .tab span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+}
+.zfmz .tab .on{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+}
+.zfmz .nr{
+	display: none;
+}
+.zfmz .nr .tab_div ul {
+    width: 953px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.zfmz .nr .tab_div .tab_top_ul {
+    border-bottom: 1px solid #bbd4e8;
+    color: #2f5895;
+    font-weight: bold;
+}
+.zfmz .nr .tab_div ul.bg-color {
+    background: #fafafd;
+}
+/* .zfmz .nr .tab_div ul li.textin {
+    text-indent: 80px;
+} */
+.zfmz .nr .tab_div ul li.first {
+    text-align: center;
+    width: 300px;
+}
+.zfmz .nr .tab_div ul li.textle {
+    text-align: center;
+}
+.zfmz .nr .tab_div ul li {
+  float: left;
+    width: 160px;
+    text-align: center;
+}
+.zfmz .nr .tab_div .total {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+}
+.zfmz .nr .tab_div .total .total1 {
+    width: 266px;
+    text-align: right;
+}
+.zfmz .nr .tab_div .total > span {
+    display: block;
+    float: left;
+}
+.zfmz .nr .tab_div .total .total2 {
+    margin-left: 212px;
+    width: 160px;
+    text-align: center;
+}
+.zfmz .nr .tab_div .total .total3 {
+    width: 160px;
+    text-align: center;
+}
+.noTableData{
+	height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 16px;
+    display: none;
+}

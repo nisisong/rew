@@ -1,0 +1,688 @@
+body{
+  width: 100%;
+  height: auto;
+  background: url("../../Skin/img201707/door-body.png")
+}
+.header{
+  background-color: #fff;
+}
+.banner{
+  width: 100%;
+  height: 688px;
+  margin-bottom: 45px;
+  overflow: hidden;
+  background: url("../../Skin/img201707/door-banner.png")
+}
+.banner .banner-content{
+  width: 1200px;
+  height: 542px;
+  margin:132px auto 0;
+  overflow: hidden;
+}
+.banner .banner-content img{
+  width: 415px;
+  height: 540px;
+  margin-left: 85px;
+}
+.banner .banner-content .bannerw{
+  width: 638px;
+  float: right;
+  margin-top: 110px;
+}
+.banner .banner-content .bannerw h3{
+  font-size: 48px;
+ font-weight: bold;
+ text-align: left;
+ color: #ffffff;
+ line-height: 48px;
+ margin-bottom: 25px;
+}
+.banner .banner-content .bannerw p{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.banner .banner-content .bannerw span{
+  display: block;
+  width: 638px;
+  height: 57px;
+  border-radius: 15px;
+  background-color: #3498db;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  line-height: 57px;
+}
+.banner .banner-content .bannerw span b{
+  font-size: 20px;
+}
+
+
+
+.time{
+  width: 1200px;
+  margin: 0 auto 60px;
+}
+.time h3{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.time p{
+  width: 1035px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: justify;
+  color: #333333;
+  line-height: 32px;
+  text-indent: 1.5em;
+}
+
+
+
+.seniority{
+  width: 1200px;
+  margin: 0 auto 85px;
+  overflow: hidden;
+}
+.seniority .seniority-left{
+  width: 440px;
+  float: left;
+  position: relative;
+}
+.seniority .seniority-left img{
+  width: 112px;
+  height: 112px;
+  margin-bottom: 9px;
+  margin-left: 26px;
+}
+.seniority .seniority-left .seniority-leftcon{
+  margin-left: 26px;
+  width: 412px;
+ height: 201px;
+ opacity: 0.5;
+ background-color: #eeeeee;
+
+}
+.seniority .seniority-left .seniority-leftcons{
+  width: 412px;
+ height: 201px;
+ position: absolute;
+ top: 121px;
+ left: 26px;
+}
+.seniority .seniority-left .seniority-leftcons h3{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #333333;
+  line-height: 24px;
+  margin-left: -26px;
+  margin-top: 14px;
+  margin-bottom: 29px;
+}
+.seniority .seniority-left .seniority-leftcons p{
+  width: 310px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: left;
+  color: #333333;
+  line-height: 32px;
+}
+
+
+
+.seniority .seniority-right{
+  width: 712px;
+  float: right;
+  margin-right: 48px;
+  position: relative;
+  z-index: 99999;
+  height: 520px;
+}
+.seniority .seniority-right .seniority-rightcon{
+  width: 677px;
+  height: 357px;
+  opacity: 0.5;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 84px;
+  left: -18px;
+}
+.seniority .seniority-right .seniority-rightcons{
+  width: 540px;
+  height: 280px;
+  position: absolute;
+  top: 136px;
+  left: 70px;
+}
+.seniority .seniority-right .seniority-rightcons p{
+  font-size: 18px;
+  text-align: justify;
+  color: #333333;
+  line-height: 30px;
+}
+.seniority .seniority-right .seniority-rightimg{
+  width: 131px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.seniority .seniority-right .seniority-rightimg img{
+  width: 110px;
+  height: 110px;
+  margin-bottom: 11px;
+  margin-left: 20px
+}
+.seniority .seniority-right .seniority-rightimg p{
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #333333;
+}
+
+
+.flow{
+  width: 100%;
+  min-width: 1200px;
+  height: 510px;
+  background: url("../../Skin/img201707/door-base.png") no-repeat center;
+  overflow: hidden;
+}
+.flow ul{
+  width: 1105px;
+  margin: 64px auto 0;
+  overflow: hidden;
+}
+.flow ul li{
+  float: left;
+  width: 160px;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 30px;
+  margin-left: 31px;
+  margin-right: 33px;
+  cursor: pointer;
+}
+.flow ul .first{
+  margin-left: 0;
+}
+.flow ul .last{
+  margin-right: 0
+}
+.flow ul .long{
+  width: 208px;
+}
+.flow ul .active{
+  font-size: 26px;
+  font-weight: bold
+}
+
+
+.tab{
+  width: 1200px;
+  margin: -360px auto 80px;
+}
+.tab .tab-content{
+  width: 1060px;
+  margin: 0 auto;
+  position: relative;
+  height: 620px;
+  background:url("../../Skin/img201707/door-mac.png") no-repeat;
+}
+.tab .tab-content .tab-info{
+  width: 697px;
+  max-height: 427px;
+  height: auto;
+  overflow-y: auto;
+  position: absolute;
+  top: 59px;
+  left: 175px;
+}
+.tab .tab-content .tab-info .tab-one{
+  width: 622px;
+  margin: 42px auto;
+}
+.tab .tab-content .tab-info .tab-one h3{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 30px;
+}
+.tab .tab-content .tab-info .tab-one p{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+
+.tab .tab-content .tab-info .tab-two{
+  width: 622px;
+  margin: 42px auto;
+  display: none;
+}
+.tab .tab-content .tab-info .tab-two h3{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 30px;
+}
+.tab .tab-content .tab-info .tab-two p{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+
+
+.tab .tab-content .tab-info .tab-three{
+  width: 622px;
+  margin: 42px auto;
+  display: none;
+}
+.tab .tab-content .tab-info .tab-three h3{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 30px;
+}
+.tab .tab-content .tab-info .tab-three p{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+
+
+.tab .tab-content .tab-info .tab-four{
+  width: 622px;
+  margin: 42px auto;
+  display: none;
+}
+.tab .tab-content .tab-info .tab-four h3{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 30px;
+}
+.tab .tab-content .tab-info .tab-four p{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+
+
+.tab .tab-content .tab-info .tab-five{
+  width: 622px;
+  margin: 42px auto;
+  display: none;
+}
+.tab .tab-content .tab-info .tab-five h3{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 30px;
+}
+.tab .tab-content .tab-info .tab-five p{
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+
+
+::-webkit-scrollbar {
+width:12px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.8);
+border-radius:10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+border-radius:10px;
+background:rgba(211,211,211,0.8);
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+
+
+
+
+
+.about{
+  width: 1200px;
+  margin: 0 auto 55px;
+}
+.about .about-title{
+  width: 495px;
+  margin: 0 auto 18px;
+  border-top: 1px solid #b2b2b2;
+}
+.about .about-title span{
+  display: block;
+  width: 165px;
+ height: 39px;
+ margin: -20px auto 16px;
+ background-color: #ffffff;
+ border: solid 1px #b2b2b2;
+ font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+  line-height: 39px;
+}
+.about .about-title h3{
+  font-size: 18px;
+  text-align: center;
+  color: #595959;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 25px;
+}
+.about .about-title p{
+  font-size: 16px;
+  text-align: center;
+  color: #333333;
+  line-height: 16px;
+  margin-bottom: 12px;
+}
+
+
+
+.about .about-content{
+  width: 1200px;
+  margin: 0 auto 55px;
+  overflow: hidden;
+}
+
+.about .about-content .about-contentl{
+  width: 437px;
+  height: 302px;
+  float: left;
+  padding: 16px 19px;
+  background: url("../../Skin/img201707/door-kuang.png") no-repeat;
+}
+.about .about-content .about-contentl p{
+  font-size: 18px;
+  text-align: justify;
+  color: #666666;
+  line-height: 30px;
+  text-indent: 1.5em;
+}
+
+
+.about .about-content .about-contentr{
+  width: 660px;
+  height: 337px;
+  float: right;
+}
+.about .about-content .about-contentr .about-one{
+  width: 242px;
+  height: 330px;
+
+}
+.about .about-content .about-contentr .about-one img{
+  width: 242px;
+  height: 317px;
+  margin-top: 13px;
+}
+
+.about .about-content .about-contentr .about-two{
+  width: 257px;
+  height: 337px;
+  margin-left: -45px;
+  position: relative;
+}
+.about .about-content .about-contentr .about-two img{
+  width: 257px;
+  height: 337px;
+}
+
+.about .about-content .about-contentr .about-three{
+  width: 242px;
+  height: 330px;
+  margin-left: -45px;
+}
+.about .about-content .about-contentr .about-three img{
+  width: 242px;
+  height: 330px;
+
+}
+
+
+
+
+.about-more{
+  width: 170px;
+  height: 57px;
+  background-color: #3498db;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  line-height: 57px;
+}
+.about-more a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+
+}
+
+
+
+.cost{
+  width: 100%;
+  min-width: 1200px;
+  height: 530px;
+  background: url("../../Skin/img201707/door-bigbase.png") no-repeat center;
+  margin-bottom: 80px;
+}
+.cost .cost-content{
+  width: 1125px;
+  height: 530px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.cost .cost-content h3{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 32px;
+  margin-bottom: 23px;
+}
+.cost .cost-content p{
+  font-size: 18px;
+ text-align: justify;
+ color: #ffffff;
+ line-height: 25px;
+margin-bottom: 10px;
+}
+
+
+
+
+
+.classify{
+  width: 1200px;
+  margin: 0 auto 110px;
+}
+.classify .classify-content{
+  width: 1090px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.classify .classify-content .classify-left{
+  float: left;
+  width: 515px;
+}
+.classify .classify-content  .classify-lcon{
+  width: 475px;
+   height: 345px;
+   background-color: #3498db;
+   padding: 35px 20px;
+   margin-bottom: 28px;
+}
+.classify .classify-content  .classify-lcon h3{
+  font-size: 20px;
+ font-weight: bold;
+ text-align: justify;
+ line-height: 20px;
+ margin-bottom: 18px;
+ color: #ffffff;
+}
+.classify .classify-content  .classify-lcon h3 a{
+  color: #ffffff;
+}
+.classify .classify-content  .classify-lcon p{
+  font-size: 16px;
+ text-align: justify;
+ color: #ffffff;
+ line-height: 25px;
+ text-indent: 2em;
+ margin-bottom: 35px;
+}
+.classify .classify-content  .classify-left h5{
+  font-size: 18px;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #40444d;
+  font-weight: normal;
+}
+.classify .classify-content  .classify-left h5 a:hover{
+  color: #ed1a1a;
+}
+.classify .classify-content .classify-left h5 span{
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 30px;
+ font-weight: bold;
+ letter-spacing: 6px;
+}
+
+
+
+
+
+
+
+
+.classify .classify-content .classify-right{
+  float: right;
+  width: 515px;
+}
+.classify .classify-content  .classify-rcon{
+  width: 475px;
+   height: 345px;
+   background-color: #bbbdff;
+   padding: 35px 20px;
+   margin-bottom: 28px;
+}
+
+
+.classify .classify-content  .classify-rcon p{
+  font-size: 16px;
+ text-align: justify;
+ color: #ffffff;
+ line-height: 25px;
+ text-indent: 2em;
+ margin-bottom: 26px;
+}
+.classify .classify-content  .classify-rcon ul{
+  width: 430px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.classify .classify-content  .classify-rcon ul li{
+    width: 189px;
+    height: 41px;
+    background-color: #ffffff;
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+    color: #bbbdff;
+    margin-bottom: 22px;
+}
+.classify .classify-content  .classify-rcon ul li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #bbbdff;
+}
+.classify .classify-content  .classify-rcon ul li a:hover{
+  color: #ed1a1a;
+}
+.classify .classify-content  .classify-right h5{
+  font-size: 18px;
+  letter-spacing: 3.6px;
+  text-align: center;
+  color: #40444d;
+  font-weight: normal;
+}
+.classify .classify-content  .classify-right h5 a:hover{
+  color: #ed1a1a;
+}
+.classify .classify-content  .classify-right h5 span{
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 30px;
+ font-weight: bold;
+ letter-spacing: 6px;
+}
+
+
+
+
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}

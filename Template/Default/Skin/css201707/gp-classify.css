@@ -1,0 +1,490 @@
+#player {
+  width: 100%;
+  height: 223px;
+  min-width: 1200px;
+  position: relative; }
+  #player .player .slide {
+    width: 100%;
+    height: 223px;
+    position: absolute; }
+  #player .player .slide1 {
+    background: url("../img201707/tou-banner1.png") 50% 50% no-repeat; }
+  #player .player .slide2 {
+    background: url("../img201707/tou-banner2.png") 50% 50% no-repeat; }
+  #player .player .slide3 {
+    background: url("../img201707/tou-banner3.png") 50% 50% no-repeat; }
+  #player .player .slide4 {
+    background: url("../img201707/tou-banner4.png") 50% 50% no-repeat; }
+  #player .player .slide5 {
+    background: url("../img201707/tou-banner5.png") 50% 50% no-repeat; }
+  #player .player_center {
+    margin: 0 auto;
+    width: 1200px;
+    height: 223px;
+    position: relative; }
+    #player .player_center .tab_page {
+      position: absolute;
+      right: 0;
+      top: 16px;
+      width: 213px;
+      height: 198px;
+      background: url("../img201707/banner-bg.png") no-repeat; }
+      #player .player_center .tab_page span {
+        width: 213px;
+        height: 30px;
+        display: inline-block;
+        left: 100px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 8px;
+        font-size: 16px; }
+        #player .player_center .tab_page span a {
+          color: #000; }
+
+.crumbs {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px; }
+  .crumbs span {
+    font-size: 12px;
+    color: #666; }
+    .crumbs span a {
+      color: #666; }
+
+.class-region {
+  width: 1200px;
+  height: 360px;
+  margin: 0 auto 55px; }
+  .class-region .region-shares {
+    width: 224px;
+    height: 338px;
+    margin-right: 22px; }
+    .class-region .region-shares h3 {
+      font-size: 30px;
+      color: #000; }
+    .class-region .region-shares span {
+      display: block;
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 16px; }
+    .class-region .region-shares b {
+      display: block;
+      width: 41px;
+      height: 8px;
+      background-color: #ed1a1a;
+      margin-bottom: 22px; }
+    .class-region .region-shares p {
+      font-size: 16px;
+      color: #666; }
+  .class-region .region-Province {
+    width: 648px;
+    height: 336px;
+    border: 1px solid #d2d2d2; }
+    .class-region .region-Province .kind1 {
+      width: 648px;
+      height: 338px; }
+      .class-region .region-Province .kind1 li {
+        float: left;
+        width: 216px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        font-size: 16px; }
+        .class-region .region-Province .kind1 li a {
+          color: #333; }
+          .class-region .region-Province .kind1 li a b {
+            display: inline-block;
+            width: 10px;
+            height: 6px;
+            background: url("../img201707/gp-jiant.png") no-repeat; }
+        .class-region .region-Province .kind1 li a:hover {
+          color: #ed1a1a; }
+      .class-region .region-Province .kind1 .gray {
+        width: 216px;
+        height: 28px;
+        background-color: #f5f5f5; }
+        .class-region .region-Province .kind1 li .teakindChapter{
+          z-index: 9999;
+          width: 216px;
+          height: 155px;
+          background: url("../img201707/gp-xbg.png") no-repeat;
+          overflow: hidden;
+          position: relative;
+          display: none;
+        }
+        .class-region .region-Province .kind1 li .teakindChapter li{
+          width: 216px;
+          height: 30px;
+          text-align: center;
+          font-size: 14px;
+        }
+        .class-region .region-Province .kind1 li .teakindChapter li a {
+          color: #000;
+        }
+        .class-region .region-Province .kind1 li .teakindChapter a:hover{
+          color: #ed1a1a;
+        }
+
+
+
+
+
+
+  .class-region .new-hot {
+    width: 285px;
+    height: 310px; }
+    .class-region .new-hot span {
+      display: block;
+      overflow: hidden;
+      margin-bottom: 20px; }
+      .class-region .new-hot span h2 {
+        float: left; }
+      .class-region .new-hot span .title-h2 {
+        font-size: 20px;
+        color: #000;
+        height: 22px;
+        line-height: 20px;
+        padding-left: 10px;
+        border-left: 5px solid #eea821; }
+      .class-region .new-hot span b {
+        float: right;
+        font-size: 14px;
+        font-weight: 400; }
+        .class-region .new-hot span b a:hover {
+          color: #ed1a1a; }
+        .class-region .new-hot span b a {
+          color: #414141; }
+          .class-region .new-hot span b a img {
+            margin-right: 5px; }
+    .class-region .new-hot ul {
+      width: 285px;
+      height: 296px; }
+      .class-region .new-hot ul li {
+        height: 38px;
+        font-size: 16px;
+        margin-left: 20px;}
+        .class-region .new-hot ul li a {
+          color: #585858; }
+          .class-region .new-hot ul li a b {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            margin-right: 12px;
+            background: url("../img201707/huid-icon.png") no-repeat; }
+        .class-region .new-hot ul li a:hover {
+          color: #ed1a1a; }
+
+
+
+
+
+
+.industry {
+  width: 100%;
+  height: 391px;
+  background-color: #f6f6f6;
+  margin-bottom: 55px; }
+  .industry .industry-content {
+    width: 1200px;
+    height: 391px;
+    margin: 0 auto; }
+    .industry .industry-content .industry-shares {
+      width: 224px;
+      height: 310px;
+      margin-right: 22px;
+      margin-top: 55px; }
+      .industry .industry-content .industry-shares h3 {
+        font-size: 30px;
+        color: #000; }
+      .industry .industry-content .industry-shares span {
+        display: block;
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 16px; }
+      .industry .industry-content .industry-shares b {
+        display: block;
+        width: 41px;
+        height: 8px;
+        background-color: #ed1a1a;
+        margin-bottom: 22px; }
+      .industry .industry-content .industry-shares p {
+        font-size: 16px;
+        color: #666; }
+    .industry .industry-content .industry-class {
+      width: 648px;
+      height: 280px;
+      margin-top: 55px;
+      border: 1px solid #d2d2d2; }
+      .industry .industry-content .industry-class ul {
+        width: 648px;
+        height: 280px; }
+        .industry .industry-content .industry-class ul li {
+          float: left;
+          width: 324px;
+          height: 28px;
+          text-align: center;
+          line-height: 28px;
+          font-size: 16px;
+          /*background: #fff;*/
+         }
+          .industry .industry-content .industry-class ul li a {
+            color: #333; }
+            .industry .industry-content .industry-class ul li a b {
+              display: inline-block;
+              width: 10px;
+              height: 6px;
+              background: url("../img201707/gp-jiant.png") no-repeat; }
+          .industry .industry-content .industry-class ul li a:hover {
+            color: #ed1a1a; }
+        .industry .industry-content .industry-class ul .gray {
+          width: 324px;
+          height: 28px;
+          background-color: #fff; }
+          .industry .industry-content .industry-class .teakindChapter{
+            z-index: 9999;
+            width: 324px;
+            height: 155px;
+            background-color: #ccc;
+            background: url("../img201707/gp-xbg.png");
+            overflow: hidden;
+            position: relative;
+            display: none;
+          }
+          .industry .industry-content .industry-class .teakindChapter li{
+            width: 324px;
+            height: 30px;
+            text-align: center;
+            font-size: 14px;
+          }
+          .industry .industry-content .industry-class .teakindChapter li a {
+            color: #000;
+          }
+          .industry .industry-content .industry-class ul  .teakindChapter a:hover{
+            color: #ed1a1a;
+          }
+
+
+
+    .industry .industry-content .answer-hot {
+      width: 285px;
+      height: 280px;
+      margin-top: 55px; }
+      .industry .industry-content .answer-hot span {
+        display: block;
+        overflow: hidden;
+        margin-bottom: 20px; }
+        .industry .industry-content .answer-hot span h2 {
+          float: left; }
+        .industry .industry-content .answer-hot span .title-h2 {
+          font-size: 20px;
+          color: #000;
+          height: 22px;
+          line-height: 20px;
+          padding-left: 10px;
+          border-left: 5px solid #eea821; }
+        .industry .industry-content .answer-hot span b {
+          float: right;
+          font-size: 14px;
+          font-weight: 400; }
+          .industry .industry-content .answer-hot span b a:hover {
+            color: #ed1a1a; }
+          .industry .industry-content .answer-hot span b a {
+            color: #414141; }
+            .industry .industry-content .answer-hot span b a img {
+              margin-right: 5px; }
+      .industry .industry-content .answer-hot ul {
+        width: 285px;
+        overflow: hidden; }
+        .industry .industry-content .answer-hot ul li {
+          width: 100%;
+          min-height: 16px;
+          height: auto;
+          display: inline-block;
+          line-height: 16px;
+          font-size: 14px;
+          margin-bottom: 20px;
+          text-align: center;
+          border-bottom: 1px dashed #e5e5e5; }
+          .industry .industry-content .answer-hot ul li a {
+            float: left;
+            font-size: 16px;
+            text-align: left;
+            color: #333; }
+            .industry .industry-content .answer-hot ul li a img {
+              width: 17px;
+              height: 17px;
+              float: left;
+              margin-right: 5px;
+              vertical-align: middle; }
+            .industry .industry-content .answer-hot ul li a p {
+              display: inline-block;
+              line-height: 18px; }
+            .industry .industry-content .answer-hot ul li a .info {
+              margin-left: 24px;
+              margin-top: 5px;
+              font-size: 12px;
+              width: 240px;
+              padding-bottom: 20px; }
+              .industry .industry-content .answer-hot ul li a .info b {
+                font-weight: normal;
+                color: #000;
+                margin-right: 5px;
+                float: left; }
+              .industry .industry-content .answer-hot ul li a .info .state {
+                float: right;
+                color: #666; }
+          .industry .industry-content .answer-hot ul li a:hover {
+            color: #ed1a1a; }
+
+.market {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto 137px; }
+  .market .market-shares {
+    width: 224px;
+    height: 310px;
+    margin-right: 22px; }
+    .market .market-shares h3 {
+      font-size: 30px;
+      color: #000; }
+    .market .market-shares span {
+      display: block;
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 16px; }
+    .market .market-shares b {
+      display: block;
+      width: 41px;
+      height: 8px;
+      background-color: #ed1a1a;
+      margin-bottom: 22px; }
+    .market .market-shares p {
+      font-size: 16px;
+      color: #666; }
+  .market .market-class {
+    width: 325px;
+    height: 178px;
+    margin-right: 20px; }
+    .market .market-class ul {
+      width: 325px;
+      height: 178px; }
+      .market .market-class ul li {
+        float: left;
+        width: 325px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 16px;}
+        .market .market-class ul li a {
+          color: #333; }
+          .market .market-class ul li a b {
+            display: inline-block;
+            width: 10px;
+            height: 6px;
+            background: url("../img201707/gp-jiant.png") no-repeat; }
+        .market .market-class ul li a:hover {
+          color: #ed1a1a; }
+      .market .market-class ul .gray {
+        width: 325px;
+        height: 35px;
+        background-color: #f5f5f5; }
+        .market .market-class ul li .teakindChapter{
+          z-index: 9999;
+          width: 324px;
+          height: 155px;
+          background-color: #ccc;
+          background: url("../img201707/gp-xbg.png");
+          overflow: hidden;
+          position: relative;
+          display: none;
+        }
+        .market .market-class ul li .teakindChapter li{
+          width: 324px;
+          height: 30px;
+          text-align: center;
+          font-size: 14px;
+        }
+        .market .market-class ul li .teakindChapter li a {
+          color: #000;
+        }
+        .market .market-class ul li .teakindChapter a:hover{
+          color: #ed1a1a;
+        }
+  .market .market-practical {
+    width: 304px;
+    height: 178px; }
+    .market .market-practical span {
+      display: block;
+      overflow: hidden; }
+      .market .market-practical span h2 {
+        float: left; }
+      .market .market-practical span .title-h2 {
+        font-size: 20px;
+        color: #000;
+        height: 22px;
+        line-height: 20px;
+        padding-left: 10px;
+        border-left: 5px solid #eea821; }
+    .market .market-practical ul {
+      width: 304px;
+      height: 156px; }
+      .market .market-practical ul li {
+        float: left;
+        width: 131px;
+        height: 30px;
+        border-radius: 4px;
+        border: 1px solid #e1e1e1;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center; }
+        .market .market-practical ul li a {
+          display: block;
+          width: 100%;
+          background: #ed1a1a;
+          color: #fff;
+          border-radius: 4px; }
+        .market .market-practical ul li a:hover {
+          color: #666;
+          background-color: #fff; }
+  .market .market-advert {
+    width: 286px;
+    height: 178px; }
+    .market .market-advert img {
+      width: 286px;
+      height: 178px; }
+
+
+      .sidebar{
+        width:46px;
+        height:auto;
+        position:fixed;
+        right:0;
+        z-index: 9999;
+        top:25%;
+      }
+
+      .sidebar .kf img{
+        width:46px;
+        height:46px;
+        margin-bottom: 3.6px;
+      }
+
+      .sidebar .top{
+        display: inline-block;
+        width:26px;
+        height:20px;
+      }
+
+      .sidebar .top img{
+        width: 46px;
+        height:46px;
+      }
+
+      .sidebar .img1{
+        width:46px;
+      }
+
+/*# sourceMappingURL=gp-classify.css.map */

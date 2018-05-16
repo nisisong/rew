@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>404优化</title>
+  <link rel="stylesheet" href="../../Skin/css201707/reset.css">
+  <link rel="stylesheet" href="../../Skin/css201707/public.css">
+  <link rel="stylesheet" href="../../Skin/css201707/optimize404.css">
+</head>
+<body>
+  <div class="content">
+    <div class="content-title">
+      <a href="">融e网</a>>温馨提醒您
+    </div>
+    <div class="content-center">
+      <div class="center-img">
+        <img src="../../Skin/img201707/four-pepole.png" alt="">
+      </div>
+      <div class="center-zi">
+        <h3>很抱歉，您访问的页面出错了</h3>
+        <p>
+          可能原因:&nbsp; ①系统繁忙 &nbsp;  ②找不到请求页面  &nbsp; ③输入的网址有误
+        </p>
+        <div class="center-return">
+          <a href="">返回首页&nbsp;</a>
+          <span id="countdown-timer" class="f-green ml-5">8</span><span class="ml-5">s</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="base">
+    <div class="base-content">
+      <h3>更多精彩内容</h3>
+      <ul>
+        <li>
+          <a href="">股票大全</a>
+        </li>
+        <li>
+          <a href=""> k易期货通</a>
+        </li>
+        <li>
+          <a href="">股票大全</a>
+        </li>
+        <li>
+          <a href=""> k易期货通</a>
+        </li>
+        <li>
+          <a href="">股票大全</a>
+        </li>
+        <li>
+          <a href=""> k易期货通</a>
+        </li>
+        <li>
+          <a href="">股票大全</a>
+        </li>
+        <li>
+          <a href=""> k易期货通</a>
+        </li>
+        <li>
+          <a href="">股票大全</a>
+        </li>
+        <li>
+          <a href=""> k易期货通</a>
+        </li>
+        <li>
+          <a href="">股票大全</a>
+        </li>
+        <li>
+          <a href=""> k易期货通</a>
+        </li>
+        <li>
+          <a href="">股票大全</a>
+        </li>
+        <li>
+          <a href=""> k易期货通</a>
+        </li>
+        <li>
+          <a href="">股票大全</a>
+        </li>
+        <li>
+          <a href=""> k易期货通</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+    var counter = 8;
+    function runCounter() {
+        if (counter == 0) {
+            location.href = '/';
+        } else {
+            document.getElementById("countdown-timer").innerText=--counter;
+            setTimeout(runCounter, 1000);
+        }
+    }
+    runCounter();
+
+</script>
+</html>

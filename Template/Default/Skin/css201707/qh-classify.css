@@ -1,0 +1,815 @@
+#player {
+  width: 100%;
+  height: 223px;
+  min-width: 1200px;
+  position: relative; }
+  #player .player .slide {
+    width: 100%;
+    height: 223px;
+    position: absolute; }
+  #player .player .slide1 {
+    background: url("../img201707/tou-banner1.png") 50% 50% no-repeat; }
+  #player .player .slide2 {
+    background: url("../img201707/tou-banner2.png") 50% 50% no-repeat; }
+  #player .player .slide3 {
+    background: url("../img201707/tou-banner3.png") 50% 50% no-repeat; }
+  #player .player .slide4 {
+    background: url("../img201707/tou-banner4.png") 50% 50% no-repeat; }
+  #player .player .slide5 {
+    background: url("../img201707/tou-banner5.png") 50% 50% no-repeat; }
+  #player .player_center {
+    margin: 0 auto;
+    width: 1200px;
+    height: 223px;
+    position: relative; }
+    #player .player_center .tab_page {
+      position: absolute;
+      right: 0;
+      top: 16px;
+      width: 213px;
+      height: 198px;
+      background: url("../img201707/banner-bg.png") no-repeat; }
+      #player .player_center .tab_page span {
+        width: 213px;
+        height: 30px;
+        display: inline-block;
+        left: 100px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 8px;
+        font-size: 16px; }
+        #player .player_center .tab_page span a {
+          color: #000; }
+
+.crumbs {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px; }
+  .crumbs span {
+    font-size: 12px;
+    color: #666; }
+    .crumbs span a {
+      color: #666; }
+
+
+.qh-commodity{
+  width: 1200px;
+  height: 56px;
+  margin: 0 auto 25px;
+}
+.qh-commodity h3{
+  font-size: 30px;
+  line-height: 30px;
+  color: #000;
+  float: left;
+}
+.qh-commodity h3 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 16px; }
+.qh-commodity b {
+  display:inline-block;
+  float: left;
+  width: 8px;
+  height: 41px;
+  background-color: #ed1a1a;
+  margin: 8px 38px 0 33px;}
+.qh-commodity .commodity-article{
+  float: left;
+  width: 924px;
+  height: 52px;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+}
+.qh-commodity .commodity-article p{
+  display: inline-block;
+  width: 855px;
+  padding-left: 34px;
+  font-size: 16px;
+  padding-top: 4px;
+  color: #666;
+  text-align: justify;
+}
+.commodity-futures{
+  width: 1200px;
+  height: 222px;
+  margin: 0 auto 44px;
+}
+.commodity-futures .futures-farming{
+  width: 380px;
+  height: 220px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  margin-right: 26px;
+}
+.commodity-futures .futures-farming h3{
+  width: 380px;
+  height: 86px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 86px;
+  background: url("../img201707/qh-flnc.png") no-repeat;
+}
+.commodity-futures .futures-farming h3 a{
+  display: block;
+  width: 358px;
+  color: #fff;
+  margin-left: 20px;
+}
+.commodity-futures .futures-farming h3 a:hover{
+  color: #ed1a1a;
+}
+.commodity-futures .futures-farming ul{
+  width: 345px;
+  height: 94px;
+  margin-top: 20px;
+  margin-left: 27px;
+}
+/*.commodity-futures .futures-farming ul .mLeft{
+  margin-right: 0;
+}*/
+.commodity-futures .futures-farming ul li{
+  float: left;
+  margin-left: 30px;
+  height:31px;
+  font-size: 18px;
+}
+.commodity-futures .futures-farming ul li a{
+  color: #333
+}
+.commodity-futures .futures-farming ul li a:hover{
+  color: #ed1a1a;
+}
+.commodity-futures .futures-farming ul li span{
+  font-size: 18px;
+}
+.commodity-futures .futures-farming ul li span a{
+  color: #999;
+}
+.commodity-futures .futures-metal{
+  width: 380px;
+  height: 220px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+.commodity-futures .futures-metal h3{
+  width: 380px;
+  height: 86px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 86px;
+  background: url("../img201707/qh-fljs.png") no-repeat;
+}
+.commodity-futures .futures-metal h3 a{
+  display: block;
+  width: 358px;
+  color: #fff;
+  margin-left: 20px;
+}
+.commodity-futures .futures-metal h3 a:hover{
+  color: #ed1a1a;
+}
+.commodity-futures .futures-metal ul{
+  width: 345px;
+  height: 94px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.commodity-futures .futures-metal ul li{
+  float: left;
+  margin-left: 45px;
+  height:31px;
+  font-size: 18px;
+}
+.commodity-futures .futures-metal ul li a{
+  color: #333
+}
+.commodity-futures .futures-metal ul li a:hover{
+  color: #ed1a1a;
+}
+.commodity-futures .futures-metal ul li span{
+  font-size: 18px;
+}
+.commodity-futures .futures-metal ul li span a{
+  color: #999;
+}
+.commodity-futures .futures-energy{
+  width: 380px;
+  height: 220px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+.commodity-futures .futures-energy h3{
+  width: 380px;
+  height: 86px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 86px;
+  background: url("../img201707/qh-flny.png") no-repeat;
+}
+.commodity-futures .futures-energy h3 a{
+  display: block;
+  width: 358px;
+  color: #fff;
+  margin-left: 20px;
+}
+.commodity-futures .futures-energy h3 a:hover{
+  color: #ed1a1a;
+}
+.commodity-futures .futures-energy ul{
+  width: 345px;
+  height: 94px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.commodity-futures .futures-energy ul li{
+  float: left;
+  margin-left:30px;
+  height:31px;
+  font-size: 18px;
+}
+.commodity-futures .futures-energy ul .mLeft{
+  margin-right: 0;
+}
+.commodity-futures .futures-energy ul li a{
+  color: #333
+}
+.commodity-futures .futures-energy ul li a:hover{
+  color: #ed1a1a;
+}
+.commodity-futures .futures-energy ul li span{
+  font-size: 18px;
+}
+.commodity-futures .futures-energy ul li span a{
+  color: #999;
+}
+
+
+
+
+
+.hot{
+  width: 1200px;
+  height: 275px;
+  margin: 0 auto 55px;
+}
+.hot .hot-news{
+  width: 380px;
+  height: 275px;
+  margin-right: 26px;
+  position: relative;
+}
+.hot-newtitle{
+  width: 380px;
+  height: 70px;
+  background: #bfbfbf;
+}
+ .hot-newtitle h3{
+  float: left;
+  line-height: 35px;
+  margin-left: 35px;
+  font-size: 16px;
+  color: #000;
+}
+ .hot-newtitle b{
+  float: right;
+  margin-right: 37px;
+  margin-top: 10px;
+}
+.hot-newtitle b img{
+  width: 15px;
+  height: 15px;
+}
+.hot-newlist{
+  width: 340px;
+  height: 240px;
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 35px;
+  left: 20px;
+}
+.hot-newlist ul{
+  width: 300px;
+  height: 240px;
+  margin-left: 14px;
+}
+.hot-newlist ul li{
+  height: 40px;
+  font-size:14px;
+  line-height: 40px;
+}
+.hot-newlist ul li a{
+  color: #585858;
+}
+.hot-newlist ul li a:hover{
+  color: #ed1a1a;
+}
+.hot-newlist ul li a b{
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-right: 15px;
+  background: url("../img201707/hdian.png") no-repeat;
+}
+
+.hot .hot-experience{
+  width: 380px;
+  height: 275px;
+  position: relative;
+}
+.hot-experiencetitle{
+  width: 380px;
+  height: 70px;
+  background: #bfbfbf;
+}
+ .hot-experiencetitle h3{
+  float: left;
+  line-height: 35px;
+  margin-left: 35px;
+  font-size: 16px;
+  color: #000;
+}
+ .hot-experiencetitle b{
+  float: right;
+  margin-right: 37px;
+  margin-top: 10px;
+}
+.hot-experiencetitle b img{
+  width: 15px;
+  height: 15px;
+}
+.hot-experiencelist{
+  width: 340px;
+  height: 240px;
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 35px;
+  left: 20px;
+}
+.hot-experiencelist ul{
+  width: 300px;
+  height: 240px;
+  margin-left: 14px;
+}
+.hot-experiencelist ul li{
+  height: 40px;
+  font-size:14px;
+  line-height: 40px;
+}
+.hot-experiencelist ul li a{
+  color: #585858;
+}
+.hot-experiencelist ul li a:hover{
+  color: #ed1a1a;
+}
+.hot-experiencelist ul li a b{
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-right: 15px;
+  background: url("../img201707/hdian.png") no-repeat;
+}
+
+
+
+.hot .hot-lore{
+  width: 380px;
+  height: 275px;
+  position: relative;
+}
+.hot-loretitle{
+  width: 380px;
+  height: 70px;
+  background: #bfbfbf;
+}
+ .hot-loretitle h3{
+  float: left;
+  line-height: 35px;
+  margin-left: 35px;
+  font-size: 16px;
+  color: #000;
+}
+ .hot-loretitle b{
+  float: right;
+  margin-right: 37px;
+  margin-top: 10px;
+}
+.hot-loretitle b img{
+  width: 15px;
+  height: 15px;
+}
+.hot-lorelist{
+  width: 340px;
+  height: 240px;
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 35px;
+  left: 20px;
+}
+.hot-lorelist ul{
+  width: 300px;
+  height: 240px;
+  margin-left: 14px;
+}
+.hot-lorelist ul li{
+  height: 40px;
+  font-size:14px;
+  line-height: 40px;
+}
+.hot-lorelist ul li a{
+  color: #585858;
+}
+.hot-lorelist ul li a:hover{
+  color: #ed1a1a;
+}
+.hot-lorelist ul li a b{
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-right: 15px;
+  background: url("../img201707/hdian.png") no-repeat;
+}
+
+
+
+
+.metal-content{
+  width: 100%;
+  height: 410px;
+  background: #f4f4f4;
+  margin-bottom: 55px;
+}
+.metal-financial{
+  width: 1200px;
+  height: 410px;
+  margin: 0 auto;
+}
+.financial-commodity{
+  width: 1200px;
+  height: 56px;
+  margin:0 auto 25px;
+  padding-top: 54px;
+}
+.financial-commodity h3{
+  font-size: 30px;
+  line-height: 30px;
+  color: #000;
+  float: left;
+}
+.financial-commodity h3 span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 16px; }
+.financial-commodity b {
+  display:inline-block;
+  float: left;
+  width: 8px;
+  height: 41px;
+  background-color: #ed1a1a;
+  margin: 8px 38px 0 33px;}
+.financial-commodity .financial-article{
+  float: left;
+  width: 989px;
+  height: 52px;
+  border-radius: 4px;
+  border: 1px solid #e6e6e6;
+}
+.financial-commodity .financial-article p{
+  display: inline-block;
+  width: 918px;
+  padding-left: 2px;
+  font-size: 16px;
+  padding-top: 4px;
+  color: #666;
+  text-align: justify;
+  padding-left: 34px;
+}
+.financial-content{
+  width: 1200px;
+  height: 222px;
+}
+.financial-shares{
+  width: 381px;
+  height: 220px;
+  border-radius: 6px;
+  margin-right: 26px;
+  border: 1px solid #e5e5e5;
+}
+.financial-shares h3{
+  width: 380px;
+  height: 86px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 86px;
+  background: url("../img201707/qh-gz.png") no-repeat;
+}
+.financial-shares h3 a{
+  display: block;
+  width: 358px;
+  color: #fff;
+  margin-left: 20px;
+}
+.financial-shares h3 a:hover{
+  color: #ed1a1a;
+}
+.financial-shares ul{
+  width: 345px;
+  height: 94px;
+  margin-top: 20px;
+  margin-left: 27px;
+}
+.financial-shares ul li{
+  float: left;
+  margin-right: 30px;
+  height:31px;
+  font-size: 18px;
+}
+.financial-shares ul li a{
+  color: #333
+}
+.financial-shares ul li a:hover{
+  color: #ed1a1a;
+}
+.financial-shares ul li span{
+  font-size: 18px;
+}
+.financial-shares ul li span a{
+  color: #999;
+}
+
+
+
+.financial-debt{
+  width: 381px;
+  height: 220px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+}
+.financial-debt h3{
+  width: 380px;
+  height: 86px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 86px;
+  background: url("../img201707/qh-flgz.png") no-repeat;
+}
+.financial-debt h3 a{
+  display: block;
+  width: 358px;
+  color: #fff;
+  margin-left: 20px;
+}
+.financial-debt h3 a:hover{
+  color: #ed1a1a;
+}
+.financial-debt ul{
+  width: 345px;
+  height: 94px;
+  margin-top: 20px;
+  margin-left: 27px;
+}
+.financial-debt ul li{
+  float: left;
+  margin-right: 30px;
+  height:31px;
+  font-size: 18px;
+}
+.financial-debt ul li a{
+  color: #333
+}
+.financial-debt ul li a:hover{
+  color: #ed1a1a;
+}
+.financial-debt ul li span{
+  font-size: 18px;
+}
+.financial-debt ul li span a{
+  color: #999;
+}
+
+
+
+.financial-img{
+  width: 362px;
+  height: 220px;
+  background: url("../img201707/qh-fl.png") no-repeat;
+}
+.financial-img a{
+  display: block;
+  width: 100%;
+  height: 220px;
+}
+
+
+
+.interface{
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto 130px;
+}
+.interface .interface-tool{
+  width: 434px;
+  height: 200px;
+  margin-right: 54px;
+}
+.interface .interface-tool span{
+  display: block;
+  overflow: hidden;
+}
+.interface .interface-tool span .title-h2{
+  font-size: 20px;
+  color: #000;
+  height: 22px;
+  line-height: 20px;
+  padding-left: 10px;
+  border-left: 5px solid #eea821;
+}
+.interface .interface-tool ul{
+  width: 434px;
+  height: 148px;
+}
+.interface .interface-tool ul li{
+  float: left;
+  width: 131px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 17px;
+  margin-top: 18px;
+}
+.interface .interface-tool ul li a{
+  display: block;
+  width: 100%;
+  background-color: #ed1a1a;
+  color: #fff;
+  border-radius: 4px;
+}
+.interface .interface-tool ul li a:hover{
+  color: #666;
+  background-color: #fff;
+}
+.interface .interface-tool ul .toolLeft{
+  margin-left: 0;
+}
+
+
+.interface-interlocution{
+  width: 281px;
+  height: 200px;
+}
+.interface .interface-interlocution span{
+  display: block;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.interface .interface-interlocution span .title-h2{
+  font-size: 20px;
+  color: #000;
+  height: 22px;
+  line-height: 20px;
+  padding-left: 10px;
+  border-left: 5px solid #eea821;
+  float: left;
+}
+.interface .interface-interlocution span b{
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+}
+.interface .interface-interlocution span b a{
+  color: #414141;
+}
+.interface .interface-interlocution span b a:hover{
+  color: #ed1a1a;
+}
+.interface .interface-interlocution span b a img{
+  margin-right: 5px;
+}
+.interface .interface-interlocution ul {
+    width: 285px;
+    overflow: hidden; }
+.interface .interface-interlocution ul li {
+      width: 271px;
+      min-height: 16px;
+      height: auto;
+      display: inline-block;
+      line-height: 16px;
+      font-size: 14px;
+      margin: 0 auto 20px;
+      text-align: center;
+      border-bottom: 1px dashed #e5e5e5; }
+.interface .interface-interlocution ul li a {
+        float: left;
+        font-size: 16px;
+        text-align: left;
+        color: #333;
+        margin-left: 18px;}
+.interface .interface-interlocution ul li a img {
+          width: 17px;
+          height: 17px;
+          float: left;
+          margin-right: 5px;
+          vertical-align: middle; }
+.interface .interface-interlocution ul li a p {
+          display: inline-block;
+          line-height: 18px; }
+.interface .interface-interlocution ul li a .info {
+          margin-left: 24px;
+          margin-top: 5px;
+          font-size: 12px;
+          width: 240px;
+          padding-bottom: 12px; }
+.interface .interface-interlocution ul li a .info b {
+            font-weight: normal;
+            color: #000;
+            margin-right: 5px;
+            float: left; }
+.interface .interface-interlocution ul li a .info .state {
+            float: right;
+            color: #666; }
+.interface .interface-interlocution ul li a:hover {
+        color: #ed1a1a; }
+
+.interface-platform{
+  width: 370px;
+  height: 200px;
+}
+.interface-platform span{
+  display: block;
+  overflow: hidden;
+}
+.interface-platform span .title-h2{
+  font-size: 20px;
+  color: #000;
+  height: 22px;
+  line-height: 20px;
+  padding-left: 10px;
+  border-left: 5px solid #eea821;
+}
+.interface-platform ul{
+  float: left;
+  width: 184px;
+  height: 130px;
+  margin-top: 15px;
+}
+.interface-platform .platform-left{
+  border-right: 1px dashed #d2d2d2;
+}
+.interface-platform ul li{
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+}
+.interface-platform ul li a{
+  color: #585858;
+}
+.interface-platform ul li a:hover{
+  color: #ed1a1a;
+}
+.interface-platform ul li a img{
+  width: 17px;
+  height: 17px;
+  margin-right: 13px;
+  vertical-align: middle;
+}
+.interface-platform .platform-right li{
+  margin-left: 30px;
+}
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}

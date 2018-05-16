@@ -1,0 +1,594 @@
+.banner {
+  width: 100%;
+  height: 550px;
+  min-width: 1200px;
+  margin-bottom: 47px;
+  overflow: hidden;
+  background: url("../img201707/gz-banner.png") 50% 50% no-repeat; }
+  .banner .banner-content {
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .banner .banner-content .banner-info {
+      width: 472px;
+      height: 459px;
+      margin-top: 44px;
+      overflow: hidden;
+      background: url("../img201707/gz-cs.png") no-repeat; }
+      .banner .banner-content .banner-info ul {
+        margin-left: 41px;
+        margin-top: 37px; }
+        .banner .banner-content .banner-info ul li {
+          height: 36px;
+          margin-bottom: 7px;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 36px;
+          text-align: left;
+          color: #000; }
+          .banner .banner-content .banner-info ul li span {
+            display: inline-block;
+            width: 157px;
+            height: 36px;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 36px;
+            text-align: center;
+            color: #333333;
+            margin-right: 35px;
+            background-color: #fff; }
+
+.introduce {
+  width: 1200px;
+  height: 250px;
+  margin: 0 auto 69px; }
+  .introduce h3 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333; }
+  .introduce p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+    text-align: justify;
+    text-indent: 2em; }
+
+.peculiarity {
+  width: 1198px;
+  height: 433px;
+  margin: 0 auto 54px;
+  border: 1px solid #507279; }
+  .peculiarity h3 {
+    display: block;
+    width: 182px;
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+    color: #333;
+    background-color: #fff;
+    margin-left: 509px;
+    margin-top: -18px;
+    text-align: center; }
+  .peculiarity .peculiarity-content {
+    width: 1090px;
+    height: 323px;
+    margin: 45px 55px; }
+    .peculiarity .peculiarity-content img {
+      width: 378px;
+      height: 323px;
+      margin-right: 55px;
+      float: left; }
+    .peculiarity .peculiarity-content p {
+      display: inline-block;
+      width: 656px;
+      float: right;
+      font-size: 16px;
+      text-align: justify;
+      line-height: 46px;
+      color: #333; }
+      .peculiarity .peculiarity-content p span {
+        font-size: 18px;
+        font-weight: bold; }
+
+.picture {
+  width: 100%;
+  height: 581px;
+  min-width: 1200px;
+  background: url("../img201707/gz-ys.png") 50% 50% no-repeat; }
+
+.picture-content {
+  width: 1200px;
+  height: 720px;
+  margin: -437px auto 45px;
+  overflow: hidden;
+  position: relative; }
+  .picture-content .picture-introduce {
+    width: 434px;
+    height: 627px;
+    margin-top: 38px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0.5px 0.8px 10px 0 rgba(0, 0, 0, 0.35); }
+    .picture-content .picture-introduce span {
+      display: block;
+      width: 100px;
+      height: 69px;
+      margin-top: 60px;
+      padding-left: 179px;
+      margin-bottom: 30px; }
+      .picture-content .picture-introduce span img {
+        width: 69px;
+        height: 69px; }
+      .picture-content .picture-introduce span h3 {
+        display: inline-block;
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+        margin-left: -103px;
+        margin-top: 28px; }
+    .picture-content .picture-introduce p {
+      display: block;
+      width: 351px;
+      font-size: 14px;
+      line-height: 25px;
+      text-align: justify;
+      margin-left: 27px;
+      color: #666;
+      text-indent: 2em; }
+  .picture-content .picture-tactics {
+    width: 434px;
+    height: 627px;
+    margin-top: 38px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0.5px 0.8px 10px 0 rgba(0, 0, 0, 0.35); }
+    .picture-content .picture-tactics span {
+      display: block;
+      width: 100px;
+      height: 69px;
+      margin-top: 60px;
+      padding-left: 179px;
+      margin-bottom: 30px; }
+      .picture-content .picture-tactics span img {
+        width: 69px;
+        height: 69px; }
+      .picture-content .picture-tactics span h3 {
+        display: inline-block;
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+        margin-left: -70px;
+        margin-top: 28px; }
+    .picture-content .picture-tactics p {
+      display: block;
+      width: 351px;
+      font-size: 14px;
+      line-height: 25px;
+      text-align: justify;
+      margin-left: 54px;
+      color: #666;
+      text-indent: 2em; }
+  .picture-content .picture-impact {
+    width: 394px;
+    height: 710px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 402px;
+    box-shadow: 0.5px 0.8px 15px 0 rgba(66, 66, 66, 0.35); }
+    .picture-content .picture-impact span {
+      display: block;
+      width: 100px;
+      height: 69px;
+      margin-top: 58px;
+      padding-left: 170px;
+      margin-bottom: 26px; }
+      .picture-content .picture-impact span img {
+        width: 69px;
+        height: 69px; }
+      .picture-content .picture-impact span h3 {
+        display: inline-block;
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+        margin-left: -88px;
+        margin-top: 28px; }
+    .picture-content .picture-impact p {
+      display: block;
+      width: 267px;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: justify;
+      margin-left: 65px;
+      color: #507279; }
+
+.new {
+  width: 1200px;
+  height: 315px;
+  margin: 0 auto 73px;
+  background-color: #ededed; }
+  .new .new-hot {
+    width: 400px;
+    height: 315px; }
+    .new .new-hot span {
+      display: block;
+      overflow: hidden;
+      margin-top: 34px;
+      margin-bottom: 20px; }
+      .new .new-hot span h4 {
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 16px;
+        color: #000000;
+        padding-left: 49px; }
+      .new .new-hot span b {
+        float: right;
+        display: inline-block;
+        width: 15px;
+        height: 14px;
+        background: url("../img201707/gz-hyhh.png") no-repeat;
+        margin-right: 70px;
+        vertical-align: middle; }
+        .new .new-hot span b a {
+          display: inline-block;
+          width: 15px;
+          height: 14px; }
+    .new .new-hot ul {
+      width: 292px;
+      height: 228px;
+      margin: 0 auto; }
+      .new .new-hot ul li {
+        height: 38px;
+        font-size: 14px; }
+        .new .new-hot ul li a {
+          color: #333; }
+          .new .new-hot ul li a b {
+            display: inline-block;
+            width: 4px;
+            height: 5px;
+            margin-right: 13px;
+            background: url("../img201707/gz-dian.png") no-repeat;
+            vertical-align: middle; }
+        .new .new-hot ul li a:hover {
+          color: #ed1a1a; }
+  .new .new-experience {
+    width: 400px;
+    height: 315px;
+    background-color: #749997; }
+    .new .new-experience span {
+      display: block;
+      overflow: hidden;
+      margin-top: 34px;
+      margin-bottom: 20px; }
+      .new .new-experience span h4 {
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 16px;
+        color: #fff;
+        padding-left: 49px; }
+      .new .new-experience span b {
+        float: right;
+        display: inline-block;
+        width: 15px;
+        height: 14px;
+        background: url("../img201707/gz-hyhb.png") no-repeat;
+        margin-right: 70px;
+        vertical-align: middle; }
+        .new .new-experience span b a {
+          display: inline-block;
+          width: 15px;
+          height: 14px; }
+    .new .new-experience ul {
+      width: 292px;
+      height: 228px;
+      margin: 0 auto; }
+      .new .new-experience ul li {
+        height: 38px;
+        font-size: 14px; }
+        .new .new-experience ul li a {
+          color: #fff; }
+          .new .new-experience ul li a b {
+            display: inline-block;
+            width: 4px;
+            height: 5px;
+            margin-right: 13px;
+            background: url("../img201707/gz-dian.png") no-repeat;
+            vertical-align: middle; }
+        .new .new-experience ul li a:hover {
+          color: #ed1a1a; }
+  .new .new-lore {
+    width: 400px;
+    height: 315px; }
+    .new .new-lore span {
+      display: block;
+      overflow: hidden;
+      margin-top: 34px;
+      margin-bottom: 20px; }
+      .new .new-lore span h4 {
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 16px;
+        color: #000000;
+        padding-left: 49px; }
+      .new .new-lore span b {
+        float: right;
+        display: inline-block;
+        width: 15px;
+        height: 14px;
+        background: url("../img201707/gz-hyhh.png") no-repeat;
+        margin-right: 70px;
+        vertical-align: middle; }
+        .new .new-lore span b a {
+          display: inline-block;
+          width: 15px;
+          height: 14px; }
+    .new .new-lore ul {
+      width: 292px;
+      height: 228px;
+      margin: 0 auto; }
+      .new .new-lore ul li {
+        height: 38px;
+        font-size: 14px; }
+        .new .new-lore ul li a {
+          color: #333; }
+          .new .new-lore ul li a b {
+            display: inline-block;
+            width: 4px;
+            height: 5px;
+            margin-right: 13px;
+            background: url("../img201707/gz-dian.png") no-repeat;
+            vertical-align: middle; }
+        .new .new-lore ul li a:hover {
+          color: #ed1a1a; }
+
+.interfix {
+  width: 100%;
+  height: 323px;
+  min-width: 1200px;
+  background: url("../img201707/gz-xg.png") 50% 50% no-repeat; }
+
+.interfix-content {
+  width: 1200px;
+  height: 447px;
+  margin: -159px auto 122px;
+  overflow: hidden;
+  background: url("../img201707/gz-one.png") no-repeat; }
+  .interfix-content .interfix-title {
+    width: 1200px;
+    height: 165px;
+    overflow: hidden; }
+    .interfix-content .interfix-title h3 {
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 36px;
+      text-align: center;
+      color: #333333;
+      margin-top: 28px;
+      margin-bottom: 29px; }
+    .interfix-content .interfix-title ul {
+      width: 413px;
+      height: 18px;
+      margin: 0 auto; }
+      .interfix-content .interfix-title ul li {
+        font-size: 18px;
+        line-height: 18px; }
+        .interfix-content .interfix-title ul li a {
+          color: #333333; }
+        .interfix-content .interfix-title ul li a:hover {
+          color: #ed1a1a; }
+
+
+          .interface{
+            width: 1200px;
+            height: 200px;
+            margin: 32px auto 0;
+          }
+          .interface .interface-tool{
+            width: 434px;
+            height: 200px;
+            margin-right: 34px;
+            margin-left: 20px;
+          }
+          .interface .interface-tool span{
+            display: block;
+            overflow: hidden;
+          }
+          .interface .interface-tool span .title-h2{
+            font-size: 20px;
+            color: #000;
+            height: 22px;
+            line-height: 20px;
+            padding-left: 10px;
+            border-left: 5px solid #eea821;
+          }
+          .interface .interface-tool ul{
+            width: 434px;
+            height: 148px;
+          }
+          .interface .interface-tool ul li{
+            float: left;
+            width: 131px;
+            height: 30px;
+            border-radius: 4px;
+            border: 1px solid #e1e1e1;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+            margin-left: 17px;
+            margin-top: 18px;
+          }
+          .interface .interface-tool ul li a{
+            display: block;
+            width: 100%;
+            background-color: #ed1a1a;
+            color: #fff;
+            border-radius: 4px;
+          }
+          .interface .interface-tool ul li a:hover{
+            color: #666;
+            background-color: #fff;
+          }
+          .interface .interface-tool ul .toolLeft{
+            margin-left: 0;
+          }
+
+
+          .interface-interlocution{
+            width: 281px;
+            height: 200px;
+          }
+          .interface .interface-interlocution span{
+            display: block;
+            overflow: hidden;
+            margin-bottom: 15px;
+          }
+          .interface .interface-interlocution span .title-h2{
+            font-size: 20px;
+            color: #000;
+            height: 22px;
+            line-height: 20px;
+            padding-left: 10px;
+            border-left: 5px solid #eea821;
+            float: left;
+          }
+          .interface .interface-interlocution span b{
+            float: right;
+            font-size: 14px;
+            font-weight: 400;
+          }
+          .interface .interface-interlocution span b a{
+            color: #414141;
+          }
+          .interface .interface-interlocution span b a:hover{
+            color: #ed1a1a;
+          }
+          .interface .interface-interlocution span b a img{
+            margin-right: 5px;
+          }
+          .interface .interface-interlocution ul {
+              width: 285px;
+              overflow: hidden; }
+          .interface .interface-interlocution ul li {
+                width: 271px;
+                min-height: 16px;
+                height: auto;
+                display: inline-block;
+                line-height: 16px;
+                font-size: 14px;
+                margin: 0 auto 20px;
+                text-align: center;
+                border-bottom: 1px dashed #e5e5e5; }
+          .interface .interface-interlocution ul li a {
+                  float: left;
+                  font-size: 16px;
+                  text-align: left;
+                  color: #333;
+                  margin-left: 18px;}
+          .interface .interface-interlocution ul li a img {
+                    width: 17px;
+                    height: 17px;
+                    float: left;
+                    margin-right: 5px;
+                    vertical-align: middle; }
+          .interface .interface-interlocution ul li a p {
+                    display: inline-block;
+                    line-height: 18px; }
+          .interface .interface-interlocution ul li a .info {
+                    margin-left: 24px;
+                    margin-top: 5px;
+                    font-size: 12px;
+                    width: 240px;
+                    padding-bottom: 12px; }
+          .interface .interface-interlocution ul li a .info b {
+                      font-weight: normal;
+                      color: #000;
+                      margin-right: 5px;
+                      float: left; }
+          .interface .interface-interlocution ul li a .info .state {
+                      float: right;
+                      color: #666; }
+          .interface .interface-interlocution ul li a:hover {
+                  color: #ed1a1a; }
+
+          .interface-platform{
+            width: 370px;
+            height: 200px;
+          }
+          .interface-platform span{
+            display: block;
+            overflow: hidden;
+          }
+          .interface-platform span .title-h2{
+            font-size: 20px;
+            color: #000;
+            height: 22px;
+            line-height: 20px;
+            padding-left: 10px;
+            border-left: 5px solid #eea821;
+          }
+          .interface-platform ul{
+            float: left;
+            width: 184px;
+            height: 130px;
+            margin-top: 15px;
+          }
+          .interface-platform .platform-left{
+            border-right: 1px dashed #d2d2d2;
+          }
+          .interface-platform ul li{
+            height: 35px;
+            line-height: 35px;
+            font-size: 14px;
+          }
+          .interface-platform ul li a{
+            color: #585858;
+          }
+          .interface-platform ul li a:hover{
+            color: #ed1a1a;
+          }
+          .interface-platform ul li a img{
+            width: 17px;
+            height: 17px;
+            margin-right: 13px;
+            vertical-align: middle;
+          }
+          .interface-platform .platform-right li{
+            margin-left: 30px;
+          }
+
+          .sidebar{
+            width:46px;
+            height:auto;
+            position:fixed;
+            right:0;
+            z-index: 9999;
+            top:25%;
+          }
+
+          .sidebar .kf img{
+            width:46px;
+            height:46px;
+            margin-bottom: 3.6px;
+          }
+
+          .sidebar .top{
+            display: inline-block;
+            width:26px;
+            height:20px;
+          }
+
+          .sidebar .top img{
+            width: 46px;
+            height:46px;
+          }
+
+          .sidebar .img1{
+            width:46px;
+          }
+/*# sourceMappingURL=qh-gz.css.map */

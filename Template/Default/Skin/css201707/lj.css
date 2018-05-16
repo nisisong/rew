@@ -1,0 +1,537 @@
+.banner{
+  width: 100%;
+  height: 878px;
+  background: url("../img201707/lj-dy.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.banner .banner-content{
+  width: 1200px;
+  height: 878px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.banner .banner-content .banner-nav{
+  width: 1200px;
+  height: 56px;
+  margin-top: 86px;
+}
+.banner .banner-content .banner-nav span{
+  display: inline-block;
+  float: left;
+  width: 200px;
+  height: 56px;
+}
+.banner .banner-content .banner-nav span img{
+  width: 200px;
+  height: 56px;
+}
+.banner .banner-content .banner-nav ul{
+  float: left;
+  width: 895px;
+  height: 56px;
+  margin-left: 105px;
+}
+.banner .banner-content .banner-nav ul li{
+  float:left;
+  width: 103px;
+  height: 56px;
+  font-size: 20px;
+  line-height: 56px;
+  margin-right: 34px;
+}
+.banner .banner-content .banner-nav ul li a{
+  color: #fff;
+}
+.banner .banner-content .banner-nav ul li a:hover{
+  color: #ed1a1a;
+}
+.banner .banner-content .banner-nav .first{
+  margin-right: 0;
+}
+.banner .banner-content .banner-nav .last{
+  margin-right: 0;
+  text-align: center;
+}
+
+
+.banner .banner-content .banner-zit{
+  width: 852px;
+  height: 151px;
+  margin:204px auto 0;
+}
+.banner .banner-content .banner-zit h4{
+  height: 74px;
+  font-size:74px;
+  line-height: 74px;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+}
+.banner .banner-content .banner-zit p{
+  margin-top: 40px;
+  font-size: 39px;
+  line-height: 39px;
+  color: #ffffff;
+  text-align: center;
+}
+.banner-ew{
+  width: 1200px;
+  height: 248px;
+  margin-top: 72px;
+}
+.banner-ew .banner-ewl{
+  width: 1000px;
+  height: 248px;
+}
+.banner-ew .banner-ewl ul{
+  width: 720px;
+  height: 96px;
+  padding-left: 70px;
+  margin-top: 96px;
+}
+.banner-ew .banner-ewl ul li{
+  width: 320px;
+  height: 96px;
+  background: url("../img201707/lj-kuan.png") no-repeat;
+  text-align: center;
+  line-height: 96px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.banner-ew .banner-ewl ul li a{
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  color: #fff;
+}
+.banner-ew .banner-ewl ul li a:hover{
+  color: #ed1a1a;
+}
+.banner-ew .banner-ewr{
+  width: 200px;
+  height: 248px;
+}
+.banner-ew .banner-ewr p{
+  font-size: 32px;
+  line-height:32px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.banner-ew .banner-ewr img{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+.what{
+  width: 1200px;
+  height: 804px;
+  margin: 0 auto;
+}
+.what h3{
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #f8d240;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.what span{
+  display: block;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #474747;
+}
+.what .what-di{
+  margin-bottom: 20px;
+}
+.what .what-dl{
+  width: 1200px;
+  height: 72px;
+  margin-top: 79px;
+  margin-bottom: 95px;
+}
+.what .what-dl .what-dls{
+  width: 309px;
+  height: 72px;
+  margin-right: 150px;
+}
+.what .what-dl .what-dls p{
+  font-size: 16px;
+  text-align: center;
+  color: #474747;
+  line-height: 26px;
+}
+.what .what-dl .what-dlm{
+  width: 288px;
+  height: 72px;
+}
+.what .what-dl .what-dlm p{
+  font-size: 16px;
+  text-align: center;
+  color: #474747;
+  line-height: 26px;
+}
+.what .what-dl .what-dlr{
+  width: 272px;
+  height: 72px;
+}
+.what .what-dl .what-dlr p{
+  font-size: 16px;
+  text-align: center;
+  color: #474747;
+  line-height: 26px;
+}
+.what .what-img{
+  width: 430px;
+  height: 364px;
+  margin: 0 auto;
+}
+
+
+
+.how{
+  width: 100%;
+  height: 880px;
+  background: url("../img201707/lj-san.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.how-content{
+  width: 1200px;
+  height: 880px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.how h3{
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 70px;
+  margin-bottom: 39px;
+}
+.how .how-zi{
+  width: 524px;
+  height: 150px;
+  margin: 0 auto 95px;
+}
+.how .how-zi p{
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 40px;
+}
+
+
+
+
+.how-img{
+  width: 1200px;
+  height: 363px;
+}
+.how-img ul{
+  width: 1200px;
+  height: 363px;
+}
+.how-img ul li{
+  float: left;
+}
+.how-img ul li img{
+  width: 181px;
+  height: 181px;
+  margin-bottom: 48px;
+}
+.how-img ul li h4{
+  font-size: 21px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 18px;
+}
+.how-img ul li p{
+  font-size: 21px;
+ text-align: center;
+ color: #ffffff;
+ line-height: 33px;
+}
+.how-img ul .one{
+  width: 231px;
+  margin-right: 110px;
+}
+.how-img ul .one img{
+  margin-left: 25px;
+}
+.how-img ul .two{
+  width: 217px;
+  margin-right: 110px;
+}
+.how-img ul .two img{
+  margin-left: 20px;
+}
+.how-img ul .three{
+  width: 231px;
+}
+.how-img ul .three img{
+  margin-left: 25px;
+}
+.how-img ul .four{
+  width: 218px;
+  float: right;
+}
+.how-img ul .four img{
+  margin-left: 14px;
+}
+
+
+
+
+
+
+
+.use{
+  width: 1200px;
+  height: 755px;
+  overflow: hidden;
+  margin: 0 auto 47px;
+}
+.use h3{
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #f8d240;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+.use .use-img{
+  width: 755px;
+  height: 520px;
+  margin: 0 auto 39px;
+}
+.use .use-img img{
+  width: 755px;
+  height: 520px;
+}
+.use p{
+  font-size: 18px;
+  text-align: center;
+  color: #474747;
+  line-height: 28px;
+}
+
+
+
+.core{
+  width: 100%;
+  height:880px;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom: 70px;
+  background: url("../img201707/lj-wu.png") 50% 50% no-repeat;
+}
+.core .core-content{
+  width: 1200px;
+  height: 880px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.core .core-content h3{
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 84px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.core .core-content img{
+  width: 1200px;
+  height: 480px;
+}
+
+
+
+.desire{
+  width: 1200px;
+  height: 810px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.desire h3{
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 125px;
+  font-weight: 400;
+  text-align: center;
+  color: #f8d240;
+}
+.desire .desire-yi{
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto 98px;
+}
+.desire .desire-yi p{
+  font-size: 40px;
+  text-align: center;
+  color: #474747;
+  line-height: 71px;
+}
+.desire .desire-er{
+  width: 800px;
+  height: 130px;
+  margin: 0 auto;
+}
+.desire .desire-er p{
+  font-size: 40px;
+  text-align: center;
+  color: #474747;
+  line-height: 71px;
+}
+
+
+
+
+
+
+.abstract{
+  width: 100%;
+  height: 880px;
+  min-width: 1200px;
+  overflow: hidden;
+  background: url("../img201707/lj-ps.png") 50% 50% no-repeat;
+}
+.abstract .abstract-content{
+  width: 1200px;
+  height: 880px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.abstract .abstract-content h3{
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 72px;
+  margin-bottom: 117px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+}
+.abstract .abstract-content p{
+  width: 1195px;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: justify;
+  color: #fff;
+  text-indent: 2em;
+}
+
+
+
+
+.speak{
+  width: 1200px;
+  height: 577px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.speak h3{
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #f8d240;
+  font-weight: 400;
+  margin:62px auto 35px;
+}
+.speak ul{
+  width: 1200px;
+  height: 50px;
+  margin-bottom: 24px;
+}
+.speak ul li{
+  width: 556px;
+  height: 46px;
+  border: 2px solid #999;
+}
+.speak ul li input{
+  width: 496px;
+  height: 46px;
+  border: none;
+  margin-left: 30px;
+  font-size: 18px;
+  color: #999;
+}
+.speak .texts{
+  width: 1196px;
+  height: 196px;
+  margin-bottom: 48px;
+  border: 2px solid #999;
+}
+.speak .texts textarea{
+  width: 1136px;
+  height: 196px;
+  margin-left: 30px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 36px;
+  color: #999;
+}
+.speak .more{
+ display: block;
+ width: 200px;
+ height: 40px;
+ line-height: 40px;
+ border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  background: #ed1a1a;
+  margin: 0 auto;
+}
+.speak .more a{
+  display: block;
+  width: 100%;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}

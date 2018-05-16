@@ -1,0 +1,473 @@
+body{
+  background-color: #fdfdfd;
+}
+a:hover{
+  color: #ed1a1a;
+}
+.header{
+  width: 1200px;
+  height: 85px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header .header-logo{
+  float: left;
+  width: 100px;
+  height: 45px;
+}
+.header .header-logo img{
+  width: 100px;
+  height: 45px;
+  margin-top: 19px;
+}
+
+.header-telephone{
+  float: right;
+  width: 185px;
+  height: 45px;
+  margin-top: 33px;
+  font-size: 18px;
+ text-align: center;
+ color: #666666;
+}
+.header-telephone img{
+  width: 16px;
+  height: 21px;
+}
+
+
+
+.banner{
+  width: 100%;
+  min-width: 1200px;
+  height: 623px;
+  background: url("../img201707/map-banner.png") no-repeat center;
+}
+.banner-content{
+  width: 1200px;
+  height: 623px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.banner-content .banner-img{
+  width: 551px;
+  height: 221px;
+  margin: 178px auto 0;
+}
+.banner-content img{
+  width: 551px;
+  height: 221px;
+}
+
+.gupiao{
+  width: 1200px;
+  height: auto;
+  margin:0 auto 55px;
+}
+.gupiao .gupiao-title{
+  height: 50px;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 26px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.gupiao .gupiao-title a{
+  color: #000;
+}
+.gupiao .gupiao-title a:hover{
+  color: #ed1a1a;
+}
+.gupiao-content{
+  overflow: hidden;
+}
+.gupiao-content .gupiao-xq{
+  float: left;
+  width: 205px;
+  margin-right: 70px;
+}
+.gupiao-content .last{
+  width: 100px;
+  margin-right: 0;
+}
+.gupiao-content .gupiao-xq h3{
+  font-size: 20px;
+ line-height:20px;
+ text-align: left;
+ margin-bottom: 32px;
+}
+.gupiao-content .gupiao-xq h3 a{
+  color: #000000;
+}
+.gupiao-content .gupiao-xq h3 a:hover{
+  color: #ed1a1a;
+}
+.gupiao-content .gupiao-xq ul{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.gupiao-content .gupiao-xq ul li{
+  float: left;
+  margin-right: 25px;
+  font-size: 18px;
+ line-height: 18px;
+ text-align: left;
+ margin-bottom: 25px;
+}
+.gupiao-content .gupiao-xq ul .gupiao-normal{
+  margin-right: 0;
+}
+.gupiao-content .gupiao-xq ul li a{
+  color: #666666;
+}
+.gupiao-content .gupiao-xq ul li a:hover{
+  color: #ed1a1a;
+}
+
+
+
+
+
+.qihuo{
+  width: 1200px;
+  height: auto;
+  margin:0 auto 55px;
+}
+.qihuo .qihuo-title{
+  height: 50px;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 26px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.qihuo .qihuo-title a{
+  color: #000;
+}
+.qihuo .qihuo-title a:hover{
+  color: #ed1a1a;
+}
+.qihuo-content{
+  overflow: hidden;
+}
+.qihuo-content .qihuo-xq{
+  float: left;
+  width: 205px;
+  margin-right: 70px;
+}
+.qihuo-content .last{
+  width: 100px;
+  margin-right: 0;
+}
+.qihuo-content .qihuo-xq h3{
+  font-size: 20px;
+ line-height:20px;
+ text-align: left;
+ margin-bottom: 32px;
+}
+.qihuo-content .qihuo-xq h3 a{
+  color: #000000;
+}
+.qihuo-content .qihuo-xq h3 a:hover{
+  color: #ed1a1a;
+}
+.qihuo-content .qihuo-xq ul{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.qihuo-content .qihuo-xq ul li{
+  float: left;
+  margin-right: 25px;
+  font-size: 18px;
+ line-height: 18px;
+ text-align: left;
+ margin-bottom: 25px;
+}
+.qihuo-content .qihuo-xq .qihuo-no li{
+  float: none;
+}
+.qihuo-content .qihuo-xq ul .qihuo-normal{
+  margin-right: 0;
+}
+.qihuo-content .qihuo-xq ul li a{
+  color: #666666;
+}
+.qihuo-content .qihuo-xq ul li a:hover{
+  color: #ed1a1a;
+}
+
+
+
+
+
+.jijin{
+  width: 1200px;
+  height: auto;
+  margin:0 auto 55px;
+}
+.jijin .jijin-title{
+  height: 50px;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 26px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.jijin .jijin-title a{
+  color: #000;
+}
+.jijin .jijin-title a:hover{
+  color: #ed1a1a;
+}
+.jijin-content{
+  overflow: hidden;
+}
+.jijin-content .jijin-xq{
+  float: left;
+  width: 205px;
+  margin-right: 70px;
+}
+.jijin-content .last{
+  width: 100px;
+  margin-right: 0;
+}
+.jijin-content .jijin-xq h3{
+  font-size: 20px;
+ line-height:20px;
+ text-align: left;
+ margin-bottom: 32px;
+}
+.jijin-content .jijin-xq h3 a{
+  color: #000000;
+}
+.jijin-content .jijin-xq h3 a:hover{
+  color: #ed1a1a;
+}
+.jijin-content .jijin-xq ul{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.jijin-content .jijin-xq ul li{
+  float: left;
+  margin-right: 25px;
+  font-size: 18px;
+ line-height: 18px;
+ text-align: left;
+ margin-bottom: 25px;
+}
+.jijin-content .jijin-xq .jijin-no li{
+  float: none;
+}
+.jijin-content .jijin-xq ul .jijin-normal{
+  margin-right: 0;
+}
+.jijin-content .jijin-xq ul li a{
+  color: #666666;
+}
+.jijin-content .jijin-xq ul li a:hover{
+  color: #ed1a1a;
+}
+
+
+
+
+
+
+.touzi{
+  width: 1200px;
+  height: auto;
+  margin:0 auto 55px;
+}
+.touzi .touzi-title{
+  height: 50px;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 26px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.touzi .touzi-title a{
+  color: #000;
+}
+.touzi .touzi-title a:hover{
+  color: #ed1a1a;
+}
+.touzi-content{
+  overflow: hidden;
+}
+.touzi-content .touzi-xq{
+  float: left;
+  width: 205px;
+  margin-right: 70px;
+}
+.touzi-content .last{
+  width: 100px;
+  margin-right: 0;
+}
+.touzi-content .touzi-xq h3{
+  font-size: 20px;
+ line-height:20px;
+ text-align: left;
+ margin-bottom: 32px;
+}
+.touzi-content .touzi-xq h3 a{
+  color: #000000;
+}
+.touzi-content .touzi-xq h3 a:hover{
+  color: #ed1a1a;
+}
+.touzi-content .touzi-xq ul{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.touzi-content .touzi-xq ul li{
+  float: left;
+  margin-right: 25px;
+  font-size: 18px;
+ line-height: 18px;
+ text-align: left;
+ margin-bottom: 25px;
+}
+.touzi-content .touzi-xq ul .touzi-normal{
+  margin-right: 0;
+}
+.touzi-content .touzi-xq ul li a{
+  color: #666666;
+}
+.touzi-content .touzi-xq ul li a:hover{
+  color: #ed1a1a;
+}
+
+
+
+
+.licai{
+  width: 1200px;
+  height: auto;
+  margin:0 auto 55px;
+}
+.licai .licai-title{
+  height: 50px;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 26px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.licai .licai-title a{
+  color: #000;
+}
+.licai .licai-title a:hover{
+  color: #ed1a1a;
+}
+.licai-content{
+  overflow: hidden;
+}
+.licai-content .licai-xq{
+  float: left;
+  width: 205px;
+  margin-right: 70px;
+}
+.licai-content .last{
+  width: 100px;
+  margin-right: 0;
+}
+.licai-content .licai-xq h3{
+  font-size: 20px;
+ line-height:20px;
+ text-align: left;
+ margin-bottom: 32px;
+}
+.licai-content .licai-xq h3 a{
+  color: #000000;
+}
+.licai-content .licai-xq h3 a:hover{
+  color: #ed1a1a;
+}
+.licai-content .licai-xq ul{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.licai-content .licai-xq ul li{
+  float: left;
+  margin-right: 25px;
+  font-size: 18px;
+ line-height: 18px;
+ text-align: left;
+ margin-bottom: 25px;
+}
+.licai-content .licai-xq ul .licai-normal{
+  margin-right: 0;
+}
+.licai-content .licai-xq ul li a{
+  color: #666666;
+}
+.licai-content .licai-xq ul li a:hover{
+  color: #ed1a1a;
+}
+
+
+
+.nav{
+  width: 1200px;
+  margin: 0 auto 110px;
+}
+.nav ul{
+  width: 100%;
+  overflow: hidden;
+}
+.nav ul li{
+  float: left;
+  width: 16.6%;
+  font-size: 26px;
+ text-align: left;
+font-weight: bold;
+}
+.nav ul li a{
+  color: #000000;
+}
+.nav ul li a:hover{
+  color: #ed1a1a;
+}
+
+
+
+
+
+
+            .footer {
+              width: 100%;
+              height: 242px;
+              background-color: #333;
+              min-width:1200px; }
+              .footer .footer_content {
+                width: 1200px;
+                height: 242px;
+                margin: 0 auto; }
+                .footer .footer_content ul {
+                  width: 760px;
+                  height: 125px;
+                  margin: 0 auto; }
+                  .footer .footer_content ul li {
+                    font-size: 20px;
+                    line-height: 125px;
+                    float: left;
+                    margin-left: 12px;
+                    margin-right: 12px; }
+                    .footer .footer_content ul li a {
+                      color: #fff; }
+                      .footer .footer_content ul li a:hover{
+                        color: #ed1a1a;
+                      }
+                .footer .footer_content p {
+                  font-size: 14px;
+                  line-height: 28px;
+                  color: #999;
+                  text-align: center; }

@@ -1,0 +1,133 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+  border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table tr:nth-child(odd){background:#fff;}
+table tr:nth-child(even){background:#f7f7f7;}
+
+
+
+.zqzl{
+  width: 973px;
+  margin-bottom: 20px;
+  border: 1px solid #dbebf8;
+  border-top: none;
+  font-size: 16px;
+  overflow: hidden;
+}
+.zqzl ul{
+  width: 50%;
+  float: left;
+}
+.security-info li, .company-info li {
+    overflow: hidden;
+}
+
+.company-page-item-left {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding: 5px 10px;
+    color: #3b5e99;
+    background-color: #ebf8ff;
+}
+.company-page-left .company-page-item-left{
+  width: 100px;
+}
+.company-page-item-right {
+    line-height: 45px;
+    margin-left: 10px;
+		margin-right: 10px;
+    overflow: hidden;
+		text-align: justify;
+}
+.company-page-right .company-page-item-left {
+    width: 107px;
+}
+.company-page-right .company-page-item-right {
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    width: 320px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+ul .even {
+    background: #f7f7f7;
+}
+.company-info-brief {
+    display: table;
+    overflow: visible;
+    height: auto;
+    word-break: break-all;
+    word-wrap: break-word;
+    width: 973px;
+}
+.company-info-brief .company-page-item-right{
+	float: right;
+	line-height: 45px;
+	width: 830px;
+}
+.company-info-brief{
+	position: relative;
+}
+.company-info-brief .auti{
+		height: 100%;
+    line-height: 35px;
+    color: #3b5e99;
+    background-color: #ebf8ff;
+		position: absolute;
+}
+.company-info-brief .auto{
+	line-height: 30px;
+}
+.gszl{
+  width: 973px;
+  margin-bottom: 20px;
+  border: 1px solid #dbebf8;
+  border-top: none;
+  font-size: 16px;
+  overflow: hidden;
+}
+.gszl ul{
+  float: left;
+  width: 50%;
+}
+
+
+
+
+
+.firm{
+  width: 973px;
+  border: 1px solid #dbebf8;
+  margin-bottom: 20px;
+  border-top: none;
+  padding-bottom: 20px;
+}
+.firm p{
+  padding: 20px 20px 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  text-align: justify;
+  color: #333333;
+}

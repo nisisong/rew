@@ -1,0 +1,376 @@
+.banner {
+  width: 100%;
+  height: 478px;
+  background: url("../img201707/gb-sybanner.png") 50% 50% no-repeat;
+  min-width: 1200px;
+  overflow: hidden;
+  margin-bottom: 28px;
+ }
+
+
+.hot{
+  width: 1200px;
+  height: 433px;
+  margin: 0 auto 45px;
+}
+.lunbo {
+  width: 746px;
+  height: 433px;
+  float: left; }
+  #player{
+    width: 746px;
+    height: 433px;
+      position: relative;}
+  #player .player .slide{
+      width:100%;
+      height: 433px;
+      position: absolute;}
+  #player .player .slide b{
+    display: inline-block;
+    width: 726px;
+    height: 60px;
+    font-size: 24px;
+    padding-left: 20px;
+    color: #fff;
+    line-height: 60px;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    font-weight: 500;
+    background-image: url("../img201707/gb-newbg.png");
+  }
+  #player .player_box{
+      width:185px;
+      height: 433px;
+      left:75%;
+      position: absolute;
+      z-index: 4;}
+      #player .player_box .player_center{
+          width:185px;
+          height: 433px;
+          float: left;
+          position: relative;}
+      #player .player_box .player_center div.tab_page{
+          position: absolute;
+          left:90%;
+          bottom:22px;
+          margin-left:-80px;}
+      #player .player_box .player_center div.tab_page span{
+          width:10px;
+          height:10px;
+          border-radius:100%;
+          display: inline-block;
+          left:100px;background: #666;
+          margin-right:8px;text-align: center;
+          color: #fff;
+          cursor: pointer;}
+
+
+
+.hot-new{
+  width: 433px;
+  height: 431px;
+  float: right;
+  border: 1px solid #bfbfbf;
+}
+.hot-new h3{
+  height: 46px;
+  font-size: 24px;
+  line-height: 46px;
+  text-align: left;
+  color: #333333;
+  padding-left: 14px;
+  font-weight: normal;
+  border-bottom: 1px solid #bfbfbf;
+  margin-bottom: 25px;
+}
+.hot-new h3 img{
+  float: right;
+  width: 19px;
+  height: 22px;
+  margin-top: 10px;
+  margin-right: 14px;
+}
+.hot-new ul{
+  width: 378px;
+  height: 341px;
+  margin: 0 auto;
+}
+.hot-new ul li{
+  height: 35px;
+  font-size: 16px;
+}
+.hot-new ul li a{
+  color: #666666;
+}
+.hot-new ul li a:hover{
+  color: #ed1a1a;
+}
+.hot-new ul li a span{
+  margin-right: 12px;
+}
+
+
+
+
+.all{
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+}
+.all .all-title{
+  height: 56px;
+  border-bottom: 1px solid #bfbfbf;
+}
+.all .all-title h3{
+  float: left;
+  font-size: 32px;
+  line-height: 32px;
+  color: #333333;
+  font-weight: normal;
+}
+.all .all-title input{
+  float:right;
+  width: 230px;
+  height: 42px;
+  margin-right: 12px;
+  border-radius: 6px;
+  border: solid 1px #bfbfbf;
+  font-size: 16px;
+  line-height: 45px;
+  padding-left: 10px;
+  color: #999999;
+}
+.all .all-title a{
+  float: right;
+margin-top: 6px;
+}
+.all .all-title a img{
+  width: 28px;
+  height: 30px;
+}
+.all .xian{
+  display: block;
+  width: 259px;
+  height: 4px;
+  background-color: #e83c30;
+  margin-top: -3px;
+}
+.all ul{
+  width: 1200px;
+  height: 224px;
+}
+.all ul li{
+  float: left;
+  width: 110px;
+  height: 42px;
+  border-radius: 6px;
+  border: solid 1px #bfbfbf;
+  text-align: center;
+  font-size: 16px;
+  line-height: 42px;
+  margin: 14px 11px 0 10px;
+
+}
+.all ul li a{
+  display: block;
+  width: 100%;
+  color: #333333;
+}
+.all ul li a:hover{
+  color: #ed1a1a;
+}
+
+
+.beijing{
+  width: 1200px;
+  min-height: 250px;
+  height: auto;
+  overflow: hidden;
+  margin: 30px auto 0;
+}
+.beijing .beijing-title{
+  height: 48px;
+  background-color: #eeeeee;
+  margin-bottom: 24px;
+}
+.beijing .beijing-title h3{
+  width: 256px;
+  height: 48px;
+  background-color: #ed1a1a;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+}
+.beijing ul{
+  width: 1200px;
+}
+.beijing ul li{
+  float: left;
+  width: 181px;
+  height: 39px;
+  border: solid 1px #bfbfbf;
+  margin-left: 9px;
+  margin-right: 7px;
+  font-size: 18px;
+  line-height: 39px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.beijing ul li a{
+  display: block;
+  width: 100%;
+  color: #333333;
+}
+.beijing ul li a:hover{
+  color: #ed1a1a;
+}
+.beijing ul .cha{
+  color: #ed1a1a;
+  cursor: pointer;
+}
+.more{
+      display:none;
+    }
+.shou{
+  display: none;
+}
+.open{
+  display: block;
+}
+
+.tianjin{
+  width: 1200px;
+  min-height: 250px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.tianjin .tianjin-title{
+  height: 48px;
+  background-color: #eeeeee;
+  margin-bottom: 24px;
+}
+.tianjin .tianjin-title h3{
+  width: 256px;
+  height: 48px;
+  background-color: #ed1a1a;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+}
+.tianjin ul{
+  width: 1200px;
+}
+.tianjin ul li{
+  float: left;
+  width: 181px;
+  height: 39px;
+  border: solid 1px #bfbfbf;
+  margin-left: 9px;
+  margin-right: 7px;
+  font-size: 18px;
+  line-height: 39px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.tianjin ul li a{
+  display: block;
+  width: 100%;
+  color: #333333;
+}
+.tianjin ul li a:hover{
+  color: #ed1a1a;
+}
+.tianjin ul .cha{
+  color: #ed1a1a;
+  cursor: pointer;
+}
+
+
+.taiwan{
+  width: 1200px;
+  min-height: 250px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto 96px;
+}
+.taiwan .taiwan-title{
+  height: 48px;
+  background-color: #eeeeee;
+  margin-bottom: 24px;
+}
+.taiwan .taiwan-title h3{
+  width: 256px;
+  height: 48px;
+  background-color: #ed1a1a;
+  font-size: 28px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+}
+.taiwan ul{
+  width: 1200px;
+}
+.taiwan ul li{
+  float: left;
+  width: 181px;
+  height: 39px;
+  border: solid 1px #bfbfbf;
+  margin-left: 9px;
+  margin-right: 7px;
+  font-size: 18px;
+  line-height: 39px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.taiwan ul li a{
+  display: block;
+  width: 100%;
+  color: #333333;
+}
+.taiwan ul li a:hover{
+  color: #ed1a1a;
+}
+.taiwan ul .cha{
+  color: #ed1a1a;
+  cursor: pointer;
+}
+
+
+
+
+.sidebar{
+  width:46px;
+  height:auto;
+  position:fixed;
+  right:0;
+  z-index: 9999;
+  top:25%;
+}
+
+.sidebar .kf img{
+  width:46px;
+  height:46px;
+  margin-bottom: 3.6px;
+}
+
+.sidebar .top{
+  display: inline-block;
+  width:26px;
+  height:20px;
+}
+
+.sidebar .top img{
+  width: 46px;
+  height:46px;
+}
+
+.sidebar .img1{
+  width:46px;
+}

@@ -1,0 +1,149 @@
+.public_title{
+	background-color: #f3f8ff;
+	width: 973px;
+	height: 37px;
+  border: 1px solid #dbebf8;
+	border-bottom: 3px solid #2f5895;
+}
+.public_title h3{
+	font-size: 18px;
+	line-height: 37px;
+	color: #2f5895;
+	padding-left: 18px;
+}
+.public_title h3 span{
+	font-size: 14px;
+}
+table, tr, td {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+
+
+.xin {
+    overflow: hidden;
+		margin-bottom: 20px;
+		font-size: 14px;
+}
+.xin table {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    line-height: 21px;
+}
+.xin table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #f7f7f7;
+    color: #333;
+    height: 25px;
+}
+.xin table tr td {
+    border: 1px solid #D7D7D7;
+		text-align: center;
+		line-height: 25px;
+}
+.zfmz{
+	width:973px;
+	height: auto;
+	border: 1px solid #dbebf8;
+	margin-bottom:20px;
+	overflow: hidden;
+}
+.zfmz .tab{
+	width:973px;
+	height: 57px;
+	border-bottom:#dbebf8 1px solid;
+}
+.zfmz .tab span{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #fff;
+	margin:0 15px;
+	cursor: pointer;
+}
+.zfmz .tab .on{
+	font-size: 18px;
+	padding:0 5px 5px;
+	line-height: 57px;
+	border-bottom: 2px solid #2f5895;
+	font-weight: bold;
+
+}
+.zfmz .nr{
+	display: none;
+}
+
+.ycmx_table_div{
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-bottom: solid 1px #d7d7d7;
+		height: 352px;
+}
+.ycmx_table_div .table1{
+	 position: absolute;
+	 width: 973px;
+	 table-layout: fixed;
+	 z-index:100;
+	 background: #fff;
+}
+.ycmx_table_div .table1 table{
+	width: 100%;
+	line-height: 25px;
+}
+.ycmx_table_div .table1 tr{
+	 background: #fff;
+}
+.ycmx_table_div .table1 tr th{
+	background-color: #f3f8ff;
+	color: #333;
+	height: 25px;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+.ycmx_table_div .table1 tr td {
+		text-align: center;
+		line-height: 25px;
+}
+.ycmx_table_div table tr .tips-colnameC{
+	width: 97px;
+}
+.ycmx_table_div table {
+    width: 100%;
+    border: 1px solid #D7D7D7;
+    line-height: 21px;
+}
+.ycmx_table_div table tr th {
+    border: 1px solid #D7D7D7;
+    background-color: #f3f8ff;
+    color: #333;
+    height: 25px;
+}
+.ycmx_table_div table tr td {
+    border: 1px solid #D7D7D7;
+		text-align: center;
+		line-height: 25px;
+}
+
+
+
+.jiaoy{
+	width: 973px;
+	border: 1px solid #dbebf8;
+	margin-bottom: 20px;
+	padding: 20px 0;
+}
+.jiaoy h2{
+	text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+}
